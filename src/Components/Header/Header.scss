@@ -1,0 +1,27 @@
+.header {
+  z-index: 10;
+  position: fixed;
+  width: 100vw;
+  padding: 9px 0;
+
+  font-size: 0.79rem;
+  font-family: monospace;
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+  background-color: rgba(254, 255, 246, 0.904);
+
+  .header-links {
+    color: #212121;
+    margin-left: 5%;
+    //  .header-links-divider {
+    //    // padding: 0 10px 0 10px;
+    //  }
+  }
+
+  .header-logo:hover,
+  .portfolio:hover,
+  .about:hover {
+    font-weight: bolder;
+    font-style: oblique;
+  }
+}
