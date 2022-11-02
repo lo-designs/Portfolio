@@ -1,0 +1,39 @@
+.about-section {
+  padding: 0 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  .about-heading {
+    font-size: 2.9rem;
+    font-family: "CELEBRATE RETRO";
+    line-height: 0.9em;
+    width: 40vw;
+  }
+
+  .about-description {
+    padding: 2.5% 0;
+    width: 40vw;
+    font-size: 1rem;
+    font-family: "Neue Machina", monospace;
+  }
+
+  .about-me {
+    margin-left: 45%;
+    width: 30vw;
+
+    .me {
+      width: 20vw;
+      height: 200px;
+      object-fit: cover;
+      z-index: 0;
+      border-radius: 20px;
+    }
+  }
+
+  .favorite-things {
+    padding-top: 25px;
+    font-size: 0.8rem;
+    font-family: "Neue Machina", monospace;
+    text-transform: uppercase;
+  }
+}
