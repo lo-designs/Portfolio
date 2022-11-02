@@ -1,0 +1,97 @@
+/* ----------------- */
+/* PORTFOLIO SECTION */
+/* ----------------- */
+
+.portfolio {
+   margin-top: 150px;
+   margin-bottom: 150px;
+   padding: 0 5%;
+}
+
+  .portfolio-header {
+    font-family: "CELEBRATE RETRO";
+    font-size: 2.9rem;
+  }
+
+
+.portfolio-subheader {
+  font-family: "Neue Machina", monospace;
+  font-size: 1rem;
+  width: 40vw;
+  padding: 2% 0;
+}
+
+.work-type {
+  float: right;
+  margin-left: 20px;
+  font-family: "Roboto mono", monospace;
+  font-size: 1rem;
+}
+
+.work-item-1,
+.work-item-3,
+.work-item-6 {
+  font-family: "Neue Machina";
+}
+
+.work-item-2,
+.work-item-5 {
+  font-family: "Neue Metana";
+  margin-left: 15vw;
+}
+
+.work-item-4,
+.work-item-7 {
+  font-family: "QTJupiter";
+  margin-left: 35vw;
+}
+
+.work-item-1:hover,
+.work-item-2:hover,
+.work-item-3:hover,
+.work-item-4:hover,
+.work-item-5:hover,
+.work-item-6:hover,
+.work-item-7:hover {
+   font-style: oblique;
+   color: violet;
+}
+
+
+/* portfolio: HOVER LINKS */
+
+.link {
+  display: flex;
+  width: 100%;
+  border-bottom: solid 1px;
+  display: flex;
+  padding: 2.5% 0;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.link span {
+  display: block;
+  display: inline-block;
+  position: relative;
+  font-size: 2.5rem;
+}
+
+.hover-reveal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+//   pointer-events: none;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transform: scale(0.3);
+  transition: all 0.69s ease-out;
+
+  .hidden-img {
+   width: 25%;
+   height: 175px;
+   object-fit: cover;
+   transition: transform 0.4s ease-out;
+ }
+}
