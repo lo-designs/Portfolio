@@ -1,0 +1,21 @@
+.main-container {
+   height: 100vh;
+   padding: 0 50px;
+   display: flex;
+   align-items: flex-end;
+   position: relative;
+   width: calc(100vw - 50px);
+   margin: 0 auto;
+   overflow: hidden;
+
+   h1 {
+      z-index: 0;
+      font-size: 17vh;
+      line-height: 1em;
+      font-weight: bold;
+      margin-bottom: 20vh;
+      font-family: "CELEBRATE RETRO";
+      word-wrap: break-word;
+      text-transform: capitalize;
+   }
+}
