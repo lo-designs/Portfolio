@@ -30,16 +30,25 @@ function Portfolio() {
 
   return (
     <div className="portfolio">
-      <div>
-        <h2 className="portfolio-header">Portfolio.</h2>
+      <div className="portfolio-section">
+        <h2 className="portfolio-header">Portfolio</h2>
         <div>
-          <p className="portfolio-subheader">
+        <p className="portfolio-subheader">Web design & development + UX/UI design.</p>
+          <p className="portfolio-description">
             I've had the opportunity to work with some great local businesses
             doing web design/redesign, as well as UX/UI research and design for
-            clients while earning a certificate in UX design. Most recently, I
+            clients while earning a certificate in UX design.<br></br> Most recently, I
             completed a full stack development program & designed and developed
             this portfolio. Check out some of my work below:
-          </p>
+            </p>
+            {/* <span className="site-redesigns"><i>Some sites I have designed & redesigned: </i>
+            <span className="sites-divider"> // </span>
+            <a className="pettes" href="https://www.petteshounds.com/">Pette's Hounds</a>
+            <span className="sites-divider"> // </span>
+            <a className="parra" href="https://www.parralily.com/">ParraLily</a>
+            <span className="sites-divider"> // </span>
+            <a className="en" href="https://www.enhealthconsulting.com/">EnHealth Consulting</a>
+         </span> */}
         </div>
       </div>
 
@@ -86,7 +95,7 @@ function Portfolio() {
           </div>
         </div>
 
-        <div className="link">
+        {/* <div className="link">
           <a href="/yha">
             <span className="work-item-4">
               Youth Help App<p className="work-type">// WEB DESIGN</p>
@@ -95,7 +104,7 @@ function Portfolio() {
           <div className="hover-reveal">
             <img className="hidden-img" src="img/ym-images/g1-.gif" alt="" />
           </div>
-        </div>
+        </div> */}
 
         <div className="link">
           <a href="/neurotype">

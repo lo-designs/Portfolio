@@ -8,7 +8,6 @@ import OuttaWax from "../PortfolioPages/OuttaWax/OuttaWax";
 import ParraLily from "../PortfolioPages/ParraLily/ParraLily";
 import PettesHounds from "../PortfolioPages/PettesHounds/PettesHounds";
 import Soona from "../PortfolioPages/Soona/Soona";
-import YouthHelpApp from "../PortfolioPages/YouthHelpApp/Yha";
 
 const PageRoutes = () => {
   return (
@@ -20,7 +19,6 @@ const PageRoutes = () => {
       <Route path="/parralily" element={<ParraLily />} />
       <Route path="/neurotype" element={<Neurotype />} />
       <Route path="/soona" element={<Soona />} />
-      <Route path="/yha" element={<YouthHelpApp />} />
       <Route path="/outtawax" element={<OuttaWax />} />
     </Routes>
   );

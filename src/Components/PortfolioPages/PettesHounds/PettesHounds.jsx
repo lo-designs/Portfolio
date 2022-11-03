@@ -1,7 +1,8 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
+import PettesHoundsCarousel from "../../Carousels/PettesHoundsCarousel";
 import "./../../PortfolioPages/PortfolioPageStyles.scss";
-import PettesHoundsCarousel from "../../PortfolioCarousels/PettesHoundsCarousel/PettesHoundsCarousel";
+
 
 function PettesHounds() {
   return (
@@ -30,7 +31,7 @@ function PettesHounds() {
                 <div className="subtitle">
                   Dog walking & pet care services in Minneapolis
                 </div>
-              
+
                 <div className="project-type">// Web redesign</div>
 
                 <div className="overview">
@@ -59,32 +60,32 @@ function PettesHounds() {
             <div className="square" id="process"></div>
           </div>
           <div className="content">
-  
-              <div className="description">
-                <p className="title-number">// Objectives</p>
-                <p className="description-title">
-                  ✧ Make services + prices scannable. ✧ Complement existing logo
-                  and theme. ✧ More pet pictures.
-                </p>
+            <div className="description">
+              <p className="objectives-title">Objectives</p>
+              <div className="objectives">
                 <p>
-                  Design choices were based around the existing Pette's Hounds
-                  website and logo, which I animated using Photoshop. I also
-                  created the GIFs from videos sourced from Pette's Hounds
-                  social media accounts. After auditing the site on Google
-                  Lighthouse, I optimized all of the images to a smaller file
-                  size to increase the site load speed.
-                </p>
-                <p>
-                  The original site as well as the redesign were built using
-                  Squarespace. I was able to switch templates which helped with
-                  the formatting of the site content in order to achieve the
-                  desired look and feel.
+                  ✧ Make services + prices scannable.<br></br>✧ Complement
+                  existing logo and theme.<br></br>✧ More pet pictures.
                 </p>
               </div>
-              <div className="poster">
-                <PettesHoundsCarousel />
-              </div>
-           
+              <p>
+                Design choices were based around the existing Pette's Hounds
+                website and logo, which I animated using Photoshop. I also
+                created the GIFs from videos sourced from Pette's Hounds social
+                media accounts. After auditing the site on Google Lighthouse, I
+                optimized all of the images to a smaller file size to increase
+                the site load speed.
+              </p>
+              <p>
+                The original site as well as the redesign were built using
+                Squarespace. I was able to switch templates which helped with
+                the formatting of the site content in order to achieve the
+                desired look and feel.
+              </p>
+            </div>
+            <div className="poster">
+              <PettesHoundsCarousel />
+            </div>
           </div>
         </section>
       </div>

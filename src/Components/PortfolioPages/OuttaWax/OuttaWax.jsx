@@ -27,8 +27,7 @@ function OuttaWax() {
               <div>
                 <div id="title">Outta Wax</div>
                 <div className="subtitle">
-                  [COMING SOON!] Vinyl pressing shop and services in Minneapolis
-                  .
+                  Vinyl pressing services in Minneapolis.
                 </div>
 
                 <div className="project-type">// Web Design</div>
@@ -39,14 +38,7 @@ function OuttaWax() {
                     <a href="https://www.petteshounds.com"> petteshounds.com</a>
                   </p> */}
                   <p>
-                    Pette’s Hounds had all of the right components to make a
-                    great website: cute name, cute logo, cute pet pictures. It
-                    just needed some slight format changes. And some extra pet
-                    pics.
-                  </p>
-                  <p>
-                    I had the pleasure of working with the founder of Pette’s
-                    Hounds to create the new version of the site.
+                    Coming soon!
                   </p>
                 </div>
               </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import { BrowserRouter } from "react-router-dom";
 import Header from "./Components/Header/Header"
 import PageRoutes from "./Components/PageRoutes/PageRoutes";

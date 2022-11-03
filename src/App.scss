@@ -15,7 +15,7 @@
    height: 100vh;
    width: 100%;
    overflow-x: hidden;
-   background: rgba(254, 255, 246, 0.982);
+   background: rgba(252, 246, 255, 0.998);
    background-blend-mode: difference;
 }
 
@@ -124,16 +124,14 @@ ul {
 
 .noise::before {
    position: fixed;
-   object-fit: cover;
-   background-repeat: no-repeat;
+   background-size: cover;
    top: 0;
    left: 0;
    width: 100vw;
    height: 100vh;
    content: "";
    z-index: -1; 
-   background: url(https://media0.giphy.com/media/z7BocxQ99klm8/giphy.gif?cid=ecf05e471xe6wut1j33m3rbiaqdq38t6acl36zm01gi8ta7v&rid=giphy.gif&ct=g);
-   /* background: url(https://media3.giphy.com/media/SY20KXx8HmcA8rgonr/giphy.gif); */
+   background: url(https://media2.giphy.com/media/x49KCWxpgqJLfpMnFm/giphy.gif?cid=790b7611c8c59614ec9082bd2d2622a77dff0ef3e54169ae&rid=giphy.gif&ct=g);
 }
 
 /*************  BREAK POINTS  **************/

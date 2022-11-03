@@ -1,6 +1,6 @@
 .main-container {
    height: 100vh;
-   padding: 0 50px;
+   padding: 0 5%;
    display: flex;
    align-items: flex-end;
    position: relative;
@@ -10,7 +10,7 @@
 
    h1 {
       z-index: 0;
-      font-size: 17vh;
+      font-size: 9rem;
       line-height: 1em;
       font-weight: bold;
       margin-bottom: 20vh;

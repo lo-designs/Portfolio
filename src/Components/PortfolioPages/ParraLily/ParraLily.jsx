@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
+import ParralilyCarousel from "../../Carousels/ParralilyCarousel";
 import "./../../PortfolioPages/PortfolioPageStyles.scss";
 
 function ParraLily() {
@@ -13,7 +14,6 @@ function ParraLily() {
         <a href="#sctr1">
           <li className="color-code" id="process"></li>Objectives
         </a>
-
       </ul>
       <div>
         <section id="sctr0">
@@ -56,35 +56,32 @@ function ParraLily() {
             <div className="square" id="process"></div>
           </div>
           <div className="content">
-            <div className="description-position">
-              <div className="description">
-                <p className="title-number">// Objectives & Process</p>
-                {/* <p className="description-title">
-                  Make services + prices more prominent on page & scannable.
-                </p> */}
+            <div className="description">
+              <p className="objectives-title">Objectives & Process</p>
+              <div className="objectives">
                 <p>
-                  I started with the mobile design after meeting with the owner
-                  and doing some comparative research on other food trucks. I
-                  made wireframes using Adobe XD, a design board in Photoshop,
-                  and created the website using WordPress. </p>
-                 <p> Design choices -
-                  colors, fonts, and format - were based around both the logo
-                  and the truck itself. Drawing inspiration from the truck, the
-                  site/ParraLily menu was designed to emulate mid-century diner
-                  menus.</p>
-                
+                  ✧ Mobile design first<br></br>✧ Complement logo and color
+                  scheme.
+                </p>
               </div>
-              <div className="poster">
-                  <img
-                    src="https://i.pinimg.com/originals/09/54/fa/0954fa997903c4f02a18647e27be0fdb.jpg"
-                    alt=""
-                  />
-                </div>
+              <p>
+                I started with the mobile design after meeting with the owner
+                and doing some comparative research on other food trucks. I made
+                wireframes using Adobe XD, a design board in Photoshop, and
+                created the website using WordPress.
+              </p>
+              <p>
+                Design choices - colors, fonts, and format - were based around
+                both the logo and the truck itself. Drawing inspiration from the
+                truck, the site/ParraLily menu was designed to emulate
+                mid-century diner menus.
+              </p>
+            </div>
+            <div className="poster">
+               <ParralilyCarousel />
             </div>
           </div>
         </section>
-
-
       </div>
     </div>
   );
