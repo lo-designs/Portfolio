@@ -6,9 +6,7 @@ function Footer() {
    return (
       <div className="footer">
          <span className="footer-links">
-            <a className="email" href="/">email</a>
-            <span className="footer-links-divider"> // </span>
-            <a className="resume" href="/">resume</a>
+            <a className="email" href="mailto:lauraguntherdesigns@gmail.com">email</a>
             <span className="footer-links-divider"> // </span>
             <a className="linkedin" href="/">linkedin</a>
          </span>

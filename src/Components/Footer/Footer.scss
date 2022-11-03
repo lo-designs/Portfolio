@@ -1,15 +1,14 @@
 .footer {
   z-index: 10;
   position: fixed;
-  width: 100vw;
   bottom: 0;
+  width: 100vw;
   padding: 9px 0;
-
-  font-size: 0.79rem;
+  font-size: 0.9rem;
   font-family: monospace;
   text-transform: uppercase;
   border-top: 1px solid;
-  background-color: rgba(254, 255, 246, 0.904);
+  background: rgba(252, 246, 255, 0.998);
 }
 
 .footer-links {
