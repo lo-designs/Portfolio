@@ -4,6 +4,8 @@ import NeurotypeCarousel1 from "../../Carousels/NeurotypeCarousel/NeurotypeCarou
 import NeurotypeCarousel2 from "../../Carousels/NeurotypeCarousel/NeurotypeCarousel2";
 import NeurotypeCarousel3 from "../../Carousels/NeurotypeCarousel/NeurotypeCarousel3";
 import "./../../PortfolioPages/PortfolioPageStyles.scss";
+import neuroHero from "../../Images/Neurotype/hero2.jpg";
+import neuroGif from "../../Images/Neurotype/neuro-gif-ps.gif";
 
 function Neurotype() {
   return (
@@ -25,16 +27,11 @@ function Neurotype() {
         <a href="#sctr4">
           <li className="color-code" id="step-three"></li>Summary
         </a>
-
       </ul>
       <div>
         <section id="sctr0">
           <div className="cover" id="hero-image">
-            <img
-              className="neurotype-hero"
-              src="https://images.unsplash.com/photo-1573511860302-28c524319d2a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-              alt=""
-            />
+            <img className="neurotype-hero" src={neuroHero} alt="" />
           </div>
           <div className="content">
             <div className="intro-position">
@@ -68,8 +65,12 @@ function Neurotype() {
           </div>
           <div className="content">
             <div className="description">
-              <p className="title-number">Secondary Research // User Interviews</p>
-              <p className="description-title">01 Understanding addiction healthcare & treatment.</p>
+              <p className="title-number">
+                Secondary Research // User Interviews
+              </p>
+              <p className="description-title">
+                01 Understanding addiction healthcare & treatment.
+              </p>
               <p>
                 We conducted secondary research to understand the current
                 landscape for addiction healthcare, the patient/practitioner
@@ -90,20 +91,25 @@ function Neurotype() {
             <div className="square" id="step-one"></div>
           </div>
           <div className="content">
-              <div className="description">
-                <p className="title-number">Usability Testing // Information Architecture // Experience Mapping</p>
-                <p className="description-title">02 Sessions between patient & practitioner.</p>
-                <p>
-                  The information from our research provided context to what
-                  sessions generally look like between patient and practitioner.
-                  This helped us create an experience map of the process of
-                  implementing a portable EEG in a standard therapy session.
-                </p>
-              </div>
-              <div className="poster">
-                <NeurotypeCarousel2 />
-              </div>
+            <div className="description">
+              <p className="title-number">
+                Usability Testing // Information Architecture // Experience
+                Mapping
+              </p>
+              <p className="description-title">
+                02 Sessions between patient & practitioner.
+              </p>
+              <p>
+                The information from our research provided context to what
+                sessions generally look like between patient and practitioner.
+                This helped us create an experience map of the process of
+                implementing a portable EEG in a standard therapy session.
+              </p>
             </div>
+            <div className="poster">
+              <NeurotypeCarousel2 />
+            </div>
+          </div>
         </section>
 
         <section id="sctr3">
@@ -111,24 +117,26 @@ function Neurotype() {
             <div className="square" id="step-two"></div>
           </div>
           <div className="content">
-              <div className="description">
-                <p className="title-number">Data Visualization // Prototyping</p>
-                <p className="description-title">03 Creating data that is easy to interpret.</p>
-                <p>
-                  The idea is that the EEG will measure patients' brain
-                  reactivity when looking at substance-related images. That data
-                  will then be compared to patients' self-reported drug cravings
-                  to help track patient progress and substantiate treatment. We
-                  had the opportunity to walk through the wireframes with an
-                  expert in data visualization. The main goal in creating the
-                  interface was to make EEG data easy to interpret for
-                  practitioners without EEG expertise.
-                </p>
-              </div>
-              <div className="poster">
-               <NeurotypeCarousel3 />
-              </div>
+            <div className="description">
+              <p className="title-number">Data Visualization // Prototyping</p>
+              <p className="description-title">
+                03 Creating data that is easy to interpret.
+              </p>
+              <p>
+                The idea is that the EEG will measure patients' brain reactivity
+                when looking at substance-related images. That data will then be
+                compared to patients' self-reported drug cravings to help track
+                patient progress and substantiate treatment. We had the
+                opportunity to walk through the wireframes with an expert in
+                data visualization. The main goal in creating the interface was
+                to make EEG data easy to interpret for practitioners without EEG
+                expertise.
+              </p>
             </div>
+            <div className="poster">
+              <NeurotypeCarousel3 />
+            </div>
+          </div>
         </section>
 
         <section id="sctr4">
@@ -136,9 +144,12 @@ function Neurotype() {
             <div className="square" id="step-three"></div>
           </div>
           <div className="content">
-              <div className="description">
+            <div className="description">
+              <div className="summary-section">
                 <p className="title-number">// Summary</p>
-                <p className="description-title">Substantiating OUD treatment.</p>
+                <p className="description-title">
+                  Substantiating OUD treatment.
+                </p>
                 <p>
                   Through secondary research, interviews with health
                   practitioners, and speaking with a data visualization expert,
@@ -150,12 +161,18 @@ function Neurotype() {
                   OUD
                 </p>
               </div>
-              <div className="poster">
-                
+            </div>
+            <div className="poster">
+              <div className="cover" id="summary-image">
+                <img
+                  className="neurotype-summary"
+                  src={neuroGif}
+                  alt="neurotype gif made in Photoshop"
+                />
               </div>
             </div>
+          </div>
         </section>
-
       </div>
     </div>
   );
