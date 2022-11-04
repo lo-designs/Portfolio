@@ -6,7 +6,7 @@ import "./../../PortfolioPages/PortfolioPageStyles.scss";
 function ParraLily() {
   return (
     <div className="project">
-      <ul>
+      <ul className="side-nav">
         <li className="design-process-header"></li>
         <a href="#sctr0">
           <li className="color-code" id="overview"></li>Overview

@@ -8,7 +8,7 @@ import SoonaCarousel3 from "../../Carousels/SoonaCarousel/SoonaCarousel3";
 function Soona() {
    return (
       <div className="project">
-      <ul>
+      <ul className="side-nav">
         <li className="design-process-header"></li>
         <a href="#sctr0">
           <li className="color-code" id="overview"></li>Overview
