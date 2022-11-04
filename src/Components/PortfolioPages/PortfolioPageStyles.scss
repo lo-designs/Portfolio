@@ -1,269 +1,277 @@
-.project {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   text-decoration: none;
-   // list-style: none;
- }
+// .project {
+//   margin: 0;
+//   padding: 0;
+//   flex-direction: column;
+// }
 
- a,
- a:hover,
- a:visited {
-     text-decoration: none;
-     cursor: pointer;  
- }
- 
- ul {
-    list-style: none;
-    text-decoration: none;
- }
- 
- /**************  BREAKPOINTS  ****************/
- 
- /* mobile */
- 
-//  @media only screen and (max-width: 480px) {
-//    ul {
-//      margin-left: 10px;
-//      margin-bottom: 10px;
-//      z-index: -10;
-//    }
-//  }
- 
- /* desktop */
- 
- @media only screen and (min-width: 600px) {
-   ul {
-     position: fixed;
-     display: block;
-     margin-left: 25px;
-     bottom: 40px;
-     z-index: 3;
-   }
- }
- 
- /****************  SIDE NAV  *****************/
- 
- .project a {
-    text-transform: uppercase;
-    font-size: 0.97rem;
-    font-family: monospace;
-    color: #212121;
- }
- 
- .project a:hover {
-   font-style: oblique;
-   font-weight: bold;
-   color: black!important;
- }
- 
- /* color code */
- 
- li {
-   height: 1.1px;
-   width: 45px;
- }
-
- //  SIDE NAV COLOR CODE
-
- #overview {
-   background: none;
- }
- #process {
-   background-color: #212121;
- }
- #step-one {
-   background-color: #a94f33;
- }
- #step-two {
-   background-color: #415d36;
- }
- #step-three {
-   background-color: #b19beb;
- }
- #summary {
-   background-color: rgb(245, 242, 198);
- }
- 
- /*************  HERO / LANDING  **************/
- 
- #hero-image {
-   position: absolute;
-   padding-top: -2vw;
-   margin-left: 55vw;
-   width: 40vw;
-   height: 90vh;
-   overflow: hidden;
-   animation: fade 4s;
- 
-   @keyframes fade {
-    from {
-       opacity: 0;
-    }
-    to {
-       opacity: 1;
-    }
-   }
- 
- }
- 
- #title {
-   font-family: "CELEBRATE RETRO";
-   font-size: 4vw;
-   top: 5vh;
-   margin-left: 10vw;
-   color: #212121;
-   opacity: 1;
-   animation: move 3s;
- 
-    @keyframes move {
-    from {
-       margin-left: 5vw;
-       opacity: 0;
-    }
-    to {
-       margin-left: 10vw;
-       opacity: 1;
-    }
-    }
- }
- 
- /****************  SECTIONS  *****************/
- 
- section {
-   position: relative;
-   display: block;
-   width: 100%;
-   height: 100vh;
-   overflow: hidden;
- }
- 
- section .cover {
-   position: absolute;
-   display: block;
-   width: 100%;
-   height: 100%;
-   z-index: 1;
- }
- 
- section .cover img #hero {
-   position: absolute;
-   display: block;
-   min-width: 100%;
-   min-height: 100%;
-   top: 50%;
-   left: 50%;
-   -webkit-transform: translate(-50%, -50%);
-   transform: translate(-50%, -50%);
- }
- 
- section .content {
-   position: absolute;
-   display: block;
-   width: 100%;
-   height: 100%;
-   z-index: 2;
- }
- 
- section .text {
-   width: 100%;
- }
- 
- img {
-   width: 100%;
- }
- 
- /****************  FONTS  *****************/
- 
- .subtitle {
-   margin-left: 10.1vw;
-   font-family: "Neue Machina";
-   font-size: 1rem;
-   margin-top: 15px;
- }
- 
- .project-type {
-   font-family: "Neue Machina";
-   font-size: 1rem;
-   text-transform: uppercase;
-   letter-spacing: 0.15vw;
-   margin-top: 15px;
-   margin-left: 10.1vw;
-   padding-bottom: 25px;
-   line-height: 1.4;
- }
- 
- .title-number {
-   margin-top: 40%;
-   font-size: 1rem;
-   text-transform: uppercase;
- }
- 
- .description-title {
-   font-family: 'QTJupiter';
-   font-size: 2.1rem;
-   line-height: 1;
-   padding: 25px 0;
-   padding-bottom: 25px;
- }
- 
- .overview,
- .description {
-   float: left;
-   width: 31vw;
-   margin-left: 13vw;
-   font-family: "Neue Machina";
-   font-size: 1rem;
-   line-height: 1.5;
-   color: black;
- }
-
- .description {
-   margin-top: 10vh;
- }
-
-.objectives-title {
-   margin-top: 15%;
-   font-size: 2.3rem;
-   font-family: "CELEBRATE RETRO";
+ul {
+  list-style: none;
+  text-decoration: none;
 }
 
- .objectives {
-   font-size: 1rem;
-   font-family: monospace;
-   text-transform: uppercase;
- }
- 
- .intro-position,
- .description-position {
-   position: relative;
-   left: 3%;
+/****************  SIDE NAV  *****************/
 
- }
+.project a {
+  text-transform: uppercase;
+  font-size: 0.97rem;
+  font-family: monospace;
+  color: #212121;
+}
 
- .intro-position {
-   top: 30vh;
- }
+.project a:hover {
+  font-style: oblique;
+  font-weight: bold;
+  color: black !important;
+}
 
- .website {
-    padding-bottom: 10px;
- }
- 
- /****************  IMAGES  *****************/
- 
- .square {
-   position: relative;
-   float: right;
-   height: 100vh;
-   width: 45vw;
-   z-index: 3;
- }
- 
- .poster {
-   overflow: hidden;
-   margin-top: 30vh;
-   width: 35vw;
-   margin-left: 60vw;
-   z-index: 4;
- }
- 
+/* color code */
+
+li {
+  height: 1.1px;
+  width: 45px;
+}
+
+//  SIDE NAV COLOR CODE
+
+#overview {
+  background: none;
+}
+#process {
+  background-color: #212121;
+}
+#step-one {
+  background-color: #a94f33;
+}
+#step-two {
+  background-color: #415d36;
+}
+#step-three {
+  background-color: #b19beb;
+}
+#summary {
+  background-color: rgb(245, 242, 198);
+}
+
+/*************  HERO / LANDING  **************/
+
+#hero-image {
+  position: absolute;
+  padding-top: -2vw;
+  margin-left: 55vw;
+  width: 40vw;
+  height: 90vh;
+  overflow: hidden;
+  animation: fade 4s;
+
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+#title {
+  font-family: "CELEBRATE RETRO";
+  font-size: 4vw;
+  top: 5vh;
+  margin-left: 10vw;
+  color: #212121;
+  opacity: 1;
+  animation: move 3s;
+
+  @keyframes move {
+    from {
+      margin-left: 5vw;
+      opacity: 0;
+    }
+    to {
+      margin-left: 10vw;
+      opacity: 1;
+    }
+  }
+}
+
+/****************  SECTIONS  *****************/
+
+section {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
+
+section .cover img #hero {
+  position: absolute;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+}
+
+section .content {
+  position: absolute;
+  display: block;
+  z-index: 2;
+}
+
+/****************  IMAGES  *****************/
+
+.square {
+  float: right;
+  height: 100vh;
+  width: 45vw;
+  z-index: 3;
+  right: 0;
+}
+
+.poster {
+  margin-top: 30vh;
+  width: 35vw;
+  margin-left: 60vw;
+  z-index: 4;
+}
+
+/****************  FONTS  *****************/
+
+.subtitle {
+  margin-left: 10.1vw;
+  font-family: "Neue Machina";
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+.project-type {
+  font-family: "Neue Machina";
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-left: 10.1vw;
+  padding-bottom: 25px;
+  line-height: 1.4;
+}
+
+.title-number {
+  margin-top: 40%;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.description-title {
+  font-family: "QTJupiter";
+  font-size: 2.1rem;
+  line-height: 1;
+  padding: 25px 0;
+  padding-bottom: 25px;
+}
+
+.overview,
+.description {
+  float: left;
+  width: 31vw;
+  margin-left: 13vw;
+  font-family: "Neue Machina";
+  font-size: 1rem;
+  line-height: 1.5;
+  color: black;
+}
+
+.description {
+  margin-top: 10vh;
+}
+
+.objectives-title {
+  margin-top: 15%;
+  font-size: 2.3rem;
+  font-family: "CELEBRATE RETRO";
+}
+
+.objectives {
+  font-size: 1rem;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+.intro-position,
+.description-position {
+  position: relative;
+  left: 3%;
+}
+
+.intro-position {
+  top: 30vh;
+}
+
+/**************  BREAKPOINTS  ****************/
+
+//  large screens  //
+
+@media only screen and (min-width: 900px) {
+  ul {
+    position: fixed;
+    display: block;
+    margin-left: 25px;
+    bottom: 40px;
+    z-index: 3;
+  }
+  #title {
+    font-size: 4vw;
+  }
+}
+
+//  medium screens  //
+
+@media only screen and (max-width: 900px) {
+  .project {
+    padding: 0.5rem 1rem;
+
+    #title {
+      margin-left: 0;
+      font-size: 8vw;
+      animation: none;
+    }
+
+    #hero-image {
+      top: -3vh;
+      margin-left: 50%;
+      width: 50vw;
+      height: 70vh;
+      opacity: 0.6;
+      animation: none;
+    }
+
+    .section {
+      height: 70vh;
+      width: 100%;
+      margin: 0;
+    }
+    .square {
+      display: none;
+    }
+    .poster {
+      width: 100%;
+      margin-left: 0;
+      padding-bottom: 100px;
+    }
+    .subtitle,
+    .project-type,
+    .content {
+      margin-left: 0;
+    }
+
+    .overview,
+    .description {
+      margin: 0;
+      width: 100%;
+      padding: 0.5rem 1rem;
+      mix-blend-mode: difference;
+    }
+
+    ul {
+      display: none;
+    }
+  }
+}

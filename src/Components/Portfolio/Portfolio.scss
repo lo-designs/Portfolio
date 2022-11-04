@@ -3,43 +3,43 @@
 /* ----------------- */
 
 .portfolio {
-   margin-top: 100px;
-   margin-bottom: 100px;
-   padding: 0 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0 5%;
 
-   .portfolio-section {
-      padding-bottom: 40px;
-      width: 45vw;
-   }
+  .portfolio-section {
+    padding-bottom: 40px;
+  }
 
-   .portfolio-header {
-      font-family: "CELEBRATE RETRO";
-      font-size: 2.3rem;
+  .portfolio-header {
+    font-family: "CELEBRATE RETRO";
+    font-size: 2.3rem;
+  }
+
+  .portfolio-subheader {
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    padding: 7px 0;
+  }
+
+  .portfolio-description {
+    font-size: 1rem;
+    margin-right: 40%;
+  }
+
+  .site-redesigns {
+    font-size: 0.9rem;
+    font-family: monospace;
+
+    .sites-divider {
+      padding: 0 17px;
     }
 
-    .portfolio-subheader {
-      font-family: monospace;
-      text-transform: uppercase;
-      font-size: 1.1rem;
-      padding: 7px 0;
+    a:hover {
+      font-weight: bolder;
     }
-
-    .portfolio-description {
-      font-size: 1rem;
-   }
-
-   .site-redesigns {
-      font-size: 0.9rem;
-      font-family: monospace;
-   
-      .sites-divider {
-         padding: 0 17px;
-      }
-   
-      a:hover {
-         font-weight: bolder;
-      }
-   }
+  }
 }
 
 // PORTFOLIO LINK HEADERS
@@ -76,14 +76,14 @@
 .work-item-5:hover,
 .work-item-6:hover,
 .work-item-7:hover {
-   font-style: oblique;
-   font-weight: bolder;
+  font-style: oblique;
+  font-weight: bolder;
 }
-
 
 /* portfolio: HOVER LINKS */
 
 .link {
+   z-index: 2000;
   display: flex;
   width: 100%;
   border-bottom: solid 1px;
@@ -94,10 +94,9 @@
 }
 
 .link span {
-  display: block;
   display: inline-block;
   position: relative;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
 }
 
 .hover-reveal {
@@ -105,16 +104,36 @@
   top: 50%;
   left: 50%;
   border-radius: 20px;
-//   pointer-events: none;
   transform: translate(-50%, -50%);
   opacity: 0;
   transform: scale(0.3);
   transition: all 0.69s ease-out;
 
   .hidden-img {
-   width: 25%;
-   height: 175px;
-   object-fit: cover;
-   transition: transform 0.4s ease-out;
- }
+    width: 25%;
+    height: 175px;
+    object-fit: cover;
+    transition: transform 0.4s ease-out;
+  }
+}
+
+/**************  BREAKPOINTS  ****************/
+
+@media only screen and (max-width: 700px) {
+  .portfolio-description {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  .work-type {
+    font-size: 0.85rem;
+  }
+
+  .link {
+    padding: 5% 0;
+
+    .link span {
+      font-size: 1.5rem;
+    }
+  }
 }
