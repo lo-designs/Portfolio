@@ -1,45 +1,47 @@
-.main-container {
-   height: 100vh;
-   padding: 0 5%;
-   display: flex;
-   align-items: flex-end;
-   position: relative;
-   // margin: 0 auto;
-   // overflow: hidden;
+/****************   HOME   *****************/
 
-   h1 {
-      z-index: 0;
-      font-size: 9rem;
-      line-height: 1em;
-      font-weight: bold;
-      margin-bottom: 20vh;
-      font-family: "CELEBRATE RETRO";
-      word-wrap: break-word;
-      text-transform: capitalize;
-   }
+.main-container {
+  height: 100vh;
+  padding: 0 5%;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  
+  h1 {
+    z-index: 0;
+    font-size: 9rem;
+    line-height: 1em;
+    font-weight: bold;
+    margin-bottom: 20vh;
+    font-family: "CELEBRATE RETRO";
+    word-wrap: break-word;
+    text-transform: capitalize;
+  }
 }
 
+/*************  BREAK POINTS  **************/
+
 @media screen and (max-width: 1000px) {
-   h1 {
-      font-size: 7rem!important;
-      word-break: break-word;
-   }
+  h1 {
+    font-size: 7rem !important;
+    word-break: break-word;
+  }
 }
 
 @media screen and (max-width: 800px) {
-   h1 {
-      font-size: 6rem!important;
-   }
+  h1 {
+    font-size: 6rem !important;
+  }
 }
 
 @media screen and (max-width: 600px) {
-   h1 {
-      font-size: 5rem!important;
-   }
+  h1 {
+    font-size: 5rem !important;
+  }
 }
 
 @media screen and (max-width: 400px) {
-   h1 {
-      font-size: 4rem!important;
-   }
+  h1 {
+    font-size: 4rem !important;
+  }
 }
