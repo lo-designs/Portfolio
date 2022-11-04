@@ -2,56 +2,66 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./../Carousel.scss";
+import progressBar from "../../Images/Soona/progress-bar.png";
+import quickView from "../../Images/Soona/quick-view.png";
+import styleGuide from "../../Images/Soona/styles.png";
+import wipPopup from "../../Images/Soona/wip.png";
 
 function SoonaCarousel3() {
-   return (
-      <div className="carousel">
+  return (
+    <div className="carousel">
       <Carousel fade>
         <Carousel.Item>
           <img
+            id="carousel-item"
             className="d-block w-100"
-            src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmV0cm98ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-            alt="First slide"
+            src={progressBar}
+            alt="progress bar"
           />
-          <Carousel.Caption>
-            <h3 className="carousel-header">First slide label</h3>
-            <p className="carousel-description">
-              Nulla vitae elit libero, a pharetra augue mollis interdum.
-            </p>
-          </Carousel.Caption>
+          <div className="carousel-caption">
+            <p>feature proposal: progress bar</p>
+          </div>
         </Carousel.Item>
+
         <Carousel.Item>
           <img
+            id="carousel-item"
             className="d-block w-100"
-            src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmV0cm98ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-            alt="Second slide"
+            src={quickView}
+            alt="quick view"
           />
-
-          <Carousel.Caption>
-            <h3 className="carousel-header">Second slide label</h3>
-            <p className="carousel-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-          </Carousel.Caption>
+          <div className="carousel-caption">
+            <p>feature proposal: quick view</p>
+          </div>
         </Carousel.Item>
+
         <Carousel.Item>
           <img
+            id="carousel-item"
             className="d-block w-100"
-            src="https://images.unsplash.com/photo-1467991521834-fb8e202c7074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJldHJvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-            alt="Third slide"
+            src={styleGuide}
+            alt="style guide"
           />
-
-          <Carousel.Caption>
-            <h3 className="carousel-header">Third slide label</h3>
-            <p className="carousel-description">
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
+          <div className="carousel-caption">
+            <p>feature proposal: style guide</p>
+          </div>
         </Carousel.Item>
-        
+
+        <Carousel.Item>
+          <img
+            id="carousel-item"
+            className="d-block w-100"
+            src={wipPopup}
+            alt="work in progress message"
+          />
+          <div className="carousel-caption">
+            <p>feature proposal: work in progress pop-up</p>
+          </div>
+        </Carousel.Item>
+
       </Carousel>
     </div>
-   )
+  );
 }
 
 export default SoonaCarousel3;
