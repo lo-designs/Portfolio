@@ -11,25 +11,32 @@
   }
 
   .about-summary {
-   width: 45vw;
+    width: 40vw;
   }
 
   .about-me {
-    margin-left: 55%;
-    margin-top: -125px;
-    padding-left: 40px;
+    margin-left: 50%;
+    margin-top: -150px;
+    padding-left: 10px;
 
     .me {
       object-fit: cover;
       z-index: 0;
+      width: 30vw;
     }
   }
 
-  .favorite-things {
-    padding-top: 25px;
-    font-size: 0.8rem;
-    font-family: monospace;
-    text-transform: uppercase;
+  .favorite-things-card {
+      // background-color: rgb(212, 193, 255);
+      // padding: 10px;
+      // border: 1px solid;
+      // border-radius: 15px;
+    .favorite-things {
+      padding-top: 25px;
+      font-size: 0.8rem;
+      font-family: monospace;
+      text-transform: uppercase;
+    }
   }
 }
 
@@ -45,6 +52,16 @@
     .about-me {
       margin-left: 0;
       margin-top: 0;
+      padding-left: 0;
+
+      .me {
+        padding-right: 25px;
+        width: 70vw;
+      }
+
+      .favorite-things {
+        padding-left: 25px;
+      }
     }
     .about-heading {
       font-size: 3rem;

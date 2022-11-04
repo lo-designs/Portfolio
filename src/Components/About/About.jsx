@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import "./About.scss";
+import me from "../Images/About/me.jpg";
 
 function About() {
   return (
@@ -18,20 +19,21 @@ function About() {
         </div>
       </div>
       <div className="about-me">
-        {/* <img
-          className="me"
-          src="https://media2.giphy.com/media/QSuOxLANMqaU72CHwx/giphy.gif?cid=ecf05e47dp253tdit25l6tzd7bgf7tctmmnag3ahx3e3yvwk&rid=giphy.gif&ct=g"
-          alt=""
-        /> */}
+      <div className="image-card">
+         <p className="image-heading"></p>
+        <img className="me" src={me} alt="me"/>
+      </div>
+      <div className="favorite-things-card">
         <p className="favorite-things">
           Aside from digital design & development, some of my favorite things
           include.*✧
           <br />
           <br />
           animals // road trips // mountains // hiking // the north shore //
-          open world rpgs // movies at alamo // A24 films & HBO originals //
+          video games // movies at alamo // A24 films // NightFlight //
           pancakes.
         </p>
+      </div>
       </div>
     </div>
   );
