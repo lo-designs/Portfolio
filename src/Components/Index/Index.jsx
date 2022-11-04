@@ -8,7 +8,7 @@ function Index() {
     <div className="home-page">
       <div className="main-container">
         <h1 className="design">
-          front end design<br></br>& development
+          front end design & development
         </h1>
       </div>
       <div className="portfolio-section">
