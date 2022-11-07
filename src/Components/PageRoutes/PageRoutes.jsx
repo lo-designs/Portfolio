@@ -14,7 +14,7 @@ const PageRoutes = () => {
     <Routes>
       <Route path="/" element={<Index />} />
       <Route path="/about" element={<About />} />
-      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/portfolio" element={<Portfolio/>} />
       <Route path="/petteshounds" element={<PettesHounds />} />
       <Route path="/parralily" element={<ParraLily />} />
       <Route path="/neurotype" element={<Neurotype />} />
