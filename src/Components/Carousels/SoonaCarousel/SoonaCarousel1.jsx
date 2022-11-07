@@ -2,25 +2,12 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./../Carousel.scss";
-import soonaGif from "../../Images/Soona/soonaGif.gif";
 import journeyMap from "../../Images/Soona/journey.png";
 
 function SoonaCarousel1() {
   return (
     <div className="carousel">
       <Carousel fade>
-        <Carousel.Item>
-          <img
-            id="carousel-item"
-            className="d-block w-100"
-            src={soonaGif}
-            alt="soona gif"
-          />
-          <div className="carousel-caption">
-            <p></p>
-          </div>
-        </Carousel.Item>
-
         <Carousel.Item>
           <img
             id="carousel-item"

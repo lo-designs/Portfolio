@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Carousel.scss";
-import parraMenu from "../Images/ParraLily/fallbrunchmenu.png";
+import parraMenu from "../Images/ParraLily/parraMenu2.png";
 import designBoard from "../Images/ParraLily/designboard.png";
 import wireFrames from "../Images/ParraLily/wireframes.png";
 
@@ -30,7 +30,7 @@ function ParralilyCarousel() {
             alt="ParraLily fall brunch menu"
           />
           <div className="carousel-caption">
-            <p>menu I designed for a fall brunch event</p>
+            <p></p>
           </div>
         </Carousel.Item>
 
