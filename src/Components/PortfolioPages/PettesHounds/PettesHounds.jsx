@@ -10,10 +10,10 @@ function PettesHounds() {
       <ul className="side-nav">
         <li className="design-process-header"></li>
         <a href="#sctr0">
-          <li className="color-code" id="overview"></li>Overview
+          <li className="color-code" id="pettes-0"></li>Overview
         </a>
         <a href="#sctr1">
-          <li className="color-code" id="process"></li>Objectives
+          <li className="color-code" id="pettes-1"></li>Objectives
         </a>
       </ul>
       <div>
@@ -57,17 +57,11 @@ function PettesHounds() {
 
         <section id="sctr1">
           <div className="cover">
-            <div className="square" id="process"></div>
+            <div className="square" id="pettes-1"></div>
           </div>
           <div className="content">
             <div className="description">
-              <p className="objectives-title">Objectives</p>
-              <div className="objectives">
-                <p>
-                  ✧ Make services + prices scannable.<br></br>✧ Complement
-                  existing logo and theme.<br></br>✧ More pet pictures.
-                </p>
-              </div>
+              <h4 className="objectives-title">Objectives</h4>
               <p>
                 Design choices were based around the existing Pette's Hounds
                 website and logo, which I animated using Photoshop. I also

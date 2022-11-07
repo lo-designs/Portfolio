@@ -4,6 +4,7 @@ import "./../PortfolioPageStyles.scss";
 import SoonaCarousel1 from "../../Carousels/SoonaCarousel/SoonaCarousel1";
 import SoonaCarousel2 from "../../Carousels/SoonaCarousel/SoonaCarousel2";
 import SoonaCarousel3 from "../../Carousels/SoonaCarousel/SoonaCarousel3";
+import soonaGif from "../../Images/Soona/soonaGif.gif";
 
 function Soona() {
    return (
@@ -11,19 +12,19 @@ function Soona() {
       <ul className="side-nav">
         <li className="design-process-header"></li>
         <a href="#sctr0">
-          <li className="color-code" id="overview"></li>Overview
+          <li className="color-code" id="soona-0"></li>Overview
         </a>
         <a href="#sctr1">
-          <li className="color-code" id="process"></li>Process
+          <li className="color-code" id="soona-1"></li>Process
         </a>
         <a href="#sctr2">
-          <li className="color-code" id="step-one"></li>Testing
+          <li className="color-code" id="soona-2"></li>Testing
         </a>
         <a href="#sctr3">
-          <li className="color-code" id="step-two"></li>Prototyping
+          <li className="color-code" id="soona-3"></li>Prototyping
         </a>
         <a href="#sctr4">
-          <li className="color-code" id="step-three"></li>Summary
+          <li className="color-code" id="soona-4"></li>Summary
         </a>
 
       </ul>
@@ -65,7 +66,7 @@ function Soona() {
 
         <section id="sctr1">
           <div className="cover">
-            <div className="square" id="process"></div>
+            <div className="square" id="soona-1"></div>
           </div>
           <div className="content">
             <div className="description">
@@ -87,7 +88,7 @@ function Soona() {
 
         <section id="sctr2">
           <div className="cover">
-            <div className="square" id="step-one"></div>
+            <div className="square" id="soona-2"></div>
           </div>
           <div className="content">
               <div className="description">
@@ -112,7 +113,7 @@ function Soona() {
 
         <section id="sctr3">
           <div className="cover">
-            <div className="square" id="step-two"></div>
+            <div className="square" id="soona-3"></div>
           </div>
           <div className="content">
               <div className="description">
@@ -134,7 +135,7 @@ function Soona() {
 
         <section id="sctr4">
           <div className="cover">
-            <div className="square" id="step-three"></div>
+            <div className="square" id="soona-4"></div>
           </div>
           <div className="content">
               <div className="description">
@@ -148,8 +149,14 @@ function Soona() {
                 </p>
               </div>
               <div className="poster">
-              
+              <div className="cover" id="summary-image">
+                <img
+                  className="soona-summary"
+                  src={soonaGif}
+                  alt="soona gif"
+                />
               </div>
+            </div>
             </div>
         </section>
 

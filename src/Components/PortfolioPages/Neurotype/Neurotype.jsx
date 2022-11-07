@@ -13,19 +13,19 @@ function Neurotype() {
       <ul className="side-nav">
         <li className="design-process-header"></li>
         <a href="#sctr0">
-          <li className="color-code" id="overview"></li>Overview
+          <li className="color-code" id="neuro-0"></li>Overview
         </a>
         <a href="#sctr1">
-          <li className="color-code" id="process"></li>Process
+          <li className="color-code" id="neuro-1"></li>Process
         </a>
         <a href="#sctr2">
-          <li className="color-code" id="step-one"></li>Testing
+          <li className="color-code" id="neuro-2"></li>Testing
         </a>
         <a href="#sctr3">
-          <li className="color-code" id="step-two"></li>Prototyping
+          <li className="color-code" id="neuro-3"></li>Prototyping
         </a>
         <a href="#sctr4">
-          <li className="color-code" id="step-three"></li>Summary
+          <li className="color-code" id="neuro-4"></li>Summary
         </a>
       </ul>
       <div>
@@ -61,7 +61,7 @@ function Neurotype() {
 
         <section id="sctr1">
           <div className="cover">
-            <div className="square" id="process"></div>
+            <div className="square" id="neuro-1"></div>
           </div>
           <div className="content">
             <div className="description">
@@ -88,7 +88,7 @@ function Neurotype() {
 
         <section id="sctr2">
           <div className="cover">
-            <div className="square" id="step-one"></div>
+            <div className="square" id="neuro-2"></div>
           </div>
           <div className="content">
             <div className="description">
@@ -114,7 +114,7 @@ function Neurotype() {
 
         <section id="sctr3">
           <div className="cover">
-            <div className="square" id="step-two"></div>
+            <div className="square" id="neuro-3"></div>
           </div>
           <div className="content">
             <div className="description">
@@ -141,7 +141,7 @@ function Neurotype() {
 
         <section id="sctr4">
           <div className="cover">
-            <div className="square" id="step-three"></div>
+            <div className="square" id="neuro-4"></div>
           </div>
           <div className="content">
             <div className="description">

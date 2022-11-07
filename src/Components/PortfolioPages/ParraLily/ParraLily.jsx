@@ -2,6 +2,7 @@
 import React from "react";
 import ParralilyCarousel from "../../Carousels/ParralilyCarousel";
 import "./../../PortfolioPages/PortfolioPageStyles.scss";
+import parraHero from "../../Images/ParraLily/parra.jpg"
 
 function ParraLily() {
   return (
@@ -9,17 +10,17 @@ function ParraLily() {
       <ul className="side-nav">
         <li className="design-process-header"></li>
         <a href="#sctr0">
-          <li className="color-code" id="overview"></li>Overview
+          <li className="color-code" id="parra-0"></li>Overview
         </a>
         <a href="#sctr1">
-          <li className="color-code" id="process"></li>Objectives
+          <li className="color-code" id="parra-1"></li>Objectives
         </a>
       </ul>
       <div>
         <section id="sctr0">
           <div className="cover" id="hero-image">
             <img
-              src="https://images.pexels.com/photos/5793774/pexels-photo-5793774.jpeg?auto=compress&cs=tinysrgb&w=600"
+              src={parraHero}
               alt=""
             />
           </div>
@@ -53,7 +54,7 @@ function ParraLily() {
 
         <section id="sctr1">
           <div className="cover">
-            <div className="square" id="process"></div>
+            <div className="square" id="parra-1"></div>
           </div>
           <div className="content">
             <div className="description">

@@ -8,10 +8,10 @@ function OuttaWax() {
       <ul className="side-nav">
         <li className="design-process-header"></li>
         <a href="#sctr0">
-          <li className="color-code" id="overview"></li>Overview
+          <li className="color-code" id="outta-0"></li>Overview
         </a>
         <a href="#sctr1">
-          <li className="color-code" id="process"></li>Objectives
+          <li className="color-code" id="outta-1"></li>Objectives
         </a>
       </ul>
       <div>
@@ -33,10 +33,7 @@ function OuttaWax() {
                 <div className="project-type">// Web Design</div>
 
                 <div className="overview">
-                  {/* <p className="website">
-                    Check out the site:
-                    <a href="https://www.petteshounds.com"> petteshounds.com</a>
-                  </p> */}
+
                   <p>
                     Coming soon!
                   </p>
@@ -46,39 +43,6 @@ function OuttaWax() {
           </div>
         </section>
 
-        {/* <section id="sctr1">
-          <div className="cover">
-            <div className="square" id="process"></div>
-          </div>
-          <div className="content">
-  
-              <div className="description">
-                <p className="title-number">// Objectives</p>
-                <p className="description-title">
-                  ✧ Make services + prices scannable. ✧ Complement existing logo
-                  and theme. ✧ More pet pictures.
-                </p>
-                <p>
-                  Design choices were based around the existing Pette's Hounds
-                  website and logo, which I animated using Photoshop. I also
-                  created the GIFs from videos sourced from Pette's Hounds
-                  social media accounts. After auditing the site on Google
-                  Lighthouse, I optimized all of the images to a smaller file
-                  size to increase the site load speed.
-                </p>
-                <p>
-                  The original site as well as the redesign were built using
-                  Squarespace. I was able to switch templates which helped with
-                  the formatting of the site content in order to achieve the
-                  desired look and feel.
-                </p>
-              </div>
-              <div className="poster">
-                <PettesHoundsCarousel />
-              </div>
-           
-          </div>
-        </section> */}
       </div>
     </div>
   );
