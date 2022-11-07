@@ -21,9 +21,9 @@
 
 /*************  BREAK POINTS  **************/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   h1 {
-    font-size: 7rem !important;
+    font-size: 8rem !important;
     word-break: break-word;
   }
 }
@@ -31,17 +31,20 @@
 @media screen and (max-width: 800px) {
   h1 {
     font-size: 6rem !important;
+    word-break: break-word;
   }
 }
 
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 5rem !important;
+    word-break: break-word;
   }
 }
 
 @media screen and (max-width: 400px) {
   h1 {
     font-size: 4rem !important;
+    word-break: break-word;
   }
 }

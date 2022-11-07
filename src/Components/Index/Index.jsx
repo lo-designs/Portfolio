@@ -1,6 +1,8 @@
 import React from "react";
 import About from "../About/About";
 import Portfolio from "../Portfolio/Portfolio";
+
+
 import "./Index.scss";
 
 function Index() {
@@ -11,8 +13,8 @@ function Index() {
           front end design & development
         </h1>
       </div>
-      <div className="portfolio-section">
-        <Portfolio />
+      <div>
+      <Portfolio />
       </div>
       <div className="about-section">
         <About />
