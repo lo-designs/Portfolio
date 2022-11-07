@@ -13,6 +13,7 @@
     "babel-loader": "^9.0.0",
     "bootstrap": "^5.2.2",
     "classnames": "^2.3.2",
+    "gsap": "^3.11.3",
     "jquery": "^3.6.1",
     "nodelist": "^2.0.1",
     "react": "^18.2.0",
