@@ -92,26 +92,45 @@ li {
   width: 45px;
 }
 
-/****************  SID NAV  ****************/
 
-#overview {
-  background: none;
-}
-#process {
-  background-color: #212121;
-}
-#step-one {
-  background-color: #a94f33;
-}
-#step-two {
-  background-color: #415d36;
-}
-#step-three {
-  background-color: #b19beb;
-}
-#summary {
-  background-color: rgb(245, 242, 198);
-}
+/*  PETTES HOUNDS COLORS & PETTES HOUNDS */
+
+#parra-1,
+#pettes-1 {
+   background-color: #212121;
+ }
+
+//  NEUROTYPE COLORS
+
+#neuro-1 {
+   background-color: transparent;
+   border-left: 1px solid;
+   border-top: 1px solid;
+ }
+ #neuro-2 {
+   background-color: #a85940;
+ }
+ #neuro-3 {
+   background-color: #228084;
+ }
+ #neuro-4 {
+   background-color: #201f1f;
+ }
+
+//  SOONA COLORS
+
+ #soona-1 {
+   background-color: rgb(40, 40, 40);
+ }
+ #soona-2 {
+   background-color: #a94f33;
+ }
+ #soona-3 {
+   background-color: #6a934c;
+ }
+ #soona-4 {
+   background-color: #d8adfd;
+ }
 
 /****************  IMAGES  *****************/
 

@@ -1,148 +1,124 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import "./Portfolio.scss";
-
+import pettesHover from "./../Images/PettesHounds/pettesHover.jpg";
+import neuroHover from "./../Images/Neurotype/neuro-gif-ps.gif";
+import outtaHover from "./../Images/OuttaWax/outtaHover.jpg";
+import parraHover from "./../Images/ParraLily/designboard.png";
+import soonaHover from "./../Images/Soona/soonaGif.gif";
+import yhaHover from "./../Images/YHA/YouMatter.gif";
 
 function Portfolio() {
-  /*** PORTFOLIO HOVER LINKS ***/
-  const link = document.querySelectorAll(".link");
-  const linkHoverReveal = document.querySelectorAll(".hover-reveal");
-  const linkImages = document.querySelectorAll(".hidden-img");
-
-  for (let i = 0; i < link.length; i++) {
-    link[i].addEventListener("mousemove", (e) => {
-      linkHoverReveal[i].style.opacity = 1;
-      linkHoverReveal[
-        i
-      ].style.transform = `translate(-100%, -50% ) rotate(5deg)`;
-      linkImages[i].style.transform = "scale(1, 1)";
-      linkHoverReveal[i].style.left = e.clientX + "px";
-    });
-
-    link[i].addEventListener("mouseleave", (e) => {
-      linkHoverReveal[i].style.opacity = 0;
-      linkHoverReveal[
-        i
-      ].style.transform = `translate(-50%, -50%) rotate(-5deg)`;
-      linkImages[i].style.transform = "scale(0.8, 0.8)";
-    });
-  }
-
   return (
     <div className="portfolio">
-      <div className="portfolio-section">
-        <h2 className="portfolio-header">Portfolio</h2>
-        <div>
-        <p className="portfolio-subheader">Web design & development + UX/UI design.</p>
-          <p className="portfolio-description">
-            I've had the opportunity to work with some great local businesses
-            doing web design/redesign, as well as UX/UI research and design for
-            clients while earning a certificate in UX design.<br></br> Most recently, I
-            completed a full stack development program & designed and developed
-            this portfolio. Check out some of my work below:
+      <div className="portfolio-intro">
+         <h2 className="portfolio-header">Portfolio</h2>
+         <h3 className="portfolio-subheader">Web design & development // UX UI design</h3>
+         <p>I've had the opportunity to work with some great local businesses doing web design/redesign, as well as UX/UI research and design for clients while earning a certificate in UX design. Most recently, I completed a full stack development program & designed and developed this portfolio. Check out some of my case studies below:</p>
+      </div>
+      <nav className="menu">
+        <div className="menu__item">
+          <a id="pettes" href="/petteshounds" className="menu__item-link">
+            Pette's Hounds
+            <p className="work__type">
+              dog walking & pet care services // web [re]design
             </p>
-            {/* <span className="site-redesigns"><i>Some sites I have designed & redesigned: </i>
-            <span className="sites-divider"> // </span>
-            <a className="pettes" href="https://www.petteshounds.com/">Pette's Hounds</a>
-            <span className="sites-divider"> // </span>
-            <a className="parra" href="https://www.parralily.com/">ParraLily</a>
-            <span className="sites-divider"> // </span>
-            <a className="en" href="https://www.enhealthconsulting.com/">EnHealth Consulting</a>
-         </span> */}
-        </div>
-      </div>
+          </a>
+          <img className="menu__item-img" src={pettesHover} alt="" />
+          <div className="marquee">
+            <div id="pettes-marquee" className="marquee__inner">
+              <span>Pette's Hounds</span>
+              <span>// web [re]design //</span>
+              <span>Dog walking & pet care services.</span>
 
-      <div className="hover-links">
-        <div className="link">
-          <a href="/petteshounds">
-            <span className="work-item-1">
-              Pette's Hounds<p className="work-type">// WEB [RE]DESIGN</p>
-            </span>
-            <div className="hover-reveal">
-              <img
-                className="hidden-img"
-                src="https://images.unsplash.com/photo-1467991521834-fb8e202c7074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJldHJvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                alt=""
-              />
             </div>
-          </a>
+          </div>
         </div>
-
-        <div className="link">
-          <a href="/parralily">
-            <span className="work-item-2">
-              ParraLily<p className="work-type">// WEB DESIGN</p>
-            </span>
+        <div className="menu__item">
+          <a id="parra" href="/parralily" className="menu__item-link">
+            ParraLily
+            <p className="work__type">minneapolis food truck // web design</p>
           </a>
-          <div className="hover-reveal">
-            <img
-              className="hidden-img"
-              src="img/parralily-images/foodtruck.gif"
-              alt=""
-            />
+          <img className="menu__item-img" src={parraHover} alt="" />
+          <div className="marquee">
+            <div id="parra-marquee" className="marquee__inner">
+              <span>ParraLily</span>
+              <span>// web design //</span>
+              <span>Minneapolis food truck.</span>
+     
+            </div>
+          </div>
+        </div>
+        <div className="menu__item">
+          <a id="outta" href="/outtawax" className="menu__item-link">
+            Outta Wax
+            <p className="work__type">
+              [COMING SOON!] vinyl pressing services // web design
+            </p>
+          </a>
+          <img
+            className="menu__item-img"
+            src={outtaHover}
+            alt="vinyl records"
+          />
+          <div className="marquee">
+            <div id="outta-marquee" className="marquee__inner">
+              <span>Outta Wax</span>
+              <span>// web design //</span>
+              <span>Vinyl pressing services. [COMING SOON!]</span>
+            </div>
+          </div>
+        </div>
+        <div className="menu__item">
+          <a id="neuro" href="/neurotype" className="menu__item-link">
+            Neurotype
+            <p className="work__type">medical startup // ux ui design</p>
+          </a>
+          <img className="menu__item-img" src={neuroHover} alt="" />
+          <div className="marquee">
+            <div id="neuro-marquee" className="marquee__inner">
+              <span>Neurotype</span>
+              <span>// ux ui design //</span>
+              <span>Medical startup.</span>
+            </div>
+          </div>
+        </div>
+        <div className="menu__item">
+          <a id="soona" href="/soona" className="menu__item-link">
+            Soona
+            <p className="work__type">24 hr content studio // ux ui design</p>
+          </a>
+          <img className="menu__item-img" src={soonaHover} alt="" />
+          <div className="marquee">
+            <div
+              id="soona-marquee"
+              className="marquee__inner"
+              aria-hidden="true"
+            >
+              <span>Soona</span>
+              <span>// ux ui design //</span>
+              <span>24 hr content studio.</span>
+            </div>
           </div>
         </div>
 
-        <div className="link">
-          <a href="/outtawax">
-            <span className="work-item-3">
-              Outta Wax
-              <p className="work-type">// WEB DESIGN [COMING SOON] </p>
-            </span>
+        <div className="menu__item">
+          <a id="yha" href="/" className="menu__item-link">
+            Youth Resources App
+            <p className="work__type">
+              self-defined project // web + ux ui design
+            </p>
           </a>
-          <div className="hover-reveal">
-            <img className="hidden-img" src="img/ow-images/record.gif" alt="" />
+          <img className="menu__item-img" src={yhaHover} alt="" />
+          <div className="marquee">
+            <div id="yha-marquee" className="marquee__inner" aria-hidden="true">
+              <span>Youth Resources App</span>
+              <span>// web + ux ui design //</span>
+              <span>Self-defined project.</span>
+            </div>
           </div>
         </div>
-
-        {/* <div className="link">
-          <a href="/yha">
-            <span className="work-item-4">
-              Youth Help App<p className="work-type">// WEB DESIGN</p>
-            </span>
-          </a>
-          <div className="hover-reveal">
-            <img className="hidden-img" src="img/ym-images/g1-.gif" alt="" />
-          </div>
-        </div> */}
-
-        <div className="link">
-          <a href="/neurotype">
-            <span className="work-item-5">
-              Neurotype<p className="work-type">// UX UI</p>
-            </span>
-          </a>
-          <div className="hover-reveal">
-            <img
-              className="hidden-img"
-              src="img/neurotype-images/NeuroOG.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-
-        <div className="link">
-          <a href="/soona">
-            <span className="work-item-6">
-              Soona<p className="work-type">// UX UI</p>
-            </span>
-          </a>
-          <div className="hover-reveal">
-            <img className="hidden-img" src="" alt="" />
-          </div>
-        </div>
-
-        <div className="link">
-          <a href="/">
-            <span className="work-item-7">
-              Misc Designs<p className="work-type">// for fun</p>
-            </span>
-          </a>
-          <div className="hover-reveal">
-            <img className="hidden-img" src="" alt="" />
-          </div>
-        </div>
-      </div>
+      </nav>
     </div>
   );
 }
