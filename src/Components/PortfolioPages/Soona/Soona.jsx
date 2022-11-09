@@ -1,10 +1,11 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
-import "./../PortfolioPageStyles.scss";
-import SoonaCarousel1 from "../../Carousels/SoonaCarousel/SoonaCarousel1";
-import SoonaCarousel2 from "../../Carousels/SoonaCarousel/SoonaCarousel2";
-import SoonaCarousel3 from "../../Carousels/SoonaCarousel/SoonaCarousel3";
+import "./../PortfolioPages.scss";
+import soonaHero from "../../Images/Soona/soonaHero.jpg.webp";
 import soonaGif from "../../Images/Soona/soonaGif.gif";
+import journeyMap from "../../Images/Soona/journey.png";
+import soonaKano from "../../Images/Soona/kano.png";
+import SoonaCarousel from "../../Carousels/SoonaCarousel/SoonaCarousel";
 
 function Soona() {
    return (
@@ -12,30 +13,26 @@ function Soona() {
       <ul className="side-nav">
         <li className="design-process-header"></li>
         <a href="#sctr0">
-          <li className="color-code" id="soona-0"></li>Overview
+          <li className="color-code" id="section-0"></li>Overview
         </a>
         <a href="#sctr1">
-          <li className="color-code" id="soona-1"></li>Process
+          <li className="color-code" id="section-1"></li>Process
         </a>
         <a href="#sctr2">
-          <li className="color-code" id="soona-2"></li>Testing
+          <li className="color-code" id="section-2"></li>Testing
         </a>
         <a href="#sctr3">
-          <li className="color-code" id="soona-3"></li>Prototyping
+          <li className="color-code" id="section-3"></li>Prototyping
         </a>
         <a href="#sctr4">
-          <li className="color-code" id="soona-4"></li>Summary
+          <li className="color-code" id="section-4"></li>Summary
         </a>
 
       </ul>
       <div>
         <section id="sctr0">
-          <div className="cover" id="hero-image">
-            <img
-              className="neurotype-hero"
-              src="https://images.pexels.com/photos/952264/pexels-photo-952264.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt=""
-            />
+        <div className="cover" id="hero-image">
+            <img src={soonaHero} alt="" />
           </div>
           <div className="content">
             <div className="intro-position">
@@ -44,7 +41,6 @@ function Soona() {
                 <div className="subtitle">
                 Web app rapid prototyping & evaluation.
                 </div>
-                <div id="line"></div>
                 <div className="project-type">24 HR Content Studio // UX UI</div>
 
                 <div className="overview">
@@ -66,7 +62,7 @@ function Soona() {
 
         <section id="sctr1">
           <div className="cover">
-            <div className="square" id="soona-1"></div>
+            <div className="square" id="section-1"></div>
           </div>
           <div className="content">
             <div className="description">
@@ -81,14 +77,17 @@ function Soona() {
               </p>
             </div>
             <div className="poster">
-               <SoonaCarousel1 />
+            <div className="poster-image">
+               <img src={journeyMap} alt=""></img>
+               <p className="caption">Customer Journey Map made in Sketch</p>
+            </div>
             </div>
           </div>
         </section>
 
         <section id="sctr2">
           <div className="cover">
-            <div className="square" id="soona-2"></div>
+            <div className="square" id="section-2"></div>
           </div>
           <div className="content">
               <div className="description">
@@ -106,14 +105,17 @@ function Soona() {
                 </p>
               </div>
               <div className="poster">
-                <SoonaCarousel2 />
+              <div className="poster-image">
+               <img src={soonaKano} alt=""></img>
+               <p className="caption">kano analysis of proposed soona features</p>
+            </div>
               </div>
             </div>
         </section>
 
         <section id="sctr3">
           <div className="cover">
-            <div className="square" id="soona-3"></div>
+            <div className="square" id="section-3"></div>
           </div>
           <div className="content">
               <div className="description">
@@ -128,14 +130,16 @@ function Soona() {
                 </p>
               </div>
               <div className="poster">
-                <SoonaCarousel3 />
+              <div className="poster-carousel">
+              <SoonaCarousel />
+              </div>
               </div>
             </div>
         </section>
 
         <section id="sctr4">
           <div className="cover">
-            <div className="square" id="soona-4"></div>
+            <div className="square" id="section-4"></div>
           </div>
           <div className="content">
               <div className="description">
@@ -149,13 +153,10 @@ function Soona() {
                 </p>
               </div>
               <div className="poster">
-              <div className="cover" id="summary-image">
-                <img
-                  className="soona-summary"
-                  src={soonaGif}
-                  alt="soona gif"
-                />
-              </div>
+              <div className="poster-image">
+               <img src={soonaGif} alt=""></img>
+               <p className="caption"></p>
+            </div>
             </div>
             </div>
         </section>

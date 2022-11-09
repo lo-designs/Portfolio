@@ -1,11 +1,11 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
-import NeurotypeCarousel1 from "../../Carousels/NeurotypeCarousel/NeurotypeCarousel1";
-import NeurotypeCarousel2 from "../../Carousels/NeurotypeCarousel/NeurotypeCarousel2";
-import NeurotypeCarousel3 from "../../Carousels/NeurotypeCarousel/NeurotypeCarousel3";
-import "./../../PortfolioPages/PortfolioPageStyles.scss";
+import "./../PortfolioPages.scss";
+import NeurotypeCarousel from "../../Carousels/NeurotypeCarousel/NeurotypeCarousel";
 import neuroHero from "../../Images/Neurotype/hero2.jpg";
 import neuroGif from "../../Images/Neurotype/neuro-gif-ps.gif";
+import neuroLogo from "../../Images/Neurotype/logo-concept.png";
+import neuroMap from "../../Images/Neurotype/experience-map.png";
 
 function Neurotype() {
   return (
@@ -13,25 +13,25 @@ function Neurotype() {
       <ul className="side-nav">
         <li className="design-process-header"></li>
         <a href="#sctr0">
-          <li className="color-code" id="neuro-0"></li>Overview
+          <li className="color-code" id="section-0"></li>Overview
         </a>
         <a href="#sctr1">
-          <li className="color-code" id="neuro-1"></li>Process
+          <li className="color-code" id="section-1"></li>Process
         </a>
         <a href="#sctr2">
-          <li className="color-code" id="neuro-2"></li>Testing
+          <li className="color-code" id="section-2"></li>Testing
         </a>
         <a href="#sctr3">
-          <li className="color-code" id="neuro-3"></li>Prototyping
+          <li className="color-code" id="section-3"></li>Prototyping
         </a>
         <a href="#sctr4">
-          <li className="color-code" id="neuro-4"></li>Summary
+          <li className="color-code" id="section-4"></li>Summary
         </a>
       </ul>
       <div>
         <section id="sctr0">
           <div className="cover" id="hero-image">
-            <img className="neurotype-hero" src={neuroHero} alt="" />
+            <img src={neuroHero} alt="" />
           </div>
           <div className="content">
             <div className="intro-position">
@@ -40,7 +40,6 @@ function Neurotype() {
                 <div className="subtitle">
                   Web app design for early stage medical startup.
                 </div>
-                <div id="line"></div>
                 <div className="project-type">Medical Startup // UX UI</div>
 
                 <div className="overview">
@@ -61,7 +60,7 @@ function Neurotype() {
 
         <section id="sctr1">
           <div className="cover">
-            <div className="square" id="neuro-1"></div>
+            <div className="square" id="section-1"></div>
           </div>
           <div className="content">
             <div className="description">
@@ -81,14 +80,17 @@ function Neurotype() {
               </p>
             </div>
             <div className="poster">
-              <NeurotypeCarousel1 />
+            <div className="poster-image">
+               <img src={neuroLogo} alt=""></img>
+               <p className="caption">Logo concept</p>
+            </div>
             </div>
           </div>
         </section>
 
         <section id="sctr2">
           <div className="cover">
-            <div className="square" id="neuro-2"></div>
+            <div className="square" id="section-2"></div>
           </div>
           <div className="content">
             <div className="description">
@@ -107,14 +109,18 @@ function Neurotype() {
               </p>
             </div>
             <div className="poster">
-              <NeurotypeCarousel2 />
+            <div className="poster-image">
+               <img src={neuroMap} alt=""></img>
+               <p className="caption"></p>
+            </div>
+         
             </div>
           </div>
         </section>
 
         <section id="sctr3">
           <div className="cover">
-            <div className="square" id="neuro-3"></div>
+            <div className="square" id="section-3"></div>
           </div>
           <div className="content">
             <div className="description">
@@ -134,14 +140,16 @@ function Neurotype() {
               </p>
             </div>
             <div className="poster">
-              <NeurotypeCarousel3 />
-            </div>
+            <div className="poster-carousel">
+              <NeurotypeCarousel />
+              </div>
+              </div>
           </div>
         </section>
 
         <section id="sctr4">
           <div className="cover">
-            <div className="square" id="neuro-4"></div>
+            <div className="square" id="section-4"></div>
           </div>
           <div className="content">
             <div className="description">
@@ -163,13 +171,10 @@ function Neurotype() {
               </div>
             </div>
             <div className="poster">
-              <div className="cover" id="summary-image">
-                <img
-                  className="neurotype-summary"
-                  src={neuroGif}
-                  alt="neurotype gif made in Photoshop"
-                />
-              </div>
+            <div className="poster-image">
+               <img src={neuroGif} alt=""></img>
+               <p className="caption"></p>
+            </div>
             </div>
           </div>
         </section>

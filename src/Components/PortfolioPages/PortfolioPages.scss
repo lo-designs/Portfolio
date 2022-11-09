@@ -1,0 +1,257 @@
+/************  HERO / LANDING  *************/
+
+#hero-image {
+  position: absolute;
+  margin-left: 55vw;
+  width: 40vw;
+  height: 90vh;
+  overflow: hidden;
+  animation: fade 4s;
+
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+#title {
+   font-family: "Celebrate-Retro";
+   font-size: 4vw;
+   top: 5vh;
+   margin-left: 10vw;
+   color: #212121;
+   opacity: 1;
+   animation: move 3s;
+ 
+   @keyframes move {
+     from {
+       margin-left: 5vw;
+       opacity: 0;
+     }
+     to {
+       margin-left: 10vw;
+       opacity: 1;
+     }
+   }
+ }
+
+/************ SIDE NAV LINKS ***************/
+
+.project a {
+  text-transform: uppercase;
+  font-size: 0.97rem;
+  color: #212121;
+  font-family: "RobotoMono-Regular";
+
+  .project a:hover {
+    font-style: oblique;
+    font-weight: bold;
+    color: black !important;
+  }
+
+  li {
+    height: 1.1px;
+    width: 45px;
+  }
+}
+
+/* color code */
+
+#section-1 {
+  background-color: rgb(40, 40, 40);
+}
+#section-2 {
+  background-color: #a94f33;
+}
+#section-3 {
+  background-color: #4d673b;
+}
+#section-4 {
+  background-color: #e3d0f3;
+}
+
+/***************  SECTIONS  ****************/
+
+
+section {
+   position: relative;
+   display: block;
+   width: 100%;
+   height: 100vh;
+ }
+
+section .cover img #hero {
+  position: absolute;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+}
+
+section .content {
+  position: absolute;
+  display: block;
+  z-index: 2;
+}
+
+/****************  IMAGES  *****************/
+
+.square {
+  float: right;
+  height: 100vh;
+  width: 45vw;
+  z-index: 3;
+  right: 0;
+}
+
+.poster {
+  width: 35vw;
+  margin-left: 60vw;
+  z-index: 4;
+}
+
+.poster-carousel {
+   margin-top: 10vh;
+   max-height: 200px!important;
+}
+
+.poster-image {
+   margin-top: 37vh;
+
+   .caption {
+      padding: 20px 0;
+      font-family: monospace;
+      font-size: 1rem;
+      text-transform: uppercase;
+      color: white;
+   }
+}
+
+/****************  FONTS  *****************/
+
+.intro-position,
+.description-position {
+  top: 30vh;
+  left: 3%;
+  position: relative;
+}
+
+.process {
+  margin-top: 30vh;
+}
+
+.overview,
+.description {
+  float: left;
+  width: 35vw;
+  margin-left: 15vw;
+  font-family: "Vercetti";
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: black;
+}
+
+.description {
+  margin-top: 10vh;
+}
+
+.description-title {
+   font-family: "Celebrate-Retro";
+   font-weight: bolder;
+   font-size: 1.5rem;
+   line-height: 1;
+   padding: 10px 0;
+   padding-bottom: 15px;
+ }
+
+.subtitle {
+   margin-left: 10.1vw;
+   font-family: monospace;
+   font-size: 1rem;
+   margin-top: 15px;
+}
+
+.title-number {
+   margin-top: 40%;
+   font-size: 1rem;
+   font-family: "RobotoMono-Regular";
+   text-transform: uppercase;
+ }
+
+.project-type {
+   font-family: monospace;
+   font-size: 1rem;
+   text-transform: uppercase;
+   margin-top: 15px;
+   margin-left: 10.1vw;
+   padding-bottom: 25px;
+   line-height: 1.4;
+}
+
+/**************  BREAKPOINTS  ****************/
+
+//  large screens  //
+
+@media only screen and (min-width: 900px) {
+   
+   #title {
+      font-size: 4vw;
+    }
+
+  ul {
+    position: fixed;
+    display: block;
+    margin-left: 25px;
+    bottom: 40px;
+    z-index: 3;
+  }
+}
+
+//  medium screens  //
+
+@media only screen and (max-width: 900px) {
+  
+   .project {
+      padding: 5% 10%;
+
+    #hero-image {
+      margin-left: 50%;
+      width: 60vw;
+      height: 70vh;
+      opacity: 0.5;
+      animation: none;
+    }
+
+    #title {
+      margin-left: 0;
+      font-size: 8vw;
+      animation: none;
+    }
+
+    .section {
+      height: 70vh;
+      width: 100%;
+      margin: 0;
+    }
+    .square {
+      display: none;
+    }
+
+    .poster,
+    .overview,
+    .process {
+      margin: 0;
+      width: 100%;
+
+    }
+
+    ul {
+      display: none;
+    }
+  }
+}

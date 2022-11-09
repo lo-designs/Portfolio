@@ -1,8 +1,8 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import ParralilyCarousel from "../../Carousels/ParralilyCarousel";
-import "./../../PortfolioPages/PortfolioPageStyles.scss";
-import parraHero from "../../Images/ParraLily/parra.jpg"
+import "../PortfolioPages.scss"
+import parraHero from "../../Images/ParraLily/parra.jpg";
 
 function ParraLily() {
   return (
@@ -10,26 +10,23 @@ function ParraLily() {
       <ul className="side-nav">
         <li className="design-process-header"></li>
         <a href="#sctr0">
-          <li className="color-code" id="parra-0"></li>Overview
+          <li className="color-code" id="section-0"></li>Overview
         </a>
         <a href="#sctr1">
-          <li className="color-code" id="parra-1"></li>Objectives
+          <li className="color-code" id="section-1"></li>Objectives
         </a>
       </ul>
       <div>
         <section id="sctr0">
           <div className="cover" id="hero-image">
-            <img
-              src={parraHero}
-              alt=""
-            />
+            <img src={parraHero} alt="" />
           </div>
           <div className="content">
             <div className="intro-position">
               <div>
                 <div id="title">ParraLily</div>
                 <div className="subtitle">Local food truck.</div>
-                <div id="line"></div>
+
                 <div className="project-type">// web design</div>
 
                 <div className="overview">
@@ -54,17 +51,12 @@ function ParraLily() {
 
         <section id="sctr1">
           <div className="cover">
-            <div className="square" id="parra-1"></div>
+            <div className="square" id="section-1"></div>
           </div>
           <div className="content">
             <div className="description">
-              <p className="objectives-title">Objectives & Process</p>
-              <div className="objectives">
-                <p>
-                  ✧ Mobile design first<br></br>✧ Complement logo and color
-                  scheme.
-                </p>
-              </div>
+            <p className="title-number">Objectives //</p>
+              <p className="description-title"></p>
               <p>
                 I started with the mobile design after meeting with the owner
                 and doing some comparative research on other food trucks. I made
@@ -79,7 +71,7 @@ function ParraLily() {
               </p>
             </div>
             <div className="poster">
-               <ParralilyCarousel />
+              <ParralilyCarousel />
             </div>
           </div>
         </section>

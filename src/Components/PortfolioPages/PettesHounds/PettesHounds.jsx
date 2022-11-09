@@ -1,8 +1,8 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
+import "./../PortfolioPages.scss";
+import pettesHero from "../../Images/PettesHounds/pettesHero.jpg";
 import PettesHoundsCarousel from "../../Carousels/PettesHoundsCarousel";
-import "./../../PortfolioPages/PortfolioPageStyles.scss";
-
 
 function PettesHounds() {
   return (
@@ -10,19 +10,16 @@ function PettesHounds() {
       <ul className="side-nav">
         <li className="design-process-header"></li>
         <a href="#sctr0">
-          <li className="color-code" id="pettes-0"></li>Overview
+          <li className="color-code" id="section-0"></li>Overview
         </a>
         <a href="#sctr1">
-          <li className="color-code" id="pettes-1"></li>Objectives
+          <li className="color-code" id="section-1"></li>Objectives
         </a>
       </ul>
       <div>
         <section id="sctr0">
           <div className="cover" id="hero-image">
-            <img
-              src="https://images.unsplash.com/photo-1529472119196-cb724127a98e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9nc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-              alt=""
-            />
+            <img src={pettesHero} alt=""/>
           </div>
           <div className="content">
             <div className="intro-position">
@@ -57,11 +54,12 @@ function PettesHounds() {
 
         <section id="sctr1">
           <div className="cover">
-            <div className="square" id="pettes-1"></div>
+            <div className="square" id="section-1"></div>
           </div>
           <div className="content">
             <div className="description">
-              <h4 className="objectives-title">Objectives</h4>
+              <p className="title-number">Objectives //</p>
+              <p className="description-title"></p>
               <p>
                 Design choices were based around the existing Pette's Hounds
                 website and logo, which I animated using Photoshop. I also

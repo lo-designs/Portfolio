@@ -30,8 +30,7 @@ function About() {
           <br />
           <br />
           animals // road trips // mountains // hiking // the north shore //
-          video games // movies at alamo // A24 films // NightFlight //
-          pancakes.
+          video games // movies at alamo // A24 films // pancakes.
         </p>
       </div>
       </div>
