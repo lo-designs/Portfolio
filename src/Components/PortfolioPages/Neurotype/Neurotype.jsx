@@ -111,7 +111,7 @@ function Neurotype() {
             <div className="poster">
             <div className="poster-image">
                <img src={neuroMap} alt=""></img>
-               <p className="caption"></p>
+               <p className="caption">experience map made in Sketch</p>
             </div>
          
             </div>

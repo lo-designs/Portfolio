@@ -30,6 +30,13 @@
    url("./Fonts/NeueMachina-Light.otf");
 }
 
+@font-face {
+   font-family: "QTJupiter";
+   src: local("QTJupiter"),
+   url("./Fonts//QTJupiter.otf");
+}
+
+
 .App {
    margin: 0;
    z-index: 0;
