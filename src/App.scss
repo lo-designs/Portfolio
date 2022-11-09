@@ -18,6 +18,18 @@
    url("./Fonts/Celebrate-Retro.otf");
 }
 
+@font-face {
+   font-family: "RobotoMono-Regular";
+   src: local("RobotoMono-Regular"),
+   url("./Fonts/RobotoMono-Regular.ttf");
+}
+
+@font-face {
+   font-family: "NeueMachina";
+   src: local("NeueMachina"),
+   url("./Fonts/NeueMachina-Light.otf");
+}
+
 .App {
    margin: 0;
    z-index: 0;
@@ -30,45 +42,6 @@
    width: 100%;
    overflow-x: hidden;
    background: rgba(253, 255, 246, 0.969);
-
-   p {
-      font-family: "Vercetti";
-      font-size: 0.95rem;
-   }
-
-   // h1 {
-
-   // }
-}
-
-
-/*************  ACCESSIBILITY  **************/
-
-/* screen reader */
-
-.sr-only {
-   position: absolute;
-   width: 1px;
-   height: 1px;
-   padding: 0;
-   margin: -1px;
-   overflow: hidden;
-   clip: rect(0, 0, 0, 0);
-   white-space: nowrap; /* added line */
-   border: 0;
-}
-
-/* remove animations if on */
-
-@media (prefers-reduced-motion: reduce) {
-   *,
-   *::before,
-   *::after {
-       animation-duration: 0.01ms !important;
-       animation-iteration-count: 1 !important;
-       transition-duration: 0.01ms !important;
-       scroll-behavior: auto !important;
-   }
 }
 
 /*************  CUSTOM STYLING  **************/
@@ -84,27 +57,6 @@
    display: flex grid;
    gap: 1.5rem;
 }
-
-/* font sizes */
-
-// :root {
-//    --h1-font-size: 8.5rem;
-//    --h2-font-size: 4.1rem;
-//    --h3-font-size: 3rem;
-//    --normal-font-size: 1rem;
-//    --small-font-size: 0.9rem;
-//    --tiny-font-size: 0.7rem;
-// }
-
-/* responsive font sizes */
-
-// @media screen and (max-width: 992px) {
-//    :root {
-//       --h1-font-size: 2.7rem;
-//       --h2-font-size: 2rem;
-//       --h3-font-size: 1.5rem;
-//    }
-// }
 
 /* images */
 
@@ -157,18 +109,33 @@ li {
    z-index: -1;
    background: url(https://media1.giphy.com/media/oy7wGVaohJYe4/giphy.gif?cid=ecf05e47w9zfo9w5e69oarasbvyxg47ic22xvvyfl250qfaq&rid=giphy.gif&ct=g); 
    background-size: cover!important;
-   // background: url(https://media0.giphy.com/media/8w2ZGnUDuCiGxHvPlh/giphy.gif?cid=ecf05e470hkdijnwcv1rrhzdifvdp2utbkps1sg85o9f5wso&rid=giphy.gif&ct=g);
-   // background: url(https://media0.giphy.com/media/8lTkzmiEOZ9U6y1UFV/giphy.gif?cid=790b7611d32ec8e171d518430c2a01747a7791610834a6d2&rid=giphy.gif&ct=g);
-   // background: url(https://media4.giphy.com/media/9JgcrlWyZsNYALnAEo/giphy.gif?cid=790b7611cb948175a2994da54170716c36a408abf4bfc297&rid=giphy.gif&ct=g);
-
 }
 
-/*************  BREAK POINTS  **************/
+/*************  ACCESSIBILITY  **************/
 
-/* large devices */
+/* screen reader */
 
-// @media screen and (max-width: 480px) {
-//    .App {
-//       padding: 0.5rem 1rem;
-//    }
-// }
+.sr-only {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   padding: 0;
+   margin: -1px;
+   overflow: hidden;
+   clip: rect(0, 0, 0, 0);
+   white-space: nowrap; /* added line */
+   border: 0;
+}
+
+/* remove animations if on */
+
+@media (prefers-reduced-motion: reduce) {
+   *,
+   *::before,
+   *::after {
+       animation-duration: 0.01ms !important;
+       animation-iteration-count: 1 !important;
+       transition-duration: 0.01ms !important;
+       scroll-behavior: auto !important;
+   }
+}

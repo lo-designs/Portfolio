@@ -1,17 +1,19 @@
 .about-section {
   padding: 0 5%;
   height: 100vh;
-  margin-top: 150px;
+  margin-top: 100px;
 
   .about-heading {
-    font-size: 2.9rem;
-    font-family: "CELEBRATE RETRO";
+    font-size: 2.7rem;
+    font-family: "Celebrate-Retro";
     line-height: 0.9em;
     padding-bottom: 30px;
   }
 
   .about-summary {
     width: 40vw;
+    font-family: "Vercetti";
+    font-size: 0.9rem;
   }
 
   .about-me {
@@ -33,16 +35,18 @@
       // border-radius: 15px;
     .favorite-things {
       padding-top: 25px;
-      font-size: 0.8rem;
-      font-family: monospace;
+      font-size: 0.75rem;
+      font-family: "RobotoMono-Regular";
       text-transform: uppercase;
     }
   }
 }
 
+/**************  BREAKPOINTS  ****************/
+
 @media screen and (max-width: 850px) {
   .about-section {
-    padding: 0 1.5rem;
+    padding: 0 2rem;
     margin: 7rem 0;
 
     .about-summary {
@@ -55,13 +59,9 @@
       padding-left: 0;
 
       .me {
-        padding-right: 25px;
-        width: 70vw;
+        width: 80%;
       }
 
-      .favorite-things {
-        padding-left: 25px;
-      }
     }
     .about-heading {
       font-size: 3rem;
