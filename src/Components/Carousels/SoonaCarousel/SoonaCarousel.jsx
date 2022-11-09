@@ -7,7 +7,7 @@ import quickView from "../../Images/Soona/quick-view.png";
 import styleGuide from "../../Images/Soona/styles.png";
 import wipPopup from "../../Images/Soona/wip.png";
 
-function SoonaCarousel3() {
+function SoonaCarousel() {
   return (
     <div className="carousel">
       <Carousel fade>
@@ -64,4 +64,4 @@ function SoonaCarousel3() {
   );
 }
 
-export default SoonaCarousel3;
+export default SoonaCarousel;
