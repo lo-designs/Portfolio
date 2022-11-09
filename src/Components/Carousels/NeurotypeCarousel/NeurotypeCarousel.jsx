@@ -5,10 +5,10 @@ import "./../Carousel.scss";
 import dataDashboard from "../../Images/Neurotype/dashboard.png";
 import data2 from "../../Images/Neurotype/data2.png";
 
-function NeurotypeCarousel3() {
+function NeurotypeCarousel() {
   return (
     <div className="carousel">
-      <Carousel fade>
+      <Carousel>
         <Carousel.Item>
           <img
             id="carousel-item"
@@ -16,8 +16,8 @@ function NeurotypeCarousel3() {
             src={dataDashboard}
             alt="dashboard"
           />
-          <div className="carousel-caption">
-            <p>Prototype: dashboard view</p>
+            <div className="carousel-caption">
+            <p>Prototype: data view 1</p>
           </div>
         </Carousel.Item>
 
@@ -33,20 +33,10 @@ function NeurotypeCarousel3() {
           </div>
         </Carousel.Item>
 
-        {/* <Carousel.Item>
-          <img
-            id="carousel-item"
-            className="d-block w-100"
-            // src={}
-            alt="Third slide"
-          />
-          <div className="carousel-caption">
-            <p>original all serices page</p>
-          </div>
-        </Carousel.Item> */}
+   
       </Carousel>
     </div>
   );
 }
 
-export default NeurotypeCarousel3;
+export default NeurotypeCarousel;
