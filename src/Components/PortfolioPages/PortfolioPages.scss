@@ -266,7 +266,7 @@ section .content {
     .section {
       width: 100%;
       margin: 0;
-      padding: 25px 0;
+      padding: 45px 0;
     }
     .square {
       display: none;
@@ -280,7 +280,7 @@ section .content {
     }
 
     .caption {
-      // margin-top: 25px!important;
+      padding-top: 15px;
       color: black!important;
     }
 
