@@ -12,7 +12,7 @@
     font-size: 9rem;
     line-height: 1em;
     font-weight: bold;
-    margin-bottom: 25vh;
+    margin-bottom: 21vh;
     font-family: "Celebrate-Retro";
     word-wrap: break-word;
     text-transform: capitalize;
@@ -24,27 +24,24 @@
 @media screen and (max-width: 1050px) {
   h1 {
     font-size: 8rem !important;
-    word-break: break-word;
   }
 }
 
 @media screen and (max-width: 800px) {
   h1 {
     font-size: 6rem !important;
-    word-break: break-word;
   }
 }
 
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 4rem !important;
-    word-break: break-word;
+    margin-bottom: 25vh;
   }
 }
 
 @media screen and (max-width: 400px) {
   h1 {
-    font-size: 3.1rem !important;
-    word-break: break-word;
-  }
-}
+    font-size: 2.9rem !important;
+    margin-bottom: 30vh;
+  }}

@@ -1,7 +1,36 @@
 *, *::after, *::before {
    margin: 0;
    padding: 0;
-   // box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/*************  ACCESSIBILITY  **************/
+
+/* screen reader */
+
+.sr-only {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   padding: 0;
+   margin: -1px;
+   overflow: hidden;
+   clip: rect(0, 0, 0, 0);
+   white-space: nowrap; /* added line */
+   border: 0;
+}
+
+/* remove animations if on */
+
+@media (prefers-reduced-motion: reduce) {
+   *,
+   *::before,
+   *::after {
+       animation-duration: 0.01ms !important;
+       animation-iteration-count: 1 !important;
+       transition-duration: 0.01ms !important;
+       scroll-behavior: auto !important;
+   }
 }
 
 /*****************  FONTS  ******************/
@@ -95,7 +124,7 @@ li {
 }
 
 ::-webkit-scrollbar-thumb {
-   background-color: olivedrab;
+   background-color: rgb(189, 172, 252);
    border-radius: 5px;
 }
 
@@ -116,33 +145,4 @@ li {
    z-index: -1;
    background: url(https://media1.giphy.com/media/oy7wGVaohJYe4/giphy.gif?cid=ecf05e47w9zfo9w5e69oarasbvyxg47ic22xvvyfl250qfaq&rid=giphy.gif&ct=g); 
    background-size: cover!important;
-}
-
-/*************  ACCESSIBILITY  **************/
-
-/* screen reader */
-
-.sr-only {
-   position: absolute;
-   width: 1px;
-   height: 1px;
-   padding: 0;
-   margin: -1px;
-   overflow: hidden;
-   clip: rect(0, 0, 0, 0);
-   white-space: nowrap; /* added line */
-   border: 0;
-}
-
-/* remove animations if on */
-
-@media (prefers-reduced-motion: reduce) {
-   *,
-   *::before,
-   *::after {
-       animation-duration: 0.01ms !important;
-       animation-iteration-count: 1 !important;
-       transition-duration: 0.01ms !important;
-       scroll-behavior: auto !important;
-   }
 }

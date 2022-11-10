@@ -153,7 +153,7 @@ function Neurotype() {
           </div>
           <div className="content">
             <div className="description">
-              <div className="summary-section">
+              <div id="summary-section">
                 <p className="title-number">// Summary</p>
                 <p className="description-title">
                   Substantiating OUD treatment.

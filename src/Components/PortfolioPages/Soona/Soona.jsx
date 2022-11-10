@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import "./../PortfolioPages.scss";
-import soonaHero from "../../Images/Soona/soonaHero.jpg.webp";
+import soonaHero from "../../Images/Soona/newSoona.jpg";
 import soonaGif from "../../Images/Soona/soonaGif.gif";
 import journeyMap from "../../Images/Soona/journey.png";
 import soonaKano from "../../Images/Soona/kano.png";

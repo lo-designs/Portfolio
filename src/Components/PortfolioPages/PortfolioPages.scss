@@ -65,13 +65,13 @@
   background-color: rgb(40, 40, 40);
 }
 #section-2 {
-  background-color: #a94f33;
+  background-color: rgb(155, 74, 49);
 }
 #section-3 {
-  background-color: #4d673b;
+  background-color: rgb(78, 104, 60);
 }
 #section-4 {
-  background-color: #e3d0f3;
+  background-color: rgb(214, 203, 254);
 }
 
 /***************  SECTIONS  ****************/
@@ -170,7 +170,7 @@ section .content {
 
 .subtitle {
   margin-left: 10.1vw;
-  font-family: monospace;
+  font-family: "RobotoMono-Regular";
   font-size: 1rem;
   margin-top: 15px;
 }
@@ -183,7 +183,7 @@ section .content {
 }
 
 .project-type {
-  font-family: monospace;
+  font-family: "RobotoMono-Regular";
   font-size: 1rem;
   text-transform: uppercase;
   margin-top: 15px;
@@ -215,7 +215,7 @@ section .content {
 @media only screen and (max-width: 900px) {
   .project {
    
-   padding: 0 2rem 10rem 2rem;
+   padding: 0 2rem 30rem 2rem;
 
     #hero-image {
       margin-left: 50%;
@@ -231,12 +231,21 @@ section .content {
       animation: none;
     }
 
+    #summary-section {
+      padding-top: 200px!important;
+    }
+
+    .poster-carousel {
+      padding-bottom: 30px!important;
+    }
+
     .project-type {
       margin-left: 0;
     }
 
     .intro-position,
     .description-position {
+      top: 50vh;
       left: 0;
     }
 
@@ -251,7 +260,6 @@ section .content {
     }
 
     .section {
-      height: 70vh;
       width: 100%;
       margin: 0;
     }
@@ -264,10 +272,6 @@ section .content {
     .process {
       margin: 0;
       width: 100%;
-    }
-
-    .poster-image {
-      padding-bottom: 100px;
     }
 
     .caption {
