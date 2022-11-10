@@ -236,6 +236,10 @@ section .content {
     }
 
     .poster-carousel {
+      padding-bottom: 75px!important;
+    }
+
+    .poster-image {
       padding-bottom: 30px!important;
     }
 
@@ -262,6 +266,7 @@ section .content {
     .section {
       width: 100%;
       margin: 0;
+      padding: 25px 0;
     }
     .square {
       display: none;
@@ -275,6 +280,7 @@ section .content {
     }
 
     .caption {
+      // margin-top: 25px!important;
       color: black!important;
     }
 
