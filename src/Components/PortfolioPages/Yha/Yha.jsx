@@ -84,7 +84,7 @@ function Yha() {
             </div>
             <div className="poster">
               <img id="resources" src={resources} alt=""></img>
-              <p id="resources-caption" className="caption">Some existing resources</p>
+              <p id="resources-caption" className="caption">✧ Some existing resources</p>
             </div>
           </div>
         </section>
@@ -113,7 +113,7 @@ function Yha() {
             </div>
             <div className="poster">
               <img src={yhaMap} alt=""></img>
-              <p className="caption">Experience map made in XD</p>
+              <p className="caption">✧ Experience map made in XD</p>
             </div>
           </div>
         </section>
@@ -141,7 +141,7 @@ function Yha() {
             <div className="poster">
               <img src={yhaFigma} alt=""></img>
               <p className="caption">
-                Prototype screens & color scheme made in Figma
+              ✧ Prototype screens & color scheme made in Figma
               </p>
             </div>
           </div>
@@ -166,7 +166,7 @@ function Yha() {
             </div>
             <div className="poster">
               <img src={youMatter} alt=""></img>
-              <p className="last-caption">Logo concept/GIF made in Photoshop</p>
+              <p className="last-caption">✧ Logo concept/GIF made in Photoshop</p>
             </div>
           </div>
         </section>

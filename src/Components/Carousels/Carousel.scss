@@ -6,20 +6,15 @@
 
   .carousel-caption {
     font-family: "RobotoMono-Regular";
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     text-transform: uppercase;
-    mix-blend-mode: difference;
-    margin: 0;
+      bottom: -35px!important;
+      mix-blend-mode: difference;
+
   }
 }
 
 /**************  BREAKPOINTS  ****************/
-
-@media only screen and (max-width: 900px) {
-  .carousel-caption {
-    mix-blend-mode: difference;
-  }
-}
 
 @media only screen and (max-width: 500px) {
   .carousel {

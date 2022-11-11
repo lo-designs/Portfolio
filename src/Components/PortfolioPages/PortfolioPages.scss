@@ -117,7 +117,7 @@ section .content {
 .caption {
   padding-top: 20px;
   font-family: "RobotoMono-Regular";
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   color: rgba(253, 255, 246, 0.969);
 }
@@ -266,6 +266,11 @@ section .content {
     .caption,
     .last-caption {
       color: rgb(19, 19, 19) !important;
+      font-size: 0.8rem;
+    }
+
+    .caption {
+      padding-bottom: 30px;
     }
 
     .last-caption {

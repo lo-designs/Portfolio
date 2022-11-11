@@ -82,7 +82,7 @@ function Neurotype() {
             </div>
             <div className="poster">
               <img src={neuroLogo} alt=""></img>
-              <p className="caption">Logo concept</p>
+              <p className="caption">✧ Logo concept</p>
             </div>
           </div>
         </section>
@@ -109,7 +109,7 @@ function Neurotype() {
             </div>
             <div className="poster">
               <img src={neuroMap} alt=""></img>
-              <p className="caption">experience map made in Sketch</p>
+              <p className="caption">✧ Experience map made in Sketch</p>
             </div>
           </div>
         </section>
@@ -141,7 +141,7 @@ function Neurotype() {
               </div>
               <div id="mobile-images">
                 <img src={neuroData} alt=""></img>
-                <p className="caption">Prototype // dashboard view</p>
+                <p className="caption">✧ Prototype // Data view 1</p>
               </div>
             </div>
           </div>
@@ -168,7 +168,7 @@ function Neurotype() {
             </div>
             <div className="poster">
               <img src={neuroGif} alt=""></img>
-              <p className="last-caption">Neurotype GIF made in Photoshop</p>
+              <p className="last-caption">✧ Neurotype GIF made in Photoshop</p>
             </div>
           </div>
         </section>

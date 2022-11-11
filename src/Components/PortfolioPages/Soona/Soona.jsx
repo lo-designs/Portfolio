@@ -87,7 +87,7 @@ function Soona() {
             </div>
             <div className="poster">
               <img src={journeyMap} alt=""></img>
-              <p className="caption">Customer Journey Map made in Sketch</p>
+              <p className="caption">✧ Customer Journey Map made in Sketch</p>
             </div>
           </div>
         </section>
@@ -117,7 +117,7 @@ function Soona() {
             <div className="poster">
               <img src={soonaKano} alt=""></img>
               <p className="caption">
-                kano analysis of proposed soona features
+              ✧ Kano Analysis of proposed soona features
               </p>
             </div>
           </div>
@@ -148,9 +148,9 @@ function Soona() {
             <div id="mobile-images">
               <div className="poster">
                 <img src={soonaProgressBar} alt=""></img>
-                <p className="caption">Proposed Feature // progress bar</p>
+                <p className="caption">✧ Proposed Feature // progress bar</p>
                 <img src={soonaQuickView} alt=""></img>
-                <p className="caption">Proposed feature // quick view option</p>
+                <p className="caption">✧ Proposed feature // quick view option</p>
               </div>
          
             </div>
