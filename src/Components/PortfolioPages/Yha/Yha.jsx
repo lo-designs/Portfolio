@@ -53,7 +53,7 @@ function Yha() {
                   <p>
                     The challenge was to learn about resources that currently
                     exist to find areas of opportunity, and determine a way to
-                    make these reasources readily available.
+                    make resources more readily available.
                   </p>
                 </div>
               </div>
