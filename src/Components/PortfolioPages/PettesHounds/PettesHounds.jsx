@@ -88,13 +88,13 @@ function PettesHounds() {
                 ✧ Pette's Hounds logo I animated using Photoshop
                 </p>
                 <img src={homeOg} alt=""></img>
-                <p className="caption">✧ Before redesign // Home page</p>
+                <p className="caption">✧ Before redesign: Home page</p>
                 <img src={homeNew} alt=""></img>
-                <p className="caption">✧ Redesign // Home page</p>
+                <p className="caption">✧ Redesign: Home page</p>
                 <img src={servicesOg} alt=""></img>
-                <p className="caption">✧ Before redesign // Services page</p>
+                <p className="caption">✧ Before redesign: Services page</p>
                 <img src={servicesNew} alt=""></img>
-                <p className="last-caption">✧ Redesign // Services page</p>
+                <p className="last-caption">✧ Redesign: Services page</p>
               </div>
             </div>
           </div>

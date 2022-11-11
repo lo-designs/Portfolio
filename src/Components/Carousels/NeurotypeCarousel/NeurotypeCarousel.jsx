@@ -17,7 +17,7 @@ function NeurotypeCarousel() {
             alt="dashboard"
           />
             <div className="carousel-caption">
-            <p>Prototype // dashboard view</p>
+            <p>Prototype: dashboard view</p>
           </div>
         </Carousel.Item>
 
@@ -29,7 +29,7 @@ function NeurotypeCarousel() {
             alt="Second slide"
           />
           <div className="carousel-caption">
-            <p>Prototype // data view 1</p>
+            <p>Prototype: data view 1</p>
           </div>
         </Carousel.Item>
 
