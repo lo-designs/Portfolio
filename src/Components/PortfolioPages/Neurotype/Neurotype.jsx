@@ -47,7 +47,7 @@ function Neurotype() {
                   <p>
                     Neurotype is working to create a digital platform that will
                     facilitate the use of a portable electroencephalogram (EEG)
-                    test in the treatment of opioid use disorder (OUD). We had
+                    test to aid in the treatment of opioid use disorder (OUD). We had
                     the privilege of working with Neurotype to help determine
                     the best way to implement an EEG into a standard
                     therapy/clinical setting, as well as create an interface
