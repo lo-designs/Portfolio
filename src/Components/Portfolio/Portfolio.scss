@@ -3,7 +3,9 @@
 #outta,
 #outta-marquee,
 #soona,
-#soona-marquee {
+#soona-marquee,
+#parra,
+#parra-marquee {
   font-family: "Celebrate-Retro";
 }
 
@@ -13,13 +15,8 @@
 #pettes-marquee,
 #neuro,
 #neuro-marquee {
-  font-family: "NeueMachina";
-  font-weight: 400;
-}
-
-#parra,
-#parra-marquee {
-  font-family: "QTJupiter";
+  font-family: "Vercetti";
+  font-weight: 500;
 }
 
 .portfolio {
@@ -43,9 +40,9 @@
     padding: 10px 0 20px;
   }
 
-//   .portfolio-summary {
+  //   .portfolio-summary {
 
-//   }
+  //   }
 }
 
 .work__type {
@@ -67,7 +64,6 @@
 .menu__item {
   position: relative;
   border-bottom: 1px solid;
-
 }
 
 .menu__item-link {
@@ -194,6 +190,10 @@
 /**************  BREAKPOINTS  ****************/
 
 @media only screen and (max-width: 900px) {
+  .portfolio-header {
+    font-size: 2rem;
+  }
+
   .work__type {
     float: none;
     font-size: 0.7rem;
@@ -210,7 +210,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-   .menu__item-img {
-      width: 60vw;
-     }
+  .menu__item-img {
+    width: 60vw;
+  }
 }

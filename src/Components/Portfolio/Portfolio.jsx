@@ -12,7 +12,7 @@ function Portfolio() {
   return (
     <div className="portfolio">
       <div className="portfolio-intro">
-        <h2 className="portfolio-header">Portfolio</h2>
+        <h3 className="portfolio-header">Portfolio</h3>
         <h3 className="portfolio-subheader">
           Web design & development // UX UI design
         </h3>
@@ -58,26 +58,24 @@ function Portfolio() {
             </div>
           </div>
         </div>
+
         <div className="menu__item">
-          <a id="outta" href="/outtawax" className="menu__item-link">
-            Outta Wax
+          <a id="yha" href="/yha" className="menu__item-link">
+            Youth Resources App
             <p className="work__type">
-              [COMING SOON!] vinyl pressing services // web design
+              self-defined project // web + ux ui design
             </p>
           </a>
-          <img
-            className="menu__item-img"
-            src={outtaHover}
-            alt="vinyl records"
-          />
+          <img className="menu__item-img" src={yhaHover} alt="" />
           <div className="marquee">
-            <div id="outta-marquee" className="marquee__inner">
-              <span>Outta Wax</span>
-              <span>// web design //</span>
-              <span>Vinyl pressing services. [COMING SOON!]</span>
+            <div id="yha-marquee" className="marquee__inner" aria-hidden="true">
+              <span>Youth Resources App</span>
+              <span>// web + ux ui design //</span>
+              <span>Self-defined project.</span>
             </div>
           </div>
         </div>
+
         <div className="menu__item">
           <a id="neuro" href="/neurotype" className="menu__item-link">
             Neurotype
@@ -111,19 +109,25 @@ function Portfolio() {
           </div>
         </div>
 
+
+
         <div className="menu__item">
-          <a id="yha" href="/yha" className="menu__item-link">
-            Youth Resources App
+          <a id="outta" href="/outtawax" className="menu__item-link">
+            Outta Wax
             <p className="work__type">
-              self-defined project // web + ux ui design
+              [COMING SOON!] vinyl pressing services // web design
             </p>
           </a>
-          <img className="menu__item-img" src={yhaHover} alt="" />
+          <img
+            className="menu__item-img"
+            src={outtaHover}
+            alt="vinyl records"
+          />
           <div className="marquee">
-            <div id="yha-marquee" className="marquee__inner" aria-hidden="true">
-              <span>Youth Resources App</span>
-              <span>// web + ux ui design //</span>
-              <span>Self-defined project.</span>
+            <div id="outta-marquee" className="marquee__inner">
+              <span>Outta Wax</span>
+              <span>// web design //</span>
+              <span>Vinyl pressing services. [COMING SOON!]</span>
             </div>
           </div>
         </div>
