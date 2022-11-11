@@ -2,7 +2,7 @@
 import React from "react";
 import "./../PortfolioPages.scss";
 import NeurotypeCarousel from "../../Carousels/NeurotypeCarousel/NeurotypeCarousel";
-import neuroHero from "../../Images/Neurotype/hero2.jpg";
+import neuroHero from "../../Images/Neurotype/newNeuro.jpg";
 import neuroGif from "../../Images/Neurotype/neuro-gif-ps.gif";
 import neuroLogo from "../../Images/Neurotype/logo-concept.png";
 import neuroMap from "../../Images/Neurotype/experience-map.png";
