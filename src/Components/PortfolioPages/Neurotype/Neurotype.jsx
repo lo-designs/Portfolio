@@ -12,20 +12,20 @@ function Neurotype() {
     <div className="project">
       <ul className="side-nav">
         <li className="design-process-header"></li>
-        <a href="#sctr0">
-          <li className="color-code" id="section-0"></li>Overview
+        <a className="side-nav-link" href="#sctr0">
+          <li id="section-0"></li>Overview
         </a>
-        <a href="#sctr1">
-          <li className="color-code" id="section-1"></li>Process
+        <a className="side-nav-link" href="#sctr1">
+          <li id="section-1"></li>Process
         </a>
-        <a href="#sctr2">
-          <li className="color-code" id="section-2"></li>Testing
+        <a className="side-nav-link" href="#sctr2">
+          <li id="section-2"></li>Testing
         </a>
-        <a href="#sctr3">
-          <li className="color-code" id="section-3"></li>Prototyping
+        <a className="side-nav-link" href="#sctr3">
+          <li id="section-3"></li>Prototyping
         </a>
-        <a href="#sctr4">
-          <li className="color-code" id="section-4"></li>Summary
+        <a className="side-nav-link" href="#sctr4">
+          <li id="section-4"></li>Summary
         </a>
       </ul>
       <div>

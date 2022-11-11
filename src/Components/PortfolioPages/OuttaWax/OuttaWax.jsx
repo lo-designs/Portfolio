@@ -6,15 +6,7 @@ import outtaHero from "../../Images/OuttaWax/OuttaWax.jpg";
 function OuttaWax() {
   return (
     <div className="project">
-      {/* <ul className="side-nav">
-        <li className="design-process-header"></li>
-        <a href="#sctr0">
-          <li className="color-code" id="section-0"></li>Overview
-        </a>
-        <a href="#sctr1">
-          <li className="color-code" id="section-2"></li>Objectives
-        </a>
-      </ul> */}
+
       <div>
         <section id="sctr0">
           <div className="cover" id="hero-image">

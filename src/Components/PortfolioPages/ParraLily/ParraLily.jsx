@@ -9,11 +9,11 @@ function ParraLily() {
     <div className="project">
       <ul className="side-nav">
         <li className="design-process-header"></li>
-        <a href="#sctr0">
-          <li className="color-code" id="section-0"></li>Overview
+        <a className="side-nav-link" href="#sctr0">
+          <li id="section-0"></li>Overview
         </a>
-        <a href="#sctr1">
-          <li className="color-code" id="section-1"></li>Objectives
+        <a className="side-nav-link" href="#sctr1">
+          <li id="section-1"></li>Objectives
         </a>
       </ul>
       <div>
