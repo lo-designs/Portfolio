@@ -6,6 +6,8 @@ import neuroHero from "../../Images/Neurotype/hero2.jpg";
 import neuroGif from "../../Images/Neurotype/neuro-gif-ps.gif";
 import neuroLogo from "../../Images/Neurotype/logo-concept.png";
 import neuroMap from "../../Images/Neurotype/experience-map.png";
+import neuroDash from "../../Images/Neurotype/dashboard.png";
+
 
 function Neurotype() {
   return (
@@ -41,7 +43,6 @@ function Neurotype() {
                 <div className="subtitle">
                   App design for early stage medical startup.
                 </div>
-                
 
                 <div className="overview">
                   <p>
@@ -81,10 +82,10 @@ function Neurotype() {
               </p>
             </div>
             <div className="poster">
-            <div className="poster-image">
-               <img src={neuroLogo} alt=""></img>
-               <p className="caption">Logo concept</p>
-            </div>
+              <div className="poster-image">
+                <img src={neuroLogo} alt=""></img>
+                <p className="caption">Logo concept</p>
+              </div>
             </div>
           </div>
         </section>
@@ -110,11 +111,10 @@ function Neurotype() {
               </p>
             </div>
             <div className="poster">
-            <div className="poster-image">
-               <img src={neuroMap} alt=""></img>
-               <p className="caption">experience map made in Sketch</p>
-            </div>
-         
+              <div className="poster-image">
+                <img src={neuroMap} alt=""></img>
+                <p className="caption">experience map made in Sketch</p>
+              </div>
             </div>
           </div>
         </section>
@@ -141,20 +141,29 @@ function Neurotype() {
               </p>
             </div>
             <div className="poster">
-            <div className="poster-carousel">
-              <NeurotypeCarousel />
+              <div className="poster-carousel">
+                <NeurotypeCarousel />
               </div>
+            </div>
+
+            <div id="mobile-images">
+              <div className="poster-image">
+                <img src={neuroDash} alt=""></img>
+                <p className="caption">Prototype // dashboard view</p>
               </div>
+   
+            </div>
           </div>
         </section>
 
         <section id="sctr4">
-          <div className="cover">
-            <div className="square" id="section-4"></div>
-          </div>
-          <div className="content">
-            <div className="description">
-              <div id="summary-section">
+          <div className="summary-section">
+            <div className="cover">
+              <div className="square" id="section-4"></div>
+            </div>
+
+            <div className="content">
+              <div className="description">
                 <p className="title-number">// Summary</p>
                 <p className="description-title">
                   Substantiating OUD treatment.
@@ -167,15 +176,15 @@ function Neurotype() {
                   interpretable data. Data from an EEG would provide
                   practitioners with quantitative data in addition to
                   qualitative, helping to substantiate and inform treatment of
-                  OUD
+                  OUD.
                 </p>
               </div>
-            </div>
-            <div className="poster">
-            <div className="poster-image">
-               <img src={neuroGif} alt=""></img>
-               <p className="caption">Neurotype GIF made in Photoshop</p>
-            </div>
+              <div className="poster">
+                <div className="poster-image">
+                  <img src={neuroGif} alt=""></img>
+                  <p className="caption">Neurotype GIF made in Photoshop</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>

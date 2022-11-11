@@ -114,7 +114,6 @@ section .content {
 
 .poster-carousel {
   margin-top: 10vh;
-  max-height: 200px !important;
 }
 
 .poster-image {
@@ -212,14 +211,14 @@ section .content {
 
 @media only screen and (max-width: 900px) {
   .project {
-    padding: 0 2rem 30rem 2rem;
+    padding: 0 2rem 10rem 2rem;
 
     #hero-image {
       position: absolute;
-      margin-left: 50%;
-      width: 60vw;
-      height: 70vh;
-      opacity: 0.5;
+      margin-left: 25%;
+      width: 70vw;
+      height: 60vh;
+      opacity: 0.4;
       animation: none;
     }
 
@@ -229,16 +228,19 @@ section .content {
       animation: none;
     }
 
-    #summary-section {
-      padding-top: 200px !important;
+    .section {
+      height: 70vh;
+      width: 100%;
+      margin: 0;
     }
 
-    .content {
-      padding-top: 25px;
+    .summary-section {
+      padding-top: 25vh;
     }
-
+    
     .poster-image {
-      padding-bottom: 70px !important;
+      margin-top: 0;
+      margin-bottom: 55px;
     }
 
     .project-type {
@@ -247,14 +249,13 @@ section .content {
 
     .intro-position,
     .description-position {
-      top: 50vh;
+      top: 45vh;
       left: 0;
     }
 
     .description {
       width: 100%;
       margin-left: 0;
-      padding-bottom: 20px;
     }
 
     .subtitle {
@@ -262,11 +263,6 @@ section .content {
       width: 100%;
     }
 
-    .section {
-      width: 100%;
-      margin: 0;
-      padding: 45px 0;
-    }
     .square {
       display: none;
     }
@@ -286,5 +282,18 @@ section .content {
     ul {
       display: none;
     }
+
   }
+}
+
+@media only screen and (min-width: 550px) {
+   #mobile-images {
+      display: none;
+   }
+}
+
+@media only screen and (max-width: 549.99px) {
+   #mobile-images {
+      display: all;
+   }
 }

@@ -26,12 +26,14 @@
 
 @media only screen and (max-width: 900px) {
 
-   .carousel {
-      background: #212121;
-      object-fit: contain;
-   }
-
    .carousel-caption {
       mix-blend-mode: difference;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+
+   .carousel {
+      display: none;
    }
 }

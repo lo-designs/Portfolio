@@ -4,7 +4,7 @@ import "./Portfolio.scss";
 import pettesHover from "./../Images/PettesHounds/phHover.jpg";
 import neuroHover from "./../Images/Neurotype/neuro-gif-ps.gif";
 import outtaHover from "./../Images/OuttaWax/outtaHover.jpg";
-import parraHover from "./../Images/ParraLily/designboard.png";
+import parraHover from "./../Images/ParraLily/parraHover3.png";
 import soonaHover from "./../Images/Soona/soonaGif.gif";
 import yhaHover from "./../Images/YHA/YouMatter.gif";
 

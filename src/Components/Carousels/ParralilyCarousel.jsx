@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Carousel.scss";
-import parraMenu from "../Images/ParraLily/parraMenu2.png";
+import parraMenu from "../Images/ParraLily/parraLilyBrunch.png";
 import designBoard from "../Images/ParraLily/designboard.png";
 import wireFrames from "../Images/ParraLily/wireframes.png";
 

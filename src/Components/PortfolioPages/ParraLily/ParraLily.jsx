@@ -3,6 +3,9 @@ import React from "react";
 import ParralilyCarousel from "../../Carousels/ParralilyCarousel";
 import "../PortfolioPages.scss";
 import parraHero from "../../Images/ParraLily/parra.jpg";
+import parraMenu from "../../Images/ParraLily/parraLilyBrunch.png";
+import designBoard from "../../Images/ParraLily/designboard.png";
+import parraProto from "../../Images/ParraLily/wireframes.png";
 
 function ParraLily() {
   return (
@@ -71,6 +74,21 @@ function ParraLily() {
             </div>
             <div className="poster">
               <ParralilyCarousel />
+            </div>
+            <div id="mobile-images">
+            <div className="poster-image">
+               <img src={parraMenu} alt=""></img>
+               <p className="caption">Menu I designed for brunch event</p>
+            </div>
+            <div className="poster-image">
+               <img src={designBoard} alt=""></img>
+               <p className="caption">design board made in Adobe XD</p>
+            </div>
+            <div className="poster-image">
+               <img src={parraProto} alt=""></img>
+               <p className="caption">Wireframes made in Adobe XD</p>
+            </div>
+     
             </div>
           </div>
         </section>
