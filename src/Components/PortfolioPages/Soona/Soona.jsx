@@ -86,10 +86,8 @@ function Soona() {
               </p>
             </div>
             <div className="poster">
-              <div className="poster-image">
-                <img src={journeyMap} alt=""></img>
-                <p className="caption">Customer Journey Map made in Sketch</p>
-              </div>
+              <img src={journeyMap} alt=""></img>
+              <p className="caption">Customer Journey Map made in Sketch</p>
             </div>
           </div>
         </section>
@@ -117,12 +115,10 @@ function Soona() {
               </p>
             </div>
             <div className="poster">
-              <div className="poster-image">
-                <img src={soonaKano} alt=""></img>
-                <p className="caption">
-                  kano analysis of proposed soona features
-                </p>
-              </div>
+              <img src={soonaKano} alt=""></img>
+              <p className="caption">
+                kano analysis of proposed soona features
+              </p>
             </div>
           </div>
         </section>
@@ -138,11 +134,10 @@ function Soona() {
                 03 Fitting the developer's time budget.
               </p>
               <p>
-                Four of the features that ranked highest based on the Kano
-                analysis were recommended in my feature proposal. These features
-                also needed to fit within the developer’s time budget of 40
-                hours. I created annotated wireframes of those features for the
-                feature proposal.
+                I created annotated wireframes of the four features that ranked
+                highest in the Kano analysis for the feature proposal. These
+                features were also required to fit within the developer’s time
+                budget of 40 hours.
               </p>
             </div>
             <div className="poster">
@@ -151,11 +146,11 @@ function Soona() {
               </div>
             </div>
             <div id="mobile-images">
-              <div className="poster-image">
+              <div className="poster">
                 <img src={soonaProgressBar} alt=""></img>
                 <p className="caption">Proposed Feature // progress bar</p>
               </div>
-              <div className="poster-image">
+              <div className="poster">
                 <img src={soonaQuickView} alt=""></img>
                 <p className="caption">Proposed feature // quick view option</p>
               </div>
@@ -164,28 +159,24 @@ function Soona() {
         </section>
 
         <section id="sctr4">
-        <div className="summary-section">
           <div className="cover">
             <div className="square" id="section-4"></div>
           </div>
-       
-            <div className="content">
-              <div className="description">
-                <p className="title-number">// Summary</p>
-                <p className="description-title">A little guidance.</p>
-                <p>
-                  Simple features were suggested to help guide customers through
-                  the process of booking a shoot. These features included: a
-                  progress bar, quick view options, a work-in-progress pop-up
-                  message, and a style guide.
-                </p>
-              </div>
-              <div className="poster">
-                <div className="poster-image">
-                  <img src={soonaGif} alt=""></img>
-                  <p className="caption"></p>
-                </div>
-              </div>
+
+          <div className="content">
+            <div className="description">
+              <p className="title-number">// Summary</p>
+              <p className="description-title">A little guidance.</p>
+              <p>
+                Simple features were suggested to help guide customers through
+                the process of booking a shoot. These features included: a
+                progress bar, quick view options, a work-in-progress pop-up
+                message, and a style guide.
+              </p>
+            </div>
+            <div className="poster">
+              <img src={soonaGif} alt=""></img>
+              <p className="last-caption"></p>
             </div>
           </div>
         </section>

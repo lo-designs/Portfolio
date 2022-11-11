@@ -42,20 +42,18 @@ function Yha() {
                 <div className="subtitle">
                   Researching and protoyping a health & wellness resources app.
                 </div>
-             
 
                 <div className="overview">
                   <p>
                     After working with displaced youth at a Minneapolis
-                    nonprofit, I wanted to design a mobile app for youth facing
-                    mental/emotional health issues to find and connect with
-                    support specific to their needs.
+                    nonprofit, I wanted to design a mobile app to help
+                    adolescents easily connect with health and wellness
+                    resources specific to their needs.
                   </p>
                   <p>
-                    The challenge was to learn about the resources for youth
-                    that currently exist to find areas of opportunity, and to
-                    determine a way to make these reasources readily available
-                    and easy to find
+                    The challenge was to learn about resources that currently
+                    exist to find areas of opportunity, and determine a way to
+                    make these reasources readily available.
                   </p>
                 </div>
               </div>
@@ -76,22 +74,20 @@ function Yha() {
                 01 Deep dive: health & wellness resources for youth.
               </p>
               <p>
-                Beginning research for this project, I quickly found that there
-                are a lot of resources for youth. Most of these resources,
-                however, are text heavy and hard to scan for important
-                information. This makes it hard to find help, especially if you
-                don't know exactly what you're looking for. During interviews
-                with licensed social workers, Youth Services Network (YSN) was
-                highlighted as an effective (yet outdated) resource. I decided
-                to use YSN as a reference point, and did a step-by-step analysis
-                of the process someone takes to connect with resources.
+                During research for this project, I quickly found that there are
+                a lot of resources out there, however, many of them are text
+                heavy and hard to scan for important information. This makes it
+                challenging to find help, especially if you don't know exactly
+                what you need. Interviews with licensed social workers revealed
+                Youth Services Network (YSN) as an effective (but outdated)
+                resource. I decided to use YSN as a reference point to determine
+                what worked and what could be added to make it a more effective
+                tool.
               </p>
             </div>
             <div className="poster">
-              <div className="poster-image">
-                <img src={resources} alt=""></img>
-                <p className="caption">Some existing resources</p>
-              </div>
+              <img src={resources} alt=""></img>
+              <p className="caption">Some existing resources</p>
             </div>
           </div>
         </section>
@@ -119,10 +115,8 @@ function Yha() {
               </p>
             </div>
             <div className="poster">
-              <div className="poster-image">
-                <img src={yhaMap} alt=""></img>
-                <p className="caption">Experience map made in XD</p>
-              </div>
+              <img src={yhaMap} alt=""></img>
+              <p className="caption">Experience map made in XD</p>
             </div>
           </div>
         </section>
@@ -138,20 +132,20 @@ function Yha() {
                 03 Accessible resources & customization.
               </p>
               <p>
-                In addition to easy to access hotlines and contact info, I added
+                In addition to easy access hotlines and contact info, I added
                 the option to create an account to customize needs and
                 preferences. The idea is that this would help someone using the
                 app filter through resources to find the best help for them. I
                 designed and created the 'Youth Matters' logo using both
-                Photoshop and Illustrator, designed the prototype using Adobe
-                XD, and made the prototype interactive using Figma.
+                Photoshop and Illustrator, and an interactive prototype in
+                Figma.
               </p>
             </div>
             <div className="poster">
-              <div id="yha" className="poster-image">
-                <img id="yha-prototype" src={yhaFigma} alt=""></img>
-                <p className="caption">Prototype screens & color scheme made in Figma</p>
-              </div>
+              <img src={yhaFigma} alt=""></img>
+              <p className="caption">
+                Prototype screens & color scheme made in Figma
+              </p>
             </div>
           </div>
         </section>
@@ -162,23 +156,20 @@ function Yha() {
           </div>
           <div className="content">
             <div className="description">
-              <div id="summary-section">
-                <p className="title-number">Summary //</p>
-                <p className="description-title">
-                  Building on existing resources.
-                </p>
-                <p>
-                  My overall goal was to design an app for youth seeking help and support connect with resources specific to their needs. I
-                  gained some valuable insights in my research and it is
-                  something that I would love to build upon in the future.
-                </p>
-              </div>
+              <p className="title-number">Summary //</p>
+              <p className="description-title">
+                Building on existing resources.
+              </p>
+              <p>
+                My overall goal was to design an app for youth seeking help and
+                support connect with resources specific to their needs. I gained
+                some valuable insights in my research and it is something that I
+                would love to build upon in the future.
+              </p>
             </div>
             <div className="poster">
-              <div className="poster-image">
-                <img src={youMatter} alt=""></img>
-                <p className="caption">Logo concept/GIF made in Photoshop</p>
-              </div>
+              <img src={youMatter} alt=""></img>
+              <p className="last-caption">Logo concept/GIF made in Photoshop</p>
             </div>
           </div>
         </section>

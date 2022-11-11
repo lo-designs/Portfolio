@@ -76,19 +76,18 @@ function ParraLily() {
               <ParralilyCarousel />
             </div>
             <div id="mobile-images">
-            <div className="poster-image">
-               <img src={parraMenu} alt=""></img>
-               <p className="caption">Menu I designed for brunch event</p>
-            </div>
-            <div className="poster-image">
-               <img src={designBoard} alt=""></img>
-               <p className="caption">design board made in Adobe XD</p>
-            </div>
-            <div className="poster-image">
-               <img src={parraProto} alt=""></img>
-               <p className="caption">Wireframes made in Adobe XD</p>
-            </div>
-     
+              <div className="poster">
+                <img src={parraMenu} alt=""></img>
+                <p className="caption">Menu designed for brunch event</p>
+              </div>
+              <div className="poster">
+                <img src={designBoard} alt=""></img>
+                <p className="caption">design board made in Adobe XD</p>
+              </div>
+              <div className="poster">
+                <img src={parraProto} alt=""></img>
+                <p className="last-caption">Wireframes made in Adobe XD</p>
+              </div>
             </div>
           </div>
         </section>

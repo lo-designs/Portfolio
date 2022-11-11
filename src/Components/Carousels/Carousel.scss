@@ -1,16 +1,7 @@
 .carousel {
-  padding-top: 40px;
-
   #carousel-item {
     object-fit: contain;
-    height: 75vh;
-   //  padding-top: 0;
-   //  margin-top: 0;
-  }
-
-  #kano-carousel-item {
-    height: 60vh;
-    object-fit: contain;
+    max-height: 450px;
   }
 
   .carousel-caption {
@@ -25,15 +16,13 @@
 /**************  BREAKPOINTS  ****************/
 
 @media only screen and (max-width: 900px) {
-
-   .carousel-caption {
-      mix-blend-mode: difference;
-   }
+  .carousel-caption {
+    mix-blend-mode: difference;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-
-   .carousel {
-      display: none;
-   }
+  .carousel {
+    display: none;
+  }
 }

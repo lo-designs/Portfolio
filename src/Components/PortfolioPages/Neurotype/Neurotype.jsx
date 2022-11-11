@@ -6,8 +6,7 @@ import neuroHero from "../../Images/Neurotype/hero2.jpg";
 import neuroGif from "../../Images/Neurotype/neuro-gif-ps.gif";
 import neuroLogo from "../../Images/Neurotype/logo-concept.png";
 import neuroMap from "../../Images/Neurotype/experience-map.png";
-import neuroDash from "../../Images/Neurotype/dashboard.png";
-
+import neuroData from "../../Images/Neurotype/data2.png";
 
 function Neurotype() {
   return (
@@ -82,10 +81,8 @@ function Neurotype() {
               </p>
             </div>
             <div className="poster">
-              <div className="poster-image">
-                <img src={neuroLogo} alt=""></img>
-                <p className="caption">Logo concept</p>
-              </div>
+              <img src={neuroLogo} alt=""></img>
+              <p className="caption">Logo concept</p>
             </div>
           </div>
         </section>
@@ -111,10 +108,8 @@ function Neurotype() {
               </p>
             </div>
             <div className="poster">
-              <div className="poster-image">
-                <img src={neuroMap} alt=""></img>
-                <p className="caption">experience map made in Sketch</p>
-              </div>
+              <img src={neuroMap} alt=""></img>
+              <p className="caption">experience map made in Sketch</p>
             </div>
           </div>
         </section>
@@ -144,47 +139,36 @@ function Neurotype() {
               <div className="poster-carousel">
                 <NeurotypeCarousel />
               </div>
-            </div>
-
-            <div id="mobile-images">
-              <div className="poster-image">
-                <img src={neuroDash} alt=""></img>
+              <div id="mobile-images">
+                <img src={neuroData} alt=""></img>
                 <p className="caption">Prototype // dashboard view</p>
               </div>
-   
             </div>
           </div>
         </section>
 
         <section id="sctr4">
-          <div className="summary-section">
-            <div className="cover">
-              <div className="square" id="section-4"></div>
-            </div>
+          <div className="cover">
+            <div className="square" id="section-4"></div>
+          </div>
 
-            <div className="content">
-              <div className="description">
-                <p className="title-number">// Summary</p>
-                <p className="description-title">
-                  Substantiating OUD treatment.
-                </p>
-                <p>
-                  Through secondary research, interviews with health
-                  practitioners, and speaking with a data visualization expert,
-                  we gained a better understanding of how a portable EEG could
-                  be integrated into treatment for OUD, as well as how to create
-                  interpretable data. Data from an EEG would provide
-                  practitioners with quantitative data in addition to
-                  qualitative, helping to substantiate and inform treatment of
-                  OUD.
-                </p>
-              </div>
-              <div className="poster">
-                <div className="poster-image">
-                  <img src={neuroGif} alt=""></img>
-                  <p className="caption">Neurotype GIF made in Photoshop</p>
-                </div>
-              </div>
+          <div className="content">
+            <div className="description">
+              <p className="title-number">// Summary</p>
+              <p className="description-title">Substantiating OUD treatment.</p>
+              <p>
+                Through secondary research, interviews with health
+                practitioners, and speaking with a data visualization expert, we
+                gained a better understanding of how a portable EEG could be
+                integrated into treatment for OUD, as well as how to create
+                interpretable data. Data from an EEG would provide practitioners
+                with quantitative data in addition to qualitative, helping to
+                substantiate and inform treatment of OUD.
+              </p>
+            </div>
+            <div className="poster">
+              <img src={neuroGif} alt=""></img>
+              <p className="last-caption">Neurotype GIF made in Photoshop</p>
             </div>
           </div>
         </section>

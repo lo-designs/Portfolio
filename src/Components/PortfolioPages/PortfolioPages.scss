@@ -51,10 +51,6 @@
     color: #212121;
     font-family: "RobotoMono-Regular";
 
-    .side-nav-link:hover {
-      text-transform: bold;
-    }
-
     li {
       height: 1.1px;
       width: 0px;
@@ -109,6 +105,7 @@ section .content {
 .poster {
   width: 35vw;
   margin-left: 60vw;
+  margin-top: 25vh;
   z-index: 4;
 }
 
@@ -116,16 +113,13 @@ section .content {
   margin-top: 10vh;
 }
 
-.poster-image {
-  margin-top: 25vh;
-
-  .caption {
-    padding: 20px 0;
-    font-family: "RobotoMono-Regular";
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    color: rgba(253, 255, 246, 0.969);
-  }
+.last-caption,
+.caption {
+  padding-top: 20px;
+  font-family: "RobotoMono-Regular";
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: rgba(253, 255, 246, 0.969);
 }
 
 /****************  FONTS  *****************/
@@ -166,9 +160,9 @@ section .content {
 }
 
 .subtitle {
-   margin-left: 15vw;
-   width: 35vw;
-   line-height: 1.2;
+  margin-left: 15vw;
+  width: 35vw;
+  line-height: 1.2;
 }
 
 .title-number {
@@ -187,6 +181,10 @@ section .content {
   margin-bottom: 15px;
   margin-left: 11vw;
   line-height: 1.4;
+}
+
+.website {
+  font-family: "RobotoMono-Regular";
 }
 
 /**************  BREAKPOINTS  ****************/
@@ -211,7 +209,15 @@ section .content {
 
 @media only screen and (max-width: 900px) {
   .project {
-    padding: 0 2rem 10rem 2rem;
+    padding: 10% 5%;
+   
+    section {
+      height: 100vh;
+    }
+
+    ul {
+      display: none;
+    }
 
     #hero-image {
       position: absolute;
@@ -228,72 +234,45 @@ section .content {
       animation: none;
     }
 
-    .section {
-      height: 70vh;
-      width: 100%;
-      margin: 0;
-    }
-
-    .summary-section {
-      padding-top: 25vh;
-    }
-    
-    .poster-image {
-      margin-top: 0;
-      margin-bottom: 55px;
-    }
-
-    .project-type {
-      margin-left: 0;
-    }
-
     .intro-position,
     .description-position {
       top: 45vh;
       left: 0;
     }
 
-    .description {
-      width: 100%;
-      margin-left: 0;
-    }
-
-    .subtitle {
-      margin-left: 0;
-      width: 100%;
-    }
-
     .square {
       display: none;
     }
 
+    .project-type,
+    .description,
+    .subtitle,
     .poster,
     .overview,
     .process {
-      margin: 0;
+      margin-left: 0;
       width: 100%;
     }
 
-    .caption {
-      padding-top: 15px;
-      color: black !important;
+    .caption,
+    .last-caption {
+      color: rgb(19, 19, 19) !important;
     }
 
-    ul {
-      display: none;
+    .last-caption {
+      padding-bottom: 100px;
     }
-
   }
 }
 
 @media only screen and (min-width: 550px) {
-   #mobile-images {
-      display: none;
-   }
+  #mobile-images {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 549.99px) {
-   #mobile-images {
-      display: all;
-   }
+  #mobile-images {
+    display: all;
+  }
 }

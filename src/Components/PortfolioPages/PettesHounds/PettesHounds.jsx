@@ -44,9 +44,8 @@ function PettesHounds() {
                     Pette’s Hounds had all of the right components to make a
                     great website: cute name, cute logo, cute pet pictures. It
                     just needed some slight format changes. And some extra pet
-                    pics.
-                    I had the pleasure of working with the founder of Pette’s
-                    Hounds to create the new version of the site.
+                    pics. I had the pleasure of working with the founder of
+                    Pette’s Hounds to create the new version of the site.
                   </p>
                 </div>
               </div>
@@ -78,29 +77,33 @@ function PettesHounds() {
               </p>
             </div>
             <div className="poster">
+            <div className="poster-carousel">
               <PettesHoundsCarousel />
             </div>
+            </div>
             <div id="mobile-images">
-            <div className="poster-image">
-               <img src={pettesLogo} alt=""></img>
-               <p className="caption">Pette's Hounds logo I animated using Photoshop</p>
-            </div>
-            <div className="poster-image">
-               <img src={homeOg} alt=""></img>
-               <p className="caption">Before redesign // Home page</p>
-            </div>
-            <div className="poster-image">
-               <img src={homeNew} alt=""></img>
-               <p className="caption">Redesign // Home page</p>
-            </div>
-            <div className="poster-image">
-               <img src={servicesOg} alt=""></img>
-               <p className="caption">Before redesign // Services page</p>
-            </div>
-            <div className="poster-image">
-               <img src={servicesNew} alt=""></img>
-               <p className="caption">Redesign // Services page</p>
-            </div>
+              <div className="poster">
+                <img src={pettesLogo} alt=""></img>
+                <p className="caption">
+                  Pette's Hounds logo I animated using Photoshop
+                </p>
+              </div>
+              <div className="poster">
+                <img src={homeOg} alt=""></img>
+                <p className="caption">Before redesign // Home page</p>
+              </div>
+              <div className="poster">
+                <img src={homeNew} alt=""></img>
+                <p className="caption">Redesign // Home page</p>
+              </div>
+              <div className="poster">
+                <img src={servicesOg} alt=""></img>
+                <p className="caption">Before redesign // Services page</p>
+              </div>
+              <div className="poster">
+                <img src={servicesNew} alt=""></img>
+                <p className="last-caption">Redesign // Services page</p>
+              </div>
             </div>
           </div>
         </section>
