@@ -1,7 +1,11 @@
 .carousel {
+  padding-top: 40px;
+
   #carousel-item {
     object-fit: contain;
-    height: 80vh;
+    height: 75vh;
+   //  padding-top: 0;
+   //  margin-top: 0;
   }
 
   #kano-carousel-item {
@@ -10,16 +14,24 @@
   }
 
   .carousel-caption {
-    font-family: monospace;
+    font-family: "RobotoMono-Regular";
+    font-size: 0.9rem;
     text-transform: uppercase;
     mix-blend-mode: difference;
+    margin: 0;
   }
 }
 
 /**************  BREAKPOINTS  ****************/
 
 @media only screen and (max-width: 900px) {
+
+   .carousel {
+      background: #212121;
+      object-fit: contain;
+   }
+
    .carousel-caption {
-      color: black!important;
+      mix-blend-mode: difference;
    }
 }

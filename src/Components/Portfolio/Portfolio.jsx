@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import "./Portfolio.scss";
-import pettesHover from "./../Images/PettesHounds/pettesHover.jpg";
+import pettesHover from "./../Images/PettesHounds/phHover.jpg";
 import neuroHover from "./../Images/Neurotype/neuro-gif-ps.gif";
 import outtaHover from "./../Images/OuttaWax/outtaHover.jpg";
 import parraHover from "./../Images/ParraLily/designboard.png";
@@ -12,9 +12,20 @@ function Portfolio() {
   return (
     <div className="portfolio">
       <div className="portfolio-intro">
-         <h2 className="portfolio-header">Portfolio</h2>
-         <h3 className="portfolio-subheader">Web design & development // UX UI design</h3>
-         <p>I've had the opportunity to work with some great local businesses doing web design/redesign, as well as UX/UI research and design for clients while earning a certificate in UX design. Most recently, I completed a full stack development program & designed and developed this portfolio. Check out some of my case studies below:</p>
+        <h2 className="portfolio-header">Portfolio</h2>
+        <h3 className="portfolio-subheader">
+          Web design & development // UX UI design
+        </h3>
+        <div className="portfolio-summary">
+          <p>
+            I've had the opportunity to work with some great local businesses
+            doing web design, as well as UX/UI research and design for clients
+            while earning a certificate in UX. Most recently, I've worked as an
+            associate software engineer contractor at Optum Tech, and designed
+            and developed this portfolio in my spare time.
+          </p>
+          <p>Check out some of my case studies below:</p>
+        </div>
       </div>
       <nav className="menu">
         <div className="menu__item">
@@ -30,7 +41,6 @@ function Portfolio() {
               <span>Pette's Hounds</span>
               <span>// web [re]design //</span>
               <span>Dog walking & pet care services.</span>
-
             </div>
           </div>
         </div>
@@ -45,7 +55,6 @@ function Portfolio() {
               <span>ParraLily</span>
               <span>// web design //</span>
               <span>Minneapolis food truck.</span>
-     
             </div>
           </div>
         </div>

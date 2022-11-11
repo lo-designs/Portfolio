@@ -22,7 +22,7 @@
   font-family: "Celebrate-Retro";
   font-size: 4vw;
   top: 5vh;
-  margin-left: 10vw;
+  margin-left: 11vw;
   color: #212121;
   opacity: 1;
   animation: move 3s;
@@ -34,7 +34,7 @@
       opacity: 0;
     }
     to {
-      margin-left: 10vw;
+      margin-left: 11vw;
       opacity: 1;
     }
   }
@@ -122,10 +122,10 @@ section .content {
 
   .caption {
     padding: 20px 0;
-    font-family: monospace;
-    font-size: 1rem;
+    font-family: "RobotoMono-Regular";
+    font-size: 0.9rem;
     text-transform: uppercase;
-    color: white;
+    color: rgba(253, 255, 246, 0.969);
   }
 }
 
@@ -157,36 +157,36 @@ section .content {
   margin-top: 10vh;
 }
 
-.description-title {
-  font-family: "RobotoMono-Regular";
+.description-title,
+.subtitle {
+  font-family: "Vercetti";
   font-weight: bolder;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1;
-  padding: 10px 0;
-  padding-bottom: 15px;
+  padding: 10px 0 15px 0;
 }
 
 .subtitle {
-  margin-left: 10.1vw;
-  font-family: "RobotoMono-Regular";
-  font-size: 1rem;
-  margin-top: 15px;
+   margin-left: 15vw;
+   width: 35vw;
+   line-height: 1.2;
 }
 
 .title-number {
   margin-top: 40%;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
   font-family: "RobotoMono-Regular";
   text-transform: uppercase;
 }
 
 .project-type {
   font-family: "RobotoMono-Regular";
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   margin-top: 15px;
-  margin-left: 10.1vw;
-  padding-bottom: 25px;
+  margin-bottom: 15px;
+  margin-left: 11vw;
   line-height: 1.4;
 }
 
@@ -259,6 +259,7 @@ section .content {
 
     .subtitle {
       margin-left: 0;
+      width: 100%;
     }
 
     .section {

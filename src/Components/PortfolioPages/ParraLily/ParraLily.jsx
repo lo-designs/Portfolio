@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import ParralilyCarousel from "../../Carousels/ParralilyCarousel";
-import "../PortfolioPages.scss"
+import "../PortfolioPages.scss";
 import parraHero from "../../Images/ParraLily/parra.jpg";
 
 function ParraLily() {
@@ -25,9 +25,8 @@ function ParraLily() {
             <div className="intro-position">
               <div>
                 <div id="title">ParraLily</div>
-                <div className="subtitle">Local food truck.</div>
-
                 <div className="project-type">// web design</div>
+                <div className="subtitle">Local food truck.</div>
 
                 <div className="overview">
                   <p className="website">
@@ -55,8 +54,8 @@ function ParraLily() {
           </div>
           <div className="content">
             <div className="description">
-            <p className="title-number">Objectives //</p>
-              <p className="description-title"></p>
+              <p className="title-number"></p>
+              <p className="description-title">Objectives & Process</p>
               <p>
                 I started with the mobile design after meeting with the owner
                 and doing some comparative research on other food trucks. I made

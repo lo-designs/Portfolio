@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import "./../PortfolioPages.scss";
-import pettesHero from "../../Images/PettesHounds/pettesHero.jpg";
+import pettesHero from "../../Images/PettesHounds/phHero.jpg";
 import PettesHoundsCarousel from "../../Carousels/PettesHoundsCarousel";
 
 function PettesHounds() {
@@ -19,17 +19,16 @@ function PettesHounds() {
       <div>
         <section id="sctr0">
           <div className="cover" id="hero-image">
-            <img src={pettesHero} alt=""/>
+            <img src={pettesHero} alt="" />
           </div>
           <div className="content">
             <div className="intro-position">
               <div>
                 <div id="title">Pette's Hounds</div>
+                <div className="project-type">// Web redesign</div>
                 <div className="subtitle">
                   Dog walking & pet care services in Minneapolis
                 </div>
-
-                <div className="project-type">// Web redesign</div>
 
                 <div className="overview">
                   <p className="website">
@@ -41,8 +40,6 @@ function PettesHounds() {
                     great website: cute name, cute logo, cute pet pictures. It
                     just needed some slight format changes. And some extra pet
                     pics.
-                  </p>
-                  <p>
                     I had the pleasure of working with the founder of Pette’s
                     Hounds to create the new version of the site.
                   </p>
@@ -58,8 +55,8 @@ function PettesHounds() {
           </div>
           <div className="content">
             <div className="description">
-              <p className="title-number">Objectives //</p>
-              <p className="description-title"></p>
+              <p className="title-number"></p>
+              <p className="description-title">Objectives & Process</p>
               <p>
                 Design choices were based around the existing Pette's Hounds
                 website and logo, which I animated using Photoshop. I also

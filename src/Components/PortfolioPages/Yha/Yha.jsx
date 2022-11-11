@@ -36,13 +36,13 @@ function Yha() {
             <div className="intro-position">
               <div>
                 <div id="title">Health & Wellness Resources App</div>
-                <div className="subtitle">
-                  Researching and protoyping an app to help adolescents find
-                  health and wellness resources.
-                </div>
                 <div className="project-type">
                   Self-defined project // UX UI
                 </div>
+                <div className="subtitle">
+                  Researching and protoyping a health & wellness resources app.
+                </div>
+             
 
                 <div className="overview">
                   <p>
@@ -168,8 +168,7 @@ function Yha() {
                   Building on existing resources.
                 </p>
                 <p>
-                  My overall goal was to figure out how to design an app for
-                  youth seeking help and support to connect with resources. I
+                  My overall goal was to design an app for youth seeking help and support connect with resources specific to their needs. I
                   gained some valuable insights in my research and it is
                   something that I would love to build upon in the future.
                 </p>

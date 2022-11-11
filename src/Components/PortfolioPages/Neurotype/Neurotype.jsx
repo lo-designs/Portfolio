@@ -37,10 +37,11 @@ function Neurotype() {
             <div className="intro-position">
               <div>
                 <div id="title">Neurotype</div>
+                <div className="project-type">Medical Startup // UX UI</div>
                 <div className="subtitle">
                   App design for early stage medical startup.
                 </div>
-                <div className="project-type">Medical Startup // UX UI</div>
+                
 
                 <div className="overview">
                   <p>

@@ -38,10 +38,11 @@ function Soona() {
             <div className="intro-position">
               <div>
                 <div id="title">Soona</div>
+                <div className="project-type">24 HR Content Studio // UX UI</div>
                 <div className="subtitle">
                 Web app rapid prototyping & evaluation.
                 </div>
-                <div className="project-type">24 HR Content Studio // UX UI</div>
+             
 
                 <div className="overview">
                   <p>
