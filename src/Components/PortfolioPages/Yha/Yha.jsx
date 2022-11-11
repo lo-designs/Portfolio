@@ -79,15 +79,12 @@ function Yha() {
                 heavy and hard to scan for important information. This makes it
                 challenging to find help, especially if you don't know exactly
                 what you need. Interviews with licensed social workers revealed
-                Youth Services Network (YSN) as an effective (but outdated)
-                resource. I decided to use YSN as a reference point to determine
-                what worked and what could be added to make it a more effective
-                tool.
+                Youth Services Network (YSN) as an effective resource, so I decided to use it as a reference point.
               </p>
             </div>
             <div className="poster">
-              <img src={resources} alt=""></img>
-              <p className="caption">Some existing resources</p>
+              <img id="resources" src={resources} alt=""></img>
+              <p id="resources-caption" className="caption">Some existing resources</p>
             </div>
           </div>
         </section>

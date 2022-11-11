@@ -219,6 +219,10 @@ section .content {
       display: none;
     }
 
+    #sctr4 {
+      padding-top: 150px;
+    }
+
     #hero-image {
       position: absolute;
       margin-left: 25%;
@@ -232,6 +236,11 @@ section .content {
       margin-left: 0;
       font-size: 8vw;
       animation: none;
+    }
+
+    #resources,
+    #resources-caption {
+      display: none;
     }
 
     .intro-position,

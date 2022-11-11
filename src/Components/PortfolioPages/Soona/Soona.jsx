@@ -149,11 +149,10 @@ function Soona() {
               <div className="poster">
                 <img src={soonaProgressBar} alt=""></img>
                 <p className="caption">Proposed Feature // progress bar</p>
-              </div>
-              <div className="poster">
                 <img src={soonaQuickView} alt=""></img>
                 <p className="caption">Proposed feature // quick view option</p>
               </div>
+         
             </div>
           </div>
         </section>
