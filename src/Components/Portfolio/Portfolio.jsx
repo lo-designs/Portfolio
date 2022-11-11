@@ -103,7 +103,7 @@ function Portfolio() {
         </div>
 
         <div className="menu__item">
-          <a id="yha" href="/" className="menu__item-link">
+          <a id="yha" href="/yha" className="menu__item-link">
             Youth Resources App
             <p className="work__type">
               self-defined project // web + ux ui design

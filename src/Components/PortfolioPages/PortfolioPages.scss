@@ -26,6 +26,7 @@
   color: #212121;
   opacity: 1;
   animation: move 3s;
+  line-height: 1;
 
   @keyframes move {
     from {
@@ -41,38 +42,34 @@
 
 /************ SIDE NAV LINKS ***************/
 
-.project a {
+.side-nav {
+   z-index: 100;
+
+.side-nav-link {
   text-transform: uppercase;
   font-size: 0.97rem;
   color: #212121;
   font-family: "RobotoMono-Regular";
 
-  .project a:hover {
-    font-style: oblique;
-    font-weight: bold;
-    color: black!important;
+  .side-nav-link:hover {
+    text-transform: bold;
   }
 
   li {
     height: 1.1px;
-    width: 45px;
+    width: 0px;
   }
 }
+}
+/* side nav links */
 
-/* color code */
-
-#section-1 {
+#section-1,
+#section-2,
+#section-3,
+#section-4 {
   background-color: rgb(40, 40, 40);
 }
-#section-2 {
-  background-color: rgb(155, 74, 49);
-}
-#section-3 {
-  background-color: rgb(78, 104, 60);
-}
-#section-4 {
-  background-color: rgb(214, 203, 254);
-}
+
 
 /***************  SECTIONS  ****************/
 
@@ -106,12 +103,15 @@ section .content {
   width: 45vw;
   z-index: 3;
   right: 0;
+  border-top: 1px solid rgba(253, 255, 246, 0.969);
+
 }
 
 .poster {
   width: 35vw;
   margin-left: 60vw;
   z-index: 4;
+  
 }
 
 .poster-carousel {
@@ -120,7 +120,7 @@ section .content {
 }
 
 .poster-image {
-  margin-top: 37vh;
+  margin-top: 25vh;
 
   .caption {
     padding: 20px 0;
@@ -240,7 +240,7 @@ section .content {
     }
 
     .poster-image {
-      padding-bottom: 40px!important;
+      padding-bottom: 70px!important;
     }
 
     .project-type {

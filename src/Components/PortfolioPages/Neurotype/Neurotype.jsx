@@ -38,7 +38,7 @@ function Neurotype() {
               <div>
                 <div id="title">Neurotype</div>
                 <div className="subtitle">
-                  Web app design for early stage medical startup.
+                  App design for early stage medical startup.
                 </div>
                 <div className="project-type">Medical Startup // UX UI</div>
 
@@ -173,7 +173,7 @@ function Neurotype() {
             <div className="poster">
             <div className="poster-image">
                <img src={neuroGif} alt=""></img>
-               <p className="caption">Neurotype GIF made in Photoshop</p>
+               <p className="caption">Neurotype GIF made in Photosho</p>
             </div>
             </div>
           </div>
