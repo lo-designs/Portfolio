@@ -15,10 +15,10 @@ function Yha() {
           <li id="section-0"></li>Overview
         </a>
         <a className="side-nav-link" href="#sctr1">
-          <li id="section-1"></li>Process
+          <li id="section-1"></li>Research
         </a>
         <a className="side-nav-link" href="#sctr2">
-          <li id="section-2"></li>Testing
+          <li id="section-2"></li>Features
         </a>
         <a className="side-nav-link" href="#sctr3">
           <li id="section-3"></li>Prototyping
