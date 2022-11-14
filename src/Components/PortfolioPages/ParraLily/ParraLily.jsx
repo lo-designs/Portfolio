@@ -2,9 +2,9 @@
 import React from "react";
 import ParralilyCarousel from "../../Carousels/ParralilyCarousel";
 import "../PortfolioPages.scss";
-import parraHero from "../../Images/ParraLily/parra.jpg";
-import parraMenu from "../../Images/ParraLily/parraLilyBrunch.png";
-import designBoard from "../../Images/ParraLily/designboard.png";
+import parraHero from "../../Images/ParraLily/parraHero.jpg";
+import parraMenu from "../../Images/ParraLily/brunchMenu.jpg";
+import designBoard from "../../Images/ParraLily/designboard.jpg";
 
 function ParraLily() {
   return (

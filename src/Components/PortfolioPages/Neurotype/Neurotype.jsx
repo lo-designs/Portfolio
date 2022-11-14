@@ -2,11 +2,11 @@
 import React from "react";
 import "./../PortfolioPages.scss";
 import NeurotypeCarousel from "../../Carousels/NeurotypeCarousel/NeurotypeCarousel";
-import neuroHero from "../../Images/Neurotype/newNeuro.jpg";
-import neuroGif from "../../Images/Neurotype/neuro-gif-ps.gif";
+import neuroHero from "../../Images/Neurotype/neuroHero.jpg";
+import neuroGif from "../../Images/Neurotype/neuroGif.gif";
 import neuroLogo from "../../Images/Neurotype/logo-concept.png";
-import neuroMap from "../../Images/Neurotype/experience-map.png";
-import neuroData from "../../Images/Neurotype/data2.png";
+import neuroMap from "../../Images/Neurotype/neuroMap.png";
+import neuroData from "../../Images/Neurotype/neuroData.png";
 
 function Neurotype() {
   return (

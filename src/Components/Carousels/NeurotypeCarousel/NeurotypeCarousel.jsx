@@ -2,8 +2,8 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./../Carousel.scss";
-import dataDashboard from "../../Images/Neurotype/dashboard.png";
-import data2 from "../../Images/Neurotype/data2.png";
+import dataDashboard from "../../Images/Neurotype/neuroDash.png";
+import data2 from "../../Images/Neurotype/neuroData.png";
 
 function NeurotypeCarousel() {
   return (

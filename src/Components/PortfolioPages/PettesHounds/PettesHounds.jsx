@@ -6,7 +6,7 @@ import PettesHoundsCarousel from "../../Carousels/PettesHoundsCarousel";
 import pettesLogo from "../../Images/PettesHounds/phLogo.gif";
 import homeOg from "../../Images/PettesHounds/homeog.jpg";
 import homeNew from "../../Images/PettesHounds/home.jpg";
-import servicesOg from "../../Images/PettesHounds/allservicesog.png";
+import servicesOg from "../../Images/PettesHounds/allServicesOg.jpg";
 import servicesNew from "../../Images/PettesHounds/allservices.jpg";
 
 function PettesHounds() {

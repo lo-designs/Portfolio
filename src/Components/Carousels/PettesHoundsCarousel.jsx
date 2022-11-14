@@ -5,7 +5,7 @@ import "./Carousel.scss";
 import pettesHomePage from "./../Images/PettesHounds/home.jpg";
 import pettesHomePageOg from "./../Images/PettesHounds/homeog.jpg";
 import allServices from "./../Images/PettesHounds/allservices.jpg";
-import ogAllServices from "./../Images/PettesHounds/allservicesog.png";
+import ogAllServices from "./../Images/PettesHounds/allServicesOg.jpg";
 import animatedLogo from "./../Images/PettesHounds/phLogo.gif";
 
 function PettesHoundsCarousel() {
