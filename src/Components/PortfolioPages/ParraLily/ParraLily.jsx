@@ -5,7 +5,6 @@ import "../PortfolioPages.scss";
 import parraHero from "../../Images/ParraLily/parra.jpg";
 import parraMenu from "../../Images/ParraLily/parraLilyBrunch.png";
 import designBoard from "../../Images/ParraLily/designboard.png";
-import parraProto from "../../Images/ParraLily/wireframes.png";
 
 function ParraLily() {
   return (
@@ -81,8 +80,6 @@ function ParraLily() {
                 <p className="caption">✧ Menu designed for brunch event</p>
                 <img src={designBoard} alt=""></img>
                 <p className="caption">✧ Design board made in Adobe XD</p>
-                <img src={parraProto} alt=""></img>
-                <p className="last-caption">✧ Wireframes made in Adobe XD</p>
               </div>
             </div>
           </div>

@@ -11,10 +11,8 @@ function About() {
 
         <div className="about-description">
           <p>
-            A pretty unconventional path lead me from working in the service
-            industry, to studying Psychology, to pursuing a career in UX/UI
-            design. While learning UX, I discovered my love for digital design
-            and development.
+            While figuring out what I wanted to do after earning a degree in psychology, a friend introduced me to UX design and I learned how user experience and psychology relate to one another.
+           <p> I decided to pursue a certificate in UX design, and in the process I discovered my love for not only designing great digital experiences, but creating them as well.</p>
           </p>
         </div>
       </div>
@@ -30,7 +28,7 @@ function About() {
           <br />
           <br />
           animals // road trips // mountains // hiking // the north shore //
-          video games // movies at alamo // A24 films // pancakes.
+          video games // movies at alamo // pancakes.
         </p>
       </div>
       </div>

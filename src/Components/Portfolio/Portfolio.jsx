@@ -20,9 +20,8 @@ function Portfolio() {
           <p>
             I've had the opportunity to work with some great local businesses
             doing web design, as well as UX/UI research and design for clients
-            while earning a certificate in UX. Most recently, I've worked as an
-            associate software engineer contractor at Optum Tech, and designed
-            and developed this portfolio in my spare time.
+            while earning a certificate in UX. Most recently, I've held a contractor role as an associate software engineer, and designed
+            and developed this portfolio in my spare time :D
           </p>
           <p>Check out some of my case studies below:</p>
         </div>
