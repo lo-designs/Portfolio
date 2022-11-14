@@ -35,7 +35,7 @@ function Yha() {
           <div className="content">
             <div className="intro-position">
               <div>
-                <div id="title">Health & Wellness Resources App</div>
+                <div id="title">Health & Wellness Resource App</div>
                 <div className="project-type">
                   Self-defined project // UX UI
                 </div>

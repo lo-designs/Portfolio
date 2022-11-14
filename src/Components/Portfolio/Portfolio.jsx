@@ -3,7 +3,7 @@ import React from "react";
 import "./Portfolio.scss";
 import pettesHover from "./../Images/PettesHounds/phHover.jpg";
 import neuroHover from "./../Images/Neurotype/neuro-gif-ps.gif";
-import outtaHover from "./../Images/OuttaWax/outtaHover.jpg";
+import outtaHover from "./../Images/OuttaWax/outtaHover2.jpg";
 import parraHover from "./../Images/ParraLily/parraHover3.png";
 import soonaHover from "./../Images/Soona/soonaGif.gif";
 import yhaHover from "./../Images/YHA/YouMatter.gif";
@@ -61,7 +61,7 @@ function Portfolio() {
 
         <div className="menu__item">
           <a id="yha" href="/yha" className="menu__item-link">
-            Youth Resources App
+            Health & Wellness Resource App
             <p className="work__type">
               self-defined project // web + ux ui design
             </p>

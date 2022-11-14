@@ -3,8 +3,9 @@
 #hero-image {
   position: fixed;
   margin-left: 55vw;
-  width: 40vw;
-  height: 90vh;
+  margin-top: -10vh;
+  width: 50vw;
+  height: 100vh;
   overflow: hidden;
   animation: fade 4s;
 
@@ -43,8 +44,7 @@
 /************ SIDE NAV LINKS ***************/
 
 .side-nav {
-  z-index: 100;
-
+  
   .side-nav-link {
     text-transform: uppercase;
     font-size: 0.97rem;
@@ -54,6 +54,7 @@
     li {
       height: 1.1px;
       width: 0px;
+      z-index: 100;
     }
   }
 }
@@ -63,7 +64,7 @@
 #section-2,
 #section-3,
 #section-4 {
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(34, 34, 34);
 }
 
 /***************  SECTIONS  ****************/

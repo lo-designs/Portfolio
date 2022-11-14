@@ -112,6 +112,11 @@ a:visited {
     color: black!important;
 }
 
+a:hover {
+   font-weight: bolder;
+   font-style: oblique;
+}
+
 ul, 
 li {
    list-style: none;
