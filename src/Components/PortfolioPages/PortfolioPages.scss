@@ -4,7 +4,8 @@
   position: fixed;
   margin-left: 55vw;
   margin-top: -10vh;
-  width: 50vw;
+  float: right;
+  width: 45vw;
   height: 100vh;
   overflow: hidden;
   animation: fade 4s;
@@ -24,7 +25,6 @@
   font-size: 4vw;
   top: 5vh;
   margin-left: 11vw;
-  color: #212121;
   opacity: 1;
   animation: move 3s;
   line-height: 1;
@@ -95,12 +95,11 @@ section .content {
 
 .square {
   float: right;
+  right: 0!important;
   height: 100vh;
   width: 45vw;
   z-index: 3;
-  right: 0;
-  border-top: 1px solid rgba(253, 255, 246, 0.969);
-  border-left: 2.5px solid rgba(253, 255, 246, 0.969);
+  border-top: 1px solid;
 }
 
 .poster {

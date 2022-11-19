@@ -1,8 +1,10 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import "./Header.scss";
+import "../Themes/Themes.scss"
 
 function Header() {
+
   return (
     <div className="header">
       <span className="header-links">

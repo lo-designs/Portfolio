@@ -1,0 +1,83 @@
+.theme-options {
+  position: fixed;
+  margin-left: 80%;
+  margin-top: 9px;
+  z-index: 100;
+
+  div {
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0px 5px;
+    border: 1px solid #212121;
+    border-radius: 50%;
+    opacity: 0.89;
+    &.active {
+      opacity: 1;
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.App.theme-white,
+#theme-white {
+  background-color: rgba(253, 255, 246, 0.95);
+}
+
+.App.theme-black,
+#theme-black {
+  background-color: rgba(37, 37, 37, 0.95);
+  color: rgba(253, 255, 246, 0.969);
+  p,
+  li,
+  a {
+    color: rgba(253, 255, 246, 0.969) !important;
+  }
+
+  #section-1,
+  #section-2,
+  #section-3,
+  #section-4 {
+    background-color: rgba(253, 255, 246, 0.969) !important;
+  }
+}
+
+.App.theme-tan,
+#theme-tan {
+  background-color: rgba(255, 242, 199, 0.95);
+}
+
+.App.theme-purple,
+#theme-purple {
+  background-color: rgba(228, 206, 252, 0.95);
+}
+
+.App.theme-green,
+#theme-green {
+  background-color: rgba(150, 161, 100, 0.95);
+}
+
+.App.theme-orange,
+#theme-orange {
+  background-color: rgba(228, 134, 115, 0.969);
+}
+
+.App.theme-teal,
+#theme-teal {
+   background-color: rgba(112, 176, 180, 0.969);
+}
+
+/*************  BREAK POINTS  **************/
+
+@media only screen and (max-width: 900px) {
+   .theme-options {
+      bottom: 0;
+      position: fixed;
+      margin-left: 5%;
+      margin-bottom: 5px;
+      z-index: 1500;
+   }
+}

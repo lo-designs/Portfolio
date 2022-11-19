@@ -10,7 +10,7 @@ function Index() {
     <div className="home-page">
       <div className="main-container">
         <h1 className="design">
-          front end design & development
+          front end <br />design &<br /> development
         </h1>
       </div>
       <div>
