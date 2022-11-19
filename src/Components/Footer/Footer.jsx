@@ -7,8 +7,8 @@ function Footer() {
   return (
     <div className="footer">
       <span className="footer-links">
-        <a className="linkedin" href="/">
-          linkedin
+        <a className="resume" href="/">
+          resume
         </a>
         <span className="footer-links-divider"> // </span>
         <a className="email" href="mailto:lauraguntherdesigns@gmail.com">
