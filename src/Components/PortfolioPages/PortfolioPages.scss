@@ -201,23 +201,15 @@ section .content {
   .project {
     padding: 0 5%;
 
+    .content {
+      padding-top: 131px!important;
+    }
+
     section {
 
       img {
          padding-top: 20px;
        }
-
-      .title-number {
-         padding-top: 25vh!important;
-      }
-
-      .caption {
-         padding-bottom: 25vh!important;
-      }
-
-      .last-caption {
-        padding-bottom: 150px;
-      }
     }
 
     ul {
@@ -228,14 +220,14 @@ section .content {
       position: absolute;
       margin-left: 25%;
       width: 70vw;
-      height: 60vh;
-      opacity: 0.4;
+      height: 51vh;
+      opacity: 0.49;
       animation: none;
     }
 
     #title {
       margin-left: 0;
-      font-size: 10vw;
+      font-size: 11vw;
       animation: none;
     }
 
@@ -246,7 +238,7 @@ section .content {
 
     .intro-position,
     .description-position {
-      top: 45vh;
+      // top: 46vh;
       left: 0;
     }
 
@@ -268,6 +260,10 @@ section .content {
     .last-caption {
       color: rgb(19, 19, 19) !important;
       font-size: 0.8rem;
+    }
+
+    .last-caption {
+      padding-bottom: 150px;
     }
   }
 }
