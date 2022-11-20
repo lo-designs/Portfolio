@@ -40,18 +40,18 @@ function Yha() {
                   Self-defined project // UX UI
                 </div>
                 <div className="subtitle">
-                  Researching and protoyping a health & wellness resources app.
+                  Researching and protoyping a health & wellness resource app.
                 </div>
 
                 <div className="overview">
                   <p>
                     After working with displaced youth at a Minneapolis
-                    nonprofit, I wanted to design a mobile app to help
-                    adolescents easily connect with health and wellness
-                    resources specific to their needs.
+                    nonprofit, I wanted to design a platform to help adolescents
+                    easily connect with health and wellness resources specific
+                    to their needs.
                   </p>
                   <p>
-                    The challenge was to learn about resources that currently
+                    My goal was to learn about resources that currently
                     exist to find areas of opportunity, and determine a way to
                     make resources more readily available.
                   </p>
@@ -79,12 +79,15 @@ function Yha() {
                 heavy and hard to scan for important information. This makes it
                 challenging to find help, especially if you don't know exactly
                 what you need. Interviews with licensed social workers revealed
-                Youth Services Network (YSN) as an effective resource, so I decided to use it as a reference point.
+                Youth Services Network [YSN] as an effective resource, so I
+                decided to use it as a reference point.
               </p>
             </div>
             <div className="poster">
               <img id="resources" src={resources} alt=""></img>
-              <p id="resources-caption" className="caption">✧ Some existing resources</p>
+              <p id="resources-caption" className="caption">
+                ✧ Some existing resources
+              </p>
             </div>
           </div>
         </section>
@@ -129,19 +132,16 @@ function Yha() {
                 03 Accessible resources & customization.
               </p>
               <p>
-                In addition to easy access hotlines and contact info, I added
-                the option to create an account to customize needs and
-                preferences. The idea is that this would help someone using the
-                app filter through resources to find the best help for them. I
-                designed and created the 'Youth Matters' logo using both
-                Photoshop and Illustrator, and an interactive prototype in
-                Figma.
+                In addition to easy access hotlines and contact info, the option
+                to create an account to customize needs and preferences would
+                allow users to save important information and access it easily
+                when needed. 
               </p>
             </div>
             <div className="poster">
               <img src={yhaFigma} alt=""></img>
               <p className="caption">
-              ✧ Prototype screens & color scheme made in Figma
+                ✧ Prototype screens & color scheme made in Figma
               </p>
             </div>
           </div>
@@ -163,10 +163,18 @@ function Yha() {
                 some valuable insights in my research and it is something that I
                 would love to build upon in the future.
               </p>
+              <p>
+                <i>
+                  [The 'You Matter' logo was made using both Photoshop and
+                  Illustrator.]
+                </i>
+              </p>
             </div>
             <div className="poster">
               <img src={youMatter} alt=""></img>
-              <p className="last-caption">✧ Logo concept/GIF made in Photoshop</p>
+              <p className="last-caption">
+                ✧ Logo made using Photoshop + Illustrator
+              </p>
             </div>
           </div>
         </section>

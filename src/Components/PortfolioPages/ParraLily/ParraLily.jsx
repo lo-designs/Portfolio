@@ -36,7 +36,7 @@ function ParraLily() {
                     <a href="https://www.parralily.com"> parralily.com</a>
                   </p>
                   <p>
-                    I had the opportunity of helping to set up, design, and
+                    I had the opportunity to help set up, design, and
                     build a website for ParraLily, a fantastic new food truck in
                     Minneapolis. I met with the talented owner/chef of ParraLily
                     to go over setting up a website: how to get set up with

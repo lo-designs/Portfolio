@@ -48,10 +48,10 @@ function Soona() {
                 <div className="overview">
                   <p>
                     Soona is a studio that produces professional photos and
-                    videos of products within 24 hours. Founded by creatives Liz
-                    Giorgi & Hayley Anderson, they started Soona with the shared
-                    vision of making quality, custom content accessible to
-                    brands of all sizes.
+                    videos of products within 24 hours. Creatives Liz Giorgi &
+                    Hayley Anderson started Soona with the shared vision of
+                    making quality, custom content accessible to brands of all
+                    sizes.
                   </p>
                   <p>
                     Objectives: ✧ Make the booking & building a shoot process
@@ -77,11 +77,11 @@ function Soona() {
                 01 Understanding services of a 24 hour content studio.
               </p>
               <p>
-                After speaking with Hayley, one of Soona's founders, to get an
-                overview of services Soona provides, we did a comparative audit
-                of the site and some of their competitors. I then did a
-                step-by-step analysis of the process a customer takes on the
-                Soona site to create a customer journey map.
+                We met with Soona co-founder, Hayley, to get an overview of
+                services Soona provides, we did a comparative audit of the site
+                and some of their competitors. I then did a step-by-step
+                analysis of the process a customer takes on the Soona site to
+                create a customer journey map.
               </p>
             </div>
             <div className="poster">
@@ -104,19 +104,19 @@ function Soona() {
                 02 Determining features through analysis.
               </p>
               <p>
-                Wireframes of proposed soona features were collectively placed in InVision for Soona's
-                developer to estimate how much time was needed for each feature.
-                Wireframes were then narrowed down to 10 (out of ≈100) through
-                dot voting. Soona customers and staff completed a survey with
-                the 10 features to determine which best fit their needs. That
-                data was then analyzed based on the Kano model: performance,
-                must-have, attraction and indifference.
+                Wireframes of proposed soona features were collectively placed
+                in InVision for Soona's developer to estimate how much time was
+                needed for each feature. Wireframes were then narrowed down to
+                10 (out of ≈100) through dot voting. Soona customers and staff
+                completed a survey with the 10 features to determine which best
+                fit their needs. That data was then analyzed based on the Kano
+                model: performance, must-have, attraction and indifference.
               </p>
             </div>
             <div className="poster">
               <img src={soonaKano} alt=""></img>
               <p className="caption">
-              ✧ Kano Analysis of proposed soona features
+                ✧ Kano Analysis of proposed soona features
               </p>
             </div>
           </div>
@@ -151,7 +151,6 @@ function Soona() {
                 <img src={soonaQuickView} alt=""></img>
                 <p className="caption">✧ Proposed feature: quick view option</p>
               </div>
-         
             </div>
           </div>
         </section>
@@ -166,10 +165,11 @@ function Soona() {
               <p className="title-number">// Summary</p>
               <p className="description-title">A little guidance.</p>
               <p>
-                Simple features were suggested to help guide customers through
-                the process of booking a shoot. These features included: a
-                progress bar, quick view options, a work-in-progress pop-up
-                message, and a style guide.
+                Simple features were suggested to make the booking & building a
+                shoot process engaging + easy to follow, as
+                well as generate follow-through in ordering finalized photos and
+                videos. These features included: a progress bar, quick view
+                options, a work-in-progress pop-up message, and a style guide.
               </p>
             </div>
             <div className="poster">

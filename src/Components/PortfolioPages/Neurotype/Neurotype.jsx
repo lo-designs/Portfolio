@@ -40,18 +40,24 @@ function Neurotype() {
                 <div id="title">Neurotype</div>
                 <div className="project-type">Medical Startup // UX UI</div>
                 <div className="subtitle">
-                  App design for early stage medical startup.
+                  App prototype for an early stage medical startup.
                 </div>
 
                 <div className="overview">
                   <p>
-                    Neurotype is working to create a digital platform that will
-                    facilitate the use of a portable electroencephalogram (EEG)
-                    test to aid in the treatment of opioid use disorder (OUD). We had
-                    the privilege of working with Neurotype to help determine
-                    the best way to implement an EEG into a standard
-                    therapy/clinical setting, as well as create an interface
-                    with easy to interpret data.
+                    <b>
+                      <a href="https://www.neurotype.io/">Neurotype Inc.</a>
+                    </b>{" "}
+                    is building portable brain sensing tools to support the
+                    recovery of people struggling with Substance Use Disorders
+                    [SUD].
+                  </p>
+                  <p>
+                    We had the honor of working with Neurotype Inc. to help
+                    determine the best way to integrate an electroencephalogram
+                    [EEG] into a standard therapy/clinical setting, as well as
+                    create a prototype for NeuromarkR™, an application used in
+                    conjunction with a portable EEG.
                   </p>
                 </div>
               </div>
@@ -65,19 +71,16 @@ function Neurotype() {
           </div>
           <div className="content">
             <div className="description">
-              <p className="title-number">
-                Secondary Research // User Interviews
-              </p>
+              <p className="title-number">Secondary Research //</p>
               <p className="description-title">
                 01 Understanding addiction healthcare & treatment.
               </p>
               <p>
-                We conducted secondary research to understand the current
-                landscape for addiction healthcare, the patient/practitioner
-                experience, and industry trends for visually presenting
-                complicated medical data. We then researched Neurotype
-                comparators and conducted 9 remote interviews with practitioners
-                in various healthcare roles.
+                Our first goal was to gain an understanding of the current
+                landscape for addiction healthcare. We conducted secondary
+                research to learn about the patient/practitioner experience in
+                clinical and therapy settings, as well as industry trends for
+                visually presenting complicated medical data.
               </p>
             </div>
             <div className="poster">
@@ -94,17 +97,19 @@ function Neurotype() {
           <div className="content">
             <div className="description">
               <p className="title-number">
-                Usability Testing // Information Architecture // Experience
-                Mapping
+                User Interviews // Usability Testing // Experience Mapping
               </p>
               <p className="description-title">
                 02 Sessions between patient & practitioner.
               </p>
               <p>
-                The information from our research provided context to what
+                We conducted nine remote interviews with practitioners in
+                various healthcare roles. The information gathered from these
+                interviews, in addition to our research, gave us context to what
                 sessions generally look like between patient and practitioner.
-                This helped us create an experience map of the process of
-                implementing a portable EEG in a standard therapy session.
+                This helped to create an experience map to better visualize the
+                process of implementing a portable EEG in a standard therapy
+                session.
               </p>
             </div>
             <div className="poster">
@@ -125,14 +130,15 @@ function Neurotype() {
                 03 Creating data that is easy to interpret.
               </p>
               <p>
-                The idea is that the EEG will measure patients' brain reactivity
-                when looking at substance-related images. That data will then be
-                compared to patients' self-reported drug cravings to help track
-                patient progress and substantiate treatment. We had the
-                opportunity to walk through the wireframes with an expert in
-                data visualization. The main goal in creating the interface was
-                to make EEG data easy to interpret for practitioners without EEG
-                expertise.
+                The idea is that the interface displays measurements in patient
+                brain reactivity when looking at substance-related images. That
+                data is then compared side-by-side with data reflecting patient
+                self-reported cravings.
+              </p>
+              <p>
+                We had the opportunity to walk through the data prototypes with
+                an expert in data visualization. The main goal was to make EEG
+                data easy to interpret for practitioners without EEG expertise.
               </p>
             </div>
             <div className="poster">
@@ -157,14 +163,20 @@ function Neurotype() {
               <p className="title-number">// Summary</p>
               <p className="description-title">Substantiating OUD treatment.</p>
               <p>
-                Through secondary research, interviews with health
-                practitioners, and speaking with a data visualization expert, we
-                gained a better understanding of how a portable EEG could be
-                integrated into treatment for OUD, as well as how to create
-                interpretable data. Data from an EEG would provide practitioners
-                with quantitative data in addition to qualitative, helping to
-                substantiate and inform treatment of OUD.
+                Currently, addiction healthcare practitioners rely on
+                qualitative data [like self-reports] to inform treatment of OUD.
+                Neurotype Inc. provides tools to objectively detect triggers for
+                relapse, such as craving or distress at the point of care. This
+                not only supplements the treatment for OUD by providing
+                quantitative data in addition to qualitative, it also helps to
+                substantiate OUD.
               </p>
+              <p>
+                We had the privilege of helping create a prototype for Neurotype Inc.
+                in the hopes that they will receive funding for further
+                development.
+              </p>
+              <p></p>
             </div>
             <div className="poster">
               <img src={neuroGif} alt=""></img>

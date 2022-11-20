@@ -41,11 +41,12 @@ function PettesHounds() {
                     <a href="https://www.petteshounds.com"> petteshounds.com</a>
                   </p>
                   <p>
-                    Pette’s Hounds had all of the right components to make a
-                    great website: cute name, cute logo, cute pet pictures. It
-                    just needed some slight format changes. And some extra pet
-                    pics. I had the pleasure of working with the founder of
-                    Pette’s Hounds to create the new version of the site.
+                    I had the opportunity to work with the awesome founder of
+                    Pette's Hounds to redesign a website for the dog walking and
+                    pet care services they provide. The original site had all of
+                    the components to make a great website (cute name, cute
+                    logo, cute pet pictures), it just needed some slight format
+                    changes to more efficiently display services.
                   </p>
                 </div>
               </div>
@@ -63,17 +64,15 @@ function PettesHounds() {
               <p className="description-title">Objectives & Process</p>
               <p>
                 Design choices were based around the existing Pette's Hounds
-                website and logo, which I animated using Photoshop. I also
-                created the GIFs from videos sourced from Pette's Hounds social
-                media accounts. After auditing the site on Google Lighthouse, I
-                optimized all of the images to a smaller file size to increase
-                the site load speed.
+                website and logo. I animated the logo using Photoshop and
+                created GIFs for the website from videos sourced from their
+                social media accounts. After auditing the site on Google
+                Lighthouse, I optimized all of the images to a smaller file size
+                to increase the site load speed.
               </p>
               <p>
-                The original site as well as the redesign were built using
-                Squarespace. I was able to switch templates which helped with
-                the formatting of the site content in order to achieve the
-                desired look and feel.
+                The original site, as well as the redesign, were built using
+                Squarespace. I switched templates which helped create the desired formatting for the site content.
               </p>
             </div>
             <div className="poster">
@@ -83,9 +82,9 @@ function PettesHounds() {
             </div>
             <div id="mobile-images">
               <div className="poster">
-              <img src={pettesLogo} alt=""></img>
+                <img src={pettesLogo} alt=""></img>
                 <p className="caption">
-                ✧ Pette's Hounds logo I animated using Photoshop
+                  ✧ Pette's Hounds logo animated using Photoshop
                 </p>
                 <img src={homeOg} alt=""></img>
                 <p className="caption">✧ Before redesign: Home page</p>
