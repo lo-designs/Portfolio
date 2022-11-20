@@ -56,7 +56,7 @@ function Soona() {
                   <p>
                     Objectives: ✧ Make the booking & building a shoot process
                     engaging + easy to follow. ✧ Generate follow-through in
-                    purchasing finalized photos and videos.
+                    ordering finalized photos and videos.
                   </p>
                 </div>
               </div>
@@ -104,7 +104,7 @@ function Soona() {
                 02 Determining features through analysis.
               </p>
               <p>
-                Wireframes were collectively placed in InVision for Soona's
+                Wireframes of proposed soona features were collectively placed in InVision for Soona's
                 developer to estimate how much time was needed for each feature.
                 Wireframes were then narrowed down to 10 (out of ≈100) through
                 dot voting. Soona customers and staff completed a survey with

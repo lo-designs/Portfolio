@@ -36,11 +36,7 @@ function ParraLily() {
                     <a href="https://www.parralily.com"> parralily.com</a>
                   </p>
                   <p>
-                    ParraLily is a brand new food truck in Minneapolis. Because
-                    they are just starting out, I had the opportunity to be
-                    involved in the whole process of starting a site, rather
-                    than previous web design work I had done using pre-existing
-                    websites. I met with the talented owner/chef of ParraLily to
+                  I had the awesome opportunity to help design and build a website for ParraLily, a new food truck in Minneapolis. I met with the talented owner/chef of ParraLily to
                     go over setting up a website: how to get set up with hosting
                     and different CMS options, as well as ideas for the design.
                   </p>
@@ -59,17 +55,12 @@ function ParraLily() {
               <p className="title-number"></p>
               <p className="description-title">Objectives & Process</p>
               <p>
-                I started with the mobile design after meeting with the owner
-                and doing some comparative research on other food trucks. I made
+                I started with the mobile design and made
                 wireframes using Adobe XD, a design board in Photoshop, and
-                created the website using WordPress.
+                created the website using WordPress. Design choices - colors, fonts, and format - were based around
+                both the logo and the truck itself.
               </p>
-              <p>
-                Design choices - colors, fonts, and format - were based around
-                both the logo and the truck itself. Drawing inspiration from the
-                truck, the site/ParraLily menu was designed to emulate
-                mid-century diner menus.
-              </p>
+            
             </div>
             <div className="poster">
               <ParralilyCarousel />

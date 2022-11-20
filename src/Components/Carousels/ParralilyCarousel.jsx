@@ -26,7 +26,7 @@ function ParralilyCarousel() {
             id="carousel-item"
             className="d-block w-100"
             src={parraMenu}
-            alt="ParraLily fall brunch menu"
+            alt="ParraLily boxed lunch menu"
           />
           <div className="carousel-caption">
             <p></p>
