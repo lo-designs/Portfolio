@@ -202,14 +202,18 @@ section .content {
   .project {
     padding: 0 5%;
 
+    #sctr1,
+    #sctr2,
+    #sctr3,
+    #sctr4 {
+      padding-top: 200px;
+    }
+
     section {
       height: 100vh;
 
       img {
-         padding-top: 25px;
-      }
-      .caption {
-         padding-bottom: 50px;
+         padding-top: 20px;
       }
 
       .last-caption {
