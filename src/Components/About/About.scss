@@ -23,24 +23,27 @@
 
     .me {
       object-fit: cover;
-      z-index: 0;
       width: 30vw;
     }
   }
 
   .favorite-things-card {
-      // background-color: rgb(212, 193, 255, 0.91);
-      // padding: 20px;
-      // border: 1px solid;
-      // border-radius: 15px;
-      // width: 30vw;
+   // z-index: 10;
+   // margin-top: -3vh;
+   //    background-color: rgb(212, 193, 255, 0.91);
+   //    padding: 20px;
+   //    border: 1px solid;
+   //    border-radius: 15px;
+   //    width: 36vw;
+   //    margin-left: 70px;
+
     .favorite-things {
       padding-top: 25px;
       font-size: 0.75rem;
       font-family: "RobotoMono-Regular";
       text-transform: uppercase;
-      width: 35vw;
-      margin-left: 75px;
+      width: 30vw;
+      // margin-left: 2vw;
     }
   }
 }
