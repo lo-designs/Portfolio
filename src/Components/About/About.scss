@@ -37,7 +37,6 @@
     .favorite-things {
       padding-top: 25px;
       font-size: 0.75rem;
-      // color: #212121!important;
       font-family: "RobotoMono-Regular";
       text-transform: uppercase;
       width: 35vw;
@@ -50,7 +49,8 @@
 
 @media screen and (max-width: 850px) {
   .about-section {
-     
+      margin: 40px 0 40px 0;  
+
      .about-heading {
        font-size: 2rem;
      }
@@ -69,6 +69,7 @@
 
       .favorite-things {
          width: 80%;
+       
       }
     }
 

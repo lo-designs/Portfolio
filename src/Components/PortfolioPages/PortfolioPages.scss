@@ -200,19 +200,27 @@ section .content {
 
 @media only screen and (max-width: 900px) {
   .project {
-    padding: 10% 5%;
-   
+    padding: 0 5%;
+
     section {
       height: 100vh;
+
+      img {
+         padding-top: 25px;
+      }
+      .caption {
+         padding-bottom: 50px;
+      }
+
+      .last-caption {
+         padding-bottom: 150px;
+      }
+
     }
 
     ul {
       display: none;
     }
-
-   //  #sctr4 {
-   //    padding-top: 150px;
-   //  }
 
     #hero-image {
       position: absolute;
@@ -229,23 +237,16 @@ section .content {
       animation: none;
     }
 
-    #resources,
-    #resources-caption {
-      display: none;
+    #resources {
+      height: 40vh;
+      width: 100%;
     }
+    
 
     .intro-position,
     .description-position {
       top: 45vh;
       left: 0;
-    }
-
-    .title-number {
-      margin-top: 50px;
-    }
-
-    .poster {
-      margin-bottom: 50px!important;
     }
 
     .square {
@@ -268,9 +269,6 @@ section .content {
       font-size: 0.8rem;
     }
 
-    .last-caption {
-      padding-bottom: 150px;
-    }
   }
 }
 

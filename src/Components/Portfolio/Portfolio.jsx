@@ -20,7 +20,7 @@ function Portfolio() {
           <p>
             I've had the opportunity to work with some great local businesses
             doing web design, as well as UX/UI research and design for clients
-            while earning a certificate in UX. Most recently, I completed a full stack development program and made this portfolio in my spare time :D
+            while earning a certificate in UX. Most recently, I completed a full stack development program and made this portfolio in my spare time.
           </p>
           <p>Check out some of my case studies below:</p>
         </div>
