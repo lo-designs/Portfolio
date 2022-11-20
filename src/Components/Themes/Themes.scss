@@ -7,18 +7,12 @@
   div {
     cursor: pointer;
     display: inline-block;
-    height: 20px;
-    width: 20px;
-    margin: 0px 5px;
+    height: 19px;
+    width: 19px;
+    margin: 0px 4px;
     border: 1px solid #212121;
     border-radius: 50%;
     opacity: 0.89;
-    &.active {
-      opacity: 1;
-    }
-    &:hover {
-      opacity: 1;
-    }
   }
 }
 
@@ -40,44 +34,42 @@
   a {
     color: rgba(253, 255, 246, 0.969) !important;
   }
-
-//   #section-1,
-//   #section-2,
-//   #section-3,
-//   #section-4 {
-//     background-color: rgba(253, 255, 246, 0.969) !important;
-//   }
 }
 
 .App.theme-tan,
 .header.theme-tan,
 .footer.theme-tan,
 #theme-tan {
-  background-color: rgba(254, 230, 153, 0.95);
+  background-color: rgb(210, 180, 140, 0.95);
 }
 
 .App.theme-purple,
 .header.theme-purple,
 .footer.theme-purple,
 #theme-purple {
-  background-color: rgba(226, 206, 248, 0.95);
+  background-color: rgba(225, 197, 255, 0.95);
 }
 
 .App.theme-green,
 .header.theme-green,
 .footer.theme-green,
 #theme-green {
-  background-color: rgba(192, 210, 116, 0.94);
+  background-color: rgba(137, 161, 89, 0.94);
 }
 
 /*************  BREAK POINTS  **************/
 
 @media only screen and (max-width: 900px) {
-   .theme-options {
-      bottom: 0;
-      position: fixed;
-      margin-left: 5%;
-      margin-bottom: 5px;
-      z-index: 1500;
-   }
+  .theme-options {
+    bottom: 0;
+    position: fixed;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    z-index: 1500;
+
+    div {
+      height: 15px;
+      width: 15px;
+    }
+  }
 }

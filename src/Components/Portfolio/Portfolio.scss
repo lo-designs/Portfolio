@@ -29,7 +29,7 @@
   }
 
   .portfolio-header {
-    font-size: 2.7rem;
+    font-size: 2rem;
     font-family: "Celebrate-Retro";
   }
 
@@ -63,14 +63,14 @@
 
 .menu__item {
   position: relative;
-  border-bottom: 1px solid;
+  border-bottom: 1.5px solid;
 }
 
 .menu__item-link {
   display: inline-block;
   cursor: pointer;
   position: relative;
-  color: #fff;
+//   color: #fff;
   -webkit-transition: opacity 0.4s;
   transition: opacity 0.4s;
 }
@@ -157,8 +157,8 @@
 .menu__item-link,
 .marquee span {
   white-space: nowrap;
-  font-size: 2.3rem;
-  padding: 1.6vw 1vw;
+  font-size: 2.13rem;
+  padding: 2.13vw 1vw;
 }
 
 .marquee span {
@@ -196,7 +196,7 @@
 
   .work__type {
     float: none;
-    font-size: 0.75rem;
+    font-size: 0.69rem;
     line-height: 1.5;
     padding-left: 0;
   }
@@ -204,8 +204,8 @@
   .menu__item-link,
   .marquee span {
     white-space: nowrap;
-    font-size: 1.7rem;
-    padding: 3vw 1vw;
+    font-size: 1.6rem;
+    padding: 3.2vw 1vw;
   }
 }
 
