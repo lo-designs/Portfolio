@@ -2,20 +2,19 @@
 
 #hero-image {
   position: fixed;
-  margin-top: -10vh;
-  width: 45vw;
-  right: 0!important;
+//   margin-top: -10vh;
+  margin-left: 55vw;
   height: 100vh;
   overflow: hidden;
   animation: fade 4s;
-  opacity: 0.9;
+  opacity: 0.769;
 
   @keyframes fade {
     from {
       opacity: 0;
     }
     to {
-      opacity: 0.9;
+      opacity: 0.769;
     }
   }
 }
@@ -84,14 +83,15 @@ section .content {
 
 /****************  IMAGES  *****************/
 
-// .square {
-//    width: 45vw;
-//    float: right;
-//    height: 100vh;
-//    overflow: hidden;
-//    z-index: 3;
-//    border-top: 1px solid rgba(190, 105, 207, 0.991);
-// }
+.square {
+   width: 44.79vw;
+   float: right;
+   height: 100vh;
+   overflow: hidden;
+   z-index: 1;
+   background-color: hsla(0, 0%, 15%, 0.869);
+   border-top: 1px solid rgba(190, 105, 207, 0.991);
+}
 
 .poster {
   width: 35vw;
