@@ -79,7 +79,7 @@ function ParraLily() {
                 <img src={parraMenu} alt=""></img>
                 <p className="caption">✧ Menu designed for brunch event</p>
                 <img src={designBoard} alt=""></img>
-                <p className="caption">✧ Design board made in Adobe XD</p>
+                <p className="last-caption">✧ Design board made in Adobe XD</p>
               </div>
             </div>
           </div>
