@@ -2,20 +2,20 @@
 
 #hero-image {
   position: fixed;
-  margin-left: 55vw;
   margin-top: -10vh;
-  float: right;
   width: 45vw;
+  right: 0!important;
   height: 100vh;
   overflow: hidden;
   animation: fade 4s;
+  opacity: 0.9;
 
   @keyframes fade {
     from {
       opacity: 0;
     }
     to {
-      opacity: 1;
+      opacity: 0.9;
     }
   }
 }
@@ -48,7 +48,6 @@
   .side-nav-link {
     text-transform: uppercase;
     font-size: 0.97rem;
-    color: #212121;
     font-family: "RobotoMono-Regular";
 
     li {
@@ -57,14 +56,6 @@
       z-index: 100;
     }
   }
-}
-/* side nav links */
-
-#section-1,
-#section-2,
-#section-3,
-#section-4 {
-  background-color: rgba(31, 31, 31, 0.991);
 }
 
 /***************  SECTIONS  ****************/
@@ -93,14 +84,14 @@ section .content {
 
 /****************  IMAGES  *****************/
 
-.square {
-  float: right;
-  right: 0!important;
-  height: 100vh;
-  width: 45vw;
-  z-index: 3;
-  border-top: 1px solid;
-}
+// .square {
+//    width: 45vw;
+//    float: right;
+//    height: 100vh;
+//    overflow: hidden;
+//    z-index: 3;
+//    border-top: 1px solid rgba(190, 105, 207, 0.991);
+// }
 
 .poster {
   width: 35vw;
@@ -143,7 +134,7 @@ section .content {
   font-family: "Vercetti";
   font-size: 0.9rem;
   line-height: 1.5;
-  color: black;
+  color: #212121;
 }
 
 .description {
@@ -249,6 +240,10 @@ section .content {
       left: 0;
     }
 
+    .title-number {
+      margin-top: 50px;
+    }
+
     .square {
       display: none;
     }
@@ -274,7 +269,7 @@ section .content {
     }
 
     .last-caption {
-      padding-bottom: 100px;
+      padding-bottom: 150px;
     }
   }
 }

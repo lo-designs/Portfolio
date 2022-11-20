@@ -7,7 +7,6 @@ import "./Components/Header/Header.scss";
 import "./Components/Footer/Footer.scss";
 import "./Components/Themes/Themes.scss";
 
-
 function App() {
   const [colorTheme, setColorTheme] = useState("theme-white");
 
@@ -28,20 +27,20 @@ function App() {
       <div className={`App ${colorTheme}`}>
         <div className="noise"></div>
         <div className={`header ${colorTheme}`}>
-      <span className="header-links">
-        <a className="header-logo" href="/">
-          laura gunther
-        </a>
-        <span className="header-links-divider"></span>
-        <a className="portfolio" href="/portfolio">
-          portfolio
-        </a>
-        <span className="header-links-divider"> // </span>
-        <a className="about" href="/about">
-          about
-        </a>
-      </span>
-    </div>
+          <span className="header-links">
+            <a className="header-logo" href="/">
+              laura gunther
+            </a>
+            <span className="header-links-divider"></span>
+            <a className="portfolio" href="/portfolio">
+              portfolio
+            </a>
+            <span className="header-links-divider"> // </span>
+            <a className="about" href="/about">
+              about
+            </a>
+          </span>
+        </div>
         <div className="theme-options">
           <div id="theme-black" onClick={() => handleClick("theme-black")} />
           <div id="theme-white" onClick={() => handleClick("theme-white")} />
@@ -54,16 +53,16 @@ function App() {
           <PageRoutes />
         </div>
         <div className={`footer ${colorTheme}`}>
-      <span className="footer-links">
-        <a className="resume" href="/">
-          resume
-        </a>
-        <span className="footer-links-divider"> // </span>
-        <a className="email" href="mailto:lauraguntherdesigns@gmail.com">
-          email
-        </a>
-      </span>
-    </div>
+          <span className="footer-links">
+            <a className="resume" href="/">
+              resume
+            </a>
+            <span className="footer-links-divider"> // </span>
+            <a className="email" href="mailto:lauraguntherdesigns@gmail.com">
+              email
+            </a>
+          </span>
+        </div>
       </div>
     </BrowserRouter>
   );

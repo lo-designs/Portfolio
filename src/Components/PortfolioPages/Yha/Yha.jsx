@@ -1,6 +1,6 @@
 import React from "react";
 import "../PortfolioPages.scss";
-import youMatter from "../../Images/YHA/g1-.gif";
+import youMatter from "../../Images/YHA/YouMatter.gif";
 import yhaHero from "../../Images/YHA/yhaHero.jpg";
 import yhaMap from "../../Images/YHA/yhaMap.jpg";
 import resources from "../../Images/YHA/resources.jpg";
