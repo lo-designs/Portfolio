@@ -6,7 +6,6 @@ import soonaGif from "../../Images/Soona/soonaGif.gif";
 import journeyMap from "../../Images/Soona/journey.png";
 import soonaKano from "../../Images/Soona/kano.png";
 import SoonaCarousel from "../../Carousels/SoonaCarousel/SoonaCarousel";
-import soonaProgressBar from "../../Images/Soona/progress-bar.png";
 import soonaQuickView from "../../Images/Soona/quick-view.png";
 
 function Soona() {
@@ -147,8 +146,8 @@ function Soona() {
             </div>
             <div id="mobile-images">
               <div className="poster">
-                <img src={soonaProgressBar} alt=""></img>
-                <p className="caption">✧ Proposed Feature: progress bar</p>
+                {/* <img src={soonaProgressBar} alt=""></img>
+                <p className="caption">✧ Proposed Feature: progress bar</p> */}
                 <img src={soonaQuickView} alt=""></img>
                 <p className="caption">✧ Proposed feature: quick view option</p>
               </div>
