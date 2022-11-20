@@ -167,13 +167,12 @@ function Neurotype() {
                 qualitative data [like self-reports] to inform treatment of OUD.
                 Neurotype Inc. provides tools to objectively detect triggers for
                 relapse, such as craving or distress at the point of care. This
-                not only supplements the treatment for OUD by providing
-                quantitative data in addition to qualitative, it also helps to
-                substantiate OUD.
+                not only supplements treatment by providing quantitative data in
+                addition to qualitative, it also helps to substantiate OUD.
               </p>
               <p>
-                We had the privilege of helping create a prototype for Neurotype Inc.
-                in the hopes that they will receive funding for further
+                We had the privilege of helping create a prototype for Neurotype
+                Inc. in the hopes that they will receive funding for further
                 development.
               </p>
               <p></p>
