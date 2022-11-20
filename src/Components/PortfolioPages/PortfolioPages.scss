@@ -244,6 +244,10 @@ section .content {
       margin-top: 50px;
     }
 
+    .poster {
+      padding-bottom: 40px!important;
+    }
+
     .square {
       display: none;
     }
@@ -262,10 +266,6 @@ section .content {
     .last-caption {
       color: rgb(19, 19, 19) !important;
       font-size: 0.8rem;
-    }
-
-    .caption {
-      padding-bottom: 40px!important;
     }
 
     .last-caption {
