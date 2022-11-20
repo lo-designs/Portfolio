@@ -2,7 +2,7 @@
 
 #hero-image {
   position: fixed;
-//   margin-top: -10vh;
+  //   margin-top: -10vh;
   margin-left: 55vw;
   height: 100vh;
   overflow: hidden;
@@ -43,7 +43,6 @@
 /************ SIDE NAV LINKS ***************/
 
 .side-nav {
-  
   .side-nav-link {
     text-transform: uppercase;
     font-size: 0.97rem;
@@ -84,13 +83,13 @@ section .content {
 /****************  IMAGES  *****************/
 
 .square {
-   width: 44.79vw;
-   float: right;
-   height: 100vh;
-   overflow: hidden;
-   z-index: 1;
-   background-color: hsla(0, 0%, 15%, 0.869);
-   border-top: 1px solid rgba(190, 105, 207, 0.991);
+  width: 44.79vw;
+  float: right;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 1;
+  background-color: hsla(0, 0%, 15%, 0.869);
+  border-top: 1px solid rgba(190, 105, 207, 0.991);
 }
 
 .poster {
@@ -202,24 +201,22 @@ section .content {
   .project {
     padding: 0 5%;
 
-    #sctr1,
-    #sctr2,
-    #sctr3,
-    #sctr4 {
-      padding-top: 200px;
-    }
-
     section {
-      height: 100vh;
+      #sctr1,
+      #sctr2,
+      #sctr3,
+      #sctr4 {
+        padding-top: 25vh !important;
+        padding-bottom: 25vh !important;
+      }
 
       img {
-         padding-top: 20px;
+        padding-top: 20px;
       }
 
       .last-caption {
-         padding-bottom: 150px;
+        padding-bottom: 150px;
       }
-
     }
 
     ul {
@@ -245,7 +242,6 @@ section .content {
       height: 40vh;
       width: 100%;
     }
-    
 
     .intro-position,
     .description-position {
@@ -272,7 +268,6 @@ section .content {
       color: rgb(19, 19, 19) !important;
       font-size: 0.8rem;
     }
-
   }
 }
 
