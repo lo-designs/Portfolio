@@ -29,15 +29,19 @@
   }
 
   .favorite-things-card {
-      // background-color: rgb(212, 193, 255);
-      // padding: 10px;
+      // background-color: rgb(212, 193, 255, 0.91);
+      // padding: 20px;
       // border: 1px solid;
       // border-radius: 15px;
+      // width: 30vw;
     .favorite-things {
       padding-top: 25px;
       font-size: 0.75rem;
+      // color: #212121!important;
       font-family: "RobotoMono-Regular";
       text-transform: uppercase;
+      width: 35vw;
+      margin-left: 75px;
     }
   }
 }
@@ -46,26 +50,30 @@
 
 @media screen and (max-width: 850px) {
   .about-section {
-
+     
+     .about-heading {
+       font-size: 2rem;
+     }
     .about-summary {
-      width: 100%;
-    }
-
+       width: 100%;
+      }
+      
     .about-me {
       margin-left: 0;
       margin-top: 0;
       padding-left: 0;
 
       .me {
-         width: 100%;
+         width: 85%;
+      }
+
+      .favorite-things {
+         width: 80%;
+         margin-bottom: 150px;
       }
     }
-    .about-heading {
-      font-size: 2rem;
-    }
 
-    .favorite-things {
-      padding-bottom: 50px;
-    }
   }
+
+  
 }
