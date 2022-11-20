@@ -78,7 +78,7 @@ function Soona() {
               </p>
               <p>
                 We met with Soona co-founder, Hayley, to get an overview of
-                services Soona provides, we did a comparative audit of the site
+                services Soona provides and did a comparative audit of the site
                 and some of their competitors. I then did a step-by-step
                 analysis of the process a customer takes on the Soona site to
                 create a customer journey map.
@@ -104,7 +104,7 @@ function Soona() {
                 02 Determining features through analysis.
               </p>
               <p>
-                Wireframes of proposed soona features were collectively placed
+                Wireframes of proposed Soona features were collectively placed
                 in InVision for Soona's developer to estimate how much time was
                 needed for each feature. Wireframes were then narrowed down to
                 10 (out of ≈100) through dot voting. Soona customers and staff
