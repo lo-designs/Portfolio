@@ -240,12 +240,12 @@ section .content {
       left: 0;
     }
 
-   //  .title-number {
-   //    margin-top: 50px;
-   //  }
+    .title-number {
+      margin-top: 50px;
+    }
 
     .poster {
-      padding-bottom: 40px!important;
+      margin-bottom: 50px!important;
     }
 
     .square {
@@ -268,9 +268,9 @@ section .content {
       font-size: 0.8rem;
     }
 
-   //  .last-caption {
-   //    padding-bottom: 150px;
-   //  }
+    .last-caption {
+      padding-bottom: 150px;
+    }
   }
 }
 
