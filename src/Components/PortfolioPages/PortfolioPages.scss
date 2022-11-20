@@ -203,20 +203,16 @@ section .content {
 
     section {
 
-      .title-number {
-         padding-top: 50px!important;
-      }
-
-      #sctr1,
-      #sctr2,
-      #sctr3,
-      #sctr4 {
-        padding-top: 25vh !important;
-        padding-bottom: 25vh !important;
-      }
-
       img {
-        padding-top: 20px;
+         padding-top: 20px;
+       }
+
+      .title-number {
+         padding-top: 25vh!important;
+      }
+
+      .caption {
+         padding-bottom: 25vh!important;
       }
 
       .last-caption {
