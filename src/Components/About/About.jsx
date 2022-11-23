@@ -28,7 +28,7 @@ function About() {
           <br />
           <br />
           animals // road trips // mountains // hiking // the north shore // hiking @the north shore //
-          video games // movies at alamo // kids in the hall // pancakes.
+          video games // movies at alamo // pancakes.
         </p>
       </div>
       </div>
