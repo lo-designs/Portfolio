@@ -40,9 +40,6 @@
     padding: 10px 0 20px;
   }
 
-  //   .portfolio-summary {
-
-  //   }
 }
 
 .work__type {
@@ -70,7 +67,7 @@
   display: inline-block;
   cursor: pointer;
   position: relative;
-//   color: #fff;
+
   -webkit-transition: opacity 0.4s;
   transition: opacity 0.4s;
 }
@@ -92,6 +89,7 @@
 
 .menu__item-img {
   pointer-events: none;
+  z-index: 1000;
   position: absolute;
   width: 35vw;
   opacity: 0;
@@ -120,6 +118,7 @@
 }
 
 .marquee {
+   z-index: 2000;
   position: absolute;
   top: 0;
   left: 0;
