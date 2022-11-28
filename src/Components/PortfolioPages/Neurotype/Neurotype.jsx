@@ -172,7 +172,7 @@ function Neurotype() {
               </p>
               <p>
                 We had the privilege of helping create a prototype for Neurotype
-                Inc. in the hopes that they will receive funding for further
+                Inc. in the hopes that they will receive funding for further research and
                 development.
               </p>
               <p></p>
