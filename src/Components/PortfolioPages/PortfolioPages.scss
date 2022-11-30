@@ -230,6 +230,10 @@ section .content {
       animation: none;
     }
 
+    #resources {
+      display: none;
+    }
+
     .intro-position,
     .description-position {
       left: 0;
