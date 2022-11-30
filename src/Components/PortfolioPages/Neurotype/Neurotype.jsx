@@ -46,7 +46,7 @@ function Neurotype() {
                 <div className="overview">
                   <p>
                     <b>
-                      <a href="https://www.neurotype.io/">Neurotype Inc.</a>
+                      <a href="https://www.neurotype.io/">Neurotype Inc. </a>
                     </b>
                     is building portable brain sensing tools to support the
                     recovery of people struggling with Opioid Use Disorder
