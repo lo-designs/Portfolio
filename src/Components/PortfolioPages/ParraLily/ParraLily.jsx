@@ -28,7 +28,7 @@ function ParraLily() {
               <div>
                 <div id="title">ParraLily</div>
                 <div className="project-type">// web design</div>
-                <div className="subtitle">Local food truck.</div>
+                <div className="subtitle">Minneapolis food truck.</div>
 
                 <div className="overview">
                   <p className="website">
