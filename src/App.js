@@ -54,9 +54,9 @@ function App() {
         </div>
         <div className={`footer ${colorTheme}`}>
           <span className="footer-links">
-            <a className="resume" href="/">
+            {/* <a className="resume" href="/">
               resume
-            </a>
+            </a> */}
             <span className="footer-links-divider"> // </span>
             <a className="email" href="mailto:lauraguntherdesigns@gmail.com">
               email
