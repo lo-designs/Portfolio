@@ -1,5 +1,5 @@
 .about-section {
-  padding: 0 5%;
+  padding: 0 15%;
   height: 100vh;
   margin: 25vh 0 20vh 0;
 
@@ -8,42 +8,30 @@
     font-family: "Celebrate-Retro";
     line-height: 0.9em;
     padding-bottom: 30px;
+    width: 35vw;
   }
 
   .about-summary {
-    width: 40vw;
     font-family: "Vercetti";
     font-size: 0.9rem;
+    width: 35vw;
   }
 
   .about-me {
-    margin-left: 50%;
-    margin-top: -150px;
-    padding-left: 10px;
-
+   margin-top: -200px;
+   max-width: 450px;
+   float: right;
+   width: 30vw; 
+   padding-left: 50px;
     .me {
       object-fit: cover;
-      width: 30vw;
+      
     }
-  }
-
-  .favorite-things-card {
-   // z-index: 10;
-   // margin-top: -3vh;
-   //    background-color: rgb(212, 193, 255, 0.91);
-   //    padding: 20px;
-   //    border: 1px solid;
-   //    border-radius: 15px;
-   //    width: 36vw;
-   //    margin-left: 70px;
-
     .favorite-things {
       padding-top: 25px;
       font-size: 0.75rem;
       font-family: "RobotoMono-Regular";
       text-transform: uppercase;
-      width: 30vw;
-      // margin-left: 2vw;
     }
   }
 }
@@ -67,11 +55,11 @@
       padding-left: 0;
 
       .me {
-         width: 85%;
+         width: 100%;
       }
 
       .favorite-things {
-         width: 80%;
+         width: 100%;
        
       }
     }

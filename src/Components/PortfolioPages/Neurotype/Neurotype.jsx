@@ -47,10 +47,10 @@ function Neurotype() {
                   <p>
                     <b>
                       <a href="https://www.neurotype.io/">Neurotype Inc.</a>
-                    </b>{" "}
+                    </b>
                     is building portable brain sensing tools to support the
-                    recovery of people struggling with Substance Use Disorders
-                    [SUD].
+                    recovery of people struggling with Opioid Use Disorder
+                    [OUD], as well as other substance use disorders.
                   </p>
                   <p>
                     We had the honor of working with Neurotype Inc. to help
@@ -161,7 +161,7 @@ function Neurotype() {
           <div className="content">
             <div className="description">
               <p className="title-number">// Summary</p>
-              <p className="description-title">Substantiating OUD treatment.</p>
+              <p className="description-title">Substantiating treatment.</p>
               <p>
                 Currently, addiction healthcare practitioners rely on
                 qualitative data [like self-reports] to inform treatment of OUD.
@@ -172,8 +172,8 @@ function Neurotype() {
               </p>
               <p>
                 We had the privilege of helping create a prototype for Neurotype
-                Inc. in the hopes that they will receive funding for further research and
-                development.
+                Inc. in the hopes that they will receive funding for further
+                research and development.
               </p>
               <p></p>
             </div>

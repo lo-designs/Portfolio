@@ -51,9 +51,9 @@ function Yha() {
                     to their needs.
                   </p>
                   <p>
-                    My goal was to learn about resources that currently
-                    exist to find areas of opportunity, and determine a way to
-                    make resources more readily available.
+                    My goal was to learn about resources that currently exist to
+                    find areas of opportunity, and determine a way to make
+                    resources more readily available.
                   </p>
                 </div>
               </div>
@@ -74,9 +74,9 @@ function Yha() {
                 01 Deep dive: health & wellness resources for youth.
               </p>
               <p>
-                During research for this project, I quickly found that there are
-                a lot of resources out there, however, many of them are text
-                heavy and hard to scan for important information. This makes it
+                During research for this project, I found a lot of mental health
+                and wellness resources, however, many of them are text heavy and
+                hard to scan for important information. This makes it
                 challenging to find help, especially if you don't know exactly
                 what you need. Interviews with licensed social workers revealed
                 Youth Services Network [YSN] as an effective resource, so I
@@ -135,7 +135,7 @@ function Yha() {
                 In addition to easy access hotlines and contact info, the option
                 to create an account to customize needs and preferences would
                 allow users to save important information and access it easily
-                when needed. 
+                when needed.
               </p>
             </div>
             <div className="poster">
