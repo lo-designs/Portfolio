@@ -1,5 +1,5 @@
 .about-section {
-  padding: 0 15%;
+  padding: 0 5%;
   height: 100vh;
   margin: 25vh 0 20vh 0;
 
@@ -7,22 +7,28 @@
     font-size: 2.7rem;
     font-family: "Celebrate-Retro";
     line-height: 0.9em;
-    padding-bottom: 30px;
-    width: 35vw;
+    padding-bottom: 20px;
+    width: 40vw;
+  }
+
+  .about-subheading {
+   font-size: 1.25rem;
+   font-family: "Vercetti";
+   font-weight: bold;
   }
 
   .about-summary {
     font-family: "Vercetti";
     font-size: 0.9rem;
-    width: 35vw;
+    width: 40vw;
   }
 
   .about-me {
    margin-top: -200px;
    max-width: 450px;
    float: right;
-   width: 30vw; 
-   padding-left: 50px;
+   width: 35vw; 
+   padding-left: 25px;
     .me {
       object-fit: cover;
       

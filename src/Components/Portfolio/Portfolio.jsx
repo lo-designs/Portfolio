@@ -14,16 +14,14 @@ function Portfolio() {
       <div className="portfolio-intro">
         <h3 className="portfolio-header">Portfolio</h3>
         <h3 className="portfolio-subheader">
-          Web design & development // UX UI design
+         [ Web design & development work + UX UI design case studies. ]
         </h3>
-        <div className="portfolio-summary">
+        {/* <div className="portfolio-summary">
           <p>
-            I've had the opportunity to work with some great local businesses
-            doing web design, as well as UX/UI research and design for clients
-            while earning a certificate in UX. Most recently, I completed a full stack development program and made this portfolio in my spare time.
+    
           </p>
           <p>Check out some of my case studies below:</p>
-        </div>
+        </div> */}
       </div>
       <nav className="menu">
         <div className="menu__item">
