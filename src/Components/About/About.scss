@@ -40,10 +40,11 @@
 
 @media screen and (max-width: 850px) {
   .about-section {
-      margin: 40px 0 40px 0;  
+      margin: 100px 0 50px 0;  
 
      .about-heading {
        font-size: 2rem;
+       width: 100%;
      }
     .about-summary {
        width: 100%;
@@ -53,15 +54,11 @@
       margin-left: 0;
       margin-top: 0;
       padding-left: 0;
+      width: 100%;
+    }
 
-      .me {
-         width: 100%;
-      }
-
-      .favorite-things {
-         width: 100%;
-       
-      }
+    .favorite-things {
+      margin-bottom: 150px;
     }
 
   }
