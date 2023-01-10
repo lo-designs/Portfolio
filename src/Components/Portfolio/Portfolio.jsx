@@ -14,7 +14,7 @@ function Portfolio() {
       <div className="portfolio-intro">
         <h3 className="portfolio-header">Portfolio</h3>
         <h3 className="portfolio-subheader">
-         [ Web design & development work + UX UI design case studies. ]
+          Web design & development work + UX UI design case studies. 
         </h3>
         {/* <div className="portfolio-summary">
           <p>
