@@ -12,7 +12,7 @@ function Portfolio() {
   return (
     <div className="portfolio">
       <div className="portfolio-intro">
-        <h3 className="portfolio-header">Portfolio</h3>
+        <h3 className="portfolio-header">[ PORTFOLIO ]</h3>
         <h3 className="portfolio-subheader">
           Web design & development work + UX UI design case studies. 
         </h3>
@@ -35,7 +35,7 @@ function Portfolio() {
           <div className="marquee">
             <div id="pettes-marquee" className="marquee__inner">
               <span>Pette's Hounds</span>
-              <span>// web [re]design //</span>
+              <span>// web design //</span>
               <span>Dog walking & pet care services.</span>
             </div>
           </div>
@@ -51,6 +51,27 @@ function Portfolio() {
               <span>ParraLily</span>
               <span>// web design //</span>
               <span>Minneapolis food truck.</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="menu__item">
+          <a id="outta" href="/outtawax" className="menu__item-link">
+            Outta Wax
+            <p className="work__type">
+              [COMING SOON!] vinyl pressing services // web design
+            </p>
+          </a>
+          <img
+            className="menu__item-img"
+            src={outtaHover}
+            alt="vinyl records"
+          />
+          <div className="marquee">
+            <div id="outta-marquee" className="marquee__inner">
+              <span>Outta Wax</span>
+              <span>// web design //</span>
+              <span>Vinyl pressing services. [COMING SOON!]</span>
             </div>
           </div>
         </div>
@@ -86,6 +107,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
+        
         <div className="menu__item">
           <a id="soona" href="/soona" className="menu__item-link">
             Soona
@@ -105,28 +127,6 @@ function Portfolio() {
           </div>
         </div>
 
-
-
-        <div className="menu__item">
-          <a id="outta" href="/outtawax" className="menu__item-link">
-            Outta Wax
-            <p className="work__type">
-              [COMING SOON!] vinyl pressing services // web design
-            </p>
-          </a>
-          <img
-            className="menu__item-img"
-            src={outtaHover}
-            alt="vinyl records"
-          />
-          <div className="marquee">
-            <div id="outta-marquee" className="marquee__inner">
-              <span>Outta Wax</span>
-              <span>// web design //</span>
-              <span>Vinyl pressing services. [COMING SOON!]</span>
-            </div>
-          </div>
-        </div>
       </nav>
     </div>
   );

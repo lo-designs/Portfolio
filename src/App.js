@@ -32,12 +32,12 @@ function App() {
               laura gunther
             </a>
             <span className="header-links-divider"></span>
+            {/* <a className="about" href="/about">
+              about
+            </a> */}
+            <span className="header-links-divider"> // </span>
             <a className="portfolio" href="/portfolio">
               portfolio
-            </a>
-            <span className="header-links-divider"> // </span>
-            <a className="about" href="/about">
-              about
             </a>
           </span>
         </div>

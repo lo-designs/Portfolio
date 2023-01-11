@@ -1,22 +1,29 @@
 /*************  LINK HEADERS  **************/
 
-#outta,
-#outta-marquee,
+
 #soona,
 #soona-marquee,
-#parra,
-#parra-marquee {
+#outta,
+#outta-marquee {
   font-family: "Celebrate-Retro";
 }
 
-#yha,
-#yha-marquee,
-#pettes,
-#pettes-marquee,
+
 #neuro,
-#neuro-marquee {
-  font-family: "Vercetti";
-  font-weight: 500;
+#neuro-marquee,
+#pettes,
+#pettes-marquee {
+  font-family: "NeueMachina-Light";
+  text-transform: uppercase;
+}
+
+
+#parra,
+#parra-marquee,
+#yha,
+#yha-marquee
+ {
+ font-family: "QTJupiter";
 }
 
 .portfolio {
@@ -28,27 +35,21 @@
     font-size: 0.9rem;
   }
 
-  .portfolio-header {
-    font-size: 2.7rem;
-    font-family: "Celebrate-Retro";
-  }
-
+   .portfolio-header,
   .portfolio-subheader {
-    font-size: 1.25rem;
-    font-family: "Vercetti";
-    font-weight: bold;
-   //  text-transform: uppercase;
+    font-size: 0.9rem;
+    font-family: "RobotoMono-Regular";
     padding: 10px 0 0 0;
   }
 
 }
 
 .work__type {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-family: "RobotoMono-Regular";
   float: right;
   text-transform: uppercase;
-  padding-left: 21px;
+  padding-left: 60px;
   z-index: 0;
   display: flex;
 }

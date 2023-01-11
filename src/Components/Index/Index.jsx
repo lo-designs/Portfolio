@@ -1,5 +1,5 @@
 import React from "react";
-import About from "../About/About";
+// import About from "../About/About";
 import Portfolio from "../Portfolio/Portfolio";
 
 
@@ -10,15 +10,15 @@ function Index() {
     <div className="home-page">
       <div className="main-container">
         <h1 className="design">
-          frontend <br />design &<br /> development
+          Front-end <br />Design &<br /> Development
         </h1>
       </div>
       <div>
       <Portfolio />
       </div>
-      <div className="about-section">
+      {/* <div className="about-section">
         <About />
-      </div>
+      </div> */}
     </div>
   );
 }

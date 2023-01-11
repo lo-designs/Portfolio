@@ -82,6 +82,20 @@
    url("./Fonts/RobotoMono-Regular.ttf");
 }
 
+@font-face {
+   font-family: "QTJupiter";
+   src: local("QTJupiter"),
+   url("./Fonts/QTJupiter.otf");
+}
+
+@font-face {
+   font-family: "NeueMachina-Light";
+   src: local("NeueMachina-Light"),
+   url("./Fonts/NeueMachina-Light.otf");
+}
+
+
+
 .App {
    margin: 0;
    z-index: 0;
