@@ -32,7 +32,7 @@ function Neurotype() {
       <div>
         <section id="sctr0">
           <div className="cover" id="hero-image">
-            <img src={neuroHero} alt="" />
+            <img id="neuro-hero" src={neuroHero} alt="" />
           </div>
           <div className="content">
             <div className="intro-position">
@@ -46,7 +46,7 @@ function Neurotype() {
                 <div className="overview">
                   <p>
                     <b>
-                      <a href="https://www.neurotype.io/">Neurotype Inc. </a>
+                      <a href="https://www.neurotype.io/" target="_blank" rel="noreferrer">Neurotype Inc. </a>
                     </b>
                     is building portable brain sensing tools to support the
                     recovery of people struggling with Opioid Use Disorder

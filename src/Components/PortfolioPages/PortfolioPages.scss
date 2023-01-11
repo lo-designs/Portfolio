@@ -217,11 +217,16 @@ section .content {
 
     #hero-image {
       position: absolute;
-      margin-left: 25%;
-      width: 70vw;
+      margin-left: 30%;
+      width: 65vw;
       height: 60vh;
-      opacity: 0.4;
+      opacity: 0.7;
       animation: none;
+    } 
+
+    #pettes-hero,
+    #neuro-hero {
+      margin-top: -5vh;
     }
 
     #title {

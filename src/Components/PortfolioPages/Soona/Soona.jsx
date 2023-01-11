@@ -32,7 +32,7 @@ function Soona() {
       <div>
         <section id="sctr0">
           <div className="cover" id="hero-image">
-            <img src={soonaHero} alt="" />
+            <img id="soona-hero" src={soonaHero} alt="" />
           </div>
           <div className="content">
             <div className="intro-position">
@@ -46,12 +46,21 @@ function Soona() {
                 </div>
 
                 <div className="overview">
-                  <p>
-                    Soona is a studio that produces professional photos and
-                    videos of products within 24 hours. Creatives Liz Giorgi &
-                    Hayley Anderson started Soona with the shared vision of
-                    making quality, custom content accessible to brands of all
-                    sizes.
+                <p>
+                  <b>
+                    <a
+                      href="https://soona.co/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Soona{" "}
+                    </a>
+                  </b>
+               
+                    is a studio that produces professional photos and videos of
+                    products within 24 hours. Creatives Liz Giorgi & Hayley
+                    Anderson started Soona with the shared vision of making
+                    quality, custom content accessible to brands of all sizes.
                   </p>
                   <p>
                     Objectives: [1] Make the booking & building a shoot process
@@ -86,7 +95,9 @@ function Soona() {
             </div>
             <div className="poster">
               <img src={journeyMap} alt=""></img>
-              <p className="caption">[ Customer experience map: made in Sketch ]</p>
+              <p className="caption">
+                [ Customer experience map: made in Sketch ]
+              </p>
             </div>
           </div>
         </section>
@@ -149,7 +160,9 @@ function Soona() {
                 {/* <img src={soonaProgressBar} alt=""></img>
                 <p className="caption">✧ Proposed Feature: progress bar</p> */}
                 <img src={soonaQuickView} alt=""></img>
-                <p className="caption">[ Proposed feature: quick view option ]</p>
+                <p className="caption">
+                  [ Proposed feature: quick view option ]
+                </p>
               </div>
             </div>
           </div>
@@ -166,10 +179,10 @@ function Soona() {
               <p className="description-title">A little guidance.</p>
               <p>
                 Simple features were suggested to make the booking & building a
-                shoot process engaging + easy to follow, as
-                well as generate follow-through in ordering finalized photos and
-                videos. These features included: a progress bar, quick view
-                options, a work-in-progress pop-up message, and a style guide.
+                shoot process engaging + easy to follow, as well as generate
+                follow-through in ordering finalized photos and videos. These
+                features included: a progress bar, quick view options, a
+                work-in-progress pop-up message, and a style guide.
               </p>
             </div>
             <div className="poster">

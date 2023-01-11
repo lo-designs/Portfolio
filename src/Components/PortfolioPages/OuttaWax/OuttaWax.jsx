@@ -9,7 +9,7 @@ function OuttaWax() {
       <div>
         <section id="sctr0">
           <div className="cover" id="hero-image">
-            <img src={outtaHero} alt="" />
+            <img id="outta-hero" src={outtaHero} alt="" />
           </div>
           <div className="content">
             <div className="intro-position">

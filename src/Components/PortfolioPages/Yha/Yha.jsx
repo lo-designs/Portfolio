@@ -30,7 +30,7 @@ function Yha() {
       <div>
         <section id="sctr0">
           <div className="cover" id="hero-image">
-            <img src={yhaHero} alt="" />
+            <img id="yha-hero" src={yhaHero} alt="" />
           </div>
           <div className="content">
             <div className="intro-position">

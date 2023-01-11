@@ -21,7 +21,7 @@ function ParraLily() {
       <div>
         <section id="sctr0">
           <div className="cover" id="hero-image">
-            <img src={parraHero} alt="" />
+            <img id="parra-hero" src={parraHero} alt="" />
           </div>
           <div className="content">
             <div className="intro-position">
@@ -31,9 +31,15 @@ function ParraLily() {
                 <div className="subtitle">Minneapolis food truck.</div>
 
                 <div className="overview">
-                  <p className="website">
-                    Check out the site:
-                    <a href="https://www.parralily.com"> parralily.com</a>
+                <p className="website">
+                    Check out the site: <b><a
+                      href="https://www.parralily.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                       parralily.com
+                    </a>
+                  </b>
                   </p>
                   <p>
                     I had the opportunity to help set up, design, and build a
@@ -71,9 +77,9 @@ function ParraLily() {
             <div id="mobile-images">
               <div className="poster">
                 <img src={parraMenu} alt=""></img>
-                <p className="caption">✧ Boxed lunch menu</p>
+                <p className="caption">[ Boxed lunch menu ]</p>
                 <img src={designBoard} alt=""></img>
-                <p className="last-caption">✧ Design board created in XD</p>
+                <p className="last-caption">[ Design board ]</p>
               </div>
             </div>
           </div>

@@ -17,7 +17,6 @@ function ParralilyCarousel() {
             alt="Second slide"
           />
           <div className="carousel-caption">
-            <p>design board</p>
           </div>
         </Carousel.Item>
 

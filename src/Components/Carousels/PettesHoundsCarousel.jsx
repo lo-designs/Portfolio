@@ -21,7 +21,7 @@ function PettesHoundsCarousel() {
             alt="animated logo"
           />
           <div className="carousel-caption">
-            <p>Logo animated using Photoshop</p>
+            <p>[ Logo animated using Photoshop ]</p>
           </div>
         </Carousel.Item>
 
@@ -33,7 +33,7 @@ function PettesHoundsCarousel() {
             alt="New Pette's Hounds home page"
           />
           <div className="carousel-caption">
-            <p>Redesign [new home page]</p>
+            <p>[ Redesign: home page ]</p>
           </div>
         </Carousel.Item>
 
@@ -45,7 +45,7 @@ function PettesHoundsCarousel() {
             alt="Original home page"
           />
           <div className="carousel-caption">
-            <p>original home page</p>
+            <p>[ original design: home page ]</p>
           </div>
         </Carousel.Item>
 
@@ -57,7 +57,7 @@ function PettesHoundsCarousel() {
             alt="New 'all services' page"
           />
           <div className="carousel-caption">
-            <p>Redesign [all services page]</p>
+            <p>[ Redesign: services page ]</p>
           </div>
         </Carousel.Item>
 
@@ -69,7 +69,7 @@ function PettesHoundsCarousel() {
             alt="Original 'all services' page"
           />
           <div className="carousel-caption">
-            <p>original all serices page</p>
+            <p>[ original design: serices page ]</p>
           </div>
         </Carousel.Item>
       </Carousel>

@@ -24,7 +24,7 @@ function PettesHounds() {
       <div>
         <section id="sctr0">
           <div className="cover" id="hero-image">
-            <img src={pettesHero} alt="" />
+            <img id="pettes-hero" src={pettesHero} alt="" />
           </div>
           <div className="content">
             <div className="intro-position">
@@ -37,15 +37,21 @@ function PettesHounds() {
 
                 <div className="overview">
                   <p className="website">
-                    Check out the site:
-                    <a href="https://www.petteshounds.com"> petteshounds.com</a>
+                    Check out the site: <b><a
+                      href="https://www.petteshounds.com"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                       petteshounds.com
+                    </a>
+                  </b>
                   </p>
                   <p>
                     I had the opportunity to work with the awesome founder of
                     Pette's Hounds to redesign a website for the dog walking and
                     pet care services they provide. The original site had all of
-                    the components to make a great website (cute name, cute
-                    logo, cute pet pictures), it just needed some slight format
+                    the components to make a great website [cute name, cute
+                    logo, cute pet pictures], it just needed some slight format
                     changes to more efficiently display services.
                   </p>
                 </div>
@@ -81,16 +87,16 @@ function PettesHounds() {
               <div className="poster">
                 <img src={pettesLogo} alt=""></img>
                 <p className="caption">
-                  ✧ Pette's Hounds logo animated using Photoshop
+                  [ Pette's Hounds logo animated using Photoshop ]
                 </p>
                 <img src={homeOg} alt=""></img>
-                <p className="caption">✧ Before redesign: Home page</p>
+                <p className="caption">[ Original design: home page ]</p>
                 <img src={homeNew} alt=""></img>
-                <p className="caption">✧ Redesign: Home page</p>
+                <p className="caption">[ redesign: home page ]</p>
                 <img src={servicesOg} alt=""></img>
-                <p className="caption">✧ Before redesign: Services page</p>
+                <p className="caption">[ Original design: Services page ]</p>
                 <img src={servicesNew} alt=""></img>
-                <p className="last-caption">✧ Redesign: Services page</p>
+                <p className="last-caption">[ Redesign: Services page ]</p>
               </div>
             </div>
           </div>
