@@ -35,11 +35,12 @@ function Portfolio() {
           <div className="marquee">
             <div id="pettes-marquee" className="marquee__inner">
               <span>Pette's Hounds</span>
-              <span>// web design //</span>
-              <span>Dog walking & pet care services.</span>
+              <span>// Web Design</span>
+              <span>// Pet Care Services.</span>
             </div>
           </div>
         </div>
+        <hr id="portfolio-line"></hr>
         <div className="menu__item">
           <a id="parra" href="/parralily" className="menu__item-link">
             ParraLily
@@ -49,12 +50,12 @@ function Portfolio() {
           <div className="marquee">
             <div id="parra-marquee" className="marquee__inner">
               <span>ParraLily</span>
-              <span>// web design //</span>
-              <span>Minneapolis food truck.</span>
+              <span>// Web Design</span>
+              <span>// Minneapolis Food Truck.</span>
             </div>
           </div>
         </div>
-
+        <hr id="portfolio-line"></hr>
         <div className="menu__item">
           <a id="outta" href="/outtawax" className="menu__item-link">
             Outta Wax
@@ -70,29 +71,28 @@ function Portfolio() {
           <div className="marquee">
             <div id="outta-marquee" className="marquee__inner">
               <span>Outta Wax</span>
-              <span>// web design //</span>
-              <span>Vinyl pressing services. [COMING SOON!]</span>
+              <span>// Vinyl Pressing Services</span>
+              <span>// Web Design</span>
             </div>
           </div>
         </div>
-
+        <hr id="portfolio-line"></hr>
         <div className="menu__item">
           <a id="yha" href="/yha" className="menu__item-link">
             Health & Wellness Resource App
             <p className="work__type">
-              self-defined project // web + ux ui design
+              Self-defined project // web + ux ui design
             </p>
           </a>
           <img className="menu__item-img" src={yhaHover} alt="" />
           <div className="marquee">
             <div id="yha-marquee" className="marquee__inner" aria-hidden="true">
-              <span>Youth Resources App</span>
-              <span>// web + ux ui design //</span>
-              <span>Self-defined project.</span>
+              <span>// Self-Defined Project</span>
+              <span>// Web + UX UI Design.</span>
             </div>
           </div>
         </div>
-
+        <hr id="portfolio-line"></hr>
         <div className="menu__item">
           <a id="neuro" href="/neurotype" className="menu__item-link">
             Neurotype
@@ -102,12 +102,13 @@ function Portfolio() {
           <div className="marquee">
             <div id="neuro-marquee" className="marquee__inner">
               <span>Neurotype</span>
-              <span>// ux ui design //</span>
-              <span>Medical startup.</span>
+              <span>// Medical Startup</span>
+              <span>// UX UI Design</span>
+              
             </div>
           </div>
         </div>
-        
+        <hr id="portfolio-line"></hr>
         <div className="menu__item">
           <a id="soona" href="/soona" className="menu__item-link">
             Soona
@@ -121,12 +122,13 @@ function Portfolio() {
               aria-hidden="true"
             >
               <span>Soona</span>
-              <span>// ux ui design //</span>
-              <span>24 hr content studio.</span>
+              <span>// 24hr Content Studio</span>
+              <span>// UX UI Design</span>
+         
             </div>
           </div>
         </div>
-
+        <hr id="portfolio-line"></hr>
       </nav>
     </div>
   );
