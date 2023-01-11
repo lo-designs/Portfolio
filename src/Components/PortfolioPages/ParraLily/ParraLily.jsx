@@ -36,8 +36,8 @@ function ParraLily() {
                     <a href="https://www.parralily.com"> parralily.com</a>
                   </p>
                   <p>
-                    I had the opportunity to help set up, design, and
-                    build a website for ParraLily, a fantastic new food truck in
+                    I had the opportunity to help set up, design, and build a
+                    website for ParraLily, a fantastic new food truck in
                     Minneapolis. I met with the talented owner/chef of ParraLily
                     to go over setting up a website: how to get set up with
                     hosting and different CMS options, as well as ideas for the
@@ -59,12 +59,10 @@ function ParraLily() {
               <p className="description-title">Objectives & Process</p>
               <p>
                 I started with the mobile design and made wireframes using Adobe
-                XD and a design board in Photoshop. We decided to go with a CMS
-                (WordPress) for easier management of the site.<br></br> Design
-                choices - colors and fonts - were based around both the
-                pre-existing ParraLily logo as well as the truck. I've also
-                designed menus for their brunch events and for the boxed lunches
-                they offer.
+                XD and a design board in Photoshop. Design choices - colors and
+                fonts - were based around both the pre-existing ParraLily logo
+                as well as the truck. I've also designed menus for their brunch
+                events and for the boxed lunches they offer.
               </p>
             </div>
             <div className="poster">

@@ -19,7 +19,7 @@ function SoonaCarousel() {
             alt="progress bar"
           />
           <div className="carousel-caption">
-            <p>feature proposal: progress bar</p>
+            <p>[ feature proposal: progress bar ]</p>
           </div>
         </Carousel.Item>
 
@@ -31,7 +31,7 @@ function SoonaCarousel() {
             alt="quick view"
           />
           <div className="carousel-caption">
-            <p>feature proposal: quick view</p>
+            <p>[ feature proposal: quick view ]</p>
           </div>
         </Carousel.Item>
 
@@ -43,7 +43,7 @@ function SoonaCarousel() {
             alt="style guide"
           />
           <div className="carousel-caption">
-            <p>feature proposal: style guide</p>
+            <p>[ feature proposal: style guide ]</p>
           </div>
         </Carousel.Item>
 
@@ -55,7 +55,7 @@ function SoonaCarousel() {
             alt="work in progress message"
           />
           <div className="carousel-caption">
-            <p>feature proposal: work in progress pop-up</p>
+            <p>[ feature proposal: work in progress pop-up ]</p>
           </div>
         </Carousel.Item>
 

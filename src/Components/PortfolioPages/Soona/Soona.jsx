@@ -54,8 +54,8 @@ function Soona() {
                     sizes.
                   </p>
                   <p>
-                    Objectives: ✧ Make the booking & building a shoot process
-                    engaging + easy to follow. ✧ Generate follow-through in
+                    Objectives: [1] Make the booking & building a shoot process
+                    engaging + easy to follow. [2] Generate follow-through in
                     ordering finalized photos and videos.
                   </p>
                 </div>
@@ -77,7 +77,7 @@ function Soona() {
                 01 Understanding services of a 24 hour content studio.
               </p>
               <p>
-                We met with Soona co-founder, Hayley, to get an overview of
+                We met with Hayley [Soona co-founder] to get an overview of
                 services Soona provides and did a comparative audit of the site
                 and some of their competitors. I then did a step-by-step
                 analysis of the process a customer takes on the Soona site to
@@ -86,7 +86,7 @@ function Soona() {
             </div>
             <div className="poster">
               <img src={journeyMap} alt=""></img>
-              <p className="caption">✧ Customer Journey Map made in Sketch</p>
+              <p className="caption">[ Customer experience map: made in Sketch ]</p>
             </div>
           </div>
         </section>
@@ -116,7 +116,7 @@ function Soona() {
             <div className="poster">
               <img src={soonaKano} alt=""></img>
               <p className="caption">
-                ✧ Kano Analysis of proposed soona features
+                [ Kano Analysis of proposed soona features ]
               </p>
             </div>
           </div>
@@ -149,7 +149,7 @@ function Soona() {
                 {/* <img src={soonaProgressBar} alt=""></img>
                 <p className="caption">✧ Proposed Feature: progress bar</p> */}
                 <img src={soonaQuickView} alt=""></img>
-                <p className="caption">✧ Proposed feature: quick view option</p>
+                <p className="caption">[ Proposed feature: quick view option ]</p>
               </div>
             </div>
           </div>

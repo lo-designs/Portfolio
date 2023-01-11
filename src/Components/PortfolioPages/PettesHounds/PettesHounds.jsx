@@ -68,11 +68,8 @@ function PettesHounds() {
                 created GIFs for the website from videos sourced from their
                 social media accounts. After auditing the site on Google
                 Lighthouse, I optimized all of the images to a smaller file size
-                to increase the site load speed.
-              </p>
-              <p>
-                The original site, as well as the redesign, were built using
-                Squarespace. I switched templates which helped create the desired formatting for the site content.
+                to increase the site load speed. The original site, as well as
+                the redesign, were built using Squarespace.
               </p>
             </div>
             <div className="poster">

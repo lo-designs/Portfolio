@@ -54,10 +54,10 @@ function Neurotype() {
                   </p>
                   <p>
                     We had the honor of working with Neurotype Inc. to help
-                    determine the best way to integrate an electroencephalogram
+                    determine the best way to integrate a portable electroencephalogram
                     [EEG] into a standard therapy/clinical setting, as well as
                     create a prototype for NeuromarkR™, an application used in
-                    conjunction with a portable EEG.
+                    conjunction with the EEG.
                   </p>
                 </div>
               </div>
@@ -85,7 +85,6 @@ function Neurotype() {
             </div>
             <div className="poster">
               <img src={neuroLogo} alt=""></img>
-              <p className="caption">✧ Logo concept</p>
             </div>
           </div>
         </section>
@@ -114,7 +113,7 @@ function Neurotype() {
             </div>
             <div className="poster">
               <img src={neuroMap} alt=""></img>
-              <p className="caption">✧ Experience map made in Sketch</p>
+              <p className="caption">[ Experience map: made in Sketch ]</p>
             </div>
           </div>
         </section>
@@ -139,6 +138,7 @@ function Neurotype() {
                 We had the opportunity to walk through the data prototypes with
                 an expert in data visualization. The main goal was to make EEG
                 data easy to interpret for practitioners without EEG expertise.
+                Prototypes were made by team using Figma.
               </p>
             </div>
             <div className="poster">
@@ -147,7 +147,7 @@ function Neurotype() {
               </div>
               <div id="mobile-images">
                 <img src={neuroData} alt=""></img>
-                <p className="caption">✧ Prototype // Data view 1</p>
+                <p className="caption">[ Graph: brain reactivity vs. self-report ]</p>
               </div>
             </div>
           </div>
@@ -164,22 +164,18 @@ function Neurotype() {
               <p className="description-title">Substantiating treatment.</p>
               <p>
                 Currently, addiction healthcare practitioners rely on
-                qualitative data [like self-reports] to inform treatment of OUD.
-                Neurotype Inc. provides tools to objectively detect triggers for
-                relapse, such as craving or distress at the point of care. This
-                not only supplements treatment by providing quantitative data in
-                addition to qualitative, it also helps to substantiate OUD.
+                qualitative data [e.g. self-reports] to inform treatment of OUD.
+                The solution Neurotype proposes would allow practitioners to objectively detect triggers for
+                relapse, such as craving or distress at the point of care: providing quantitative data in addition to qualitative.
               </p>
               <p>
-                We had the privilege of helping create a prototype for Neurotype
-                Inc. in the hopes that they will receive funding for further
-                research and development.
+                We had the privilege of working with Neurotype Inc. to design a prototype for a tool that will be used in the treatment of OUD. The hope is that this technology can be integrated into standard therapy sessions, helping to substantiate OUD, and eventually aid in the treatment of other substance use disorders as well.
               </p>
               <p></p>
             </div>
             <div className="poster">
               <img src={neuroGif} alt=""></img>
-              <p className="last-caption">✧ Neurotype GIF made in Photoshop</p>
+              <p className="last-caption">[GIF made in Photoshop]</p>
             </div>
           </div>
         </section>

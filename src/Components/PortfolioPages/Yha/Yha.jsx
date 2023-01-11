@@ -51,8 +51,7 @@ function Yha() {
                     to their needs.
                   </p>
                   <p>
-                    My goal was to learn about resources that currently exist to
-                    find areas of opportunity, and determine a way to make
+                    My goal was to learn about resources that currently exist, and to determine a way to make
                     resources more readily available.
                   </p>
                 </div>
@@ -86,7 +85,7 @@ function Yha() {
             <div className="poster">
               <img id="resources" src={resources} alt=""></img>
               <p id="resources-caption" className="caption">
-                ✧ Some existing resources
+                [ L-R: Adult & Teen Challenge, stopbullying.gov, NAMI ]
               </p>
             </div>
           </div>
@@ -116,7 +115,7 @@ function Yha() {
             </div>
             <div className="poster">
               <img src={yhaMap} alt=""></img>
-              <p className="caption">✧ Experience map made in XD</p>
+              <p className="caption">[ Experience map: made in Adobe XD ]</p>
             </div>
           </div>
         </section>
@@ -141,7 +140,7 @@ function Yha() {
             <div className="poster">
               <img src={yhaFigma} alt=""></img>
               <p className="caption">
-                ✧ Prototype screens & color scheme made in Figma
+                [ Prototype made in Figma ]
               </p>
             </div>
           </div>
@@ -163,17 +162,12 @@ function Yha() {
                 some valuable insights in my research and it is something that I
                 would love to build upon in the future.
               </p>
-              <p>
-                <i>
-                  [The 'You Matter' logo was made using both Photoshop and
-                  Illustrator.]
-                </i>
-              </p>
+        
             </div>
             <div className="poster">
               <img src={youMatter} alt=""></img>
               <p className="last-caption">
-                ✧ Logo made using Photoshop + Illustrator
+                [ Logo made in Photoshop ]
               </p>
             </div>
           </div>
