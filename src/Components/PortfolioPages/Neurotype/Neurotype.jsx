@@ -175,7 +175,7 @@ function Neurotype() {
             </div>
             <div className="poster">
               <img src={neuroGif} alt=""></img>
-              <p className="last-caption">[GIF made in Photoshop]</p>
+              <p className="last-caption">[ GIF made in Photoshop ]</p>
             </div>
           </div>
         </section>
