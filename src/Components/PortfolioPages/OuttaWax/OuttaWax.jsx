@@ -14,8 +14,8 @@ function OuttaWax() {
         <a className="side-nav-link" href="#sctr1">
           <li id="section-1"></li>Objectives
         </a>
-        <span>
-          <li id="next-previous">
+        <span id="next-previous">
+          <li>
             <a
             id="previous"
               className="side-nav-link"

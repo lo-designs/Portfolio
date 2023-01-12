@@ -58,7 +58,7 @@
 
 #previous:hover,
 #next:hover {
-   color: rgb(224, 146, 255)!important;
+  color: rgb(224, 146, 255) !important;
 }
 
 /***************  SECTIONS  ****************/
@@ -100,7 +100,6 @@ section .content {
   background-color: rgba(31, 30, 27, 0.89);
   border-top: 0.9px solid rgba(253, 255, 246, 0.92);
 }
-
 
 .poster {
   width: 35vw;
@@ -224,8 +223,24 @@ section .content {
       }
     }
 
+    /* SIDE NAV MOBILE */
+
     ul {
-      display: none;
+      #next-previous {
+        position: fixed;
+        display: block;
+        margin-left: 40vw;
+        bottom: 7px;
+        z-index: 1000;
+      }
+
+      #section-0,
+      #section-1,
+      #section-2,
+      #section-3,
+      #section-4 {
+        display: none;
+      }
     }
 
     #hero-image {
@@ -235,7 +250,7 @@ section .content {
       height: 60vh;
       opacity: 0.7;
       animation: none;
-    } 
+    }
 
     #pettes-hero,
     #neuro-hero {
@@ -257,7 +272,12 @@ section .content {
       left: 0;
     }
 
-    .square {
+    .pettes-square,
+    .parra-square,
+    .outta-square,
+    .neuro-square,
+    .yha-square,
+    .soona-square {
       opacity: 0;
     }
 
@@ -283,13 +303,13 @@ section .content {
   }
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 900px) {
   #mobile-images {
     display: none;
   }
 }
 
-@media only screen and (max-width: 549.99px) {
+@media only screen and (max-width: 900px) {
   #mobile-images {
     display: all;
   }

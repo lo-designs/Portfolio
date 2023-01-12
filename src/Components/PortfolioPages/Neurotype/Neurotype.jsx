@@ -28,8 +28,8 @@ function Neurotype() {
         <a className="side-nav-link" href="#sctr4">
           <li id="section-4"></li>Summary
         </a>
-        <span>
-          <li id="next-previous">
+        <span id="next-previous">
+          <li>
             <a
             id="previous"
               className="side-nav-link"
