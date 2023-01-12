@@ -6,14 +6,14 @@
   height: 100vh;
   overflow: hidden;
   animation: fade 4s;
-  opacity: 0.769;
+  opacity: 0.969;
 
   @keyframes fade {
     from {
       opacity: 0;
     }
     to {
-      opacity: 0.769;
+      opacity: 0.969;
     }
   }
 }
@@ -81,15 +81,20 @@ section .content {
 
 /****************  IMAGES  *****************/
 
-.square {
+.neuro-square,
+.parra-square,
+.pettes-square,
+.soona-square,
+.yha-square {
   width: 45vw;
   float: right;
   height: 100vh;
   overflow: hidden;
   z-index: 1;
-  background-color: hsla(0, 0%, 15%, 0.949);
-  border-top: 1px solid rgba(253, 255, 246, 0.969);
+  background-color: rgba(31, 30, 27, 0.89);
+  border-top: 0.9px solid rgba(253, 255, 246, 0.92);
 }
+
 
 .poster {
   width: 35vw;

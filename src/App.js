@@ -45,8 +45,11 @@ function App() {
           <div id="theme-black" onClick={() => handleClick("theme-black")} />
           <div id="theme-white" onClick={() => handleClick("theme-white")} />
           <div id="theme-tan" onClick={() => handleClick("theme-tan")} />
-          <div id="theme-purple" onClick={() => handleClick("theme-purple")} />
           <div id="theme-green" onClick={() => handleClick("theme-green")} />
+          <div id="theme-purple" onClick={() => handleClick("theme-purple")} />
+          <div id="theme-red" onClick={() => handleClick("theme-red")} />
+          <div id="theme-teal" onClick={() => handleClick("theme-teal")} />
+         
         </div>
 
         <div className="page-routes-section">

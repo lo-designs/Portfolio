@@ -7,11 +7,11 @@
   div {
     cursor: pointer;
     display: inline-block;
-    height: 19px;
-    width: 19px;
-    margin: 0px 4px;
+    height: 15px;
+    width: 15px;
+    margin: 0px 3px;
     border: 1px solid #212121;
-    border-radius: 50%;
+    border-radius: 2px;
     opacity: 0.89;
   }
 }
@@ -20,14 +20,14 @@
 .header.theme-white,
 .footer.theme-white,
 #theme-white {
-  background-color: rgba(251, 255, 236, 0.95);
+  background-color: rgba(251, 255, 236, 0.969);
 }
 
 .App.theme-black,
 .header.theme-black,
 .footer.theme-black,
 #theme-black {
-  background-color: rgba(37, 37, 37, 0.95);
+  background-color: rgba(31, 30, 27, 0.969);
   color: rgba(253, 255, 246, 0.969);
   p,
   li,
@@ -41,21 +41,35 @@
 .header.theme-tan,
 .footer.theme-tan,
 #theme-tan {
-  background-color: rgba(228, 206, 158, 0.95);
+  background-color: rgba(228, 206, 158, 0.969);
 }
 
 .App.theme-purple,
 .header.theme-purple,
 .footer.theme-purple,
 #theme-purple {
-  background-color: rgba(217, 190, 245, 0.95);
+  background-color: rgba(218, 185, 255, 0.969);
 }
 
 .App.theme-green,
 .header.theme-green,
 .footer.theme-green,
 #theme-green {
-  background-color: rgba(176, 206, 117, 0.94);
+  background-color: rgba(167, 193, 116, 0.969);
+}
+
+.App.theme-red,
+.header.theme-red,
+.footer.theme-red,
+#theme-red {
+  background-color: rgba(248, 136, 116, 0.969);
+}
+
+.App.theme-teal,
+.header.theme-teal,
+.footer.theme-teal,
+#theme-teal {
+  background-color: rgba(71, 144, 134, 0.969);
 }
 
 /*************  BREAK POINTS  **************/
@@ -65,12 +79,13 @@
     bottom: 0;
     position: fixed;
     margin-left: 5%;
+   //  margin: 0px 3px;
     margin-bottom: 5px;
     z-index: 1500;
 
     div {
-      height: 15px;
-      width: 15px;
+      height: 13px;
+      width: 13px;
     }
   }
 }

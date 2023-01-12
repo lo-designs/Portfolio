@@ -2,11 +2,11 @@
 import React from "react";
 import "./Portfolio.scss";
 import pettesHover from "./../Images/PettesHounds/phHover.jpg";
-import neuroHover from "./../Images/Neurotype/neuroGif.gif";
+import neuroHover from "./../Images/Neurotype/neuroHover.jpg";
 import outtaHover from "./../Images/OuttaWax/outtaHover.jpg";
 import parraHover from "./../Images/ParraLily/parraHover.jpg";
-import soonaHover from "./../Images/Soona/soonaGif.gif";
-import yhaHover from "./../Images/YHA/YouMatter.gif";
+import soonaHover from "./../Images/Soona/soonaHover.jpg";
+import yhaHover from "./../Images/YHA/yhaHover.jpg";
 
 function Portfolio() {
   return (

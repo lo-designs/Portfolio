@@ -75,7 +75,7 @@ function Soona() {
 
         <section id="sctr1">
           <div className="cover">
-            <div className="square" id="section-1"></div>
+            <div className="soona-square" id="section-1"></div>
           </div>
           <div className="content">
             <div className="description">
@@ -104,7 +104,7 @@ function Soona() {
 
         <section id="sctr2">
           <div className="cover">
-            <div className="square" id="section-2"></div>
+            <div className="soona-square" id="section-2"></div>
           </div>
           <div className="content">
             <div className="description">
@@ -135,7 +135,7 @@ function Soona() {
 
         <section id="sctr3">
           <div className="cover">
-            <div className="square" id="section-3"></div>
+            <div className="soona-square" id="section-3"></div>
           </div>
           <div className="content">
             <div className="description">
@@ -170,7 +170,7 @@ function Soona() {
 
         <section id="sctr4">
           <div className="cover">
-            <div className="square" id="section-4"></div>
+            <div className="soona-square" id="section-4"></div>
           </div>
 
           <div className="content">
