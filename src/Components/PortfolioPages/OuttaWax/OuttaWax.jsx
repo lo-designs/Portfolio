@@ -6,6 +6,33 @@ import outtaHero from "../../Images/OuttaWax/outtaHero.jpg";
 function OuttaWax() {
   return (
     <div className="project">
+      <ul className="side-nav">
+        <li className="design-process-header"></li>
+        <a className="side-nav-link" href="#sctr0">
+          <li id="section-0"></li>Overview
+        </a>
+        <a className="side-nav-link" href="#sctr1">
+          <li id="section-1"></li>Objectives
+        </a>
+        <span>
+          <li id="next-previous">
+            <a
+              className="side-nav-link"
+              href="https://www.lauragunther.dev/parralily"
+            >
+              🡨{" "}
+            </a>
+            <span> // </span>
+            <a
+              className="side-nav-link"
+              href="https://www.lauragunther.dev/yha"
+            >
+              {" "}
+              🡪
+            </a>
+          </li>
+        </span>
+      </ul>
       <div>
         <section id="sctr0">
           <div className="cover" id="hero-image">

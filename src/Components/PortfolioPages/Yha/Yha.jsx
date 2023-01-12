@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import "../PortfolioPages.scss";
 import youMatter from "../../Images/YHA/YouMatter.gif";
@@ -26,6 +27,24 @@ function Yha() {
         <a className="side-nav-link" href="#sctr4">
           <li id="section-4"></li>Summary
         </a>
+        <span>
+          <li id="next-previous">
+            <a
+              className="side-nav-link"
+              href="https://www.lauragunther.dev/outtawax"
+            >
+              🡨{" "}
+            </a>
+            <span> // </span>
+            <a
+              className="side-nav-link"
+              href="https://www.lauragunther.dev/neurotype"
+            >
+              {" "}
+              🡪
+            </a>
+          </li>
+        </span>
       </ul>
       <div>
         <section id="sctr0">

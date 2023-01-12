@@ -28,6 +28,24 @@ function Soona() {
         <a className="side-nav-link" href="#sctr4">
           <li id="section-4"></li>Summary
         </a>
+        <span>
+          <li id="next-previous">
+            <a
+              className="side-nav-link"
+              href="https://www.lauragunther.dev/neurotype"
+            >
+              🡨{" "}
+            </a>
+            <span> // </span>
+            <a
+              className="side-nav-link"
+              href="https://www.lauragunther.dev/petteshounds"
+            >
+              {" "}
+              🡪
+            </a>
+          </li>
+        </span>
       </ul>
       <div>
         <section id="sctr0">

@@ -20,6 +20,24 @@ function PettesHounds() {
         <a className="side-nav-link" href="#sctr1">
           <li id="section-1"></li>Objectives
         </a>
+        <span>
+          <li id="next-previous">
+            <a
+              className="side-nav-link"
+              href="https://www.lauragunther.dev/soona"
+            >
+              🡨{" "}
+            </a>
+            <span> // </span>
+            <a
+              className="side-nav-link"
+              href="https://www.lauragunther.dev/parralily"
+            >
+              {" "}
+              🡪
+            </a>
+          </li>
+        </span>
       </ul>
       <div>
         <section id="sctr0">
@@ -37,14 +55,16 @@ function PettesHounds() {
 
                 <div className="overview">
                   <p className="website">
-                    Check out the site: <b><a
-                      href="https://www.petteshounds.com"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                       petteshounds.com
-                    </a>
-                  </b>
+                    Check out the site:{" "}
+                    <b>
+                      <a
+                        href="https://www.petteshounds.com"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        petteshounds.com
+                      </a>
+                    </b>
                   </p>
                   <p>
                     I had the opportunity to work with the awesome founder of

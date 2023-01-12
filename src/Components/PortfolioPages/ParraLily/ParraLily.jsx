@@ -17,6 +17,24 @@ function ParraLily() {
         <a className="side-nav-link" href="#sctr1">
           <li id="section-1"></li>Objectives
         </a>
+        <span>
+          <li id="next-previous">
+            <a
+              className="side-nav-link"
+              href="https://www.lauragunther.dev/petteshounds"
+            >
+              🡨{" "}
+            </a>
+            <span> // </span>
+            <a
+              className="side-nav-link"
+              href="https://www.lauragunther.dev/outtawax"
+            >
+              {" "}
+              🡪
+            </a>
+          </li>
+        </span>
       </ul>
       <div>
         <section id="sctr0">
