@@ -102,11 +102,12 @@ section .content {
   margin-top: 10vh;
 }
 
+.carousel-caption,
 .last-caption,
 .caption {
   padding-top: 20px;
   font-family: "RobotoMono-Regular";
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   color: rgba(253, 255, 246, 0.969);
 }
@@ -206,6 +207,7 @@ section .content {
 
     section {
       height: 115vh;
+      padding: 50px 0;
       img {
         padding-top: 20px;
       }
@@ -261,7 +263,7 @@ section .content {
     .caption,
     .last-caption {
       color: rgb(19, 19, 19) !important;
-      font-size: 0.8rem;
+      font-size: 0.65rem;
     }
 
     .last-caption {
