@@ -17,6 +17,7 @@ function OuttaWax() {
         <span>
           <li id="next-previous">
             <a
+            id="previous"
               className="side-nav-link"
               href="https://www.lauragunther.dev/parralily"
             >
@@ -24,6 +25,7 @@ function OuttaWax() {
             </a>
             <span> // </span>
             <a
+            id="next"
               className="side-nav-link"
               href="https://www.lauragunther.dev/yha"
             >

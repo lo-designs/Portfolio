@@ -4,6 +4,7 @@
   position: fixed;
   margin-left: 55vw;
   height: 100vh;
+  width: 45vw;
   overflow: hidden;
   animation: fade 4s;
   opacity: 0.969;
@@ -53,6 +54,11 @@
       z-index: 100;
     }
   }
+}
+
+#previous:hover,
+#next:hover {
+   color: rgb(224, 146, 255)!important;
 }
 
 /***************  SECTIONS  ****************/

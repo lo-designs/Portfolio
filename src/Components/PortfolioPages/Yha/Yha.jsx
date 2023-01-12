@@ -30,6 +30,7 @@ function Yha() {
         <span>
           <li id="next-previous">
             <a
+            id="previous"
               className="side-nav-link"
               href="https://www.lauragunther.dev/outtawax"
             >
@@ -37,6 +38,7 @@ function Yha() {
             </a>
             <span> // </span>
             <a
+            id="next"
               className="side-nav-link"
               href="https://www.lauragunther.dev/neurotype"
             >

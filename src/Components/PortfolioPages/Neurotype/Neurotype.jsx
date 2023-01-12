@@ -31,6 +31,7 @@ function Neurotype() {
         <span>
           <li id="next-previous">
             <a
+            id="previous"
               className="side-nav-link"
               href="https://www.lauragunther.dev/yha"
             >
@@ -38,6 +39,7 @@ function Neurotype() {
             </a>
             <span> // </span>
             <a
+            id="next"
               className="side-nav-link"
               href="https://www.lauragunther.dev/soona"
             >
