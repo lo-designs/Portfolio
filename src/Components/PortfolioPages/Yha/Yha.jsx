@@ -30,12 +30,11 @@ function Yha() {
         <span id="next-previous">
           <li>
             <a id="previous" href="https://www.lauragunther.dev/outtawax">
-              {"🡨"}
+              &#129128;
             </a>
             <span> // </span>
             <a id="next" href="https://www.lauragunther.dev/neurotype">
-              {"🡪"}
-              
+              &#129130;
             </a>
           </li>
         </span>
