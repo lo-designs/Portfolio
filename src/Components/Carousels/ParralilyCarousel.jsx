@@ -14,12 +14,12 @@ function ParralilyCarousel() {
             id="carousel-item"
             className="d-block w-100"
             src={designBoard}
-            alt="Second slide"
+            alt="ParraLily design board"
+        
           />
           <div className="carousel-caption">
           </div>
         </Carousel.Item>
-
         <Carousel.Item>
           <img
             id="carousel-item"

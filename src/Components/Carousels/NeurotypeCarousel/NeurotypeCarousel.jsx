@@ -8,11 +8,11 @@ import data2 from "../../Images/Neurotype/neuroData.png";
 function NeurotypeCarousel() {
   return (
     <div className="carousel">
-      <Carousel>
+      <Carousel fade>
         <Carousel.Item>
           <img
             id="carousel-item"
-            className="d-block w-100"
+            // className="d-block w-100"
             src={dataDashboard}
             alt="dashboard"
           />
@@ -24,7 +24,7 @@ function NeurotypeCarousel() {
         <Carousel.Item>
           <img
             id="carousel-item"
-            className="d-block w-100"
+            // className="d-block w-100"
             src={data2}
             alt="Second slide"
           />

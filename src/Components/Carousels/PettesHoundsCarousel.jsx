@@ -11,7 +11,7 @@ import animatedLogo from "./../Images/PettesHounds/phLogo.gif";
 function PettesHoundsCarousel() {
   return (
     <div className="carousel">
-      <Carousel>
+      <Carousel fade>
 
       <Carousel.Item>
           <img

@@ -6,19 +6,17 @@
   opacity: 1;
 
   .color-option {
-   cursor: pointer;
-   display: inline-block;
-   height: 17px;
-   width: 17px;
-   margin: 0px 3px;
-   border: 1px solid #212121;
-   border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    margin: 0px 3px;
+    border: 1px solid #212121;
+    border-radius: 2px;
   }
-
-
 }
 
-/************** WHITE **************/ 
+/************** WHITE **************/
 
 .App.theme-white,
 .header.theme-white,
@@ -30,22 +28,22 @@
   #previous:hover,
   #next:hover {
     color: rgb(118, 154, 47) !important;
-    transition: .3s!important;
+    transition: 0.3s !important;
   }
   .square {
-   background-color: rgba(251, 255, 236, 0.85);
-   border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
-   border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
+    background-color: rgba(251, 255, 236, 0.85);
+    border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
+    border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
   }
 }
 
-/************** BLACK **************/ 
+/************** BLACK **************/
 
 .App.theme-black,
 .header.theme-black,
 .footer.theme-black,
 #theme-black {
-   font-weight: 100;
+  font-weight: 100;
   background-color: rgba(31, 30, 27, 0.969);
   color: rgba(253, 255, 246, 0.969);
   p,
@@ -58,16 +56,20 @@
   #previous:hover,
   #next:hover {
     color: rgb(215, 140, 232) !important;
-    transition: .3s!important;
+    transition: 0.3s !important;
+  }
+  .last-caption,
+  .caption {
+    color: rgba(235, 232, 232, 0.969);
   }
   .square {
-   background-color: rgba(31, 30, 27, 0.85);
-   border-top: 1px solid rgba(253, 255, 246, 0.969) !important;
-   border-left: 1px solid rgba(253, 255, 246, 0.969) !important;
+    background-color: rgba(31, 30, 27, 0.85);
+    border-top: 1px solid rgba(253, 255, 246, 0.969) !important;
+    border-left: 1px solid rgba(253, 255, 246, 0.969) !important;
   }
 }
 
-/************** TAN **************/ 
+/************** TAN **************/
 
 .App.theme-tan,
 .header.theme-tan,
@@ -83,14 +85,13 @@
     font-weight: bolder;
   }
   .square {
-   background-color: rgba(228, 206, 158, 0.85);
-   border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
-   border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
+    background-color: rgba(228, 206, 158, 0.85);
+    border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
+    border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
   }
-  
 }
 
-/************** PURPLE **************/ 
+/************** PURPLE **************/
 
 .App.theme-purple,
 .header.theme-purple,
@@ -105,13 +106,13 @@
     font-weight: bolder;
   }
   .square {
-   background-color: rgba(207, 186, 231, 0.85);
-   border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
-   border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
+    background-color: rgba(207, 186, 231, 0.85);
+    border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
+    border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
   }
 }
 
-/************** GREEN **************/ 
+/************** GREEN **************/
 
 .App.theme-green,
 .header.theme-green,
@@ -126,13 +127,13 @@
     font-weight: bolder;
   }
   .square {
-   background-color: rgba(167, 193, 116, 0.85);
-   border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
-   border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
+    background-color: rgba(167, 193, 116, 0.85);
+    border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
+    border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
   }
 }
 
-/************** RED-ISH **************/ 
+/************** RED-ISH **************/
 
 .App.theme-red,
 .header.theme-red,
@@ -147,13 +148,13 @@
     font-weight: bolder;
   }
   .square {
-   background-color: rgba(224, 110, 90, 0.85);
-   border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
-   border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
+    background-color: rgba(224, 110, 90, 0.85);
+    border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
+    border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
   }
 }
 
-/************** TEAL-ISH **************/ 
+/************** TEAL-ISH **************/
 
 .App.theme-teal,
 .header.theme-teal,
@@ -170,9 +171,9 @@
     transition: 0.3s;
   }
   .square {
-   background-color: rgba(94, 154, 146, 0.85);
-   border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
-   border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
+    background-color: rgba(94, 154, 146, 0.85);
+    border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
+    border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
   }
 }
 
@@ -183,11 +184,11 @@
     bottom: 0;
     position: fixed;
     margin-left: 5%;
-   //  margin-bottom: 7px;
+    //  margin-bottom: 7px;
     margin: 7px 2px;
     z-index: 1500;
 
-    .color-option  {
+    .color-option {
       height: 13px;
       width: 13px;
     }
