@@ -138,13 +138,38 @@ a:hover,
 a:visited {
     text-decoration: none!important;
     cursor: pointer;
-    color: black!important;
+    color: rgba(21, 21, 21, 0.969)!important;
+    position: relative;
 }
 
 a:hover {
    font-weight: bolder;
-   // font-style: oblique;
+   // font-family: "QTJupiter";
+
 }
+
+
+ 
+
+
+//  a::before {
+//    content: '';
+//    position: absolute;
+//    width: 100%;
+//    height: 1px;
+//    // border-radius: 4px;
+//    background-color: rgba(21, 21, 21, 0.969);
+//    bottom: 0;
+//    left: 0;
+//    transform-origin: right;
+//    transform: scaleX(0);
+//    transition: transform .4s ease-in-out;
+//  }
+ 
+//  a:hover::before {
+//    transform-origin: left;
+//    transform: scaleX(1);
+//  }
 
 ul, 
 li {

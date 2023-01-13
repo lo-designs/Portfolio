@@ -31,12 +31,12 @@ function App() {
             <a className="header-logo" href="/">
               laura gunther
             </a>
-            <span className="header-links-divider"></span>
+            {/* <span className="header-links-divider"></span> */}
             {/* <a className="about" href="/about">
               about
             </a> */}
             <span className="header-links-divider"> // </span>
-            <a className="portfolio" href="/portfolio">
+            <a className="portfolio-nav-link" href="/portfolio">
               portfolio
             </a>
           </span>
