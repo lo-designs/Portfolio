@@ -63,6 +63,7 @@
 #previous:hover,
 #next:hover {
   color: rgb(224, 146, 255) !important;
+  transition: .3s!important;
 }
 
 #project-number {
@@ -158,7 +159,7 @@ section .content {
 .subtitle {
   font-family: "Vercetti";
   font-weight: bolder;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   line-height: 1.4;
   padding: 10px 0 15px 0;
 }

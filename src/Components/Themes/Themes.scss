@@ -3,17 +3,19 @@
   margin-left: 80%;
   margin-top: 9px;
   z-index: 100;
+  opacity: 1;
 
-  div {
-    cursor: pointer;
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    margin: 0px 3px;
-    border: 1px solid #212121;
-    border-radius: 2px;
-    opacity: 0.89;
+  .color-option {
+   cursor: pointer;
+   display: inline-block;
+   height: 17px;
+   width: 17px;
+   margin: 0px 3px;
+   border: 1px solid #212121;
+   border-radius: 2px;
   }
+
+
 }
 
 /************** WHITE **************/ 
@@ -23,6 +25,13 @@
 .footer.theme-white,
 #theme-white {
   background-color: rgba(251, 255, 236, 0.969);
+  .website:hover,
+  .side-nav-link:hover,
+  #previous:hover,
+  #next:hover {
+    color: rgb(118, 154, 47) !important;
+    transition: .3s!important;
+  }
   .square {
    background-color: rgba(251, 255, 236, 0.85);
    border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
@@ -36,6 +45,7 @@
 .header.theme-black,
 .footer.theme-black,
 #theme-black {
+   font-weight: 100;
   background-color: rgba(31, 30, 27, 0.969);
   color: rgba(253, 255, 246, 0.969);
   p,
@@ -47,8 +57,8 @@
   .side-nav-link:hover,
   #previous:hover,
   #next:hover {
-    color: rgb(224, 146, 255) !important;
-    font-weight: bolder;
+    color: rgb(215, 140, 232) !important;
+    transition: .3s!important;
   }
   .square {
    background-color: rgba(31, 30, 27, 0.85);
@@ -91,7 +101,7 @@
   .side-nav-link:hover,
   #previous:hover,
   #next:hover {
-    color: rgba(116, 148, 51, 0.969) !important;
+    color: rgba(116, 148, 51) !important;
     font-weight: bolder;
   }
   .square {
@@ -112,7 +122,7 @@
   .side-nav-link:hover,
   #previous:hover,
   #next:hover {
-    color: rgba(180, 126, 241, 0.969) !important;
+    color: rgba(180, 126, 241) !important;
     font-weight: bolder;
   }
   .square {
@@ -133,7 +143,7 @@
   .side-nav-link:hover,
   #previous:hover,
   #next:hover {
-    color: rgba(16, 123, 109, 0.969) !important;
+    color: rgba(16, 123, 109) !important;
     font-weight: bolder;
   }
   .square {
@@ -155,8 +165,9 @@
   .side-nav-link:hover,
   #previous:hover,
   #next:hover {
-    color: rgb(223, 76, 35) !important;
-    font-weight: bolder;
+    color: rgb(180, 56, 22) !important;
+    font-weight: bold;
+    transition: 0.3s;
   }
   .square {
    background-color: rgba(94, 154, 146, 0.85);
@@ -172,7 +183,6 @@
     bottom: 0;
     position: fixed;
     margin-left: 5%;
-    //  margin: 0px 3px;
     margin-bottom: 5px;
     z-index: 1500;
 

@@ -20,11 +20,11 @@ function ParraLily() {
         <span id="next-previous">
           <li>
             <a id="previous" href="https://www.lauragunther.dev/petteshounds">
-               prev
+              prev
             </a>
             <span id="project-number"> / 02 / </span>
             <a id="next" href="https://www.lauragunther.dev/outtawax">
-              next 
+              next
             </a>
           </li>
         </span>
@@ -45,7 +45,8 @@ function ParraLily() {
                   <p>
                     Check out the site:{" "}
                     <b>
-                      <a className="website"
+                      <a
+                        className="website"
                         href="https://www.parralily.com/"
                         target="_blank"
                         rel="noreferrer"
@@ -58,9 +59,8 @@ function ParraLily() {
                     I had the opportunity to help set up, design, and build a
                     website for ParraLily, a fantastic new food truck in
                     Minneapolis. I met with the talented owner/chef of ParraLily
-                    to go over setting up a website: how to get set up with
-                    hosting and different CMS options, as well as ideas for the
-                    design.
+                    to go over how to get set up with hosting and different CMS
+                    options, as well as ideas for the design.
                   </p>
                 </div>
               </div>
@@ -75,13 +75,14 @@ function ParraLily() {
           <div className="content">
             <div className="description">
               <p className="title-number"></p>
-              <p className="description-title">Objectives & Process</p>
+              <p className="description-title">Design Process</p>
               <p>
                 I started with the mobile design and made wireframes using Adobe
                 XD and a design board in Photoshop. Design choices - colors and
                 fonts - were based around both the pre-existing ParraLily logo
-                as well as the truck. I've also designed menus for their brunch
-                events and for the boxed lunches they offer.
+                as well as the color/look of the truck. I've also designed menus
+                for their brunch events, catering, and the boxed lunches they
+                offer.
               </p>
             </div>
             <div className="poster">

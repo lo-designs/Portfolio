@@ -30,11 +30,11 @@ function Yha() {
         <span id="next-previous">
           <li>
             <a id="previous" href="https://www.lauragunther.dev/outtawax">
-               prev
+              prev
             </a>
             <span id="project-number"> / 04 / </span>
             <a id="next" href="https://www.lauragunther.dev/neurotype">
-              next 
+              next
             </a>
           </li>
         </span>
@@ -63,8 +63,8 @@ function Yha() {
                     to their needs.
                   </p>
                   <p>
-                    My goal was to learn about resources that currently exist,
-                    and to determine a way to make resources more readily
+                    My goal was to learn about resources that currently exist
+                    and determine a way to make resources more readily
                     available.
                   </p>
                 </div>
@@ -86,9 +86,9 @@ function Yha() {
                 01 Deep dive: health & wellness resources for youth.
               </p>
               <p>
-                During research for this project, I found a lot of mental health
-                and wellness resources, however, many of them are text heavy and
-                hard to scan for important information. This makes it
+                During research for this project, I found that while there are a
+                lot of health & wellness resources, many of them are text heavy
+                and hard to scan for important information. This makes it
                 challenging to find help, especially if you don't know exactly
                 what you need. Interviews with licensed social workers revealed
                 Youth Services Network [YSN] as an effective resource, so I

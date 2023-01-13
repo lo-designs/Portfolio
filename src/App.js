@@ -42,13 +42,13 @@ function App() {
           </span>
         </div>
         <div className="theme-options">
-          <div id="theme-black" onClick={() => handleClick("theme-black")} />
-          <div id="theme-white" onClick={() => handleClick("theme-white")} />
-          <div id="theme-tan" onClick={() => handleClick("theme-tan")} />
-          <div id="theme-green" onClick={() => handleClick("theme-green")} />
-          <div id="theme-purple" onClick={() => handleClick("theme-purple")} />
-          <div id="theme-red" onClick={() => handleClick("theme-red")} />
-          <div id="theme-teal" onClick={() => handleClick("theme-teal")} />
+          <div className="color-option" id="theme-black" onClick={() => handleClick("theme-black")} />
+          <div className="color-option" id="theme-white" onClick={() => handleClick("theme-white")} />
+          <div className="color-option" id="theme-tan" onClick={() => handleClick("theme-tan")} />
+          <div className="color-option" id="theme-green" onClick={() => handleClick("theme-green")} />
+          <div className="color-option" id="theme-purple" onClick={() => handleClick("theme-purple")} />
+          <div className="color-option" id="theme-red" onClick={() => handleClick("theme-red")} />
+          <div className="color-option" id="theme-teal" onClick={() => handleClick("theme-teal")} />
          
         </div>
 

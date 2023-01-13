@@ -2,19 +2,19 @@
   z-index: 100;
   position: fixed;
   width: 100vw;
-//   height: 40px;
-//   align-content: center;
   padding: 9px 0;
   font-size: 0.8rem;
   font-family: "RobotoMono-Regular";
   text-transform: uppercase;
   border-bottom: 1px solid;
+  
 
   .portfolio-nav-link:hover,
   .header-logo:hover {
-      // margin-top: 20px;
     font-family: "Celebrate-Retro";
     font-size: 1.9rem;
+    transition: .3s!important;
+  
   }
 
   .header-links {
