@@ -23,7 +23,7 @@ function Soona() {
           <li id="section-2"></li>Prototyping
         </a>
         <a className="side-nav-link" href="#sctr3">
-          <li id="section-3"></li>Feature Proposal
+          <li id="section-3"></li>Features
         </a>
         <a className="side-nav-link" href="#sctr4">
           <li id="section-4"></li>Summary
