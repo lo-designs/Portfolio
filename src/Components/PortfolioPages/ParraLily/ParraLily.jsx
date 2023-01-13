@@ -15,7 +15,7 @@ function ParraLily() {
           <li id="section-0"></li>Overview
         </a>
         <a className="side-nav-link" href="#sctr1">
-          <li id="section-1"></li>Objectives
+          <li id="section-1"></li>Design
         </a>
         <span id="next-previous">
           <li>
