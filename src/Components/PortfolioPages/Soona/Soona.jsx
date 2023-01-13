@@ -31,11 +31,11 @@ function Soona() {
         <span id="next-previous">
           <li>
             <a id="previous" href="https://www.lauragunther.dev/neurotype">
-              &#129128;
+              [ prev
             </a>
             <span> // </span>
             <a id="next" href="https://www.lauragunther.dev/petteshounds">
-              &#129130;
+              next ]
             </a>
           </li>
         </span>
