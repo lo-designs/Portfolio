@@ -47,10 +47,10 @@ function PettesHounds() {
                 </div>
 
                 <div className="overview">
-                  <p className="website">
+                  <p>
                     Check out the site:{" "}
                     <b>
-                      <a
+                      <a className="website"
                         href="https://www.petteshounds.com"
                         target="_blank"
                         rel="noreferrer"

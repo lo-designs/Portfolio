@@ -42,10 +42,10 @@ function ParraLily() {
                 <div className="subtitle">Minneapolis food truck.</div>
 
                 <div className="overview">
-                  <p className="website">
+                  <p>
                     Check out the site:{" "}
                     <b>
-                      <a
+                      <a className="website"
                         href="https://www.parralily.com/"
                         target="_blank"
                         rel="noreferrer"

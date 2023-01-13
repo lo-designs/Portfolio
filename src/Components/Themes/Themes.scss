@@ -34,6 +34,11 @@
   a {
     color: rgba(253, 255, 246, 0.969) !important;
   }
+  .side-nav-link:hover,
+   #previous:hover,
+   #next:hover {
+  color: rgb(224, 146, 255) !important;
+}
   
 }
 

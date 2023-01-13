@@ -73,8 +73,8 @@ function Soona() {
                     quality, custom content accessible to brands of all sizes.
                   </p>
                   <p>
-                    Objectives: [1] Make the booking & building a shoot process
-                    engaging + easy to follow. [2] Generate follow-through in
+                    Our goals were to [1] make the booking & building a shoot process
+                    engaging + easy to follow, and [2] generate follow-through in
                     ordering finalized photos and videos.
                   </p>
                 </div>
@@ -99,7 +99,7 @@ function Soona() {
                 We met with Hayley [Soona co-founder] to get an overview of
                 services Soona provides and did a comparative audit of the site
                 and some of their competitors. I then did a step-by-step
-                analysis of the process a customer takes on the Soona site to
+                analysis of the site to
                 create a customer journey map.
               </p>
             </div>

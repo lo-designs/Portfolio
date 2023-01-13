@@ -43,11 +43,13 @@
 /************ SIDE NAV LINKS ***************/
 
 .side-nav {
-  .side-nav-link {
-    text-transform: uppercase;
-    font-size: 0.87rem;
+  .side-nav-link,
+  #previous,
+  #next {
+    text-transform: lowercase;
+    font-size: 0.85rem;
     font-family: "RobotoMono-Regular";
-    line-height: 2;
+    line-height: 1.5;
 
     li {
       width: 0px;
@@ -56,14 +58,17 @@
   }
 }
 
-#project-number {
-   font-family: "Celebrate-Retro";
-   padding: 0 5px;
-}
-
+.side-nav-link:hover,
+.website:hover,
 #previous:hover,
 #next:hover {
   color: rgb(224, 146, 255) !important;
+}
+
+#project-number {
+   font-size: 1rem;
+   font-family: "Celebrate-Retro";
+   padding: 0 5px;
 }
 
 /***************  SECTIONS  ****************/
@@ -186,10 +191,6 @@ section .content {
   margin-bottom: 15px;
   margin-left: 11vw;
   line-height: 1.4;
-}
-
-.website {
-  font-family: "RobotoMono-Regular";
 }
 
 /**************  BREAKPOINTS  ****************/
