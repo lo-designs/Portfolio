@@ -20,11 +20,11 @@ function ParraLily() {
         <span id="next-previous">
           <li>
             <a id="previous" href="https://www.lauragunther.dev/petteshounds">
-              [ prev
+               prev
             </a>
-            <span> // </span>
+            <span id="project-number"> / 02 / </span>
             <a id="next" href="https://www.lauragunther.dev/outtawax">
-              next ]
+              next 
             </a>
           </li>
         </span>

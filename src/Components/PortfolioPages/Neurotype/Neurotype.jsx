@@ -31,11 +31,11 @@ function Neurotype() {
         <span id="next-previous">
           <li>
             <a id="previous" href="https://www.lauragunther.dev/yha">
-              [ prev
+              prev
             </a>
-            <span> // </span>
+            <span id="project-number"> / 05 / </span>
             <a id="next" href="https://www.lauragunther.dev/soona">
-              next ]
+              next 
             </a>
           </li>
         </span>

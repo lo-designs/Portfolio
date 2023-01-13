@@ -17,11 +17,11 @@ function OuttaWax() {
         <span id="next-previous">
           <li>
             <a id="previous" href="https://www.lauragunther.dev/parralily">
-              [ prev
+               prev
             </a>
-            <span> // </span>
+            <span id="project-number"> / 03 / </span>
             <a id="next" href="https://www.lauragunther.dev/yha">
-              next ]
+              next 
             </a>
           </li>
         </span>

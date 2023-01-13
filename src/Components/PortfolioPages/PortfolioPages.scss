@@ -45,15 +45,20 @@
 .side-nav {
   .side-nav-link {
     text-transform: uppercase;
-    font-size: 0.97rem;
+    font-size: 0.87rem;
     font-family: "RobotoMono-Regular";
+    line-height: 2;
 
     li {
-      height: 1.1px;
       width: 0px;
       z-index: 100;
     }
   }
+}
+
+#project-number {
+   font-family: "Celebrate-Retro";
+   padding: 0 5px;
 }
 
 #previous:hover,
@@ -229,9 +234,12 @@ section .content {
       #next-previous {
         position: fixed;
         display: block;
-        margin-left: 40vw;
-        bottom: 7px;
+        margin-left: 32vw;
+        bottom: 9px;
         z-index: 1000;
+        font-size: .75rem;
+        letter-spacing: 1.1px;
+      
       }
 
       #section-0,
@@ -254,8 +262,9 @@ section .content {
       margin-left: 30%;
       width: 65vw;
       height: 60vh;
-      opacity: 0.7;
-      animation: none;
+      opacity: 0.8;
+      margin-top: -5vh;
+      // animation: none;
     }
 
     #pettes-hero,
