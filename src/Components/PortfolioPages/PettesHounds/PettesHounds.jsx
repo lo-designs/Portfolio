@@ -23,12 +23,12 @@ function PettesHounds() {
         <span id="next-previous">
           <li>
             <a id="previous" href="https://www.lauragunther.dev/soona">
-              🡨{" "}
+              {"🡨"}
             </a>
             <span> // </span>
             <a id="next" href="https://www.lauragunther.dev/parralily">
-              {" "}
-              🡪
+              {"🡪"}
+              
             </a>
           </li>
         </span>

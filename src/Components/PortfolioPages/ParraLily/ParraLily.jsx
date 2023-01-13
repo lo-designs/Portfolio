@@ -20,12 +20,12 @@ function ParraLily() {
         <span id="next-previous">
           <li>
             <a id="previous" href="https://www.lauragunther.dev/petteshounds">
-              🡨{" "}
+              {"🡨"}
             </a>
             <span> // </span>
             <a id="next" href="https://www.lauragunther.dev/outtawax">
-              {" "}
-              🡪
+              {"🡪"}
+              
             </a>
           </li>
         </span>
