@@ -58,6 +58,7 @@ function Neurotype() {
                   <p>
                     <b>
                       <a
+                        className="website"
                         href="https://www.neurotype.io/"
                         target="_blank"
                         rel="noreferrer"
@@ -84,7 +85,7 @@ function Neurotype() {
 
         <section id="sctr1">
           <div className="cover">
-            <div className="neuro-square" id="section-1"></div>
+            <div className="square" id="section-1"></div>
           </div>
           <div className="content">
             <div className="description">
@@ -108,7 +109,7 @@ function Neurotype() {
 
         <section id="sctr2">
           <div className="cover">
-            <div className="neuro-square" id="section-2"></div>
+            <div className="square" id="section-2"></div>
           </div>
           <div className="content">
             <div className="description">
@@ -137,7 +138,7 @@ function Neurotype() {
 
         <section id="sctr3">
           <div className="cover">
-            <div className="neuro-square" id="section-3"></div>
+            <div className="square" id="section-3"></div>
           </div>
           <div className="content">
             <div className="description">
@@ -174,7 +175,7 @@ function Neurotype() {
 
         <section id="sctr4">
           <div className="cover">
-            <div className="neuro-square" id="section-4"></div>
+            <div className="square" id="section-4"></div>
           </div>
 
           <div className="content">

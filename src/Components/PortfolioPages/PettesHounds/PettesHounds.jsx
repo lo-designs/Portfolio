@@ -75,7 +75,7 @@ function PettesHounds() {
 
         <section id="sctr1">
           <div className="cover">
-            <div className="pettes-square" id="section-1"></div>
+            <div className="square" id="section-1"></div>
           </div>
           <div className="content">
             <div className="description">

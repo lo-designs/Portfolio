@@ -97,18 +97,12 @@ section .content {
 
 /****************  IMAGES  *****************/
 
-.neuro-square,
-.parra-square,
-.pettes-square,
-.soona-square,
-.yha-square {
+.square {
   width: 45vw;
   float: right;
   height: 100vh;
   overflow: hidden;
   z-index: 1;
-  background-color: rgba(31, 30, 27, 0.89);
-  border-top: 0.9px solid rgba(253, 255, 246, 0.92);
 }
 
 .poster {
@@ -288,12 +282,7 @@ section .content {
       left: 0;
     }
 
-    .pettes-square,
-    .parra-square,
-    .outta-square,
-    .neuro-square,
-    .yha-square,
-    .soona-square {
+    .square {
       opacity: 0;
     }
 
