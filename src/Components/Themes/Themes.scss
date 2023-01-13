@@ -183,12 +183,12 @@
     bottom: 0;
     position: fixed;
     margin-left: 5%;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
     z-index: 1500;
 
-    div {
-      height: 13px;
-      width: 13px;
+    .color-option  {
+      height: 12px;
+      width: 12px;
     }
   }
 }

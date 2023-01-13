@@ -226,16 +226,22 @@ section .content {
 
     /* SIDE NAV */
 
-    ul {
+    .side-nav {
       #next-previous {
         position: fixed;
         display: block;
         margin-left: 32vw;
-        bottom: 9px;
-        z-index: 1000;
-        font-size: .75rem;
-        letter-spacing: 1.1px;
-      
+        bottom: 7px;
+        z-index: 1000; 
+      }
+
+      #next,
+      #previous {
+         font-size: 0.77rem;
+      }
+
+      #project-number {
+         font-size: 0.85rem;
       }
 
       #section-0,
