@@ -29,19 +29,11 @@ function Yha() {
         </a>
         <span id="next-previous">
           <li>
-            <a
-            id="previous"
-              className="side-nav-link"
-              href="https://www.lauragunther.dev/outtawax"
-            >
+            <a id="previous" href="https://www.lauragunther.dev/outtawax">
               🡨{" "}
             </a>
             <span> // </span>
-            <a
-            id="next"
-              className="side-nav-link"
-              href="https://www.lauragunther.dev/neurotype"
-            >
+            <a id="next" href="https://www.lauragunther.dev/neurotype">
               {" "}
               🡪
             </a>
@@ -72,8 +64,9 @@ function Yha() {
                     to their needs.
                   </p>
                   <p>
-                    My goal was to learn about resources that currently exist, and to determine a way to make
-                    resources more readily available.
+                    My goal was to learn about resources that currently exist,
+                    and to determine a way to make resources more readily
+                    available.
                   </p>
                 </div>
               </div>
@@ -160,9 +153,7 @@ function Yha() {
             </div>
             <div className="poster">
               <img src={yhaFigma} alt=""></img>
-              <p className="caption">
-                [ Prototype made in Figma ]
-              </p>
+              <p className="caption">[ Prototype made in Figma ]</p>
             </div>
           </div>
         </section>
@@ -183,13 +174,10 @@ function Yha() {
                 some valuable insights in my research and it is something that I
                 would love to build upon in the future.
               </p>
-        
             </div>
             <div className="poster">
               <img src={youMatter} alt=""></img>
-              <p className="last-caption">
-                [ Logo made in Photoshop ]
-              </p>
+              <p className="last-caption">[ Logo made in Photoshop ]</p>
             </div>
           </div>
         </section>

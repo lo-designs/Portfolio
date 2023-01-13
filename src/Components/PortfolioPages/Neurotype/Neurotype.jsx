@@ -30,19 +30,11 @@ function Neurotype() {
         </a>
         <span id="next-previous">
           <li>
-            <a
-            id="previous"
-              className="side-nav-link"
-              href="https://www.lauragunther.dev/yha"
-            >
+            <a id="previous" href="https://www.lauragunther.dev/yha">
               🡨{" "}
             </a>
             <span> // </span>
-            <a
-            id="next"
-              className="side-nav-link"
-              href="https://www.lauragunther.dev/soona"
-            >
+            <a id="next" href="https://www.lauragunther.dev/soona">
               {" "}
               🡪
             </a>
@@ -66,7 +58,13 @@ function Neurotype() {
                 <div className="overview">
                   <p>
                     <b>
-                      <a href="https://www.neurotype.io/" target="_blank" rel="noreferrer">Neurotype Inc. </a>
+                      <a
+                        href="https://www.neurotype.io/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Neurotype Inc.{" "}
+                      </a>
                     </b>
                     is building portable brain sensing tools to support the
                     recovery of people struggling with Opioid Use Disorder
@@ -74,10 +72,10 @@ function Neurotype() {
                   </p>
                   <p>
                     We had the honor of working with Neurotype Inc. to help
-                    determine the best way to integrate a portable electroencephalogram
-                    [EEG] into a standard therapy/clinical setting, as well as
-                    create a prototype for NeuromarkR™, an application used in
-                    conjunction with the EEG.
+                    determine the best way to integrate a portable
+                    electroencephalogram [EEG] into a standard therapy/clinical
+                    setting, as well as create a prototype for NeuromarkR™, an
+                    application used in conjunction with the EEG.
                   </p>
                 </div>
               </div>
@@ -167,7 +165,9 @@ function Neurotype() {
               </div>
               <div id="mobile-images">
                 <img src={neuroData} alt=""></img>
-                <p className="caption">[ Graph: brain reactivity vs. self-report ]</p>
+                <p className="caption">
+                  [ Graph: brain reactivity vs. self-report ]
+                </p>
               </div>
             </div>
           </div>
@@ -185,11 +185,17 @@ function Neurotype() {
               <p>
                 Currently, addiction healthcare practitioners rely on
                 qualitative data [e.g. self-reports] to inform treatment of OUD.
-                The solution Neurotype proposes would allow practitioners to objectively detect triggers for
-                relapse, such as craving or distress at the point of care: providing quantitative data in addition to qualitative.
+                The solution Neurotype proposes would allow practitioners to
+                objectively detect triggers for relapse, such as craving or
+                distress at the point of care: providing quantitative data in
+                addition to qualitative.
               </p>
               <p>
-                We had the privilege of working with Neurotype Inc. to design a prototype for a tool that will be used in the treatment of OUD. The hope is that this technology can be integrated into standard therapy sessions, helping to substantiate OUD, and eventually aid in the treatment of other substance use disorders as well.
+                We had the privilege of working with Neurotype Inc. to design a
+                prototype for a tool that will be used in the treatment of OUD.
+                The hope is that this technology can be integrated into standard
+                therapy sessions, helping to substantiate OUD, and eventually
+                aid in the treatment of other substance use disorders as well.
               </p>
               <p></p>
             </div>

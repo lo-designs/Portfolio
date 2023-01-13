@@ -19,19 +19,11 @@ function ParraLily() {
         </a>
         <span id="next-previous">
           <li>
-            <a
-            id="previous"
-              className="side-nav-link"
-              href="https://www.lauragunther.dev/petteshounds"
-            >
+            <a id="previous" href="https://www.lauragunther.dev/petteshounds">
               🡨{" "}
             </a>
             <span> // </span>
-            <a
-            id="next"
-              className="side-nav-link"
-              href="https://www.lauragunther.dev/outtawax"
-            >
+            <a id="next" href="https://www.lauragunther.dev/outtawax">
               {" "}
               🡪
             </a>
@@ -51,15 +43,17 @@ function ParraLily() {
                 <div className="subtitle">Minneapolis food truck.</div>
 
                 <div className="overview">
-                <p className="website">
-                    Check out the site: <b><a
-                      href="https://www.parralily.com/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                       parralily.com
-                    </a>
-                  </b>
+                  <p className="website">
+                    Check out the site:{" "}
+                    <b>
+                      <a
+                        href="https://www.parralily.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        parralily.com
+                      </a>
+                    </b>
                   </p>
                   <p>
                     I had the opportunity to help set up, design, and build a

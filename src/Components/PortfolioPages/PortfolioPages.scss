@@ -223,7 +223,7 @@ section .content {
       }
     }
 
-    /* SIDE NAV MOBILE */
+    /* SIDE NAV */
 
     ul {
       #next-previous {
@@ -241,7 +241,13 @@ section .content {
       #section-4 {
         display: none;
       }
+
+      .side-nav-link {
+         font-size: 0px;
+      }
     }
+
+        /* HERO IMAGES */
 
     #hero-image {
       position: absolute;

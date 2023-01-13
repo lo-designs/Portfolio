@@ -30,19 +30,11 @@ function Soona() {
         </a>
         <span id="next-previous">
           <li>
-            <a
-            id="previous"
-              className="side-nav-link"
-              href="https://www.lauragunther.dev/neurotype"
-            >
+            <a id="previous" href="https://www.lauragunther.dev/neurotype">
               🡨{" "}
             </a>
             <span> // </span>
-            <a
-            id="next"
-              className="side-nav-link"
-              href="https://www.lauragunther.dev/petteshounds"
-            >
+            <a id="next" href="https://www.lauragunther.dev/petteshounds">
               {" "}
               🡪
             </a>
@@ -66,17 +58,16 @@ function Soona() {
                 </div>
 
                 <div className="overview">
-                <p>
-                  <b>
-                    <a
-                      href="https://soona.co/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Soona{" "}
-                    </a>
-                  </b>
-               
+                  <p>
+                    <b>
+                      <a
+                        href="https://soona.co/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Soona{" "}
+                      </a>
+                    </b>
                     is a studio that produces professional photos and videos of
                     products within 24 hours. Creatives Liz Giorgi & Hayley
                     Anderson started Soona with the shared vision of making
