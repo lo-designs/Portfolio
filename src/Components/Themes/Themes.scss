@@ -183,12 +183,13 @@
     bottom: 0;
     position: fixed;
     margin-left: 5%;
-    margin-bottom: 7px;
+   //  margin-bottom: 7px;
+    margin: 7px 2px;
     z-index: 1500;
 
     .color-option  {
-      height: 12px;
-      width: 12px;
+      height: 13px;
+      width: 13px;
     }
   }
 }
