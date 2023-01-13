@@ -8,6 +8,12 @@
   font-family: "RobotoMono-Regular";
   text-transform: uppercase;
   border-top: 1px solid;
+
+  .email:hover {
+   font-family: "Celebrate-Retro";
+   font-size: 1.7rem;
+  
+}
 }
 
 .footer-links {
@@ -23,5 +29,11 @@
 @media only screen and (max-width: 900px) {
   .footer {
     font-size: 0.75rem;
+
+    .email:hover {
+      font-family: "Celebrate-Retro";
+      font-size: 1.5rem;
+     
+   }
   }
 }

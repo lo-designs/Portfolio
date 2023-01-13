@@ -8,6 +8,12 @@
   text-transform: uppercase;
   border-bottom: 1px solid;
 
+  .portfolio-nav-link:hover,
+  .header-logo:hover {
+    font-family: "Celebrate-Retro";
+    font-size: 1.9rem;
+  }
+
   .header-links {
     margin-left: 5%;
     .header-links-divider {
@@ -19,8 +25,13 @@
 /* MED-SMALL SCREENS */
 
 @media only screen and (max-width: 900px) {
-   .header {
-     font-size: 0.75rem;
-   }
- }
- 
+  .header {
+    font-size: 0.75rem;
+
+    .portfolio-nav-link:hover,
+    .header-logo:hover {
+      font-family: "Celebrate-Retro";
+      font-size: 1.5rem;
+    }
+  }
+}
