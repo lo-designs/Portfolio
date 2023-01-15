@@ -40,7 +40,7 @@ function PettesHounds() {
           <div className="content">
             <div className="intro-position">
               <div>
-                <div id="title">Pette's Hounds</div>
+                <div id="title" className="pettes-title">Pette's Hounds</div>
                 <div className="project-type">// Web redesign</div>
                 <div className="subtitle">
                   Dog walking & pet care services in Minneapolis.

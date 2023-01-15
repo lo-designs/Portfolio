@@ -273,8 +273,10 @@ section .content {
       margin-left: 0;
       font-size: 12.5vw;
       animation: none;
-      // bottom: 10vh;
-      // margin-top: -4vh;
+    }
+
+    .pettes-title {
+      margin-top: -7vh!important;
     }
 
     .yha-title {
@@ -308,7 +310,7 @@ section .content {
 
     .project-type {
       font-size: 1rem;
-      padding-top: 10px;
+      padding-top: 5px;
     }
 
     .subtitle {
