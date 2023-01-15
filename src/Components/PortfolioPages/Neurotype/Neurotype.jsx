@@ -51,7 +51,7 @@ function Neurotype() {
                 <div id="title">Neurotype</div>
                 <div className="project-type">Medical Startup // UX UI</div>
                 <div className="subtitle">
-                  App prototype for an early stage medical startup.
+                  App prototype for a medical startup aiming to help treat addiciton.
                 </div>
 
                 <div className="overview">
