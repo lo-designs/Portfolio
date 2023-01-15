@@ -271,13 +271,13 @@ section .content {
 
     #title {
       margin-left: 0;
-      font-size: 13vw;
+      font-size: 12vw;
       animation: none;
-      margin-top: 4vh;
+      margin-top: -4vh;
     }
 
     .yha-title {
-      margin-top: -22vh!important;
+      margin-top: -15vh!important;
     }
 
     
@@ -307,6 +307,7 @@ section .content {
 
     .project-type {
       font-size: 1rem;
+      padding-top: 10px;
     }
 
     .subtitle {
