@@ -264,19 +264,19 @@ section .content {
       margin-left: 30%;
       width: 65vw;
       height: 60vh;
-      opacity: 0.8;
-      margin-top: -5vh;
-      // animation: none;
+      opacity: 0.75;
+      margin-top: -11vh;
+      animation: none;
     }
 
     #pettes-hero,
     #neuro-hero {
-      margin-top: -5vh;
+      margin-top: -11vh;
     }
 
     #title {
       margin-left: 0;
-      font-size: 11vw;
+      font-size: 12vw;
       animation: none;
     }
 
@@ -301,6 +301,11 @@ section .content {
     .process {
       margin-left: 0;
       width: 100%;
+    }
+
+    .subtitle {
+      font-size: 1.5rem;
+      padding-top: 25px;
     }
 
     .caption,
