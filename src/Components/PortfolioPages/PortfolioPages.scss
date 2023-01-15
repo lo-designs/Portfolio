@@ -264,21 +264,23 @@ section .content {
       margin-left: 30%;
       width: 65vw;
       height: 60vh;
-      opacity: 0.75;
-      margin-top: -7vh;
+      opacity: 0.65;
+      margin-top: -15vh;
       animation: none;
-    }
-
-    #pettes-hero,
-    #neuro-hero {
-      margin-top: -7vh;
     }
 
     #title {
       margin-left: 0;
       font-size: 12vw;
       animation: none;
+      margin-top: -5vh;
     }
+
+    .yha-title {
+      margin-top: -22vh!important;
+    }
+
+    
 
     #resources {
       display: none;
