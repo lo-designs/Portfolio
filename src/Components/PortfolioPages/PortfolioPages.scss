@@ -217,8 +217,8 @@ section .content {
     }
 
     section {
-      height: 125vh;
-      padding: 50px 0;
+      height: 135vh;
+      padding: 25px 0;
       img {
         padding-top: 20px;
       }
@@ -262,8 +262,8 @@ section .content {
     #hero-image {
       position: absolute;
       margin-left: 30%;
-      width: 65vw;
-      height: 60vh;
+      width: 75vw;
+      height: 80vh;
       opacity: 0.65;
       margin-top: -15vh;
       animation: none;
@@ -271,9 +271,9 @@ section .content {
 
     #title {
       margin-left: 0;
-      font-size: 12vw;
+      font-size: 13vw;
       animation: none;
-      margin-top: -5vh;
+      margin-top: 7vh;
     }
 
     .yha-title {
@@ -305,8 +305,13 @@ section .content {
       width: 100%;
     }
 
+    .project-type {
+      font-size: 1.1rem;
+      padding-top: 5px;
+    }
+
     .subtitle {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       padding-top: 25px;
     }
 
