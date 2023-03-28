@@ -69,13 +69,12 @@ function Soona() {
                       </a>
                     </b>
                     is a studio that produces professional photos and videos of
-                    products within 24 hours. Creatives Liz Giorgi & Hayley
-                    Anderson started Soona with the shared vision of making
+                    products within 24 hours. Soona founders, Liz Giorgi & Hayley
+                    Anderson, started Soona with the shared vision of making
                     quality, custom content accessible to brands of all sizes.
                   </p>
                   <p>
-                    Our goals were to [1] make the booking & building a shoot process
-                    engaging + easy to follow, and [2] generate follow-through in
+                    The goals were to [1] make the booking & building a shoot process easy to follow, and [2] generate follow-through in
                     ordering finalized photos and videos.
                   </p>
                 </div>
@@ -94,20 +93,20 @@ function Soona() {
                 Secondary Research // Comparative Audit // Journey Mapping
               </p>
               <p className="description-title">
-                01 Understanding services of a 24 hour content studio.
+                01 24 hour content studio services.
               </p>
               <p>
                 We met with Hayley [Soona co-founder] to get an overview of
                 services Soona provides and did a comparative audit of the site
                 and some of their competitors. I then did a step-by-step
                 analysis of the site to
-                create a customer journey map.
+                create an experience map.
               </p>
             </div>
             <div className="poster">
               <img src={journeyMap} alt=""></img>
               <p className="caption">
-                [ Customer experience map: made in Sketch ]
+                [ Experience map: made in Sketch ]
               </p>
             </div>
           </div>
@@ -123,15 +122,14 @@ function Soona() {
                 Rapid Prototyping // Development Scope // Kano Analysis
               </p>
               <p className="description-title">
-                02 Determining features through analysis.
+                02 Features.
               </p>
               <p>
-                Wireframes of proposed Soona features were collectively placed
-                in InVision for Soona's developer to estimate how much time was
+                Wireframes were placed in InVision for Soona's developer to estimate how much time was
                 needed for each feature. Wireframes were then narrowed down to
-                10 (out of ≈100) through dot voting. Soona customers and staff
+                10 (out of ≈100) through voting. Soona customers and staff
                 completed a survey with the 10 features to determine which best
-                fit their needs. That data was then analyzed based on the Kano
+                fit their needs. Those were then analyzed based on the Kano
                 model: performance, must-have, attraction and indifference.
               </p>
             </div>
@@ -152,7 +150,7 @@ function Soona() {
             <div className="description">
               <p className="title-number">// Feature Proposal</p>
               <p className="description-title">
-                03 Fitting the developer's time budget.
+                03 Developer's time budget.
               </p>
               <p>
                 I created annotated wireframes of the four features that ranked
@@ -190,8 +188,7 @@ function Soona() {
               <p className="description-title">A little guidance.</p>
               <p>
                 Simple features were suggested to make the booking & building a
-                shoot process engaging + easy to follow, as well as generate
-                follow-through in ordering finalized photos and videos. These
+                shoot process easy to follow. These
                 features included: a progress bar, quick view options, a
                 work-in-progress pop-up message, and a style guide.
               </p>

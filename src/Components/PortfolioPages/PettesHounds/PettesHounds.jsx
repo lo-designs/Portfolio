@@ -61,7 +61,7 @@ function PettesHounds() {
                     </b>
                   </p>
                   <p>
-                    I had the opportunity to work with the awesome founder of
+                    I had the opportunity to work with the founder of
                     Pette's Hounds to redesign a website for the dog walking and
                     pet care services they provide.
                     {/* The original site had all of
@@ -82,14 +82,9 @@ function PettesHounds() {
           <div className="content">
             <div className="description">
               <p className="title-number"></p>
-              <p className="description-title">Design Process</p>
+              <p className="description-title"></p>
               <p>
-                Design choices were based around the original website design as
-                well as thier logo. I animated the logo using Photoshop,
-                optimized all of the images to increase site load speed, and
-                created GIFs with videos sourced from Pette's Hounds' social
-                media accounts. The original site, as well as the redesign, were
-                built using Squarespace.
+                Check out the photos on the right to see before and afters of the site before and after the redesign:
                 {/* After auditing the site on Google
                 Lighthouse, I optimized all of the images to a smaller file size
                 to increase the site load speed. */}
