@@ -91,7 +91,7 @@ function Neurotype() {
             <div className="description">
               <p className="title-number">Secondary Research //</p>
               <p className="description-title">
-                01 Understanding addiction healthcare & treatment.
+                01 Addiction healthcare & treatment.
               </p>
               <p>
                 Our first goal was to gain an understanding of the current
@@ -117,7 +117,7 @@ function Neurotype() {
                 User Interviews // Usability Testing // Experience Mapping
               </p>
               <p className="description-title">
-                02 Sessions between patient & practitioner.
+                02 Patient/practitioner sessions.
               </p>
               <p>
                 We conducted nine remote interviews with practitioners in
@@ -144,7 +144,7 @@ function Neurotype() {
             <div className="description">
               <p className="title-number">Data Visualization // Prototyping</p>
               <p className="description-title">
-                03 Creating data that is easy to interpret.
+                03 Easy to interpret data.
               </p>
               <p>
                 The idea is that the interface displays measurements in patient
@@ -181,7 +181,7 @@ function Neurotype() {
           <div className="content">
             <div className="description">
               <p className="title-number">// Summary</p>
-              <p className="description-title">Substantiating treatment.</p>
+              <p className="description-title">Aiding in addiction treatment.</p>
               <p>
                 Currently, addiction healthcare practitioners rely on
                 qualitative data [e.g. self-reports] to inform treatment of OUD.
