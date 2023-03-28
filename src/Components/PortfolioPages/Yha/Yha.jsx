@@ -62,11 +62,11 @@ function Yha() {
                     easily connect with health and wellness resources specific
                     to their needs.
                   </p>
-                  <p>
+                  {/* <p>
                     My goal was to learn about resources that currently exist
                     and determine a way to make resources more readily
                     available.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -83,16 +83,13 @@ function Yha() {
                 Secondary Research // Informational Interviews
               </p>
               <p className="description-title">
-                01 Deep dive: health & wellness resources for youth.
+                01 Existing health & wellness resources for youth.
               </p>
               <p>
-                During research for this project, I found that while there are a
-                lot of health & wellness resources, many of them are text heavy
-                and hard to scan for important information. This makes it
-                challenging to find help, especially if you don't know exactly
-                what you need. Interviews with licensed social workers revealed
-                Youth Services Network [YSN] as an effective resource, so I
-                decided to use it as a reference point.
+                In researching existing resources, I found that while there are a lot of them, many of are text heavy
+                and hard to scan for important information; making it
+                difficult to find help, especially if you don't know exactly
+                what you need. I used YSN (Youth Services Network) as interviews with licensed social workers revealed it to be an effective (but outdated) resource.
               </p>
             </div>
             <div className="poster">

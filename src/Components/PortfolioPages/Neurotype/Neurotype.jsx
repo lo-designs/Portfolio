@@ -144,7 +144,7 @@ function Neurotype() {
               </p>
               <p>
                 The idea is that the app takes measurements in patient
-                brain reactivity when looking at substance-related images (from the EEG), which is then compared side-by-side with patient self-reported cravings.
+                brain reactivity when looking at substance-related images (from the EEG), which are then compared side-by-side with patient self-reported cravings.
               </p>
             </div>
             <div className="poster">
