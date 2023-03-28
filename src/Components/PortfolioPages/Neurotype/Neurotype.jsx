@@ -68,14 +68,12 @@ function Neurotype() {
                     </b>
                     is building portable brain sensing tools to support the
                     recovery of people struggling with Opioid Use Disorder
-                    [OUD], as well as other substance use disorders.
-                  </p>
-                  <p>
-                    We had the honor of working with Neurotype Inc. to help
+                    [OUD].
+                    We worked with Neurotype to help
                     determine the best way to integrate a portable
                     electroencephalogram [EEG] into a standard therapy/clinical
                     setting, as well as create a prototype for NeuromarkR™, an
-                    application used in conjunction with the EEG.
+                    application used in conjunction with an EEG.
                   </p>
                 </div>
               </div>
@@ -94,11 +92,9 @@ function Neurotype() {
                 01 Addiction healthcare & treatment.
               </p>
               <p>
-                Our first goal was to gain an understanding of the current
-                landscape for addiction healthcare. We conducted secondary
-                research to learn about the patient/practitioner experience in
-                clinical and therapy settings, as well as industry trends for
-                visually presenting complicated medical data.
+                We conducted secondary research to learn about the current
+                landscape for addiction healthcare, as well as gain an understanding of patient/practitioner sessions in
+                clinical and therapy settings. We also researched ways to visually present complicated medical data.
               </p>
             </div>
             <div className="poster">
@@ -121,10 +117,10 @@ function Neurotype() {
               </p>
               <p>
                 We conducted nine remote interviews with practitioners in
-                various healthcare roles. The information gathered from these
-                interviews, in addition to our research, gave us context to what
+                various healthcare roles. The information from these
+                interviews gave us context to what
                 sessions generally look like between patient and practitioner.
-                This helped to create an experience map to better visualize the
+                This helped create an experience map to better visualize the
                 process of implementing a portable EEG in a standard therapy
                 session.
               </p>
@@ -144,19 +140,11 @@ function Neurotype() {
             <div className="description">
               <p className="title-number">Data Visualization // Prototyping</p>
               <p className="description-title">
-                03 Easy to interpret data.
+                03 Interpretable data.
               </p>
               <p>
-                The idea is that the interface displays measurements in patient
-                brain reactivity when looking at substance-related images. That
-                data is then compared side-by-side with data reflecting patient
-                self-reported cravings.
-              </p>
-              <p>
-                We had the opportunity to walk through the data prototypes with
-                an expert in data visualization. The main goal was to make EEG
-                data easy to interpret for practitioners without EEG expertise.
-                Prototypes were made by team using Figma.
+                The idea is that the app takes measurements in patient
+                brain reactivity when looking at substance-related images (from the EEG), which is then compared side-by-side with patient self-reported cravings.
               </p>
             </div>
             <div className="poster">
@@ -166,7 +154,7 @@ function Neurotype() {
               <div id="mobile-images">
                 <img src={neuroData} alt=""></img>
                 <p className="caption">
-                  [ Graph: brain reactivity vs. self-report ]
+                  [ Graph: brain reactivity vs. self-report | protoypes made by team in Figma ]
                 </p>
               </div>
             </div>

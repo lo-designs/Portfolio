@@ -141,7 +141,7 @@ section .content {
 }
 
 .site-link {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
 }
 
 .process {
@@ -167,9 +167,15 @@ section .content {
 .subtitle {
   font-family: "Vercetti";
   font-weight: bolder;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   line-height: 1.4;
   padding: 10px 0 15px 0;
+}
+
+.subtitle {
+  margin-left: 15vw;
+  width: 35vw;
+  line-height: 1.2;
 }
 
 .title-number {
@@ -327,7 +333,7 @@ section .content {
     }
 
     .subtitle {
-      font-size: 1.1rem;
+      font-size: 1.6rem;
       padding-top: 25px;
     }
 
