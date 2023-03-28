@@ -42,7 +42,7 @@ function ParraLily() {
                 <div className="subtitle">Minneapolis food truck.</div>
 
                 <div className="overview">
-                  <p>
+                  <p className="site-link">
                     Check out the site:{" "}
                     <b>
                       <a
@@ -57,10 +57,8 @@ function ParraLily() {
                   </p>
                   <p>
                     I had the opportunity to help set up, design, and build a
-                    website for ParraLily, a fantastic new food truck in
-                    Minneapolis. I met with the talented owner/chef of ParraLily
-                    to go over how to get set up with hosting and different CMS
-                    options, as well as ideas for the design.
+                    website for ParraLily, a new food truck in
+                    Minneapolis. 
                   </p>
                 </div>
               </div>
@@ -68,7 +66,7 @@ function ParraLily() {
           </div>
         </section>
 
-        <section id="sctr1">
+        {/* <section id="sctr1">
           <div className="cover">
             <div className="square" id="section-1"></div>
           </div>
@@ -97,7 +95,7 @@ function ParraLily() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </div>
   );
