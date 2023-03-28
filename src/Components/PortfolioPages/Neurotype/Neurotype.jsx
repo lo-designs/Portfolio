@@ -73,7 +73,7 @@ function Neurotype() {
                     determine the best way to integrate a portable
                     electroencephalogram [EEG] into a standard therapy/clinical
                     setting, as well as create a prototype for NeuromarkR™, an
-                    application used in conjunction with an EEG.
+                    application that displays EEG measurements.
                   </p>
                 </div>
               </div>
