@@ -51,9 +51,9 @@ function Yha() {
                 <div className="project-type">
                   Self-defined project // UX UI
                 </div>
-                <div className="subtitle">
+                {/* <div className="subtitle">
                   Researching and protoyping a health & wellness resource app.
-                </div>
+                </div> */}
 
                 <div className="overview">
                   <p>
