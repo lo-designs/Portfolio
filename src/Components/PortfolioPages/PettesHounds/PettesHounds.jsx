@@ -18,7 +18,7 @@ function PettesHounds() {
           <li id="section-0"></li>Overview
         </a>
         <a className="side-nav-link" href="#sctr1">
-          <li id="section-1"></li>Design
+          <li id="section-1"></li>Redesign
         </a>
         <span id="next-previous">
           <li>
@@ -40,7 +40,9 @@ function PettesHounds() {
           <div className="content">
             <div className="intro-position">
               <div>
-                <div id="title" className="pettes-title">Pette's Hounds</div>
+                <div id="title" className="pettes-title">
+                  Pette's Hounds
+                </div>
                 <div className="project-type">// Web redesign</div>
                 <div className="subtitle">
                   Dog walking & pet care services in Minneapolis.
@@ -48,10 +50,24 @@ function PettesHounds() {
 
                 <div className="overview">
                   <p>
-                  I had the opportunity to work with the awesome founder of
+                    I had the opportunity to work with the awesome founder of
                     Pette's Hounds to redesign a website for the dog walking and
                     pet care services they provide.
-                    <br>Recently, the owner made the shift from pet care services to vinyl pressing <a className="website" href="https://www.lauragunther.dev/outtawax" target="_blank" rel="noreferrer">[Outta Wax]</a>, which I also had the fortune of designing and creating. The Pette's Hounds site is no longer live, but you can see before + afters of the redesign below:</br>
+                    <br>
+                      Recently, the owner made the shift from pet care services
+                      to vinyl pressing{" "}
+                      <b><a
+                        className="website"
+                        href="https://www.lauragunther.dev/outtawax"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        [Outta Wax]
+                      </a></b>
+                      , which I also had the fortune of designing and creating.
+                      The Pette's Hounds site is no longer live, but you can see
+                      before + afters of the redesign below:
+                    </br>
                   </p>
                 </div>
               </div>
@@ -68,7 +84,7 @@ function PettesHounds() {
               <p className="title-number"></p>
               <p className="description-title"></p>
               <p>
-                Check out before and afters of the redesign: 
+                Check out before and afters of the redesign:
                 {/* After auditing the site on Google
                 Lighthouse, I optimized all of the images to a smaller file size
                 to increase the site load speed. */}

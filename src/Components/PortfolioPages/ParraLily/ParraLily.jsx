@@ -8,12 +8,6 @@ function ParraLily() {
     <div className="project">
       <ul className="side-nav">
         <li className="design-process-header"></li>
-        <a className="side-nav-link" href="#sctr0">
-          <li id="section-0"></li>Overview
-        </a>
-        <a className="side-nav-link" href="#sctr1">
-          <li id="section-1"></li>Design
-        </a>
         <span id="next-previous">
           <li>
             <a id="previous" href="https://www.lauragunther.dev/outtawax">

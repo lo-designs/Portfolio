@@ -11,12 +11,11 @@ import animatedLogo from "./../Images/PettesHounds/phLogo.gif";
 function PettesHoundsCarousel() {
   return (
     <div className="carousel">
-      <Carousel fade>
+      <Carousel>
 
       <Carousel.Item>
           <img
             id="carousel-item"
-            className="d-block w-100"
             src={animatedLogo}
             alt="animated logo"
           />
@@ -28,7 +27,6 @@ function PettesHoundsCarousel() {
         <Carousel.Item>
           <img
             id="carousel-item"
-            className="d-block w-100"
             src={pettesHomePage}
             alt="New Pette's Hounds home page"
           />
@@ -40,7 +38,6 @@ function PettesHoundsCarousel() {
         <Carousel.Item>
           <img
             id="carousel-item"
-            className="d-block w-100"
             src={pettesHomePageOg}
             alt="Original home page"
           />
@@ -52,7 +49,6 @@ function PettesHoundsCarousel() {
         <Carousel.Item>
           <img
             id="carousel-item"
-            className="d-block w-100"
             src={allServices}
             alt="New 'all services' page"
           />
@@ -64,12 +60,11 @@ function PettesHoundsCarousel() {
         <Carousel.Item>
           <img
             id="carousel-item"
-            className="d-block w-100"
             src={ogAllServices}
             alt="Original 'all services' page"
           />
           <div className="carousel-caption">
-            <p>[ original design: serices page ]</p>
+            <p>[ original design: services page ]</p>
           </div>
         </Carousel.Item>
       </Carousel>
