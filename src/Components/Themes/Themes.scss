@@ -1,18 +1,21 @@
 .theme-options {
   position: fixed;
-  margin-left: 80%;
+  margin-left: 85%;
   margin-top: 9px;
   z-index: 100;
-  opacity: 1;
+  font-family: "RobotoMono-Regular";
+  font-size: 0.8rem;
+  background-color: none;
 
-  .color-option {
+  .dark,
+  .light {
     cursor: pointer;
     display: inline-block;
-    height: 17px;
-    width: 17px;
-    margin: 0px 3px;
-    border: 1px solid #212121;
-    border-radius: 2px;
+    padding: 2px;
+   }
+
+  .light-dark-divider {
+   padding: 0 10px;
   }
 }
 
@@ -22,7 +25,8 @@
 .header.theme-white,
 .footer.theme-white,
 #theme-white {
-  background-color: rgba(251, 255, 236, 0.969);
+  background-color: rgba(251, 255, 234, 0.969);
+  color: rgba(31, 30, 27, 0.969);
   .website:hover,
   .side-nav-link:hover,
   #previous:hover,
@@ -30,11 +34,11 @@
     color: rgb(118, 154, 47) !important;
     transition: 0.3s !important;
   }
-  .square {
-    background-color: rgba(251, 255, 236, 0.85);
-    border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
-    border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
-  }
+//   .square {
+//    //  background-color: rgba(251, 255, 234, 0.969);
+//     border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
+//     border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
+//   }
 }
 
 /************** BLACK **************/
@@ -45,141 +49,141 @@
 #theme-black {
   font-weight: 100;
   background-color: rgba(31, 30, 27, 0.969);
-  color: rgba(253, 255, 246, 0.969);
+  color: rgba(251, 255, 234, 0.969);
   p,
   li,
   a {
-    color: rgba(253, 255, 246, 0.969) !important;
+    color: rgba(251, 255, 234, 0.969) !important;
   }
   .website {
    font-weight: bold;
-
+   font-size: 1rem;
   }
   .website:hover,
   .side-nav-link:hover,
   #previous:hover,
   #next:hover {
-    color: rgb(215, 140, 232) !important;
+    color: rgb(240, 172, 255) !important;
     transition: 0.3s !important;
   }
   .last-caption,
   .caption {
-    color: rgba(235, 232, 232, 0.969);
+    color: rgba(251, 255, 234, 0.969);
   }
-  .square {
-    background-color: rgba(31, 30, 27, 0.85);
-    border-top: 1px solid rgba(253, 255, 246, 0.969) !important;
-    border-left: 1px solid rgba(253, 255, 246, 0.969) !important;
-  }
+//   .square {
+//    //  background-color: rgba(31, 30, 27, 0.85);
+//     border-top: 1px solid rgba(253, 255, 246, 0.969) !important;
+//     border-left: 1px solid rgba(253, 255, 246, 0.969) !important;
+//   }
 }
 
 /************** TAN **************/
 
-.App.theme-tan,
-.header.theme-tan,
-.footer.theme-tan,
-#theme-tan {
-  background-color: rgba(228, 206, 158, 0.969);
+// .App.theme-tan,
+// .header.theme-tan,
+// .footer.theme-tan,
+// #theme-tan {
+//   background-color: rgba(228, 206, 158, 0.969);
 
-  .website:hover,
-  .side-nav-link:hover,
-  #previous:hover,
-  #next:hover {
-    color: rgb(223, 76, 35) !important;
-    font-weight: bolder;
-  }
-  .square {
-    background-color: rgba(228, 206, 158, 0.85);
-    border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
-    border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
-  }
-}
+//   .website:hover,
+//   .side-nav-link:hover,
+//   #previous:hover,
+//   #next:hover {
+//     color: rgb(223, 76, 35) !important;
+//     font-weight: bolder;
+//   }
+//   .square {
+//     background-color: rgba(228, 206, 158, 0.85);
+//     border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
+//     border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
+//   }
+// }
 
 /************** PURPLE **************/
 
-.App.theme-purple,
-.header.theme-purple,
-.footer.theme-purple,
-#theme-purple {
-  background-color: rgba(207, 186, 231, 0.969);
-  .website:hover,
-  .side-nav-link:hover,
-  #previous:hover,
-  #next:hover {
-    color: rgba(116, 148, 51) !important;
-    font-weight: bolder;
-  }
-  .square {
-    background-color: rgba(207, 186, 231, 0.85);
-    border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
-    border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
-  }
-}
+// .App.theme-purple,
+// .header.theme-purple,
+// .footer.theme-purple,
+// #theme-purple {
+//   background-color: rgba(207, 186, 231, 0.969);
+//   .website:hover,
+//   .side-nav-link:hover,
+//   #previous:hover,
+//   #next:hover {
+//     color: rgba(116, 148, 51) !important;
+//     font-weight: bolder;
+//   }
+//   .square {
+//     background-color: rgba(207, 186, 231, 0.85);
+//     border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
+//     border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
+//   }
+// }
 
 /************** GREEN **************/
 
-.App.theme-green,
-.header.theme-green,
-.footer.theme-green,
-#theme-green {
-  background-color: rgba(167, 193, 116, 0.969);
-  .website:hover,
-  .side-nav-link:hover,
-  #previous:hover,
-  #next:hover {
-    color: rgba(180, 126, 241) !important;
-    font-weight: bolder;
-  }
-  .square {
-    background-color: rgba(167, 193, 116, 0.85);
-    border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
-    border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
-  }
-}
+// .App.theme-green,
+// .header.theme-green,
+// .footer.theme-green,
+// #theme-green {
+//   background-color: rgba(167, 193, 116, 0.969);
+//   .website:hover,
+//   .side-nav-link:hover,
+//   #previous:hover,
+//   #next:hover {
+//     color: rgba(180, 126, 241) !important;
+//     font-weight: bolder;
+//   }
+//   .square {
+//     background-color: rgba(167, 193, 116, 0.85);
+//     border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
+//     border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
+//   }
+// }
 
 /************** RED-ISH **************/
 
-.App.theme-red,
-.header.theme-red,
-.footer.theme-red,
-#theme-red {
-  background-color: rgba(224, 110, 90, 0.93);
-  .website:hover,
-  .side-nav-link:hover,
-  #previous:hover,
-  #next:hover {
-    color: rgba(16, 123, 109) !important;
-    font-weight: bolder;
-  }
-  .square {
-    background-color: rgba(224, 110, 90, 0.85);
-    border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
-    border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
-  }
-}
+// .App.theme-red,
+// .header.theme-red,
+// .footer.theme-red,
+// #theme-red {
+//   background-color: rgba(224, 110, 90, 0.93);
+//   .website:hover,
+//   .side-nav-link:hover,
+//   #previous:hover,
+//   #next:hover {
+//     color: rgba(16, 123, 109) !important;
+//     font-weight: bolder;
+//   }
+//   .square {
+//     background-color: rgba(224, 110, 90, 0.85);
+//     border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
+//     border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
+//   }
+// }
 
 /************** TEAL-ISH **************/
 
-.App.theme-teal,
-.header.theme-teal,
-.footer.theme-teal,
-#theme-teal {
-  background-color: rgba(94, 154, 146, 0.969);
+// .App.theme-teal,
+// .header.theme-teal,
+// .footer.theme-teal,
+// #theme-teal {
+//   background-color: rgba(94, 154, 146, 0.969);
 
-  .website:hover,
-  .side-nav-link:hover,
-  #previous:hover,
-  #next:hover {
-    color: rgb(180, 56, 22) !important;
-    font-weight: bold;
-    transition: 0.3s;
-  }
-  .square {
-    background-color: rgba(94, 154, 146, 0.85);
-    border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
-    border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
-  }
-}
+//   .website:hover,
+//   .side-nav-link:hover,
+//   #previous:hover,
+//   #next:hover {
+//     color: rgb(180, 56, 22) !important;
+//     font-weight: bold;
+//     transition: 0.3s;
+//   }
+//   .square {
+//     background-color: rgba(94, 154, 146, 0.85);
+//     border-top: 1px solid rgba(31, 30, 27, 0.969) !important;
+//     border-left: 1px solid rgba(31, 30, 27, 0.969) !important;
+//   }
+// }
 
 /*************  BREAK POINTS  **************/
 
@@ -192,9 +196,5 @@
     margin: 7px 2px;
     z-index: 1500;
 
-    .color-option {
-      height: 13px;
-      width: 13px;
-    }
   }
 }
