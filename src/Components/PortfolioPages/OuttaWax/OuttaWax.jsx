@@ -37,11 +37,23 @@ function OuttaWax() {
                 <div id="title">Outta Wax</div>
                 <div className="project-type">// Web Design</div>
                 <div className="subtitle">
-                  Vinyl pressing services in Minneapolis.
+                  Vinyl pressing services in Minneapolis [coming soon!]
                 </div>
 
                 <div className="overview">
-                  <p>Coming soon!</p>
+                  <p>
+                    Check out the site:{" "}
+                    <b>
+                      <a
+                        className="website"
+                        href="https://www.outtawax.com"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        outtawax.com
+                      </a>
+                    </b>
+                  </p>
                 </div>
               </div>
             </div>

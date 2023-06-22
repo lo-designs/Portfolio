@@ -48,26 +48,10 @@ function PettesHounds() {
 
                 <div className="overview">
                   <p>
-                    Check out the site:{" "}
-                    <b>
-                      <a
-                        className="website"
-                        href="https://www.petteshounds.com"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        petteshounds.com
-                      </a>
-                    </b>
-                  </p>
-                  <p>
-                    I had the opportunity to work with the founder of
+                  I had the opportunity to work with the awesome founder of
                     Pette's Hounds to redesign a website for the dog walking and
                     pet care services they provide.
-                    {/* The original site had all of
-                    the components to make a great website [cute name, cute
-                    logo, cute pet pictures], it just needed some slight format
-                    changes to more efficiently display services. */}
+                    <br>Recently, the owner made the shift from pet care services to vinyl pressing <a className="website" href="https://www.lauragunther.dev/outtawax" target="_blank" rel="noreferrer">[Outta Wax]</a>, which I also had the fortune of designing and creating. The Pette's Hounds site is no longer live, but you can see before + afters of the redesign below:</br>
                   </p>
                 </div>
               </div>
@@ -84,7 +68,7 @@ function PettesHounds() {
               <p className="title-number"></p>
               <p className="description-title"></p>
               <p>
-                Check out the photos on the right to see before and afters of the site before and after the redesign:
+                Check out before and afters of the redesign: 
                 {/* After auditing the site on Google
                 Lighthouse, I optimized all of the images to a smaller file size
                 to increase the site load speed. */}
