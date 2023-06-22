@@ -136,7 +136,7 @@ function Neurotype() {
               </p>
               <p>
                 We spoke with an expert in data visualization to learn best practices for presenting complicated medical data. The goal was to design a UI that displays data from an EEG in a way that is easy to interpret - the app takes measurements in patient
-                brain reactivity when looking at substance-related images (from the EEG), which are then compared side-by-side with patient self-reported cravings. This provide practitioners with objective data regarding a patient's progress in treatment. 
+                brain reactivity when looking at substance-related images (from the EEG), which are then compared side-by-side with patient self-reported cravings.
               </p>
             </div>
             <div className="poster">

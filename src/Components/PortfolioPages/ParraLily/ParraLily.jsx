@@ -16,11 +16,11 @@ function ParraLily() {
         </a>
         <span id="next-previous">
           <li>
-            <a id="previous" href="https://www.lauragunther.dev/petteshounds">
+            <a id="previous" href="https://www.lauragunther.dev/outtawax">
               prev
             </a>
             <span id="project-number"> / 02 / </span>
-            <a id="next" href="https://www.lauragunther.dev/outtawax">
+            <a id="next" href="https://www.lauragunther.dev/petteshounds">
               next
             </a>
           </li>
@@ -39,7 +39,13 @@ function ParraLily() {
                 <div className="subtitle">Minneapolis food truck.</div>
 
                 <div className="overview">
-                  <p className="site-link">
+          
+                  <p>
+                    I had the opportunity to help set up, design, and build a
+                    website for ParraLily, a new food truck in
+                    Minneapolis. 
+                  </p>
+                  <p>
                     Check out the site:{" "}
                     <b>
                       <a
@@ -51,11 +57,6 @@ function ParraLily() {
                         parralily.com
                       </a>
                     </b>
-                  </p>
-                  <p>
-                    I had the opportunity to help set up, design, and build a
-                    website for ParraLily, a new food truck in
-                    Minneapolis. 
                   </p>
                 </div>
               </div>

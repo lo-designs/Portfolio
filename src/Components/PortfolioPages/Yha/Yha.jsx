@@ -29,7 +29,7 @@ function Yha() {
         </a>
         <span id="next-previous">
           <li>
-            <a id="previous" href="https://www.lauragunther.dev/outtawax">
+            <a id="previous" href="https://www.lauragunther.dev/petteshounds">
               prev
             </a>
             <span id="project-number"> / 04 / </span>

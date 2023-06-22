@@ -16,9 +16,7 @@ function Index() {
       <div>
       <Portfolio />
       </div>
-      {/* <div className="about-section">
-        <About />
-      </div> */}
+
     </div>
   );
 }

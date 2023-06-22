@@ -159,15 +159,15 @@ li {
 
 /* background */
 
-.noise::before {
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100vw;
-   height: 100vh;
-   content: "";
-   z-index: -1;
-   background-size: cover!important;
-   background: url(https://media3.giphy.com/media/l0HlB4tK4SDFUkOQw/giphy.gif?cid=790b7611815c9692cad9006532dbcf25147990631200c5d8&rid=giphy.gif&ct=g);
-     // background: url(https://media1.giphy.com/media/oy7wGVaohJYe4/giphy.gif?cid=ecf05e47w9zfo9w5e69oarasbvyxg47ic22xvvyfl250qfaq&rid=giphy.gif&ct=g); 
-}
+// .noise::before {
+//    position: fixed;
+//    top: 0;
+//    left: 0;
+//    width: 100vw;
+//    height: 100vh;
+//    content: "";
+//    z-index: -1;
+//    background-size: cover!important;
+//    background: url(https://media3.giphy.com/media/l0HlB4tK4SDFUkOQw/giphy.gif?cid=790b7611815c9692cad9006532dbcf25147990631200c5d8&rid=giphy.gif&ct=g);
+//      // background: url(https://media1.giphy.com/media/oy7wGVaohJYe4/giphy.gif?cid=ecf05e47w9zfo9w5e69oarasbvyxg47ic22xvvyfl250qfaq&rid=giphy.gif&ct=g); 
+// }

@@ -34,7 +34,7 @@ function Soona() {
                prev
             </a>
             <span id="project-number"> / 06 / </span>
-            <a id="next" href="https://www.lauragunther.dev/petteshounds">
+            <a id="next" href="https://www.lauragunther.dev/outtawax">
               next 
             </a>
           </li>

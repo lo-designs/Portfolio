@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import About from "../About/About";
+// import About from "../About/About";
 import Index from "../Index/Index";
 import Portfolio from "../Portfolio/Portfolio";
 import Neurotype from "../PortfolioPages/Neurotype/Neurotype";
@@ -14,7 +14,7 @@ const PageRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Index />} />
-      <Route path="/about" element={<About />} />
+      {/* <Route path="/about" element={<About />} /> */}
       <Route path="/portfolio" element={<Portfolio/>} />
       <Route path="/petteshounds" element={<PettesHounds />} />
       <Route path="/parralily" element={<ParraLily />} />
