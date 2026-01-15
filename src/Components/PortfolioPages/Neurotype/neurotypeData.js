@@ -2,7 +2,6 @@ import neuroHero from "../../Images/Neurotype/neuro-hero.jpg";
 import neuroGif from "../../Images/Neurotype/neuro.gif";
 import neuroLogo from "../../Images/Neurotype/logo-concept.png";
 import neuroMap from "../../Images/Neurotype/neuro-map.png";
-import neuroData from "../../Images/Neurotype/neuro-data.png";
 import neuroDash from "../../Images/Neurotype/neuro-dash.png";
 
 const neurotypeData = {
@@ -37,7 +36,7 @@ const neurotypeData = {
     },
       {
       label: "Data Visualization",
-      image: neuroData,
+      image: neuroDash,
       imageCaption: "[ Data visualization: made in Figma ]",
       titleNumber: "Data Visualization // Prototyping",
       descriptionTitle: "03 | Interpretable data UI design",

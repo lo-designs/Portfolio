@@ -1,5 +1,4 @@
 import hero from "../../Images/Parralily/hero.jpg";
-import designBoard from "../../Images/Parralily/design-board.jpg";
 import wireframes from "../../Images/Parralily/wireframes.png";
 
 const parralilyData = {

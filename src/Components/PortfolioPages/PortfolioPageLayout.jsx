@@ -1,5 +1,3 @@
-import React from "react";
-import ReusableCarousel from "../ReusableComponents/Carousel/ReusableCarousel";
 import Tabs from "../ReusableComponents/Tabs/Tabs";
 import "../PortfolioPages/PortfolioStyles/PortfolioPages.scss";
 import "../ReusableComponents/Tabs/Tabs.scss";

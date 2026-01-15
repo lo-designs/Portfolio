@@ -1,9 +1,4 @@
 import phHero from "../../Images/PettesHounds/ph-hero.jpg";
-import phHomeOg from "../../Images/PettesHounds/home-original.jpg";
-import phHomeNew from "../../Images/PettesHounds/home-new.jpg";
-// import phServicesOg from "../../Images/PettesHounds/services-original.jpg";
-// import phServicesNew from "../../Images/PettesHounds/services-new.jpg";
-import phLogo from "../../Images/PettesHounds/ph-logo.gif";
 
 const phData = {
   heroImage: phHero,
