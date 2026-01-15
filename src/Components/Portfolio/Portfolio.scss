@@ -8,17 +8,20 @@
   
 }
 
-#neuro,
-#neuro-marquee,
+
+#yha,
+#yha-marquee
 #pettes,
-#pettes-marquee {
+#pettes-marquee,
+#yha,
+#yha-marquee {
   font-family: "NeueMachina-Light";
 }
 
 #parra,
 #parra-marquee,
-#yha,
-#yha-marquee
+#neuro,
+#neuro-marquee
  {
  font-family: "QTJupiter";
 }
@@ -28,13 +31,14 @@
 
   .portfolio-intro {
     padding: 40px 0;
-    font-family: "Vercetti";
+    font-family: "";
     font-size: 0.9rem;
   }
 
-   .portfolio-header,
+  .portfolio-header,
   .portfolio-subheader {
     font-size: 0.9rem;
+    font-weight: normal;
     font-family: "RobotoMono-Regular";
     padding: 10px 0 0 0;
   }

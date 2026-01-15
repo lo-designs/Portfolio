@@ -87,6 +87,12 @@ p {
 }
 
 @font-face {
+   font-family: "CSClaire-Mono";
+   src: local("CSClaireMono-Regular"),
+   url("./Fonts/CSClaireMono-Regular.otf");
+}
+
+@font-face {
    font-family: "RobotoMono-Regular";
    src: local("RobotoMono-Regular"),
    url("./Fonts/RobotoMono-Regular.ttf");
@@ -102,6 +108,24 @@ p {
    font-family: "NeueMachina-Light";
    src: local("NeueMachina-Light"),
    url("./Fonts/NeueMachina-Light.otf");
+}
+
+@font-face {
+   font-family: "Palmore";
+   src: local("Palmore-Semibold")
+   url("./Fonts/Palmore-Semibold.otf");
+}
+
+@font-face {
+   font-family: "Halfre";
+   src: local("Halfre")
+   url("./Fonts/Halfre.otf");
+}
+
+@font-face {
+   font-family: "Glitz";
+   src: local("Glitz")
+   url("./Fonts/Glitz.otf");
 }
 
 

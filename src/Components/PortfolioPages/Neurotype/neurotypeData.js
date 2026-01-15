@@ -11,7 +11,7 @@ const neurotypeData = {
   projectType: "Medical Startup // UX UI",
   subtitle: "App prototype for a medical startup aiming to help treat addiction.",
   overview: [
-    "While at Prime, my team had the privilege of working with Neurotype Inc., a company building portable brain sensing tools to support the recovery of people struggling with Opioid Use Disorder [OUD]. Our task was to help determine the best way to integrate a portable electroencephalogram [EEG] into a standard therapy/clinical setting, as well as create a prototype for NeuromarkR™, an application that displays EEG measurements."
+    "While at Prime, I was on a team that had the privilege of working with Neurotype Inc., a company building portable brain sensing tools to support the recovery of people struggling with Opioid Use Disorder [OUD]. Our task was to help determine the best way to integrate a portable electroencephalogram [EEG] into a standard therapy/clinical setting, as well as create a prototype for NeuromarkR™, an application that displays EEG measurements."
   ],
   tabs: [
     {

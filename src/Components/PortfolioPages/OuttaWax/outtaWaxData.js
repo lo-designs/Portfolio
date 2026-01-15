@@ -4,21 +4,27 @@ const outtaWaxData = {
   heroImage: hero,
   title: "Outta Wax",
   projectType: "Vinyl Pressing Services // Web Design",
-  subtitle: "Vinyl pressing services in Minneapolis [coming soon!]",
-  overview: [
-    "I had the opportunity to help set up, design, and build a website for OuttaWax, a new food truck in Minneapolis."
+  subtitle: [
+    <>
+      <a href="https://outtawax.com" target="_blank" rel="noopener noreferrer">
+        outtawax.com
+      </a>
+    </>,
   ],
+  overview:
+    "I had the opportunity to help design the website for Outta Wax, a new vinyl pressing service in Minneapolis.",
+
   tabs: [
     {
       label: "Design Process",
       // image: wireframes,
-      titleNumber: "Secondary Research // Practitioner Interviews",
-      descriptionTitle: "Client meetings & design board",
+      titleNumber: "",
+      descriptionTitle: "",
       paragraphs: [
-        "I started with the mobile design and made wireframes using Adobe XD and a design board in Photoshop. Design choices - colors and fonts - were based around both the pre-existing OuttaWax logo as well as the color/look of the truck. I've also designed menus for their brunch events, catering, and the boxed lunches they offer."
-      ]
-    }
-  ]
+        "The site was built using Squarespace, with design choices - colors and fonts - based around both the pre-existing OuttaWax logo and flier designs.",
+      ],
+    },
+  ],
 };
 
 export default outtaWaxData;

@@ -1,28 +1,37 @@
 .prev-next-nav {
+  position: relative;
   z-index: 10;
-  pointer-events: pointer;
-  padding: 25px 0;
-  display: flex;
+  pointer-events: auto;
 }
 
 .prev-next-list {
   display: flex;
   align-items: center;
   gap: 1rem;
+  list-style: none;
+  padding-bottom: 30px;
+  margin: 1rem 0 0 0;
 }
 
 .prev-link,
 .next-link {
-  pointer-events: none;
-  z-index: 11;
-    font-family: "RobotoMono-Regular";
-    font-size: 0.7rem;
-    text-transform: uppercase;
-
+  font-family: "RobotoMono-Regular";
+  font-size: 0.7rem;
+  background: none;
+  border: none;
+  font-weight: normal;
+  text-decoration: none;
+  box-shadow: none;
+  transition: color 0.2s, text-decoration 0.2s;
 }
 
-// .prev-link:hover,
-// .next-link:hover {
-//   color: #f178f3;
-//   pointer-events: pointer;
-// }
+.theme-white .prev-link:hover,
+.theme-white .next-link:hover,
+.theme-black .prev-link:hover,
+.theme-black .next-link:hover,
+.prev-link:hover,
+.next-link:hover {
+  color: rgb(224, 146, 255) !important;
+  text-decoration: underline !important;
+  background: none;
+}

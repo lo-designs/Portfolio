@@ -1,4 +1,4 @@
-.hero-section, .tabs-section {
+.hero-section {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -6,7 +6,6 @@
   min-height: 100vh;
   padding: 15% 5%;
   overflow: hidden;
-  border-bottom: 1px solid;
 
   @media (max-width: 900px) {
     flex-direction: column;
@@ -14,6 +13,7 @@
     min-height: 100vh;
     height: auto;
     width: 100vw;
+    overflow: visible;
   }
 }
 
@@ -45,11 +45,11 @@
 
   @media (max-width: 900px) {
     width: 100vw;
-    object-fit: contain;
-    height: 40vh;
-    min-height: 200px;
-    position: relative;
-    top: 0; 
+      object-fit: contain;
+    height: 50vh;
+      min-height: unset;
+    position: static;
+    top: 0;
   }
 
   @keyframes fade {
@@ -62,10 +62,11 @@
   }
 }
 
-// FONT STYLES
+/* FONT STYLES */
+
 #title {
   font-family: "Celebrate-Retro";
-  font-size: 4.5rem;
+  font-size: 5rem;
   animation: move 3s;
   line-height: 0.8;
 
@@ -76,6 +77,9 @@
     to {
       opacity: 1;
     }
+  }
+  @media (max-width: 900px) {
+    font-size: 53px;
   }
 }
 
@@ -89,25 +93,11 @@
   margin-top: 10vh;
 }
 
-.description-title {
-  font-family: "Celebrate-Retro";
-  font-size: 2rem;
-  line-height: 1; 
-  padding: 15px 0;
-}
-
 .subtitle {
   font-family: "Vercetti";
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 1.4rem;
   padding: 15px 0;
-}
-
-.title-number {
-  font-size: 0.8rem;
-  line-height: 1.5;
-  font-family: "RobotoMono-Regular";
-  text-transform: uppercase;
 }
 
 .project-type {

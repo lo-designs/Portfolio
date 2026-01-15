@@ -1,40 +1,75 @@
+.header-nav {
+  width: 100vw;
+  background-color: var(--background-color);
+}
+
 .header {
   z-index: 100;
   position: fixed;
   width: 100vw;
-  padding: 9px 0;
+  padding: 2vh 5vw;
   font-size: 0.8rem;
   font-family: "RobotoMono-Regular";
   text-transform: uppercase;
   border-bottom: 1px solid;
-  
-
-  .portfolio-nav-link:hover,
-  .header-logo:hover {
-    font-family: "Celebrate-Retro";
-    font-size: 1.9rem;
-    transition: .5s!important;
-  
-  }
-
-  .header-links {
-    margin-left: 5%;
-    .header-links-divider {
-      padding: 0 7px 0 57px;
-    }
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* MED-SMALL SCREENS */
+.header-links {
+  display: flex;
+  align-items: center;
+}
 
-@media only screen and (max-width: 900px) {
+.theme-switcher-container {
+  display: flex;
+  align-items: center;
+}
+
+.theme-options .dark,
+.theme-options .light {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.3em 1em;
+  border-radius: 4px;
+  background: none;
+}
+
+.theme-options .dark {
+  border: 1px solid #fffedb;
+}
+
+.theme-options .light {
+  border: 1px solid #252525;
+}
+
+
+.theme-options .dark:hover,
+.theme-options .light:hover {
+  border: 1px solid rgb(224, 146, 255);
+}
+
+.theme-options .active-theme .dark {
+  border: 1px solid rgb(224, 146, 255);
+}
+
+@media (max-width: 900px) {
   .header {
-    font-size: 0.75rem;
-
-    .portfolio-nav-link:hover,
-    .header-logo:hover {
-      font-family: "Celebrate-Retro";
-      font-size: 1.7rem;
-    }
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2vh 3vw;
+  }
+  .theme-switcher-container {
+    display: flex !important;
+    align-items: center !important;
+    margin-left: 1vw;
+  }
+  .theme-options {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
   }
 }
+

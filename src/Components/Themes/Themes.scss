@@ -1,8 +1,5 @@
 .theme-options {
-  position: fixed;
-  right: 0;
-  margin-top: 9px;
-  z-index: 100;
+  /* Removed fixed positioning for header layout */
   font-family: "RobotoMono-Regular";
   font-size: 0.8rem;
   background-color: none;
@@ -66,12 +63,7 @@
 
 @media only screen and (max-width: 900px) {
   .theme-options {
-    bottom: 0;
-    position: fixed;
-    margin-left: 5%;
-    //  margin-bottom: 7px;
+    /* Removed fixed positioning for header layout on mobile */
     margin: 7px 2px;
-    z-index: 1500;
-
   }
 }

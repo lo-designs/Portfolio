@@ -9,7 +9,7 @@ function Index() {
   return (
     <div className="home-page">
       <div className="main-container">
-        <h1 className="design">
+        <h1 className="home-page-title">
           Front-end <br />Design &<br /> Development
         </h1>
       </div>

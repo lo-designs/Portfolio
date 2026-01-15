@@ -5,7 +5,8 @@ import "./PrevNextNav.scss";
 function PrevNextNav() {
   const location = useLocation();
   const navData = usePortfolioNav();
-  const current = navData.find((item) => location.pathname.includes(item.url));
+  const normalize = (path) => path.replace(/\/+$/, "").toLowerCase();
+  const current = navData.find((item) => normalize(location.pathname) === normalize(item.url));
 
   let prevNav = null;
   let nextNav = null;
