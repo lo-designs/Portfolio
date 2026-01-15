@@ -1,4 +1,3 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Index from "../Index/Index";
 import Portfolio from "../Portfolio/Portfolio";
@@ -13,13 +12,13 @@ const PageRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Index />} />
-      <Route path="/portfolio" element={<Portfolio/>} />
+      <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/neurotype" element={<Neurotype />} />
       <Route path="/parralily" element={<Parralily />} />
       <Route path="/petteshounds" element={<PettesHounds />} />
       <Route path="/outtawax" element={<OuttaWax />} />
-      <Route path="/soona" element={<Soona />} /> 
-      <Route path="/yha" element={<Yha />} />    
+      <Route path="/soona" element={<Soona />} />
+      <Route path="/yha" element={<Yha />} />
     </Routes>
   );
 };
