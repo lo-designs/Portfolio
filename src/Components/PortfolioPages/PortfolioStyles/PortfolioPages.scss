@@ -83,6 +83,15 @@
   }
 }
 
+.bold-link {
+  font-weight: bold;
+}
+
+.bold-link:hover {
+  color: blueviolet ;
+}
+
+
 .overview,
 .description {
   font-family: "Vercetti";

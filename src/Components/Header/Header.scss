@@ -24,6 +24,12 @@
 .header-links {
   display: flex;
   align-items: center;
+
+  .header-logo:hover,
+  .portfolio-nav-link:hover {
+    font-size: 1.5rem;
+    transition: 0.5s !important;
+  }
 }
 
 .theme-switcher-container {

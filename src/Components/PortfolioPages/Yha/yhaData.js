@@ -7,7 +7,7 @@ import yhaResearch from "../../Images/Yha/resources.jpg";
 const yhaData = {
   heroImage: yhaHero,
   title: "Health Resource App",
-  projectType: "Self-defined project // UX UI",
+  projectType: "UX UI // Health & Wellness Capstone Project",
   subtitle: "Researching and protoyping a health & wellness resource app.",
   overview: [
     "After an internship at The Bridge for Youth, a nonprofit in Minneapolis that provides shelter and necessities for displaced youth, I wanted to design a mobile app for youth in crisis to find and connect with support specific to their needs."

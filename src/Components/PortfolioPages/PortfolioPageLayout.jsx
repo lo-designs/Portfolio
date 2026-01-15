@@ -35,9 +35,11 @@ function PortfolioPageLayout({
       </section>
       
       {/* Case study section */}
-      <section className="tabs-section">
-        <Tabs tabs={tabs} />
-      </section>
+      {tabs && tabs.length > 0 && (
+        <section className="tabs-section">
+          <Tabs tabs={tabs} />
+        </section>
+      )}
     </div>
   );
 }
