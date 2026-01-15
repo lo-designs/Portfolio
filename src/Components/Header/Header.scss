@@ -17,6 +17,10 @@
   justify-content: space-between;
 }
 
+.header-links-divider {
+  margin: 0 3rem;
+}
+
 .header-links {
   display: flex;
   align-items: center;
@@ -43,7 +47,6 @@
 .theme-options .light {
   border: 1px solid #252525;
 }
-
 
 .theme-options .dark:hover,
 .theme-options .light:hover {
@@ -72,4 +75,3 @@
     gap: 0.5rem;
   }
 }
-
