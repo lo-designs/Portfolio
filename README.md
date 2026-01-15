@@ -1,71 +1,102 @@
-# Getting Started with Create React App
+# Design Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A portfolio website showcasing UX/UI design and web development work. Built with React and featuring detailed case studies for each project with interactive carousels and intuitive navigation.
+
+**Live Site:** [lauragunther.dev](https://www.lauragunther.dev)
+
+## Features
+
+- **Responsive Design** - Mobile-first approach with seamless experience across all devices
+- **Interactive Project Galleries** - Carousel galleries showcasing design iterations and process work
+- **Case Study Pages** - Detailed project pages with design process, goals, and outcomes
+- **Smooth Navigation** - React Router for fast, client-side navigation
+- **Modern Styling** - Custom SCSS with consistent design system
+- **Fast Performance** - Optimized images and efficient component architecture
+
+## Tech Stack
+
+- **Frontend:** React, React Router
+- **Styling:** SCSS
+- **UI Components:** Bootstrap Carousels
+- **Build Tool:** Create React App
+- **Deployment:** [Your hosting platform]
+
+## Portfolio Projects
+
+1. **Pettes Hounds** - Dog walking & pet care services redesign
+2. **Soona** - [Project description]
+3. **Neurotype** - [Project description]
+4. **OuttaWax** - [Project description]
+5. **Parralily** - [Project description]
+6. **YHA** - [Project description]
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd Portfolio
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload when you make changes.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+This creates a production-ready build in the `build` folder.
+
+## Project Structure
+
+```
+src/
+├── Components/
+│   ├── About/           - About section
+│   ├── Carousels/       - Gallery carousels for each project
+│   ├── Footer/          - Footer component
+│   ├── Header/          - Navigation header
+│   ├── Images/          - Project images organized by project
+│   ├── Index/           - Home page
+│   ├── Portfolio/       - Portfolio overview page
+│   ├── PortfolioPages/  - Individual project case study pages
+│   │   ├── Neurotype/
+│   │   ├── OuttaWax/
+│   │   ├── Parralily/
+│   │   ├── PettesHounds/
+│   │   ├── Soona/
+│   │   └── Yha/
+│   ├── PageRoutes/      - Route configuration
+│   └── Themes/          - Theme styling
+├── Fonts/               - Custom fonts
+├── App.js              - Main app component
+└── index.js            - Entry point
+```
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start` - Run development server
+- `npm test` - Launch test runner
+- `npm run build` - Build for production
+- `npm run eject` - Eject from Create React App (irreversible)
 
-### `npm start`
+## Contact
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Portfolio
+Visit [lauragunther.dev](https://www.lauragunther.dev) to view the live portfolio.

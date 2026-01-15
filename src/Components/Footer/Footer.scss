@@ -1,5 +1,6 @@
+// Ensure footer is always on top
 .footer {
-  z-index: 100;
+  z-index: 3000;
   position: fixed;
   bottom: 0;
   width: 100vw;
@@ -8,6 +9,28 @@
   font-family: "RobotoMono-Regular";
   text-transform: uppercase;
   border-top: 1px solid;
+  background: rgba(251, 255, 234, 0.97); /* default solid background */
+  color: rgba(31, 30, 27, 0.969);
+  padding: 9px 0;
+  /* Add left margin to match header/footer items */
+}
+
+#next-previous {
+  margin-left: 5%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer.theme-white {
+  background: rgba(251, 255, 234, 0.97) !important;
+  color: rgba(31, 30, 27, 0.969) !important;
+  padding: 10px 0;
+}
+
+.footer.theme-black {
+  background: rgba(31, 30, 27, 0.97) !important;
+  color: rgba(251, 255, 234, 0.969) !important;
+  padding: 9px 0;
 
   .email:hover {
    font-family: "Celebrate-Retro";

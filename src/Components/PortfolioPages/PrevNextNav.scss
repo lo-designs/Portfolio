@@ -1,0 +1,28 @@
+.prev-next-nav {
+  z-index: 10;
+  pointer-events: pointer;
+  padding: 25px 0;
+  display: flex;
+}
+
+.prev-next-list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.prev-link,
+.next-link {
+  pointer-events: none;
+  z-index: 11;
+    font-family: "RobotoMono-Regular";
+    font-size: 0.7rem;
+    text-transform: uppercase;
+
+}
+
+// .prev-link:hover,
+// .next-link:hover {
+//   color: #f178f3;
+//   pointer-events: pointer;
+// }

@@ -1,27 +1,21 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
-import React from "react";
 import "./Portfolio.scss";
-import pettesHover from "./../Images/PettesHounds/phHover.jpg";
-import neuroHover from "./../Images/Neurotype/neuroHover.jpg";
-import outtaHover from "./../Images/OuttaWax/outtaHover.jpg";
-import parraHover from "./../Images/ParraLily/parraHover.jpg";
-import soonaHover from "./../Images/Soona/soonaHover.jpg";
-import yhaHover from "./../Images/YHA/yhaHover.jpg";
+
+import outtaHover from "../Images/OuttaWax/hover.jpg";
+import parraHover from "../Images/Parralily/hover.jpg";
+import pettesHover from "../Images/PettesHounds/hover.jpg";
+import yhaHover from "../Images/Yha/hover.jpg";
+import neuroHover from "../Images/Neurotype/hover.jpg";
+import soonaHover from "../Images/Soona/hover.jpg";
+
 
 function Portfolio() {
   return (
     <div className="portfolio">
       <div className="portfolio-intro">
-        <h3 className="portfolio-header">[ PORTFOLIO ]</h3>
+        <h3 className="portfolio-header">// PORTFOLIO</h3>
         <h3 className="portfolio-subheader">
           Web design & development work + UX UI design case studies. 
         </h3>
-        {/* <div className="portfolio-summary">
-          <p>
-    
-          </p>
-          <p>Check out some of my case studies below:</p>
-        </div> */}
       </div>
       <nav className="menu">
         <div className="menu__item">
@@ -48,13 +42,13 @@ function Portfolio() {
         <hr id="portfolio-line"></hr>
         <div className="menu__item">
           <a id="parra" href="/parralily" className="menu__item-link">
-            ParraLily
+            Parralily
             <p className="work__type">minneapolis food truck // web design</p>
           </a>
           <img className="menu__item-img" src={parraHover} alt="" />
           <div className="marquee">
             <div id="parra-marquee" className="marquee__inner">
-              <span>ParraLily</span>
+              <span>Parralily</span>
               <span>// Web Design</span>
               <span>// Minneapolis Food Truck.</span>
             </div>
@@ -81,22 +75,6 @@ function Portfolio() {
     
         <hr id="portfolio-line"></hr>
         <div className="menu__item">
-          <a id="yha" href="/yha" className="menu__item-link">
-            Health & Wellness App
-            <p className="work__type">
-              Self-defined project // web + ux ui design
-            </p>
-          </a>
-          <img className="menu__item-img" src={yhaHover} alt="" />
-          <div className="marquee">
-            <div id="yha-marquee" className="marquee__inner" aria-hidden="true">
-              <span>// Self-Defined Project</span>
-              <span>// Web + UX UI Design.</span>
-            </div>
-          </div>
-        </div>
-        <hr id="portfolio-line"></hr>
-        <div className="menu__item">
           <a id="neuro" href="/neurotype" className="menu__item-link">
             Neurotype
             <p className="work__type">medical startup // ux ui design</p>
@@ -107,10 +85,10 @@ function Portfolio() {
               <span>Neurotype</span>
               <span>// Medical Startup</span>
               <span>// UX UI Design</span>
-              
             </div>
           </div>
         </div>
+
         <hr id="portfolio-line"></hr>
         <div className="menu__item">
           <a id="soona" href="/soona" className="menu__item-link">
@@ -127,11 +105,26 @@ function Portfolio() {
               <span>Soona</span>
               <span>// 24hr Content Studio</span>
               <span>// UX UI Design</span>
-         
             </div>
           </div>
         </div>
+        
         <hr id="portfolio-line"></hr>
+        <div className="menu__item">
+          <a id="yha" href="/yha" className="menu__item-link">
+            Health & Wellness App
+            <p className="work__type">
+              Self-defined project // web + ux ui design
+            </p>
+          </a>
+          <img className="menu__item-img" src={yhaHover} alt="" />
+          <div className="marquee">
+            <div id="yha-marquee" className="marquee__inner" aria-hidden="true">
+              <span>// Self-Defined Project</span>
+              <span>// Web + UX UI Design.</span>
+            </div>
+          </div>
+        </div>
       </nav>
     </div>
   );

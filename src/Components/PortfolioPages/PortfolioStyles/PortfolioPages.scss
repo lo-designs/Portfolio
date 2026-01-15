@@ -1,0 +1,120 @@
+.hero-section, .tabs-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+  min-height: 100vh;
+  padding: 15% 5%;
+  overflow: hidden;
+  border-bottom: 1px solid;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    padding: 5% 3%;
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+  }
+}
+
+.content {
+  width: 45%;
+  position: relative;
+  display: block;
+  z-index: 2;
+
+  @media (max-width: 900px) {
+    width: 100vw;
+    padding-bottom: 2rem;
+    position: relative;
+    padding: 2% 5%;
+  }
+}
+
+#hero-image {
+  width: 47%;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  min-height: 100vh;
+  object-fit: contain;
+  overflow: hidden;
+  animation: fade 4s;
+  pointer-events: none;
+
+  @media (max-width: 900px) {
+    width: 100vw;
+    object-fit: contain;
+    height: 40vh;
+    min-height: 200px;
+    position: relative;
+    top: 0; 
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 0.969;
+    }
+  }
+}
+
+// FONT STYLES
+#title {
+  font-family: "Celebrate-Retro";
+  font-size: 4.5rem;
+  animation: move 3s;
+  line-height: 0.8;
+
+  @keyframes move {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+.overview,
+.description {
+  font-family: "Vercetti";
+  font-size: 0.9rem;
+}
+
+.description {
+  margin-top: 10vh;
+}
+
+.description-title {
+  font-family: "Celebrate-Retro";
+  font-size: 2rem;
+  line-height: 1; 
+  padding: 15px 0;
+}
+
+.subtitle {
+  font-family: "Vercetti";
+  font-weight: bolder;
+  font-size: 1.4rem;
+  padding: 15px 0;
+}
+
+.title-number {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  font-family: "RobotoMono-Regular";
+  text-transform: uppercase;
+}
+
+.project-type {
+  font-family: "RobotoMono-Regular";
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
