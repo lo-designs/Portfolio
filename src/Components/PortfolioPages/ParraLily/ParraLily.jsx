@@ -1,8 +1,8 @@
 import PortfolioPageLayout from "../PortfolioPageLayout";
-import parralilyData from "./parralilyData";
+import parraData from "./parraData";
 
-function Parralily() {
-  return <PortfolioPageLayout {...parralilyData} />;
+function ParraLily() {
+  return <PortfolioPageLayout {...parraData} />;
 }
 
-export default Parralily;
+export default ParraLily;

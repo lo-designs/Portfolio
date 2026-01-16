@@ -11,7 +11,7 @@ const portfolioNavData = [
   },
   {
     id: "parralily",
-    label: "Parralily",
+    label: "ParraLily",
     url: "/parralily",
     prev: "outtawax",
     next: "petteshounds",

@@ -1,7 +1,7 @@
 import "./Portfolio.scss";
 
 import outtaHover from "../Images/OuttaWax/hover.jpg";
-import parraHover from "../Images/Parralily/hover.jpg";
+import parraHover from "../Images/ParraLily/hover.jpg";
 import pettesHover from "../Images/PettesHounds/hover.jpg";
 import yhaHover from "../Images/Yha/hover.jpg";
 import neuroHover from "../Images/Neurotype/hover.jpg";
@@ -42,13 +42,13 @@ function Portfolio() {
         <hr id="portfolio-line"></hr>
         <div className="menu__item">
           <a id="parra" href="/parralily" className="menu__item-link">
-            Parralily
+            ParraLily
             <p className="work__type">minneapolis food truck // web design</p>
           </a>
           <img className="menu__item-img" src={parraHover} alt="" />
           <div className="marquee">
             <div id="parra-marquee" className="marquee__inner">
-              <span>Parralily</span>
+              <span>ParraLily</span>
               <span>// Web Design</span>
               <span>// Minneapolis Food Truck.</span>
             </div>
