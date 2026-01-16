@@ -1,5 +1,4 @@
 import yhaHero from "../../Images/Yha/hero.jpg";
-import yhaResources from "../../Images/Yha/resources.jpg";
 import yhaMap from "../../Images/Yha/map.jpg";
 import yhaPrototype from "../../Images/Yha/mockups-figma.jpg";
 import yhaGif from "../../Images/Yha/ym-bg.gif";
@@ -15,7 +14,6 @@ const yhaData = {
   tabs: [
     {
       label: "Initial Research",
-      image: yhaResources,
       titleNumber: "Secondary Research // Informational Interviews",
       descriptionTitle: "01 Existing health & wellness resources for youth",
       paragraphs: [
