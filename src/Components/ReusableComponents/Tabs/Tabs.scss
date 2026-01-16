@@ -1,9 +1,20 @@
+// Images
 .tab-img,
 .poster img {
   max-width: 100%;
   height: auto;
   display: block;
-  // max-height: 40vw;
+}
+.tab-img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.02);
+  }
 }
 .poster img {
   margin-bottom: 0;
@@ -11,22 +22,8 @@
 .poster .caption {
   margin-top: auto;
 }
-/* CASE STUDY IMAGES/LIGHTBOX */
 
-.tab-img {
-  width: 350px;
-  height: 250px;
-  object-fit: cover;
-  cursor: pointer;
-  border-radius: 8px;
-}
-
-.tab-img:hover {
-  cursor: pointer;
-  transform: scale(1.02);
-  transition: transform 0.3s ease;
-}
-
+// Lightbox
 .lightbox-overlay {
   position: fixed;
   top: 0;
@@ -38,7 +35,6 @@
   justify-content: center;
   z-index: 9999;
 }
-
 .lightbox-img {
   max-width: 90vw;
   max-height: 90vh;
@@ -46,42 +42,39 @@
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
 }
 
-.theme-white {
-  .tab-btn {
-    color: #222;
-    &.active {
-      color: rgb(224, 146, 255);
-      border-bottom: 2px solid rgb(224, 146, 255);
-    }
-  }
-  .tabs-section {
-    background-color: rgba(251, 255, 234);
-    color: rgba(31, 30, 27);
+// Theme styles
+.theme-white .tabs-section {
+  background-color: rgba(251, 255, 234);
+  color: rgba(31, 30, 27);
+}
+.theme-black .tabs-section {
+  background-color: rgba(31, 30, 27);
+  color: rgba(251, 255, 234);
+}
+.theme-white .tab-btn {
+  color: #222;
+}
+.theme-black .tab-btn {
+  color: #fafafa;
+}
+.tab-btn.active {
+  border-bottom: 2px solid rgb(224, 146, 255);
+  color: rgb(224, 146, 255);
+  font-weight: bold;
+}
+@media (max-width: 900px) {
+  .tab-btn.active {
+    border-bottom: none !important;
+    text-align: left;
   }
 }
 
-.theme-black {
-  .tab-btn {
-    color: #fafafa;
-    &.active {
-      color: rgb(224, 146, 255);
-      border-bottom: 2px solid rgb(224, 146, 255);
-    }
-  }
-  .tabs-section {
-    background-color: rgba(31, 30, 27);
-    color: rgba(251, 255, 234);
-  }
-}
-
+// Poster
 .poster {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   max-width: 100%;
-}
-
-.poster {
   .carousel,
   .carousel-bg,
   .carousel-item-img,
@@ -106,6 +99,7 @@
   }
 }
 
+// Typography
 .caption,
 .tab-btn {
   font-family: "RobotoMono-Regular";
@@ -122,7 +116,6 @@
     border 0.2s,
     color 0.2s;
 }
-
 .description-title {
   font-family: "Vercetti";
   font-weight: bold;
@@ -130,44 +123,42 @@
   padding: 15px 0;
   line-height: 1.1;
 }
-
 .title-number {
   font-size: 0.8rem;
   line-height: 1.5;
   font-family: "RobotoMono-Regular";
   text-transform: uppercase;
+  text-align: left;
 }
 
+// Layout
 .tab-row {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-}
-.tab-row .poster,
-.tab-row .description {
-  flex: 1 1 0;
-  max-width: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.tab-row .poster {
-  flex: 1 1 45%;
-  max-width: 45%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-.tab-row .description {
-  flex: 1 1 50%;
-  max-width: 50%;
-  padding-left: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 2rem;
+  .poster,
+  .description {
+    flex: 1 1 0;
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .poster {
+    flex: 1 1 45%;
+    max-width: 45%;
+    justify-content: flex-end;
+  }
+  .description {
+    flex: 1 1 50%;
+    max-width: 50%;
+    padding-left: 5%;
+    justify-content: flex-end;
+    padding-bottom: 2rem;
+  }
 }
 
+// Responsive
 @media (max-width: 600px) {
   .tabs-section {
     position: relative;
@@ -179,15 +170,15 @@
   .tab-row {
     flex-direction: column-reverse;
     gap: 1rem;
-    align-items: flex-end;
-  }
-  .tab-row .poster,
-  .tab-row .description {
-    max-width: 100%;
-    flex: 1 1 100%;
-    padding-left: 0;
-    justify-content: flex-end;
-    align-items: flex-end;
+    // align-items: flex-end;
+    .poster,
+    .description {
+      max-width: 100%;
+      flex: 1 1 100%;
+      padding-left: 0;
+      // justify-content: flex-end;
+      // align-items: flex-end;
+    }
   }
   .tab-btns {
     flex-direction: column;
@@ -196,6 +187,7 @@
     width: 100%;
   }
 }
+
 .tabs-container {
   width: 100%;
   background: none;
@@ -217,15 +209,6 @@
   border-top: 1px solid;
 }
 
-.theme-white .tabs-section {
-  background-color: rgba(251, 255, 234);
-  color: rgba(31, 30, 27);
-}
-.theme-black .tabs-section {
-  background-color: rgba(31, 30, 27);
-  color: rgba(251, 255, 234);
-}
-
 .tab-header {
   position: absolute;
   top: 2vw;
@@ -244,48 +227,31 @@
     gap: 2rem;
     z-index: 20;
     text-align: left !important;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
-}
-
-.tab-btn {
-  background: none;
-  border: none;
-  font-family: "RobotoMono-Regular";
-  font-size: 0.8rem;
-
-  cursor: pointer;
-  border-bottom: 2px solid transparent;
-  transition:
-    border 0.2s,
-    color 0.2s;
-}
-
-.tab-btn.active {
-  border-bottom: 2px solid rgb(224, 146, 255);
-  color: rgb(224, 146, 255);
-  font-weight: bold;
-}
-@media (max-width: 900px) {
-  .tab-btn.active {
-    border-bottom: none !important;
+  .tab-btns {
+    align-items: flex-start !important;
+    text-align: left !important;
+  }
+  .tab-btn {
+    text-align: left !important;
+    justify-content: flex-start !important;
+  }
+  .tab-img,
+  .poster img {
+    max-width: 100%;
+    max-height: 300px;
+    height: auto;
+    object-fit: contain;
+  }
+  .description-title {
+    padding: 0;
     text-align: left;
+    padding-bottom: 15px;
   }
-}
-
-.tab-content {
-  padding: 1rem 0;
-}
-
-.tab-btns {
-  display: flex;
-  flex-direction: row;
-  gap: 1.5rem;
-  margin-bottom: 2rem;
-  flex-wrap: wrap;
-
-  @media (max-width: 900px) {
-    flex-direction: column;
-    gap: 0.5rem;
-    align-items: stretch;
+  .title-number {
+    text-align: left;
+    padding-bottom: 10px;
   }
 }

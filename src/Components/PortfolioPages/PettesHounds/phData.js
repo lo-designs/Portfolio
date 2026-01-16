@@ -9,68 +9,65 @@ import mobileHero from "../../Images/PettesHounds/hover.jpg";
 const phData = {
   heroImage: phHero,
   mobileHeroImage: mobileHero,
-  title: "Pette's Hounds",
+  title: "Pettes Hounds",
   projectType: "Web Design // Pet Care Services",
-  subtitle: "Dog walking & pet care services in Minneapolis",
+  subtitle: "Website design & development for Minneapolis pet care services",
   overview: [
-    "I had the opportunity to work with the awesome founder of Pette's Hounds to redesign a website for the dog walking and pet care services they provide.",
-    "Recently, the owner made the shift from pet care services to vinyl pressing ",
-    <a href="https://outtawax.com" target="_blank" rel="noopener noreferrer" className="bold-link">Outta Wax</a>,
-    ", which I also had the fortune of designing and creating.",
-    " The Pette's Hounds site is no longer live, but you can see before + afters of the redesign below:"
+    "I had the opportunity to work with Pette's Hounds to redesign a website for the dog walking and pet care services they provided.",
+    " Around the pandemic, the founder made the shift from pet care services to vinyl pressing ",
+    <a
+      href="https://lauragunther.design/outtawax/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bold-link"
+    >
+      Outta Wax
+    </a>,
+
+    ". Although the site is no longer live, youcan see before + afters of the redesign in the case study below.",
   ],
   tabs: [
     {
       label: "Design Process",
       image: phHomeOg,
-       imageCaption: "[ Original version of the homepage ]",
-      titleNumber: "Redesign // Homepage (Before)",
-      descriptionTitle: "Updating the site for better usability",
+      imageCaption: "[ Wireframes and design board ]",
+      titleNumber: "Wireframing // Design Board",
+      descriptionTitle: "Updating the look and feel",
       paragraphs: [
-        ""
-      ]
+        "The Pette's Hounds site had all of the content and information in place, the goal was just to update the design and improve the user experience. And add pictures - because who doesn't want more pictures of pets?",
+      ],
     },
     {
-      label: "Home Redesign",
+      label: "Redesign",
       image: phHomeNew,
-      imageCaption: "[ New homepage design ]",
-      titleNumber: "Redesign // Homepage (After)",
-      descriptionTitle: "Homepage redesign",
+      imageCaption: "[ Redesigned home page ]",
+      titleNumber: "Redesign // Home Page",
+      descriptionTitle: "Easier navigation and easy to read information",
       paragraphs: [
-        ""
-      ]
+        "The Pette's Hounds home page was redesigned to improve navigation and readability, making it easier for users to find the information they need.",
+      ],
     },
      {
       label: "Services Before",
       image: phServiceOg,
-      imageCaption: "[ Original services page design ]",
-      titleNumber: "Redesign // Services (Before)",
-      descriptionTitle: "",
+      imageCaption: "[ Original services page ]",
+      titleNumber: "Original design // Services Page",
+      descriptionTitle: "", 
       paragraphs: [
-        ""
-      ]
+        "All service offerings on the orginal site weren't easily discernible, making it difficult to find specific information quickly.",
+      ],
     },
-       {
+         {
       label: "Services After",
       image: phServiceNew,
-      imageCaption: "[ New services page design ]",
-      titleNumber: "Redesign // Services (After)",
-      descriptionTitle: "",
+      imageCaption: "[ Redesigned services page ]",
+      titleNumber: "Redesign // Services Page",
+      descriptionTitle: "Optimized layout for provided services",
       paragraphs: [
-        ""
-      ]
+        "The redesigned services page improved the layout to clearly showcase the different pet care services offered, making it easier for users to understand and choose the right service for their needs.",
+      ],
     },
-    {
-      label: "Summary",
-      image: phLogo,
-      imageCaption: "[ GIF that I made in Photoshop ]",
-      titleNumber: "",
-      descriptionTitle: "Summary",
-      paragraphs: [
-        ""
-      ]
-    }
-  ]
+  ],
 };
 
 export default phData;
