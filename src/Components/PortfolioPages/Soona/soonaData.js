@@ -9,8 +9,8 @@ const soonaData = {
   heroImage: soonaHero,
   mobileHeroImage: mobileHero,
   title: "Soona",
-  projectType: "UX UI // 24-Hour Content Studio",
-  subtitle: "Web app rapid prototyping & evaluation.",
+  projectType: "UX UI // Content Studio",
+  subtitle: "Web app rapid prototyping & evaluation for a 24-hour content studio",
   overview: [
     "Soona is a studio that produces professional photos and videos of products within 24 hours. Soona was started with the shared vision of making quality, custom content accessible to brands of all sizes."
   ],

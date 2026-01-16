@@ -1,5 +1,4 @@
 import { useState } from "react";
-import ReusableCarousel from "../Carousel/ReusableCarousel";
 import "./Tabs.scss";
 
 function Lightbox({ src, alt, onClose }) {
@@ -32,16 +31,14 @@ function Tabs({ tabs }) {
       <div className="tab-content">
         <div className="tab-row">
           <div className="poster">
-            {tab.carousel ? (
-              <ReusableCarousel images={tab.carousel} />
-            ) : tab.image ? (
+            {tab.image && (
               <img
                 src={tab.image}
                 alt={tab.imageCaption || "tab image"}
                 className="tab-img"
                 onClick={() => openLightbox(tab.image, tab.imageCaption)}
               />
-            ) : null}
+            )}
             {tab.imageCaption && <p className="caption">{tab.imageCaption}</p>}
             {tab.mobileImage && (
               <div id="mobile-images">

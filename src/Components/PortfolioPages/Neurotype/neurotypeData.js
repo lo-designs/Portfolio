@@ -10,7 +10,7 @@ const neurotypeData = {
   mobileHeroImage: mobileHero,
   title: "Neurotype",
   projectType: "UX UI // Medical Startup",
-  subtitle: "App prototype for a medical startup aiming to help treat addiction.",
+  subtitle: "App prototype for a medical startup aiming to help treat addiction",
   overview: [
     <>While learning UX/UI design, I was on a team that had the privilege of working with<b><a href="https://neurotype.io" target="_blank" rel="noopener noreferrer" className="bold-link"> Neurotype Inc.</a></b>, a company building portable brain sensing tools to support the recovery of people struggling with Opioid Use Disorder (OUD). </>,
     "Our task was to help determine the best way to integrate a portable electroencephalogram (EEG) into a standard therapy/clinical setting, as well as create a prototype for NeuromarkR™, an application that displays EEG measurements in response to substance-related images."

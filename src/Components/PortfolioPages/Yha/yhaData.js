@@ -9,7 +9,7 @@ const yhaData = {
   mobileHeroImage: mobileHero,
   title: "Health Resource App",
   projectType: "UX UI // Health & Wellness Capstone Project",
-  subtitle: "Researching and protoyping a health & wellness resource app.",
+  subtitle: "Researching and protoyping a health & wellness resource app",
   overview: [
     "My work as an intern at The Bridge for Youth - a nonprofit in Minneapolis that provides shelter and necessities for displaced youth - was the inspiration for the capstone project I did while earning my UX certificate. I wanted to design a mobile app for youth in crisis to find and connect with support specific to their needs.",
   ],
