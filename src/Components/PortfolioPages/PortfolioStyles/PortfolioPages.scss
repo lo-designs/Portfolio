@@ -45,9 +45,9 @@
 
   @media (max-width: 900px) {
     width: 100vw;
-      object-fit: contain;
+    object-fit: contain;
     height: 50vh;
-      min-height: unset;
+    min-height: unset;
     position: static;
     top: 0;
   }
@@ -87,26 +87,22 @@
   font-weight: bold;
 }
 
-.bold-link:hover {
-  color: blueviolet ;
-}
-
-
 .overview,
 .description {
   font-family: "Vercetti";
   font-size: 0.9rem;
 }
 
-.description {
-  margin-top: 10vh;
-}
+// .description {
+//   margin-top: 10vh;
+// }
 
 .subtitle {
   font-family: "Vercetti";
   font-weight: bold;
   font-size: 1.4rem;
   padding: 15px 0;
+  line-height: 1.1;
 }
 
 .project-type {
