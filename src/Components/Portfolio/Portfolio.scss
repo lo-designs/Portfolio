@@ -18,8 +18,8 @@
   font-family: "NeueMachina-Light";
 }
 
-// #parralily,
-// #parralily-marquee,
+#parralily,
+#parralily-marquee,
 #neuro,
 #neuro-marquee
  {
@@ -27,10 +27,9 @@
 }
 
 .portfolio {
-  padding: 11% 5% 25% 5%;
+  padding: 2% 5% 25% 5%;
 
   .portfolio-intro {
-    padding: 40px 0;
     font-family: "";
     font-size: 0.9rem;
   }
@@ -40,7 +39,7 @@
     font-size: 0.9rem;
     font-weight: normal;
     font-family: "RobotoMono-Regular";
-    padding: 10px 0 0 0;
+    padding-bottom: 3%;
   }
 
 }

@@ -3,12 +3,14 @@
 .poster img {
   max-width: 100%;
   height: auto;
+  max-height: 250px; // Set your preferred max height
   display: block;
+  object-fit: cover;
 }
 .tab-img {
-  width: 350px;
-  height: 250px;
-  object-fit: cover;
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
   cursor: pointer;
   border-radius: 8px;
   transition: transform 0.3s ease;
@@ -20,7 +22,8 @@
   margin-bottom: 0;
 }
 .poster .caption {
-  margin-top: auto;
+  padding-top: 10px;
+  font-size: 0.85rem;
 }
 
 // Lightbox
@@ -34,12 +37,12 @@
   align-items: center;
   justify-content: center;
   z-index: 9999;
+  background: rgba(0, 0, 0, 0.85); 
 }
 .lightbox-img {
   max-width: 90vw;
   max-height: 90vh;
   border-radius: 12px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
 }
 
 // Theme styles
@@ -75,35 +78,13 @@
   flex-direction: column;
   align-items: flex-start;
   max-width: 100%;
-  .carousel,
-  .carousel-bg,
-  .carousel-item-img,
-  img {
-    width: 100%;
-  }
-  .carousel {
-    margin-bottom: 1rem;
-  }
-  .carousel-bg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .carousel-item-img,
-  img {
-    height: auto;
-    object-fit: contain;
-    border-radius: 8px;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-    margin-bottom: 1rem;
-  }
 }
 
 // Typography
 .caption,
 .tab-btn {
   font-family: "RobotoMono-Regular";
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin-top: 0.5rem;
 }
 .tab-btn {
@@ -135,25 +116,25 @@
 .tab-row {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: flex-start; // Align content to the top
   .poster,
   .description {
     flex: 1 1 0;
     max-width: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; // Align content to the top
   }
   .poster {
     flex: 1 1 45%;
     max-width: 45%;
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
   .description {
     flex: 1 1 50%;
     max-width: 50%;
     padding-left: 5%;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding-bottom: 2rem;
   }
 }
@@ -201,9 +182,9 @@
   align-items: center;
   padding: 0 5%;
   box-sizing: border-box;
-  height: 100vh;
+  height: 70vh;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   overflow-x: auto;
   z-index: 10;
   border-top: 1px solid;
@@ -235,6 +216,7 @@
     text-align: left !important;
   }
   .tab-btn {
+    font-size: 0.8rem;
     text-align: left !important;
     justify-content: flex-start !important;
   }

@@ -51,7 +51,7 @@ const phData = {
       image: phServiceOg,
       imageCaption: "[ Original services page ]",
       titleNumber: "Original design // Services Page",
-      descriptionTitle: "", 
+      descriptionTitle: "Addressing layout issues of services page", 
       paragraphs: [
         "All service offerings on the orginal site weren't easily discernible, making it difficult to find specific information quickly.",
       ],

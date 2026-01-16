@@ -6,11 +6,10 @@
 
 .prev-next-list {
   display: flex;
-  align-items: center;
   gap: 1rem;
   list-style: none;
   padding-bottom: 30px;
-  margin: 1rem 0 0 0;
+  margin: 0;
 }
 
 .prev-link,
@@ -32,6 +31,5 @@
 .prev-link:hover,
 .next-link:hover {
   color: rgb(224, 146, 255) !important;
-  text-decoration: underline !important;
   background: none;
 }

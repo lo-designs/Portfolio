@@ -5,6 +5,7 @@ import pettesHover from "../Images/PettesHounds/hover.jpg";
 import yhaHover from "../Images/Yha/hover.jpg";
 import neuroHover from "../Images/Neurotype/hover.jpg";
 import soonaHover from "../Images/Soona/hover.jpg";
+import parraHover from "../Images/Parralily/hover.jpg";
 
 function Portfolio() {
   return (
@@ -35,21 +36,21 @@ function Portfolio() {
           </div>
         </div>
 
-        {/* <hr id="portfolio-line"></hr>
+        <hr id="portfolio-line"></hr>
         <div className="menu__item">
           <a id="parralily" href="/parralily" className="menu__item-link">
-            Parralily
-            <p className="work__type">minneapolis food truck // web design</p>
+            ParraLily
+            <p className="work__type">minneapolis food truck | web design</p>
           </a>
           <img className="menu__item-img" src={parraHover} alt="" />
           <div className="marquee">
             <div id="parralily-marquee" className="marquee__inner">
-              <span>Parralily</span>
-              <span>// Web Design</span>
-              <span>// Minneapolis Food Truck.</span>
+              <span>ParraLily</span>
+              <span>|</span>
+              <span>Web Design + Dev</span>
             </div>
           </div>
-        </div> */}
+        </div>
 
         <hr id="portfolio-line"></hr>
         <div className="menu__item">
