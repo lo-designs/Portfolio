@@ -7,7 +7,7 @@ function Footer({ colorTheme }) {
         <a className="footer-resume-link" href="/site-res.pdf" target="_blank" rel="noopener noreferrer">
           resume 
         </a>
-        <span className="footer-links-divider"> // </span>
+        <span className="footer-links-divider"></span>
         <a className="footer-email-link" href="mailto:laura.e.gunther@gmail.com">
           email
         </a>
