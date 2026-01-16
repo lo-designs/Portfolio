@@ -37,7 +37,7 @@ const neurotypeData = {
       ]
     },
       {
-      label: "Data Visualization",
+      label: "Data Vis",
       image: neuroDash,
       imageCaption: "[ Data visualization: made in Figma ]",
       titleNumber: "Data Visualization // Prototyping",

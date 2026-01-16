@@ -200,20 +200,43 @@
 }
 @media (max-width: 900px) {
   .tab-header {
-    position: absolute;
-    top: 15px;
-    padding: 0 5vw;
-    left: 0;
+    position: static;
+    top: auto;
+    left: auto;
     width: 100%;
-    gap: 2rem;
+    gap: 1rem;
     z-index: 20;
     text-align: left !important;
     align-items: flex-start;
     justify-content: flex-start;
+    padding: 0 2vw;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background: var(--background-color);
+  }
+  .tab-content {
+    max-height: 70vh;
+    overflow-y: auto;
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .tab-row {
+    flex-direction: column-reverse;
+    gap: 1rem;
+    align-items: stretch;
+    width: 100%;
+  }
+  .poster,
+  .description {
+    max-width: 100%;
+    flex: 1 1 100%;
+    padding-left: 0;
   }
   .tab-btns {
-    align-items: flex-start !important;
-    text-align: left !important;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: stretch;
+    width: 100%;
   }
   .tab-btn {
     font-size: 0.8rem;
