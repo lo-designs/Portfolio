@@ -44,12 +44,20 @@
   pointer-events: none;
 
   @media (max-width: 900px) {
-    width: 100vw;
-    object-fit: contain;
-    height: 50vh;
-    min-height: unset;
-    position: static;
-    top: 0;
+      width: 100vw;
+      object-fit: cover;
+      height: 250px;
+      min-height: 250px;
+      max-height: 250px;
+      position: static;
+      top: 0;
+    }
+  }
+
+  // Ensure tab content is always 20px below the tab buttons on mobile
+  @media (max-width: 900px) {
+    .tab-content, .tab-row {
+      margin-top: 20px !important;
   }
 
   @keyframes fade {
