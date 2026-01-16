@@ -15,7 +15,7 @@ const yhaData = {
   ],
   tabs: [
     {
-      label: "Initial Research",
+      label: "Research",
       titleNumber: "Secondary Research // Informational Interviews",
       descriptionTitle: "01 | Existing health & wellness resources",
       paragraphs: [

@@ -16,7 +16,7 @@ const soonaData = {
   ],
   tabs: [
     {
-      label: "Research & Discovery",
+      label: "Research",
       image: soonaMap,
       imageCaption: "[ Experience map: made in Sketch ]",
       titleNumber: "Secondary Research // Comparative Audit // Journey Mapping",
@@ -26,7 +26,7 @@ const soonaData = {
       ]
     },
     {
-      label: "Rapid Prototyping & Kano Analysis",
+      label: "Prototyping",
       image: soonaKano,
       imageCaption: "[ Kano analysis mapping]",
       titleNumber: "Rapid Prototyping // Development Scope // Kano Analysis",

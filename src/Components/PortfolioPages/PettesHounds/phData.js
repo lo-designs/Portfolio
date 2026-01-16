@@ -47,7 +47,7 @@ const phData = {
       ],
     },
      {
-      label: "Services Before",
+      label: "Services",
       image: phServiceOg,
       imageCaption: "[ Original services page ]",
       titleNumber: "Original design // Services Page",
@@ -57,7 +57,7 @@ const phData = {
       ],
     },
          {
-      label: "Services After",
+      label: "Services Redesign",
       image: phServiceNew,
       imageCaption: "[ Redesigned services page ]",
       titleNumber: "Redesign // Services Page",

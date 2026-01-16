@@ -73,13 +73,12 @@
   }
 }
 
-/* FONT STYLES */
-
 #title {
   font-family: "Celebrate-Retro";
   font-size: 5rem;
   animation: move 3s;
   line-height: 0.8;
+  width: fit-content;
 
   @keyframes move {
     from {

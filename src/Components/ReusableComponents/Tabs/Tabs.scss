@@ -216,15 +216,15 @@
     top: auto;
     left: auto;
     width: 100%;
-    gap: 1rem;
     z-index: 20;
     text-align: left !important;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding-left: 0;
     margin-top: 20px;
     margin-bottom: 30px;
     background: var(--background-color);
+    gap: 0;
   }
   .tab-content {
     max-height: none;

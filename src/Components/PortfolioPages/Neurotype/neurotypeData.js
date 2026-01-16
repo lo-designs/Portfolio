@@ -17,7 +17,7 @@ const neurotypeData = {
   ],
   tabs: [
     {
-      label: "Practitioner Sessions",
+      label: "Interviews",
       image: neuroLogo,
       imageCaption: "[ Logo concept: made using Photoshop ]",
       titleNumber: "Secondary Research // Practitioner Interviews",
