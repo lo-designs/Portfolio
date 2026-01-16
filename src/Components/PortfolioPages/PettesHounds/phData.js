@@ -1,47 +1,73 @@
 import phHero from "../../Images/PettesHounds/ph-hero.jpg";
+import phHomeOg from "../../Images/PettesHounds/home-original.jpg";
+import phHomeNew from "../../Images/PettesHounds/home-new.jpg";
+import phLogo from "../../Images/PettesHounds/ph-logo.gif";
+import phServiceOg from "../../Images/PettesHounds/services-original.jpg";
+import phServiceNew from "../../Images/PettesHounds/services-new.jpg";
 
 const phData = {
   heroImage: phHero,
-  title: "Pettes Hounds",
+  title: "Pette's Hounds",
   projectType: "Web Design // Pet Care Services",
-  subtitle: "Dog walking & pet care services in Minneapolis.",
+  subtitle: "Dog walking & pet care services in Minneapolis",
   overview: [
     "I had the opportunity to work with the awesome founder of Pette's Hounds to redesign a website for the dog walking and pet care services they provide.",
     "Recently, the owner made the shift from pet care services to vinyl pressing ",
-    <a href="https://outtawax.com" target="_blank" rel="noopener noreferrer">Outta Wax</a>,
+    <a href="https://outtawax.com" target="_blank" rel="noopener noreferrer" className="bold-link">Outta Wax</a>,
     ", which I also had the fortune of designing and creating.",
-    "The Pette's Hounds site is no longer live, but you can see before + afters of the redesign below:"
+    " The Pette's Hounds site is no longer live, but you can see before + afters of the redesign below:"
   ],
   tabs: [
-    // {
-    //   label: "Design Process",
-    //   image: phHomeOg,
-    //   titleNumber: "Secondary Research // Practitioner Interviews",
-    //   descriptionTitle: "",
-    //   paragraphs: [
-    //     "We conducted secondary research to learn about the current landscape for addiction healthcare. To get an idea of what sessions are generally like in clinical and therapy settings, we spoke with 9 practitioners in various healthcare roles."
-    //   ]
-    // },
-    // {
-    //   label: "Before & After",
-    //   image: phHomeNew,
-    //   imageCaption: "[ Experience map: made in Sketch ]",
-    //   titleNumber: "Usability Testing // Experience Mapping",
-    //   descriptionTitle: "02 Portable EEG implementation in therapy.",
-    //   paragraphs: [
-    //     "The information from interviews with healthcare professionals helped us gain a better idea of how a portable EEG could be implemented in a standard therapy session. This allowed us to create an experience map to visualize the process."
-    //   ]
-    // },
-    // {
-    //   label: "Summary",
-    //   image: phLogo,
-    //   imageCaption: "[ GIF made in Photoshop ]",
-    //   titleNumber: "Summary",
-    //   descriptionTitle: "Aiding in addiction treatment.",
-    //   paragraphs: [
-    //     "Currently, addiction healthcare practitioners rely on qualitative data (e.g. self-reports) to inform treatment of OUD. The solution Neurotype proposes would allow practitioners to objectively detect triggers for relapse, such as craving or distress at the point of care: providing quantitative data in addition to qualitative. This solution provides practitioners with quantititave data to aid in the treatment of individuals with OUD."
-    //   ]
-    // }
+    {
+      label: "Design Process",
+      image: phHomeOg,
+       imageCaption: "[ Original version of the homepage ]",
+      titleNumber: "Redesign // Homepage (Before)",
+      descriptionTitle: "Updating the site for better usability",
+      paragraphs: [
+        ""
+      ]
+    },
+    {
+      label: "Home Redesign",
+      image: phHomeNew,
+      imageCaption: "[ New homepage design ]",
+      titleNumber: "Redesign // Homepage (After)",
+      descriptionTitle: "Homepage redesign",
+      paragraphs: [
+        ""
+      ]
+    },
+     {
+      label: "Services Before",
+      image: phServiceOg,
+      imageCaption: "[ Original services page design ]",
+      titleNumber: "Redesign // Services (Before)",
+      descriptionTitle: "",
+      paragraphs: [
+        ""
+      ]
+    },
+       {
+      label: "Services After",
+      image: phServiceNew,
+      imageCaption: "[ New services page design ]",
+      titleNumber: "Redesign // Services (After)",
+      descriptionTitle: "",
+      paragraphs: [
+        ""
+      ]
+    },
+    {
+      label: "Summary",
+      image: phLogo,
+      imageCaption: "[ GIF that I made in Photoshop ]",
+      titleNumber: "",
+      descriptionTitle: "Summary",
+      paragraphs: [
+        ""
+      ]
+    }
   ]
 };
 

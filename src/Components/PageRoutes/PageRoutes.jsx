@@ -3,6 +3,7 @@ import Index from "../Index/Index";
 import Portfolio from "../Portfolio/Portfolio";
 import Neurotype from "../PortfolioPages/Neurotype/Neurotype";
 import PettesHounds from "../PortfolioPages/PettesHounds/PettesHounds";
+import Parralily from "../PortfolioPages/Parralily/Parralily";
 import OuttaWax from "../PortfolioPages/OuttaWax/OuttaWax";
 import Soona from "../PortfolioPages/Soona/Soona";
 import Yha from "../PortfolioPages/Yha/Yha";
@@ -14,6 +15,7 @@ const PageRoutes = () => {
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/neurotype" element={<Neurotype />} />
       <Route path="/petteshounds" element={<PettesHounds />} />
+      <Route path="/parralily" element={<Parralily />} />
       <Route path="/outtawax" element={<OuttaWax />} />
       <Route path="/soona" element={<Soona />} />
       <Route path="/yha" element={<Yha />} />
