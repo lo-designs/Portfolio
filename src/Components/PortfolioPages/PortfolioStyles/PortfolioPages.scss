@@ -13,7 +13,8 @@
     width: 100vw;
     overflow: visible;
     height: auto !important;
-    min-height: auto !important;
+    min-height: 60vh !important;
+    padding-bottom: 80px; 
   }
 }
 
@@ -100,10 +101,6 @@
   font-family: "Vercetti";
   font-size: 0.9rem;
 }
-
-// .description {
-//   margin-top: 10vh;
-// }
 
 .subtitle {
   font-family: "Vercetti";
