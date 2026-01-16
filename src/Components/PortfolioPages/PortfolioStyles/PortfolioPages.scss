@@ -13,7 +13,7 @@
     width: 100vw;
     overflow: visible;
     height: auto !important;
-    min-height: 60vh !important;
+    min-height: unset !important;
     padding-bottom: 80px; 
   }
 }
@@ -45,14 +45,16 @@
   pointer-events: none;
 
   @media (max-width: 900px) {
-      width: 100vw;
-      object-fit: cover;
-      height: 300px;
-      min-height: 300px;
-      max-height: 300px;
-      position: static;
-      top: 0;
-    }
+    width: 100vw;
+    object-fit: cover;
+    height: auto;
+    min-height: unset;
+    max-height: 300px;
+    position: static;
+    top: 0;
+    margin-bottom: 2rem;
+    margin-top: 30px !important;
+  }
   }
 
   // Ensure tab content is always 20px below the tab buttons on mobile
