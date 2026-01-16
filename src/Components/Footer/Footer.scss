@@ -8,7 +8,7 @@
   z-index: 100;
   position: fixed;
   width: 100vw;
-  padding: 2vh 5vw;
+  padding: 1.5% 5%;
   font-size: 0.8rem;
   font-family: "RobotoMono-Regular";
   text-transform: uppercase;
@@ -39,5 +39,8 @@
       font-size: 1rem;
       transition: 0.5s !important;
     }
+  }
+  .footer {
+    padding: 2% 5%;
   }
 }

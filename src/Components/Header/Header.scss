@@ -7,7 +7,7 @@
   z-index: 100;
   position: fixed;
   width: 100vw;
-  padding: 2% 5%;
+  padding: 1% 5%;
   font-size: 0.8rem;
   font-family: "RobotoMono-Regular";
   text-transform: uppercase;
@@ -41,8 +41,8 @@
 .theme-options .light {
   cursor: pointer;
   display: inline-block;
-  padding: 0.3em 1em;
-  border-radius: 4px;
+  padding: 5px;
+  border-radius: 5px;
   background: none;
 }
 
@@ -58,7 +58,7 @@
   .header {
     flex-direction: row;
     justify-content: space-between;
-    padding: 2% 5%;
+    padding: 0.5% 5%;
   }
   .theme-switcher-container {
     display: flex !important;
