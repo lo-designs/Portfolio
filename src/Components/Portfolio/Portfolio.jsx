@@ -118,7 +118,7 @@ function Portfolio() {
             <div id="yha-marquee" className="marquee__inner" aria-hidden="true">
               <span>Health & Wellness App</span>
               <span>|</span>
-              <span>Web + UX UI Design.</span>
+              <span>Web + UX UI Design</span>
             </div>
           </div>
         </div>
