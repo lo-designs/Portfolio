@@ -3,9 +3,11 @@ import neuroGif from "../../Images/Neurotype/neuro.gif";
 import neuroLogo from "../../Images/Neurotype/logo-concept.png";
 import neuroMap from "../../Images/Neurotype/neuro-map.png";
 import neuroDash from "../../Images/Neurotype/neuro-dash.png";
+import mobileHero from "../../Images/Neurotype/hover.jpg";
 
 const neurotypeData = {
   heroImage: neuroHero,
+  mobileHeroImage: mobileHero,
   title: "Neurotype",
   projectType: "UX UI // Medical Startup",
   subtitle: "App prototype for a medical startup aiming to help treat addiction.",

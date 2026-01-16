@@ -2,9 +2,11 @@ import yhaHero from "../../Images/Yha/hero.jpg";
 import yhaMap from "../../Images/Yha/map.jpg";
 import yhaPrototype from "../../Images/Yha/mockups-figma.jpg";
 import yhaGif from "../../Images/Yha/ym-bg.gif";
+import mobileHero from "../../Images/Yha/hover.jpg";
 
 const yhaData = {
   heroImage: yhaHero,
+  mobileHeroImage: mobileHero,
   title: "Health Resource App",
   projectType: "UX UI // Health & Wellness Capstone Project",
   subtitle: "Researching and protoyping a health & wellness resource app.",

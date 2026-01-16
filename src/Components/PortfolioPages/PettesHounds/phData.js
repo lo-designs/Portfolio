@@ -4,9 +4,11 @@ import phHomeNew from "../../Images/PettesHounds/home-new.jpg";
 import phLogo from "../../Images/PettesHounds/ph-logo.gif";
 import phServiceOg from "../../Images/PettesHounds/services-og.png";
 import phServiceNew from "../../Images/PettesHounds/services-new.jpg";
+import mobileHero from "../../Images/PettesHounds/hover.jpg";
 
 const phData = {
   heroImage: phHero,
+  mobileHeroImage: mobileHero,
   title: "Pette's Hounds",
   projectType: "Web Design // Pet Care Services",
   subtitle: "Dog walking & pet care services in Minneapolis",

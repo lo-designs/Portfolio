@@ -3,9 +3,11 @@ import soonaGif from "../../Images/Soona/soona.gif";
 import soonaMap from "../../Images/Soona/journey.png";
 import soonaKano from "../../Images/Soona/kano.png";
 import soonaProgressBar from "../../Images/Soona/progress-bar.png";
+import mobileHero from "../../Images/Soona/hover.jpg";
 
 const soonaData = {
   heroImage: soonaHero,
+  mobileHeroImage: mobileHero,
   title: "Soona",
   projectType: "UX UI // 24-Hour Content Studio",
   subtitle: "Web app rapid prototyping & evaluation.",

@@ -1,8 +1,10 @@
 import hero from "../../Images/Parralily/hero.jpg";
 import wireframes from "../../Images/Parralily/wireframes.png";
+import mobileHero from "../../Images/Parralily/hover.jpg";
 
 const parralilyData = {
   heroImage: hero,
+  mobileHeroImage: mobileHero,
   title: "ParraLily",
   projectType: "Web Design // Food Truck",
   subtitle: "Website design & development for Minneapolis food truck",

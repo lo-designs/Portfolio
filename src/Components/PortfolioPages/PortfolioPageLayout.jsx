@@ -5,6 +5,7 @@ import PrevNextNav from "./PrevNextNav.jsx";
 
 function PortfolioPageLayout({
   heroImage,
+  mobileHeroImage,
   title,
   projectType,
   subtitle,
@@ -16,7 +17,12 @@ function PortfolioPageLayout({
       {/* Hero/Intro Section */}
       <section id="sctr0" className="hero-section">
         <div className="cover" id="hero-image">
-          <img id="hero-img" src={heroImage} alt="" />
+          <picture>
+            {mobileHeroImage && (
+              <source srcSet={mobileHeroImage} media="(max-width: 900px)" />
+            )}
+            <img id="hero-img" src={heroImage} alt="" />
+          </picture>
         </div>
         <div className="content">
           <div className="intro-position">
