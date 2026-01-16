@@ -2,7 +2,7 @@ import phHero from "../../Images/PettesHounds/ph-hero.jpg";
 import phHomeOg from "../../Images/PettesHounds/home-original.jpg";
 import phHomeNew from "../../Images/PettesHounds/home-new.jpg";
 import phLogo from "../../Images/PettesHounds/ph-logo.gif";
-import phServiceOg from "../../Images/PettesHounds/services-original.jpg";
+import phServiceOg from "../../Images/PettesHounds/services-og.png";
 import phServiceNew from "../../Images/PettesHounds/services-new.jpg";
 
 const phData = {
