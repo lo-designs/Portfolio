@@ -12,7 +12,7 @@ const outtaWaxData = {
     </>,
   ],
   overview:
-    "I had the opportunity to help design the website for Outta Wax, new vinyl pressing services in Minneapolis. Check out the site by clicking the link above.",
+    "I had the opportunity to help design the website for Outta Wax, a new place in Minneapolis offering vinyl pressing services. Check out the site by clicking the link above.",
 
   tabs: [],
 };

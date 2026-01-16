@@ -12,18 +12,18 @@ const phData = {
   projectType: "Web Design // Pet Care Services",
   subtitle: "Website design & development for Minneapolis pet care services",
   overview: [
-    "I had the opportunity to work with Pette's Hounds to redesign a website for the dog walking and pet care services they provided.",
-    " Around the pandemic, the founder made the shift from pet care services to vinyl pressing ",
+    "I worked with Pette's Hounds to redesign their website for the dog walking and pet care services they provided.",
+    " Around the pandemic, the founder made the shift from pet care services to ",
     <a
       href="https://lauragunther.design/outtawax/"
       target="_blank"
       rel="noopener noreferrer"
       className="bold-link"
     >
-      Outta Wax
+      vinyl pressing services
     </a>,
 
-    ". Although the site is no longer live, youcan see before + afters of the redesign in the case study below.",
+    ". Although the site is no longer live, you can see before + afters of the redesign in the case study below.",
   ],
   tabs: [
     {
@@ -53,7 +53,7 @@ const phData = {
       titleNumber: "Original design // Services Page",
       descriptionTitle: "Addressing layout issues of services page", 
       paragraphs: [
-        "All service offerings on the orginal site weren't easily discernible, making it difficult to find specific information quickly.",
+        "The service offerings on the orginal site weren't easily discernible, the goal with this page was to improve clarity and organization - clearly distinguishing between different services.",
       ],
     },
          {
@@ -63,7 +63,7 @@ const phData = {
       titleNumber: "Redesign // Services Page",
       descriptionTitle: "Optimized layout for provided services",
       paragraphs: [
-        "The redesigned services page improved the layout to clearly showcase the different pet care services offered, making it easier for users to understand and choose the right service for their needs.",
+        "The redesigned services page improved the layout to showcase the different pet care services offered, and links to more detailed information for each service.",
       ],
     },
   ],
