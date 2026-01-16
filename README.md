@@ -18,7 +18,7 @@ A portfolio website showcasing UX/UI design and web development work. Built with
 2. **Soona** - UX/UI for a 24 hour content studio.
 3. **Neurotype** - UX/UI case study for Neurotype, Inc.
 4. **OuttaWax** - Web design for a vinyl pressing studio.
-5. **ParraLily** - Web design for a local food truck.
+5. **Parralily** - Web design for a local food truck.
 6. **YHA** - UX/UI capstone project conceptualizing an app for health and wellness resources.
 
 ## Project Structure
@@ -38,7 +38,7 @@ src/
 │   ├── PortfolioPages/   - Individual project case study pages
 │   │   ├── Neurotype/
 │   │   ├── OuttaWax/
-│   │   ├── ParraLily/
+│   │   ├── Parralily/
 │   │   ├── PettesHounds/
 │   │   ├── Soona/
 │   │   └── Yha/
