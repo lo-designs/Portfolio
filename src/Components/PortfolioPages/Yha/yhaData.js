@@ -1,8 +1,8 @@
-import yhaHero from "../../Images/YHA/hero.jpg";
-import yhaMap from "../../Images/YHA/map.jpg";
-import yhaPrototype from "../../Images/YHA/mockups-figma.jpg";
-import yhaGif from "../../Images/YHA/ym-bg.gif";
-import mobileHero from "../../Images/YHA/hover.jpg";
+import yhaHero from "../../Images/Yha/hero.jpg";
+import yhaMap from "../../Images/Yha/map.jpg";
+import yhaPrototype from "../../Images/Yha/mockups-figma.jpg";
+import yhaGif from "../../Images/Yha/ym-bg.gif";
+import mobileHero from "../../Images/Yha/hover.jpg";
 
 const yhaData = {
   heroImage: yhaHero,

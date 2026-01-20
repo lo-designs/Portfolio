@@ -43,7 +43,7 @@ const portfolioNavData = [
     },
     {
         id: "yha",
-        label: "YHA",
+        label: "Yha",
         url: "/yha",
         prev: "neurotype",
         next: null,
