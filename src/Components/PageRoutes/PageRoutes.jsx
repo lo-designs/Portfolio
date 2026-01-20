@@ -7,12 +7,14 @@ import Parralily from "../PortfolioPages/Parralily/Parralily";
 import OuttaWax from "../PortfolioPages/OuttaWax/OuttaWax";
 import Soona from "../PortfolioPages/Soona/Soona";
 import Yha from "../PortfolioPages/Yha/Yha";
+import NorthTable from "../PortfolioPages/NorthTable/NorthTable";
 
 const PageRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Index />} />
       <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/northtable" element={<NorthTable />} />
       <Route path="/neurotype" element={<Neurotype />} />
       <Route path="/petteshounds" element={<PettesHounds />} />
       <Route path="/parralily" element={<Parralily />} />

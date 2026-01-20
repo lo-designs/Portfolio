@@ -1,11 +1,7 @@
+import React from "react";
 import "./Portfolio.scss";
 
-import outtaHover from "../Images/OuttaWax/hover.jpg";
-import pettesHover from "../Images/PettesHounds/hover.jpg";
-import yhaHover from "../Images/Yha/hover.jpg";
-import neuroHover from "../Images/Neurotype/hover.jpg";
-import soonaHover from "../Images/Soona/hover.jpg";
-import parraHover from "../Images/Parralily/hover.jpg";
+import portfolioItems from "./PortfolioData";
 
 function Portfolio() {
   return (
@@ -17,112 +13,25 @@ function Portfolio() {
         </h3>
       </div>
       <nav className="menu">
-        <div className="menu__item">
-          <a id="outta" href="/outtawax" className="menu__item-link">
-            Outta Wax
-            <p className="work__type">vinyl pressing services | web design</p>
-          </a>
-          <img
-            className="menu__item-img"
-            src={outtaHover}
-            alt="vinyl records"
-          />
-          <div className="marquee">
-            <div id="outta-marquee" className="marquee__inner">
-              <span>Outta Wax</span>
-              <span>|</span>
-              <span>Web Design</span>
+        {portfolioItems.map((item, idx) => (
+          <React.Fragment key={item.id}>
+            <hr id="portfolio-line" />
+            <div className="menu__item">
+              <a id={item.id} href={item.link} className="menu__item-link">
+                {item.title}
+                <p className="work__type">{item.workType}</p>
+              </a>
+              <img className="menu__item-img" src={item.image} alt="" />
+              <div className="marquee">
+                <div id={`${item.id}-marquee`} className="marquee__inner" aria-hidden="true">
+                  {item.marquee.map((text, i) => (
+                    <span key={i}>{text}</span>
+                  ))}
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-
-        <hr id="portfolio-line"></hr>
-        <div className="menu__item">
-          <a id="parralily" href="/parralily" className="menu__item-link">
-            ParraLily
-            <p className="work__type">minneapolis food truck | web design</p>
-          </a>
-          <img className="menu__item-img" src={parraHover} alt="" />
-          <div className="marquee">
-            <div id="parralily-marquee" className="marquee__inner">
-              <span>ParraLily</span>
-              <span>|</span>
-              <span>Web Design + Dev</span>
-            </div>
-          </div>
-        </div>
-
-        <hr id="portfolio-line"></hr>
-        <div className="menu__item">
-          <a id="pettes" href="/petteshounds" className="menu__item-link">
-            Pette's Hounds
-            <p className="work__type">
-              dog walking & pet care services | web redesign
-            </p>
-          </a>
-          <img className="menu__item-img" src={pettesHover} alt="" />
-          <div className="marquee">
-            <div id="pettes-marquee" className="marquee__inner">
-              <span>Pette's Hounds</span>
-              <span>|</span>
-              <span>Web Redesign</span>
-            </div>
-          </div>
-        </div>
-
-        <hr id="portfolio-line"></hr>
-        <div className="menu__item">
-          <a id="neuro" href="/neurotype" className="menu__item-link">
-            Neurotype
-            <p className="work__type">medical startup | ux ui design</p>
-          </a>
-          <img className="menu__item-img" src={neuroHover} alt="" />
-          <div className="marquee">
-            <div id="neuro-marquee" className="marquee__inner">
-              <span>Neurotype</span>
-              <span>|</span>
-              <span>UX UI Design</span>
-            </div>
-          </div>
-        </div>
-
-        <hr id="portfolio-line"></hr>
-        <div className="menu__item">
-          <a id="soona" href="/soona" className="menu__item-link">
-            Soona
-            <p className="work__type">24 hr content studio | ux ui design</p>
-          </a>
-          <img className="menu__item-img" src={soonaHover} alt="" />
-          <div className="marquee">
-            <div
-              id="soona-marquee"
-              className="marquee__inner"
-              aria-hidden="true"
-            >
-              <span>Soona</span>
-              <span>|</span>
-              <span>UX UI Design</span>
-            </div>
-          </div>
-        </div>
-
-        <hr id="portfolio-line"></hr>
-        <div className="menu__item">
-          <a id="yha" href="/yha" className="menu__item-link">
-            Health & Wellness App
-            <p className="work__type">
-              Self-defined project | web + ux ui design
-            </p>
-          </a>
-          <img className="menu__item-img" src={yhaHover} alt="" />
-          <div className="marquee">
-            <div id="yha-marquee" className="marquee__inner" aria-hidden="true">
-              <span>Health & Wellness App</span>
-              <span>|</span>
-              <span>Web + UX UI Design</span>
-            </div>
-          </div>
-        </div>
+          </React.Fragment>
+        ))}
       </nav>
     </div>
   );
