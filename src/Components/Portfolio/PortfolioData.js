@@ -1,6 +1,6 @@
 import outtaHover from "../Images/OuttaWax/hover.jpg";
 import pettesHover from "../Images/PettesHounds/hover.jpg";
-import yhaHover from "../Images/Yha/hover.jpg";
+import yhaHover from "../Images/yha/hover.jpg";
 import neuroHover from "../Images/Neurotype/hover.jpg";
 import soonaHover from "../Images/Soona/hover.jpg";
 import parraHover from "../Images/Parralily/hover.jpg";
